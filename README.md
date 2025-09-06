@@ -18,6 +18,8 @@ This is not a polished repo. It's a **dumping ground for experiments, snippets, 
 
 ## 🌌 Projects
 
+Live page: [🔗](https://sugario.github.io/vibe-code-sandbox/)
+
 Choose a project to explore:
 
-- [TCG Cards Proxy](tcg-cards-proxy-to-print/index.html) 🔗
+- [TCG Cards Proxy 🔗](tcg-cards-proxy-to-print/index.html)

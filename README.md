@@ -15,3 +15,9 @@ This is not a polished repo. It's a **dumping ground for experiments, snippets, 
 - Clone, browse, vibe.
 - Nothing here is guaranteed to work, but hey — that’s half the fun.
 - Steal ideas, remix, or just laugh at old commits.
+
+## 🌌 Projects
+
+Choose a project to explore:
+
+- [TCG Cards Proxy](tcg-cards-proxy-to-print/index.html) 🔗

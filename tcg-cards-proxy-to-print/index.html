@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTG Card Printer - Drag & Drop</title>
+    <style>
+        @page {
+            size: letter;
+            margin: 0.5in;
+        }
+        
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+        
+        .drop-zone {
+            border: 3px dashed #ccc;
+            border-radius: 10px;
+            padding: 40px;
+            text-align: center;
+            margin-bottom: 20px;
+            background: white;
+            transition: all 0.3s ease;
+        }
+        
+        .drop-zone.dragover {
+            border-color: #007cba;
+            background: #e3f2fd;
+        }
+        
+        .drop-zone h2 {
+            margin-top: 0;
+            color: #333;
+        }
+        
+        .controls {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .btn {
+            background: #007cba;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+            font-size: 16px;
+        }
+        
+        .btn:hover {
+            background: #005a8b;
+        }
+        
+        .btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        
+        .preview-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .preview-card {
+            width: 120px;
+            height: 168px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+            background: white;
+        }
+        
+        .preview-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .remove-btn {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            background: red;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        
+        .print-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.1in;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+        
+        .card {
+            width: 2.5in;
+            height: 3.5in;
+            border: 1px solid #999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            page-break-inside: avoid;
+            background: white;
+        }
+        
+        .card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+                background: white;
+                padding: 0;
+            }
+            
+            .drop-zone, .controls, .preview-container, .instructions {
+                display: none !important;
+            }
+            
+            .card {
+                border: none;
+            }
+        }
+        
+        .instructions {
+            background: #e8f5e8;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        
+        .instructions h3 {
+            margin-top: 0;
+            color: #2e7d32;
+        }
+        
+        .file-input {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="instructions">
+        <h3>📋 Instructions:</h3>
+        <ol>
+            <li><strong>From computer:</strong> Drag and drop JPG files, or click "Browse Files"</li>
+            <li><strong>From Scryfall/websites:</strong> Right-click any card image → "Copy image" → paste here, OR drag the image directly from your browser</li>
+            <li>Preview your cards and remove any you don't want with the × button</li>
+            <li>Click "Generate Print Layout" to arrange cards at standard TCG size (2.5" × 3.5")</li>
+            <li>**Optional:** Click "🔲 Add Borders" to show cut lines (helpful for precise cutting)</li>
+            <li>Click "🖨️ Print to PDF" → Select "Save as PDF" → **CRITICAL: Set scale to 100%** (NOT "Fit to page")</li>
+            <li>⚠️ **Size check:** Cards look big on screen but will print at exact TCG size when scale = 100%</li>
+        </ol>
+    </div>
+
+    <div class="drop-zone" id="dropZone">
+        <h2>🎴 Drop Your Card Images Here</h2>
+        <p>Or click "Browse Files" to select images</p>
+        <input type="file" id="fileInput" class="file-input" multiple accept="image/jpeg,image/jpg">
+        <button class="btn" onclick="document.getElementById('fileInput').click()">Browse Files</button>
+    </div>
+
+    <div class="controls">
+        <button class="btn" id="generateBtn" onclick="generatePrintLayout()" disabled>Generate Print Layout</button>
+        <button class="btn" onclick="clearAll()">Clear All</button>
+        <span id="cardCount">0 cards loaded</span>
+    </div>
+
+    <div class="preview-container" id="previewContainer">
+    </div>
+
+    <div class="print-container" id="printContainer">
+    </div>
+
+    <script>
+        let cardImages = [];
+        
+        const dropZone = document.getElementById('dropZone');
+        const fileInput = document.getElementById('fileInput');
+        const previewContainer = document.getElementById('previewContainer');
+        const printContainer = document.getElementById('printContainer');
+        const generateBtn = document.getElementById('generateBtn');
+        const cardCount = document.getElementById('cardCount');
+
+        // Drag and drop functionality
+        dropZone.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            dropZone.classList.add('dragover');
+        });
+
+        dropZone.addEventListener('dragleave', () => {
+            dropZone.classList.remove('dragover');
+        });
+
+        dropZone.addEventListener('drop', (e) => {
+            e.preventDefault();
+            dropZone.classList.remove('dragover');
+            handleFiles(e.dataTransfer.files);
+        });
+
+        fileInput.addEventListener('change', (e) => {
+            handleFiles(e.target.files);
+        });
+
+        function handleFiles(files) {
+            for (let file of files) {
+                if (file.type === 'image/jpeg' || file.type === 'image/jpg') {
+                    const reader = new FileReader();
+                    reader.onload = (e) => {
+                        cardImages.push({
+                            data: e.target.result,
+                            name: file.name
+                        });
+                        updatePreview();
+                    };
+                    reader.readAsDataURL(file);
+                }
+            }
+        }
+
+        function updatePreview() {
+            previewContainer.innerHTML = '';
+            cardImages.forEach((card, index) => {
+                const cardDiv = document.createElement('div');
+                cardDiv.className = 'preview-card';
+                cardDiv.innerHTML = `
+                    <img src="${card.data}" alt="${card.name}">
+                    <button class="remove-btn" onclick="removeCard(${index})">×</button>
+                `;
+                previewContainer.appendChild(cardDiv);
+            });
+            
+            cardCount.textContent = `${cardImages.length} cards loaded`;
+            generateBtn.disabled = cardImages.length === 0;
+        }
+
+        function removeCard(index) {
+            cardImages.splice(index, 1);
+            updatePreview();
+        }
+
+        function clearAll() {
+            cardImages = [];
+            updatePreview();
+            printContainer.innerHTML = '';
+        }
+
+        function generatePrintLayout() {
+            printContainer.innerHTML = '';
+            
+            cardImages.forEach((card, index) => {
+                const cardDiv = document.createElement('div');
+                cardDiv.className = 'card';
+                cardDiv.innerHTML = `<img src="${card.data}" alt="Card ${index + 1}">`;
+                printContainer.appendChild(cardDiv);
+            });
+
+            // Scroll to print area
+            printContainer.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>

@@ -10,7 +10,7 @@ This is not a polished repo. It's a **dumping ground for experiments, snippets, 
 - 🎨 Creative experiments
 - 🗑️ Abandoned trails of thought (a.k.a. junk code with personality)
 
-## 🎛️ How to use this repo?
+## 🎛️ How to use [this](https://github.com/sugario/vibe-code-sandbox) repo?
 
 - Clone, browse, vibe.
 - Nothing here is guaranteed to work, but hey — that’s half the fun.

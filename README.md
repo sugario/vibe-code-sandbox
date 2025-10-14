@@ -23,3 +23,4 @@ Live page: [🔗](https://sugario.github.io/vibe-code-sandbox/)
 Choose a project to explore:
 
 - [TCG Cards Proxy 🔗](tcg-cards-proxy-to-print/index.html)
+- [Nemesis Draft System 🔗](nemesis-draft/index.html)

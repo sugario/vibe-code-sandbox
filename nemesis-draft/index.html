@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nemesis Character Drafter</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Orbitron', sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #0a0a0a 100%);
+            color: #00ff88;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                repeating-linear-gradient(
+                    0deg,
+                    rgba(0, 255, 136, 0.03) 0px,
+                    transparent 1px,
+                    transparent 2px,
+                    rgba(0, 255, 136, 0.03) 3px
+                );
+            pointer-events: none;
+            animation: scanlines 8s linear infinite;
+        }
+
+        @keyframes scanlines {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(20px); }
+        }
+
+        .container {
+            max-width: 900px;
+            width: 100%;
+            background: rgba(10, 10, 10, 0.9);
+            border: 2px solid #00ff88;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 
+                0 0 20px rgba(0, 255, 136, 0.3),
+                inset 0 0 20px rgba(0, 255, 136, 0.05);
+            position: relative;
+            z-index: 1;
+        }
+
+        .container::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(45deg, #00ff88, #ff0055, #00ff88);
+            border-radius: 10px;
+            z-index: -1;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .container:hover::before {
+            opacity: 0.1;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            text-shadow: 0 0 10px #00ff88, 0 0 20px #00ff88;
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            from { text-shadow: 0 0 10px #00ff88, 0 0 20px #00ff88; }
+            to { text-shadow: 0 0 20px #00ff88, 0 0 30px #00ff88, 0 0 40px #00ff88; }
+        }
+
+        .subtitle {
+            text-align: center;
+            font-family: 'Share Tech Mono', monospace;
+            color: #ff0055;
+            margin-bottom: 30px;
+            font-size: 0.9em;
+            letter-spacing: 2px;
+        }
+
+        .step {
+            display: none;
+            animation: fadeIn 0.5s;
+        }
+
+        .step.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .step-title {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            color: #ff0055;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-bottom: 2px solid #ff0055;
+            padding-bottom: 10px;
+        }
+
+        .options {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .option-btn {
+            background: linear-gradient(135deg, rgba(0, 255, 136, 0.1) 0%, rgba(0, 255, 136, 0.05) 100%);
+            border: 2px solid #00ff88;
+            color: #00ff88;
+            padding: 20px;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .option-btn:hover {
+            background: linear-gradient(135deg, rgba(0, 255, 136, 0.2) 0%, rgba(0, 255, 136, 0.1) 100%);
+            box-shadow: 0 0 15px rgba(0, 255, 136, 0.5);
+            transform: translateY(-2px);
+        }
+
+        .option-btn.selected {
+            background: linear-gradient(135deg, #00ff88 0%, #00cc70 100%);
+            color: #0a0a0a;
+            border-color: #00ff88;
+            box-shadow: 0 0 20px rgba(0, 255, 136, 0.6);
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+            color: #ff0055;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 15px;
+            background: rgba(0, 255, 136, 0.05);
+            border: 2px solid #00ff88;
+            border-radius: 5px;
+            color: #00ff88;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.2em;
+            text-align: center;
+        }
+
+        .input-group input:focus {
+            outline: none;
+            box-shadow: 0 0 15px rgba(0, 255, 136, 0.5);
+        }
+
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, rgba(255, 0, 85, 0.8) 0%, rgba(255, 0, 85, 0.6) 100%);
+            border: 2px solid #ff0055;
+            color: #fff;
+            padding: 15px 30px;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .btn:hover {
+            background: linear-gradient(135deg, rgba(255, 0, 85, 1) 0%, rgba(255, 0, 85, 0.8) 100%);
+            box-shadow: 0 0 15px rgba(255, 0, 85, 0.6);
+            transform: translateY(-2px);
+        }
+
+        .btn:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+
+        .btn:disabled:hover {
+            transform: none;
+            box-shadow: none;
+        }
+
+        .character-card {
+            background: linear-gradient(135deg, rgba(0, 255, 136, 0.1) 0%, rgba(0, 255, 136, 0.05) 100%);
+            border: 2px solid #00ff88;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 15px;
+            position: relative;
+        }
+
+        .character-card.drafted {
+            border-color: #ff0055;
+            background: linear-gradient(135deg, rgba(255, 0, 85, 0.2) 0%, rgba(255, 0, 85, 0.1) 100%);
+        }
+
+        .character-name {
+            font-size: 1.3em;
+            margin-bottom: 10px;
+            color: #00ff88;
+        }
+
+        .character-card.drafted .character-name {
+            color: #ff0055;
+        }
+
+        .character-player {
+            font-family: 'Share Tech Mono', monospace;
+            color: #ff0055;
+            margin-top: 10px;
+        }
+
+        .draft-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .draft-btn {
+            flex: 1;
+            background: rgba(0, 255, 136, 0.2);
+            border: 1px solid #00ff88;
+            color: #00ff88;
+            padding: 10px;
+            font-family: 'Orbitron', sans-serif;
+            cursor: pointer;
+            border-radius: 3px;
+            transition: all 0.3s;
+        }
+
+        .draft-btn:hover {
+            background: rgba(0, 255, 136, 0.3);
+            box-shadow: 0 0 10px rgba(0, 255, 136, 0.4);
+        }
+
+        .draft-btn:disabled {
+            opacity: 0.2;
+            cursor: not-allowed;
+        }
+
+        .current-player {
+            text-align: center;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: rgba(255, 0, 85, 0.2);
+            border: 2px solid #ff0055;
+            border-radius: 5px;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { box-shadow: 0 0 10px rgba(255, 0, 85, 0.5); }
+            50% { box-shadow: 0 0 20px rgba(255, 0, 85, 0.8); }
+        }
+
+        .summary {
+            background: rgba(0, 255, 136, 0.05);
+            padding: 20px;
+            border-radius: 5px;
+            border: 1px solid #00ff88;
+            margin-bottom: 20px;
+        }
+
+        .summary-item {
+            margin-bottom: 10px;
+            font-family: 'Share Tech Mono', monospace;
+        }
+
+        .summary-label {
+            color: #ff0055;
+            display: inline-block;
+            width: 150px;
+        }
+
+        .alert {
+            background: rgba(255, 0, 85, 0.2);
+            border: 2px solid #ff0055;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-align: center;
+            animation: alertPulse 1s ease-in-out infinite;
+        }
+
+        @keyframes alertPulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⚠ NEMESIS ⚠</h1>
+        <div class="subtitle">CREW SELECTION PROTOCOL</div>
+
+        <!-- Step 1: Game Selection -->
+        <div class="step active" id="step1">
+            <div class="step-title">▶ SELECT GAME VERSION</div>
+            <div class="options">
+                <button class="option-btn" data-game="base">Nemesis</button>
+                <button class="option-btn" data-game="lockdown">Nemesis: Lockdown</button>
+                <button class="option-btn" data-game="retaliation">Nemesis: Retaliation</button>
+            </div>
+        </div>
+
+        <!-- Step 2: Enemy Selection -->
+        <div class="step" id="step2">
+            <div class="step-title">▶ SELECT ENEMY RACE</div>
+            <div class="options" id="enemyOptions"></div>
+        </div>
+
+        <!-- Step 3: Player Count -->
+        <div class="step" id="step3">
+            <div class="step-title">▶ NUMBER OF PLAYERS</div>
+            <div class="input-group">
+                <label>Enter player count (1-5):</label>
+                <input type="number" id="playerCount" min="1" max="5" value="4">
+            </div>
+        </div>
+
+        <!-- Step 4: Character Draft -->
+        <div class="step" id="step4">
+            <div class="step-title">▶ CHARACTER DRAFT</div>
+            <div class="summary" id="draftSummary"></div>
+            <div class="current-player" id="currentPlayer"></div>
+            <div id="characterList"></div>
+            <div class="alert" id="draftAlert" style="display: none;"></div>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <div class="nav-buttons">
+            <button class="btn" id="backBtn" style="display: none;">◀ BACK</button>
+            <button class="btn" id="nextBtn" disabled>NEXT ▶</button>
+            <button class="btn" id="restartBtn" style="display: none;">↻ RESTART</button>
+        </div>
+    </div>
+
+    <script>
+        // Game data
+        const gameData = {
+            base: {
+                name: "Nemesis",
+                enemies: ["Intruders", "Carnomorphs", "Void Seeders"],
+                characterPairs: [
+                    { name1: "Captain", name2: "CEO", ability1: "Leadership and authority", ability2: "Corporate power and resources", color: "#3b82f6" },
+                    { name1: "Pilot", name2: "Android", ability1: "Ship navigation expertise", ability2: "Enhanced capabilities and logic", color: "#10b981" },
+                    { name1: "Scientist", name2: "Psychologist", ability1: "Research and analysis", ability2: "Manipulation and insight", color: "#e5e7eb" },
+                    { name1: "Scout", name2: "Bounty Hunter", ability1: "Exploration and movement", ability2: "Tracking and combat", color: "#a855f7" },
+                    { name1: "Soldier", name2: "Convict", ability1: "Combat specialist", ability2: "Resourcefulness and survival", color: "#ef4444" },
+                    { name1: "Mechanic", ability1: "Repairs and crafting", color: "#f97316" },
+                    { name1: "Medic", ability1: "Healing and support", color: "#ec4899" }
+                ]
+            },
+            lockdown: {
+                name: "Nemesis: Lockdown",
+                enemies: ["Night Stalkers", "Chytrids", "Intruders", "Carnomorphs", "Void Seeders"],
+                characterPairs: [
+                    { name1: "Sentry", name2: "Captain", name3: "CEO", ability1: "Security and defense", ability2: "Leadership and authority", ability3: "Corporate power and resources", color: "#3b82f6" },
+                    { name1: "Hacker", name2: "Pilot", name3: "Android", ability1: "Computer systems expert", ability2: "Ship navigation expertise", ability3: "Enhanced capabilities and logic", color: "#10b981" },
+                    { name1: "Xenobiologist", name2: "Scientist", name3: "Psychologist", ability1: "Alien research specialist", ability2: "Research and analysis", ability3: "Manipulation and insight", color: "#e5e7eb" },
+                    { name1: "Lab Rat", name2: "Scout", name3: "Bounty Hunter", ability1: "Experimental subject", ability2: "Exploration and movement", ability3: "Tracking and combat", color: "#a855f7" },
+                    { name1: "Survivor", name2: "Soldier", name3: "Convict", ability1: "Endurance and resilience", ability2: "Combat specialist", ability3: "Resourcefulness and survival", color: "#ef4444" },
+                    { name1: "Janitor", name2: "Mechanic", ability1: "Maintenance and cleanup", ability2: "Repairs and crafting", color: "#f97316" },
+                    { name1: "Medic", ability1: "Healing and support", color: "#ec4899" }
+                ]
+            },
+            retaliation: {
+                name: "Nemesis: Retaliation",
+                enemies: ["Primebloods", "Sangrevores", "Xyrians", "Neoflesh Cult"],
+                characterPairs: [
+                    { name1: "Officer", ability1: "Command and coordination", color: "#3b82f6" },
+                    { name1: "Bioenhancement Expert", ability1: "Biological augmentation", color: "#10b981" },
+                    { name1: "Contractor", ability1: "Mercenary expertise", color: "#e5e7eb" },
+                    { name1: "Recon", ability1: "Reconnaissance and intel", color: "#a855f7" },
+                    { name1: "Heavy Gun Operator", ability1: "Heavy weapons specialist", color: "#ef4444" },
+                    { name1: "Combat Engineer", ability1: "Tactical engineering", color: "#f97316" },
+                    { name1: "Medical Support", ability1: "Field medicine", color: "#ec4899" },
+                    { name1: "UAV Operator", ability1: "Drone operations", color: "#eab308" },
+                    { name1: "Sharpshooter", ability1: "Precision marksmanship", color: "#06b6d4" }
+                ]
+            }
+        };
+
+        // State
+        let currentStep = 1;
+        let selectedGame = null;
+        let selectedEnemy = null;
+        let playerCount = 5;
+        let draftedCharacters = [];
+        let currentPlayerIndex = 0;
+        let availablePairs = [];
+        let currentDraftOptions = [];
+
+        // DOM elements
+        const steps = document.querySelectorAll('.step');
+        const backBtn = document.getElementById('backBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const restartBtn = document.getElementById('restartBtn');
+
+        // Step 1: Game selection
+        document.querySelectorAll('[data-game]').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('[data-game]').forEach(b => b.classList.remove('selected'));
+                btn.classList.add('selected');
+                selectedGame = btn.dataset.game;
+                nextBtn.disabled = false;
+            });
+        });
+
+        // Navigation
+        nextBtn.addEventListener('click', () => {
+            if (currentStep === 1 && selectedGame) {
+                setupEnemySelection();
+                goToStep(2);
+            } else if (currentStep === 2 && selectedEnemy) {
+                goToStep(3);
+            } else if (currentStep === 3) {
+                playerCount = parseInt(document.getElementById('playerCount').value);
+                if (playerCount >= 1 && playerCount <= 5) {
+                    setupDraft();
+                    goToStep(4);
+                }
+            }
+        });
+
+        backBtn.addEventListener('click', () => {
+            if (currentStep > 1) {
+                goToStep(currentStep - 1);
+            }
+        });
+
+        restartBtn.addEventListener('click', () => {
+            location.reload();
+        });
+
+        // Player count validation
+        document.getElementById('playerCount').addEventListener('input', (e) => {
+            const value = parseInt(e.target.value);
+            nextBtn.disabled = !(value >= 1 && value <= 5);
+        });
+
+        function goToStep(step) {
+            steps[currentStep - 1].classList.remove('active');
+            steps[step - 1].classList.add('active');
+            currentStep = step;
+
+            backBtn.style.display = step > 1 && step < 4 ? 'block' : 'none';
+            nextBtn.style.display = step < 4 ? 'block' : 'none';
+            restartBtn.style.display = step === 4 ? 'block' : 'none';
+
+            if (step === 2) {
+                nextBtn.disabled = !selectedEnemy;
+            } else if (step === 3) {
+                nextBtn.disabled = false;
+            }
+        }
+
+        function setupEnemySelection() {
+            const enemyOptions = document.getElementById('enemyOptions');
+            enemyOptions.innerHTML = '';
+            
+            gameData[selectedGame].enemies.forEach(enemy => {
+                const btn = document.createElement('button');
+                btn.className = 'option-btn';
+                btn.textContent = enemy;
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('#enemyOptions .option-btn').forEach(b => b.classList.remove('selected'));
+                    btn.classList.add('selected');
+                    selectedEnemy = enemy;
+                    nextBtn.disabled = false;
+                });
+                enemyOptions.appendChild(btn);
+            });
+        }
+
+        function setupDraft() {
+            // Get character pairs or regular characters
+            if (gameData[selectedGame].characterPairs) {
+                availablePairs = [...gameData[selectedGame].characterPairs];
+            } else {
+                // For Lockdown and Retaliation - convert to pairs format
+                availablePairs = gameData[selectedGame].characters.map(char => ({
+                    name1: char.name,
+                    name2: null,
+                    ability1: char.ability,
+                    ability2: null
+                }));
+            }
+            
+            draftedCharacters = Array(playerCount).fill(null).map(() => null);
+            currentPlayerIndex = 0;
+            currentDraftOptions = [];
+            
+            drawTwoRandomPairs();
+            updateDraftSummary();
+            updateCurrentPlayer();
+            renderCharacters();
+        }
+
+        function drawTwoRandomPairs() {
+            if (availablePairs.length === 0) {
+                currentDraftOptions = [];
+                return;
+            }
+            
+            // Draw 2 random pairs (or fewer if not enough available)
+            const numToDraw = Math.min(2, availablePairs.length);
+            currentDraftOptions = [];
+            
+            // Create a shuffled copy and take the first N pairs
+            const shuffled = [...availablePairs].sort(() => Math.random() - 0.5);
+            currentDraftOptions = shuffled.slice(0, numToDraw);
+        }
+
+        function updateDraftSummary() {
+            const summary = document.getElementById('draftSummary');
+            const remainingPairs = availablePairs.length;
+            const draftedCount = draftedCharacters.filter(c => c !== null).length;
+            
+            summary.innerHTML = `
+                <div class="summary-item"><span class="summary-label">GAME:</span> ${gameData[selectedGame].name}</div>
+                <div class="summary-item"><span class="summary-label">ENEMY:</span> ${selectedEnemy}</div>
+                <div class="summary-item"><span class="summary-label">PLAYERS:</span> ${playerCount}</div>
+                <div class="summary-item"><span class="summary-label">DRAFTED:</span> ${draftedCount} / ${playerCount}</div>
+                <div class="summary-item"><span class="summary-label">REMAINING PAIRS:</span> ${remainingPairs}</div>
+            `;
+        }
+
+        function updateCurrentPlayer() {
+            const currentPlayerDiv = document.getElementById('currentPlayer');
+            if (currentPlayerIndex < playerCount) {
+                currentPlayerDiv.textContent = `⚡ PLAYER ${currentPlayerIndex + 1} - CHOOSE YOUR CHARACTER ⚡`;
+            } else {
+                currentPlayerDiv.textContent = `✓ DRAFT COMPLETE ✓`;
+            }
+        }
+
+        function renderCharacters() {
+            const characterList = document.getElementById('characterList');
+            characterList.innerHTML = '';
+
+            // Show drafted characters
+            for (let i = 0; i < playerCount; i++) {
+                if (draftedCharacters[i] !== null) {
+                    const char = draftedCharacters[i];
+                    const card = document.createElement('div');
+                    card.className = 'character-card drafted';
+                    const borderColor = char.color || '#ff0055';
+                    card.style.borderColor = borderColor;
+                    card.style.boxShadow = `0 0 15px ${borderColor}40`;
+                    card.innerHTML = `
+                        <div class="character-name" style="color: ${borderColor};">${char.name}</div>
+                        <div style="font-size: 0.9em; opacity: 0.8;">${char.ability}</div>
+                        <div class="character-player">PLAYER ${i + 1}</div>
+                    `;
+                    characterList.appendChild(card);
+                }
+            }
+
+            // Show current draft options for active player
+            if (currentPlayerIndex < playerCount && currentDraftOptions.length > 0) {
+                const optionsTitle = document.createElement('div');
+                optionsTitle.style.cssText = 'font-size: 1.2em; color: #ff0055; margin: 20px 0 10px 0; text-align: center;';
+                optionsTitle.textContent = '▼ YOUR OPTIONS ▼';
+                characterList.appendChild(optionsTitle);
+
+                currentDraftOptions.forEach(pair => {
+                    const pairColor = pair.color || '#00ff88';
+                    
+                    // Show first character option
+                    const card1 = document.createElement('div');
+                    card1.className = 'character-card';
+                    card1.style.borderColor = pairColor;
+                    card1.style.boxShadow = `0 0 10px ${pairColor}40`;
+                    card1.innerHTML = `
+                        <div class="character-name" style="color: ${pairColor};">${pair.name1}</div>
+                        <div style="font-size: 0.9em; opacity: 0.8;">${pair.ability1}</div>
+                        <div class="draft-buttons">
+                            <button class="draft-btn" onclick="draftCharacter('${pair.name1}', '${pair.ability1}', '${pairColor}')">CHOOSE ${pair.name1.toUpperCase()}</button>
+                        </div>
+                    `;
+                    characterList.appendChild(card1);
+
+                    // Show second character option if it exists
+                    if (pair.name2) {
+                        const card2 = document.createElement('div');
+                        card2.className = 'character-card';
+                        card2.style.borderColor = pairColor;
+                        card2.style.boxShadow = `0 0 10px ${pairColor}40`;
+                        card2.innerHTML = `
+                            <div class="character-name" style="color: ${pairColor};">${pair.name2}</div>
+                            <div style="font-size: 0.9em; opacity: 0.8;">${pair.ability2}</div>
+                            <div class="draft-buttons">
+                                <button class="draft-btn" onclick="draftCharacter('${pair.name2}', '${pair.ability2}', '${pairColor}')">CHOOSE ${pair.name2.toUpperCase()}</button>
+                            </div>
+                        `;
+                        characterList.appendChild(card2);
+                    }
+
+                    // Show third character option if it exists
+                    if (pair.name3) {
+                        const card3 = document.createElement('div');
+                        card3.className = 'character-card';
+                        card3.style.borderColor = pairColor;
+                        card3.style.boxShadow = `0 0 10px ${pairColor}40`;
+                        card3.innerHTML = `
+                            <div class="character-name" style="color: ${pairColor};">${pair.name3}</div>
+                            <div style="font-size: 0.9em; opacity: 0.8;">${pair.ability3}</div>
+                            <div class="draft-buttons">
+                                <button class="draft-btn" onclick="draftCharacter('${pair.name3}', '${pair.ability3}', '${pairColor}')">CHOOSE ${pair.name3.toUpperCase()}</button>
+                            </div>
+                        `;
+                        characterList.appendChild(card3);
+                    }
+                });
+            }
+
+            if (currentPlayerIndex >= playerCount) {
+                showCompletionMessage();
+            }
+        }
+
+        function draftCharacter(characterName, characterAbility, characterColor) {
+            if (currentPlayerIndex >= playerCount) return;
+
+            // Save the drafted character
+            draftedCharacters[currentPlayerIndex] = {
+                name: characterName,
+                ability: characterAbility,
+                color: characterColor
+            };
+
+            // Find and remove the pair that contains the drafted character
+            const pairIndex = availablePairs.findIndex(pair => 
+                pair.name1 === characterName || pair.name2 === characterName || pair.name3 === characterName
+            );
+            
+            if (pairIndex !== -1) {
+                availablePairs.splice(pairIndex, 1);
+            }
+
+            // Move to next player
+            currentPlayerIndex++;
+
+            // Draw new options for next player if draft is not complete
+            if (currentPlayerIndex < playerCount) {
+                drawTwoRandomPairs();
+            }
+
+            updateDraftSummary();
+            updateCurrentPlayer();
+            renderCharacters();
+        }
+
+        function showCompletionMessage() {
+            const alert = document.getElementById('draftAlert');
+            alert.style.display = 'block';
+            alert.innerHTML = `
+                <div style="font-size: 1.3em; margin-bottom: 10px;">⚡ DRAFT COMPLETE ⚡</div>
+                <div>All characters have been drafted. Good luck, crew!</div>
+                <div style="margin-top: 15px; font-size: 0.9em; opacity: 0.8;">Your mission begins now...</div>
+            `;
+        }
+
+        // Initialize
+        nextBtn.disabled = true;
+    </script>
+</body>
+</html>

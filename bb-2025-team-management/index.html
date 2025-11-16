@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Bowl 2025 Team Manager</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1e4620 0%, #2d5a2d 50%, #1e4620 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            background: #d97706;
+            border: 4px solid #92400e;
+            border-radius: 8px 8px 0 0;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        
+        .header h1 {
+            text-align: center;
+            color: white;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            margin-bottom: 20px;
+        }
+        
+        .team-info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        
+        .team-info label {
+            display: block;
+            color: white;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .team-info input {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #92400e;
+            border-radius: 4px;
+            font-size: 1em;
+        }
+        
+        .resources {
+            background: #fef3c7;
+            padding: 20px;
+            border-left: 4px solid #92400e;
+            border-right: 4px solid #92400e;
+        }
+        
+        .resources-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 15px;
+        }
+        
+        .resource-item label {
+            display: block;
+            font-size: 0.75em;
+            font-weight: bold;
+            color: #92400e;
+            margin-bottom: 5px;
+        }
+        
+        .resource-item input,
+        .resource-item select {
+            width: 100%;
+            padding: 8px;
+            border: 2px solid #d97706;
+            border-radius: 4px;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .team-value {
+            background: #15803d;
+            color: white;
+            padding: 8px;
+            border: 2px solid #166534;
+            border-radius: 4px;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .roster-section {
+            background: white;
+            border: 4px solid #92400e;
+            border-top: none;
+            border-radius: 0 0 8px 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        
+        .roster-header {
+            background: #dc2626;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .roster-header h2 {
+            font-size: 1.8em;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 10px;
+        }
+        
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 1em;
+            transition: all 0.2s;
+        }
+        
+        button:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+        
+        .btn-add {
+            background: #16a34a;
+            color: white;
+        }
+        
+        .btn-add:hover:not(:disabled) {
+            background: #15803d;
+        }
+        
+        .btn-add:disabled {
+            background: #9ca3af;
+            cursor: not-allowed;
+        }
+        
+        .btn-export {
+            background: #2563eb;
+            color: white;
+        }
+        
+        .btn-export:hover {
+            background: #1d4ed8;
+        }
+        
+        .btn-delete {
+            background: #dc2626;
+            color: white;
+            padding: 5px 10px;
+            font-size: 0.85em;
+        }
+        
+        .btn-delete:hover {
+            background: #b91c1c;
+        }
+        
+        .table-container {
+            overflow-x: auto;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th {
+            background: #e5e7eb;
+            padding: 10px;
+            text-align: center;
+            font-size: 0.85em;
+            border: 1px solid #d1d5db;
+            position: sticky;
+            top: 0;
+        }
+        
+        td {
+            padding: 5px;
+            border: 1px solid #d1d5db;
+            text-align: center;
+        }
+        
+        tr:hover {
+            background: #f9fafb;
+        }
+        
+        td input,
+        td select {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #d1d5db;
+            border-radius: 2px;
+            font-size: 0.9em;
+        }
+        
+        .number-cell {
+            font-weight: bold;
+            background: #f3f4f6;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 50px;
+            color: #6b7280;
+        }
+        
+        .spp-reference {
+            padding: 20px;
+            background: #f3f4f6;
+            border-top: 2px solid #d1d5db;
+        }
+        
+        .spp-reference h3 {
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+        
+        .spp-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            font-size: 0.85em;
+        }
+        
+        .spp-advancement {
+            grid-column: 1 / -1;
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid #d1d5db;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: white;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>⚔️ BLOOD BOWL 2025 ⚔️</h1>
+            <div class="team-info">
+                <div>
+                    <label>Team Name</label>
+                    <input type="text" id="teamName" placeholder="Enter team name">
+                </div>
+                <div>
+                    <label>Race</label>
+                    <input type="text" id="race" placeholder="e.g. Orcs, Humans, Elves">
+                </div>
+            </div>
+        </div>
+        
+        <div class="resources">
+            <div class="resources-grid">
+                <div class="resource-item">
+                    <label>Treasury (GP)</label>
+                    <input type="number" id="treasury" value="0">
+                </div>
+                <div class="resource-item">
+                    <label>Team Re-rolls</label>
+                    <input type="number" id="rerolls" value="0">
+                </div>
+                <div class="resource-item">
+                    <label>Dedicated Fans</label>
+                    <input type="number" id="fans" value="0">
+                </div>
+                <div class="resource-item">
+                    <label>Asst. Coaches</label>
+                    <input type="number" id="coaches" value="0">
+                </div>
+                <div class="resource-item">
+                    <label>Cheerleaders</label>
+                    <input type="number" id="cheerleaders" value="0">
+                </div>
+                <div class="resource-item">
+                    <label>Apothecary</label>
+                    <select id="apothecary">
+                        <option value="no">No</option>
+                        <option value="yes">Yes</option>
+                    </select>
+                </div>
+                <div class="resource-item">
+                    <label>Team Value</label>
+                    <div class="team-value" id="teamValue">0k</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="roster-section">
+            <div class="roster-header">
+                <h2>Player Roster (<span id="playerCount">0</span>/16)</h2>
+                <div class="button-group">
+                    <button class="btn-export" id="exportBtn">📥 Export CSV</button>
+                    <button class="btn-add" id="addPlayerBtn">➕ Add Player</button>
+                </div>
+            </div>
+            
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Position</th>
+                            <th>MA</th>
+                            <th>ST</th>
+                            <th>AG</th>
+                            <th>PA</th>
+                            <th>AV</th>
+                            <th>Skills</th>
+                            <th>SPP</th>
+                            <th>Value (k)</th>
+                            <th>Seasons</th>
+                            <th>Injuries</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="playerTableBody">
+                        <tr>
+                            <td colspan="14" class="empty-state">
+                                No players yet. Click "Add Player" to start building your roster!
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="spp-reference">
+                <h3>📋 SPP Reference (BB2025)</h3>
+                <div class="spp-grid">
+                    <div><strong>Completion:</strong> 1 SPP</div>
+                    <div><strong>Deflection:</strong> 1 SPP</div>
+                    <div><strong>Interception:</strong> 1 SPP</div>
+                    <div><strong>Casualty:</strong> 2 SPP</div>
+                    <div><strong>Touchdown:</strong> 3 SPP</div>
+                    <div><strong>MVP:</strong> 4 SPP</div>
+                    <div class="spp-advancement">
+                        <strong>Advancement:</strong> 3 SPP = Random Primary | 6 SPP = Choose Primary | 10 SPP = Choose Secondary | 14 SPP = Random Characteristic
+                        <br/>
+                        <strong>Elite skills:</strong> Block | Dodge | Mighty Blow | Guard
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            Blood Bowl 2025 Team Manager | Keep your roster updated!
+        </footer>
+    </div>
+    
+    <script>
+        let players = [];
+        let nextPlayerId = 1;
+        
+        // Update player count and team value
+        function updateDisplay() {
+            document.getElementById('playerCount').textContent = players.length;
+            
+            // Calculate team value
+            const playerValue = players.reduce((sum, p) => sum + (parseInt(p.value) || 0), 0);
+            const rerollValue = (parseInt(document.getElementById('rerolls').value) || 0) * 50;
+            const coachValue = (parseInt(document.getElementById('coaches').value) || 0) * 10;
+            const cheerValue = (parseInt(document.getElementById('cheerleaders').value) || 0) * 10;
+            const apoValue = document.getElementById('apothecary').value === 'yes' ? 50 : 0;
+            const totalValue = playerValue + rerollValue + coachValue + cheerValue + apoValue;
+            
+            document.getElementById('teamValue').textContent = totalValue + 'k';
+            
+            // Enable/disable add button
+            document.getElementById('addPlayerBtn').disabled = players.length >= 16;
+        }
+        
+        // Add player
+        function addPlayer() {
+            if (players.length >= 16) {
+                alert('Maximum 16 players allowed!');
+                return;
+            }
+            
+            const player = {
+                id: nextPlayerId++,
+                number: players.length + 1,
+                name: '',
+                position: '',
+                ma: 6,
+                st: 3,
+                ag: '3+',
+                pa: '4+',
+                av: '9+',
+                skills: '',
+                spp: 0,
+                value: 0,
+                seasons: 0,
+                injuries: 'None'
+            };
+            
+            players.push(player);
+            renderPlayers();
+            updateDisplay();
+        }
+        
+        // Delete player
+        function deletePlayer(id) {
+            players = players.filter(p => p.id !== id);
+            // Renumber players
+            players.forEach((p, index) => {
+                p.number = index + 1;
+            });
+            renderPlayers();
+            updateDisplay();
+        }
+        
+        // Update player field
+        function updatePlayerField(id, field, value) {
+            const player = players.find(p => p.id === id);
+            if (player) {
+                player[field] = value;
+                updateDisplay();
+            }
+        }
+        
+        // Render players table
+        function renderPlayers() {
+            const tbody = document.getElementById('playerTableBody');
+            
+            if (players.length === 0) {
+                tbody.innerHTML = `
+                    <tr>
+                        <td colspan="14" class="empty-state">
+                            No players yet. Click "Add Player" to start building your roster!
+                        </td>
+                    </tr>
+                `;
+                return;
+            }
+            
+            tbody.innerHTML = '';
+            
+            players.forEach(function(player) {
+                var row = document.createElement('tr');
+                var injuryNoneSelected = player.injuries === 'None' ? 'selected' : '';
+                var injuryNigglingSelected = player.injuries === 'Niggling Injury' ? 'selected' : '';
+                
+                row.innerHTML = 
+                    '<td class="number-cell">' + player.number + '</td>' +
+                    '<td><input type="text" value="' + player.name + '" data-id="' + player.id + '" data-field="name"></td>' +
+                    '<td><input type="text" value="' + player.position + '" data-id="' + player.id + '" data-field="position"></td>' +
+                    '<td><input type="number" value="' + player.ma + '" data-id="' + player.id + '" data-field="ma" style="width: 50px;"></td>' +
+                    '<td><input type="number" value="' + player.st + '" data-id="' + player.id + '" data-field="st" style="width: 50px;"></td>' +
+                    '<td><input type="text" value="' + player.ag + '" data-id="' + player.id + '" data-field="ag" style="width: 50px;"></td>' +
+                    '<td><input type="text" value="' + player.pa + '" data-id="' + player.id + '" data-field="pa" style="width: 50px;"></td>' +
+                    '<td><input type="text" value="' + player.av + '" data-id="' + player.id + '" data-field="av" style="width: 50px;"></td>' +
+                    '<td><input type="text" value="' + player.skills + '" data-id="' + player.id + '" data-field="skills"></td>' +
+                    '<td><input type="number" value="' + player.spp + '" data-id="' + player.id + '" data-field="spp" style="width: 60px;"></td>' +
+                    '<td><input type="number" value="' + player.value + '" data-id="' + player.id + '" data-field="value" style="width: 60px;"></td>' +
+                    '<td><input type="number" value="' + player.seasons + '" data-id="' + player.id + '" data-field="seasons" style="width: 60px;"></td>' +
+                    '<td><select data-id="' + player.id + '" data-field="injuries">' +
+                    '<option value="None" ' + injuryNoneSelected + '>None</option>' +
+                    '<option value="Niggling Injury" ' + injuryNigglingSelected + '>Niggling Injury</option>' +
+                    '</select></td>' +
+                    '<td><button class="btn-delete" data-delete-id="' + player.id + '">Delete</button></td>';
+                
+                tbody.appendChild(row);
+            });
+            
+            // Add event listeners for inputs
+            tbody.querySelectorAll('input, select').forEach(input => {
+                input.addEventListener('change', function() {
+                    const id = parseInt(this.dataset.id);
+                    const field = this.dataset.field;
+                    updatePlayerField(id, field, this.value);
+                });
+            });
+            
+            // Add event listeners for delete buttons
+            tbody.querySelectorAll('.btn-delete').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const id = parseInt(this.dataset.deleteId);
+                    deletePlayer(id);
+                });
+            });
+        }
+        
+        // Export to CSV
+        function exportToCSV() {
+            const escapeCSV = (field) => {
+                if (field === null || field === undefined) return '';
+                const str = String(field);
+                if (str.includes(',') || str.includes('"') || str.includes('\n')) {
+                    return `"${str.replace(/"/g, '""')}"`;
+                }
+                return str;
+            };
+            
+            const teamName = document.getElementById('teamName').value || 'BloodBowl_Team';
+            const race = document.getElementById('race').value;
+            const treasury = document.getElementById('treasury').value;
+            const rerolls = document.getElementById('rerolls').value;
+            const fans = document.getElementById('fans').value;
+            const coaches = document.getElementById('coaches').value;
+            const cheerleaders = document.getElementById('cheerleaders').value;
+            const apothecary = document.getElementById('apothecary').value === 'yes' ? 'Yes' : 'No';
+            const teamValue = document.getElementById('teamValue').textContent;
+            
+            let csv = '\uFEFF'; // UTF-8 BOM
+            csv += 'Blood Bowl 2025 Team Roster\n\n';
+            csv += `Team Name,${escapeCSV(teamName)}\n`;
+            csv += `Race,${escapeCSV(race)}\n`;
+            csv += `Treasury,${treasury}\n`;
+            csv += `Team Re-rolls,${rerolls}\n`;
+            csv += `Dedicated Fans,${fans}\n`;
+            csv += `Assistant Coaches,${coaches}\n`;
+            csv += `Cheerleaders,${cheerleaders}\n`;
+            csv += `Apothecary,${apothecary}\n`;
+            csv += `Team Value,${teamValue}\n\n`;
+            
+            csv += 'Player Roster\n';
+            csv += '#,Name,Position,MA,ST,AG,PA,AV,Skills,SPP,Value (k),Seasons,Injuries\n';
+            
+            players.forEach(player => {
+                const row = [
+                    player.number,
+                    escapeCSV(player.name),
+                    escapeCSV(player.position),
+                    player.ma,
+                    player.st,
+                    escapeCSV(player.ag),
+                    escapeCSV(player.pa),
+                    escapeCSV(player.av),
+                    escapeCSV(player.skills),
+                    player.spp,
+                    player.value,
+                    player.seasons,
+                    player.injuries
+                ];
+                csv += row.join(',') + '\n';
+            });
+            
+            const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+            const link = document.createElement('a');
+            const url = URL.createObjectURL(blob);
+            link.setAttribute('href', url);
+            link.setAttribute('download', `${teamName}_roster.csv`);
+            link.style.visibility = 'hidden';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+        
+        // Event listeners
+        document.getElementById('addPlayerBtn').addEventListener('click', addPlayer);
+        document.getElementById('exportBtn').addEventListener('click', exportToCSV);
+        
+        // Add listeners to update team value when resources change
+        ['treasury', 'rerolls', 'fans', 'coaches', 'cheerleaders', 'apothecary'].forEach(id => {
+            document.getElementById(id).addEventListener('change', updateDisplay);
+        });
+        
+        // Initialize
+        updateDisplay();
+    </script>
+</body>
+</html>

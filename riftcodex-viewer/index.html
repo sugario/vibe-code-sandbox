@@ -328,6 +328,22 @@
             object-fit: contain;
         }
 
+        .json-view {
+            padding: 30px;
+            background: #282c34;
+            color: #abb2bf;
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+            font-size: 13px;
+            line-height: 1.6;
+            overflow-x: auto;
+        }
+
+        .json-view pre {
+            margin: 0;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
         .card-info {
             padding: 18px;
             flex: 1;
@@ -751,6 +767,9 @@
                     <button class="view-btn ${viewMode === 'list' ? 'active' : ''}" onclick="setViewMode('list')">
                         List
                     </button>
+                    <button class="view-btn ${viewMode === 'json' ? 'active' : ''}" onclick="setViewMode('json')">
+                        JSON
+                    </button>
                 </div>
             `;
 
@@ -762,6 +781,11 @@
                         <p>Try adjusting your search or filters</p>
                     </div>
                 `;
+                return;
+            }
+
+            if (viewMode === 'json') {
+                content.innerHTML = `<div class="json-view"><pre>${JSON.stringify(filteredCards, null, 2)}</pre></div>`;
                 return;
             }
 

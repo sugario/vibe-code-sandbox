@@ -239,7 +239,8 @@
 
         .cards-container.list-view .card {
             flex-direction: row;
-            max-height: 200px;
+            max-height: none;
+            height: 200px;
         }
 
         .card:hover {
@@ -261,13 +262,15 @@
         }
 
         .cards-container.list-view .card-image {
-            width: 180px;
-            height: 100%;
+            width: auto;
+            height: 200px;
+            object-fit: contain;
         }
 
         .cards-container.list-view .card.landscape .card-image {
-            width: 280px;
-            height: auto;
+            width: auto;
+            height: 200px;
+            object-fit: contain;
         }
 
         .card-info {

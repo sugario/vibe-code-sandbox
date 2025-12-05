@@ -6,10 +6,14 @@ on:
 jobs:
   fetch-cards:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          token: $({ secrets.GITHUB_TOKEN })
         
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -94,3 +98,4 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+

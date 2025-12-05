@@ -33,7 +33,7 @@ jobs:
           from datetime import datetime
           
           # List of set codes to fetch
-          sets = ['OGS', 'OGN', 'OGB', 'OGR']
+          sets = ['OGN', 'OGS', 'SFD']
           
           # Create data directory if it doesn't exist
           os.makedirs('riftcodex-viewer/data', exist_ok=True)

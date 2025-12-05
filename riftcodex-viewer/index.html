@@ -336,12 +336,35 @@
             font-size: 13px;
             line-height: 1.6;
             overflow-x: auto;
+            position: relative;
         }
 
         .json-view pre {
             margin: 0;
             white-space: pre-wrap;
             word-wrap: break-word;
+        }
+
+        .export-btn {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            padding: 10px 20px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            box-shadow: 0 2px 8px rgba(102,126,234,0.3);
+        }
+
+        .export-btn:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102,126,234,0.4);
         }
 
         .card-info {
@@ -785,7 +808,12 @@
             }
 
             if (viewMode === 'json') {
-                content.innerHTML = `<div class="json-view"><pre>${JSON.stringify(filteredCards, null, 2)}</pre></div>`;
+                content.innerHTML = `
+                    <div class="json-view">
+                        <button class="export-btn" onclick="exportJSON()">📥 Export JSON</button>
+                        <pre>${JSON.stringify(filteredCards, null, 2)}</pre>
+                    </div>
+                `;
                 return;
             }
 
@@ -829,6 +857,19 @@
         function setViewMode(mode) {
             viewMode = mode;
             displayCards();
+        }
+
+        function exportJSON() {
+            const jsonStr = JSON.stringify(filteredCards, null, 2);
+            const blob = new Blob([jsonStr], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `riftcodex-cards-${currentSet}-${new Date().toISOString().split('T')[0]}.json`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
         }
 
         document.getElementById('searchInput').addEventListener('input', displayCards);

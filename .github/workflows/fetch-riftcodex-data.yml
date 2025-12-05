@@ -42,47 +42,59 @@ jobs:
           successful_sets = []
           failed_sets = []
           
-          for set_code in sets:
-              try:
-                  all_cards = []
-                  page = 1
-                  
-                  while True:
-                      url = f'https://api.riftcodex.com/cards?set={set_code}&page={page}'
-                      response = requests.get(url, timeout=30)
-                      response.raise_for_status()
-                      
-                      data = response.json()
-                      
-                      if not data or not data.get('items'):
-                          break
-                      
-                      all_cards.extend(data['items'])
-                      print(f'  Fetched page {page}/{data.get("pages", "?")} ({len(data["items"])} cards) from {set_code}')
-                      
-                      # Check if there are more pages
-                      if page >= data.get('pages', 1):
-                          break
-                      
-                      page += 1
-                  
-                  if all_cards:
-                      # Save as items structure to match API format
-                      set_data = {'items': all_cards}
-                      
-                      with open(f'riftcodex-viewer/data/{set_code}.json', 'w') as f:
-                          json.dump(set_data, f, indent=2)
-                      
-                      all_sets_data[set_code] = set_data
-                      successful_sets.append(set_code)
-                      print(f'✓ Successfully fetched {len(all_cards)} total cards from {set_code}')
-                  else:
-                      print(f'⚠ No cards found for {set_code}')
-                      failed_sets.append(set_code)
+          # Fetch all cards from the API (it doesn't support set filtering)
+          all_cards = []
+          page = 1
+          
+          print('Fetching all cards from API...')
+          while True:
+              url = f'https://api.riftcodex.com/cards?page={page}'
+              response = requests.get(url, timeout=30)
+              response.raise_for_status()
               
-              except Exception as e:
-                  print(f'✗ Failed to fetch {set_code}: {str(e)}')
-                  failed_sets.append(set_code)
+              data = response.json()
+              
+              if not data or not data.get('items'):
+                  break
+              
+              all_cards.extend(data['items'])
+              print(f'  Fetched page {page}/{data.get("pages", "?")} ({len(data["items"])} cards)')
+              
+              # Check if there are more pages
+              if page >= data.get('pages', 1):
+                  break
+              
+              page += 1
+          
+          print(f'\n✓ Fetched {len(all_cards)} total cards')
+          
+          # Group cards by set
+          sets_data = {}
+          for card in all_cards:
+              set_id = card.get('set', {}).get('set_id')
+              if set_id:
+                  if set_id not in sets_data:
+                      sets_data[set_id] = []
+                  sets_data[set_id].append(card)
+          
+          # Save individual set files
+          all_sets_data = {}
+          successful_sets = []
+          
+          for set_code in sets:
+              if set_code in sets_data:
+                  set_data = {'items': sets_data[set_code]}
+                  
+                  with open(f'riftcodex-viewer/data/{set_code}.json', 'w') as f:
+                      json.dump(set_data, f, indent=2)
+                  
+                  all_sets_data[set_code] = set_data
+                  successful_sets.append(set_code)
+                  print(f'✓ Saved {len(sets_data[set_code])} cards for {set_code}')
+              else:
+                  print(f'⚠ No cards found for {set_code}')
+          
+          failed_sets = [s for s in sets if s not in successful_sets]
           
           # Save combined data
           with open('riftcodex-viewer/data/all-sets.json', 'w') as f:

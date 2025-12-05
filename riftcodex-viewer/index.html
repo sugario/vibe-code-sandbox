@@ -59,6 +59,7 @@
             background: #f8f9fa;
             border-bottom: 3px solid #e9ecef;
             overflow-x: auto;
+            overflow-y: hidden;
             padding: 0 20px;
         }
 
@@ -690,7 +691,7 @@
             const selectedTypes = Array.from(document.querySelectorAll('.type-checkbox:checked'))
                 .map(cb => cb.value);
 
-            return cards.filter(card => {
+            const filtered = cards.filter(card => {
                 const matchesSearch = !searchTerm || 
                     card.name?.toLowerCase().includes(searchTerm) ||
                     card.text?.plain?.toLowerCase().includes(searchTerm) ||
@@ -703,6 +704,15 @@
 
                 return matchesSearch && matchesRarity && matchesType;
             });
+
+            // Sort by collector number
+            filtered.sort((a, b) => {
+                const numA = a.collector_number || 0;
+                const numB = b.collector_number || 0;
+                return numA - numB;
+            });
+
+            return filtered;
         }
 
         function displayCards() {

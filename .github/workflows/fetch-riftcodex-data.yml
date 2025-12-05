@@ -99,3 +99,4 @@ jobs:
           else
             git commit -m "Update Riftcodex card data - $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
+          fi

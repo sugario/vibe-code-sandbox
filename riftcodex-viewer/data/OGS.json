@@ -1,0 +1,1068 @@
+{
+  "items": [
+    {
+      "id": "980742ee-5f47-483b-9409-6d4d067aa9e7",
+      "name": "Tibbers",
+      "riftbound_id": "ogs-018-024",
+      "tcgplayer_id": "653153",
+      "public_code": "OGS-018/024",
+      "collector_number": 18,
+      "attributes": {
+        "energy": 8,
+        "might": 7,
+        "power": 2
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": "Signature",
+        "rarity": "Epic",
+        "domain": [
+          "Fury",
+          "Chaos"
+        ]
+      },
+      "text": {
+        "rich": "<p>When you play me, deal 3 to all units at battlefields.</p>",
+        "plain": "When you play me, deal 3 to all units at battlefields."
+      },
+      "set": {
+        "set_id": "OGS",
+        "label": "Proving Grounds"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/74f8bc78573b33d9979b0e9c121b858d770a490c-744x1039.png",
+        "artist": "Polar Engine Studio",
+        "accessibility_text": "Riftbound Unit: Tibbers. When you play me, deal 3 to all units at battlefields."
+      },
+      "tags": [
+        "Annie"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Tibbers",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      }
+    },
+    {
+      "id": "1556594f-8470-4dfd-8be4-aae5045185d8",
+      "name": "Recruit the Vanguard",
+      "riftbound_id": "ogs-015-024",
+      "tcgplayer_id": "653150",
+      "public_code": "OGS-015/024",
+      "collector_number": 15,
+      "attributes": {
+        "energy": 6,
+        "might": null,
+        "power": null
+      },
+      "classification": {
+        "type": "Spell",
+        "supertype": null,
+        "rarity": "Uncommon",
+        "domain": [
+          "Order"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Action] <em>(Play on your turn or in showdowns.)</em><br />Play four 1 :rb_might: Recruit unit tokens. <em>(They can be played to your base or to battlefields you control.)</em></p>",
+        "plain": "[Action] (Play on your turn or in showdowns.)Play four 1 :rb_might: Recruit unit tokens. (They can be played to your base or to battlefields you control.)"
+      },
+      "set": {
+        "set_id": "OGS",
+        "label": "Proving Grounds"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/81d1c47459606f7b627778cce9b5f0e44d80f7fa-744x1039.png",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Recruit the Vanguard. [Action] (Play on your turn or in showdowns.)\nPlay four 1 [S] Recruit unit tokens. (They can be played to your base or to battlefields you control.)"
+      },
+      "tags": [],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Recruit the Vanguard",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      }
+    },
+    {
+      "id": "fd8e48a1-2341-48d0-93b5-3f2dd32a80f8",
+      "name": "Vanguard Attendant",
+      "riftbound_id": "ogs-016-024",
+      "tcgplayer_id": "653151",
+      "public_code": "OGS-016/024",
+      "collector_number": 16,
+      "attributes": {
+        "energy": 6,
+        "might": 5,
+        "power": 1
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": null,
+        "rarity": "Common",
+        "domain": [
+          "Order"
+        ]
+      },
+      "text": {
+        "rich": "<p>I enter ready.</p>",
+        "plain": "I enter ready."
+      },
+      "set": {
+        "set_id": "OGS",
+        "label": "Proving Grounds"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4ce467c1d51a65ab4fbae918dca38ae90b510844-744x1039.png",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Unit: Vanguard Attendant. I enter ready."
+      },
+      "tags": [
+        "Elite",
+        "Demacia"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Vanguard Attendant",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      }
+    },
+    {
+      "id": "38052469-6e48-46ae-b0e9-acb9012a71bd",
+      "name": "Yi, Meditative",
+      "riftbound_id": "ogs-004-024",
+      "tcgplayer_id": "653139",
+      "public_code": "OGS-004/024",
+      "collector_number": 4,
+      "attributes": {
+        "energy": 5,
+        "might": 4,
+        "power": 1
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Rare",
+        "domain": [
+          "Calm"
+        ]
+      },
+      "text": {
+        "rich": "<p>While you have 8+ runes, I have +4 :rb_might:.</p>",
+        "plain": "While you have 8+ runes, I have +4 :rb_might:."
+      },
+      "set": {
+        "set_id": "OGS",
+        "label": "Proving Grounds"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5508566c8f05f09492148faa803332a731095eb7-744x1039.png",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Unit: Yi, Meditative. While you have 8+ runes, I have +4 [S]."
+      },
+      "tags": [
+        "Master Yi",
+        "Ionia"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Yi Meditative",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      }
+    },
+    {
+      "id": "cfa62e26-900a-4562-a408-7959a695893a",
+      "name": "Wuju Bladesman - Starter",
+      "riftbound_id": "ogs-019-024",
+      "tcgplayer_id": "653154",
+      "public_code": "OGS-019/024",
+      "collector_number": 19,
+      "attributes": {
+        "energy": null,
+        "might": null,
+        "power": null
+      },
+      "classification": {
+        "type": "Legend",
+        "supertype": "Champion",
+        "rarity": "Rare",
+        "domain": [
+          "Calm",
+          "Body"
+        ]
+      },
+      "text": {
+        "rich": "<p>While a friendly unit defends alone, it gets +2 :rb_might:.</p>",
+        "plain": "While a friendly unit defends alone, it gets +2 :rb_might:."
+      },
+      "set": {
+        "set_id": "OGS",
+        "label": "Proving Grounds"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8231ced23eaf22ca3bf62ec8cb86b83a3e222da6-744x1039.png",
+        "artist": "Grafit Studio/Quy Ho",
+        "accessibility_text": "Riftbound Legend: Wuju Bladesman - Starter. While a friendly unit defends alone, it gets +2 [S]."
+      },
+      "tags": [
+        "Master Yi"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Wuju Bladesman  Starter",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      }
+    },
+    {
+      "id": "09397732-5f8d-412c-ae14-c8d84ed02ee6",
+      "name": "Yi, Honed",
+      "riftbound_id": "ogs-009-024",
+      "tcgplayer_id": "653144",
+      "public_code": "OGS-009/024",
+      "collector_number": 9,
+      "attributes": {
+        "energy": 7,
+        "might": 6,
+        "power": 1
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Epic",
+        "domain": [
+          "Body"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Ganking] <em>(I can move from battlefield to battlefield.)</em><br />I enter ready.</p>",
+        "plain": "[Ganking] (I can move from battlefield to battlefield.)I enter ready."
+      },
+      "set": {
+        "set_id": "OGS",
+        "label": "Proving Grounds"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0e16976cd6d7ee5a874be9351b428671990fbd25-744x1039.png",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Unit: Yi, Honed. [Ganking] (I can move from battlefield to battlefield.)\nI enter ready."
+      },
+      "tags": [
+        "Master Yi",
+        "Ionia"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Yi Honed",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      }
+    },
+    {
+      "id": "93608125-32e5-41d4-8623-a3f26ec22186",
+      "name": "Zephyr Sage",
+      "riftbound_id": "ogs-005-024",
+      "tcgplayer_id": "653140",
+      "public_code": "OGS-005/024",
+      "collector_number": 5,
+      "attributes": {
+        "energy": 6,
+        "might": 6,
+        "power": 1
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": null,
+        "rarity": "Uncommon",
+        "domain": [
+          "Calm"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Shield] <em>(+1 :rb_might: while I'm a defender.)</em></p>",
+        "plain": "[Shield] (+1 :rb_might: while I'm a defender.)"
+      },
+      "set": {
+        "set_id": "OGS",
+        "label": "Proving Grounds"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7664b03bb107954195153d9f2f86c5d63682fa4b-744x1039.png",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Unit: Zephyr Sage. [Shield] (+1 [S] while I'm a defender.)"
+      },
+      "tags": [
+        "Ionia",
+        "Bird"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Zephyr Sage",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      }
+    },
+    {
+      "id": "535c45d3-1fb9-4227-993e-576444b70bfd",
+      "name": "Decisive Strike",
+      "riftbound_id": "ogs-024-024",
+      "tcgplayer_id": "653159",
+      "public_code": "OGS-024/024",
+      "collector_number": 24,
+      "attributes": {
+        "energy": 5,
+        "might": null,
+        "power": 1
+      },
+      "classification": {
+        "type": "Spell",
+        "supertype": "Signature",
+        "rarity": "Epic",
+        "domain": [
+          "Body",
+          "Order"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Action] <em>(Play on your turn or in showdowns.)</em><br />Give friendly units +2 :rb_might: this turn.</p>",
+        "plain": "[Action] (Play on your turn or in showdowns.)Give friendly units +2 :rb_might: this turn."
+      },
+      "set": {
+        "set_id": "OGS",
+        "label": "Proving Grounds"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/986782271be078c184a8d1c196e375106459c6c5-744x1039.png",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Decisive Strike. [Action] (Play on your turn or in showdowns.)\nGive friendly units +2 [S] this turn."
+      },
+      "tags": [
+        "Garen"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Decisive Strike",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      }
+    },
+    {
+      "id": "b15344ec-e5dd-43f9-a34b-4e7eefa25084",
+      "name": "Dark Child - Starter",
+      "riftbound_id": "ogs-017-024",
+      "tcgplayer_id": "653152",
+      "public_code": "OGS-017/024",
+      "collector_number": 17,
+      "attributes": {
+        "energy": null,
+        "might": null,
+        "power": null
+      },
+      "classification": {
+        "type": "Legend",
+        "supertype": "Champion",
+        "rarity": "Rare",
+        "domain": [
+          "Fury",
+          "Chaos"
+        ]
+      },
+      "text": {
+        "rich": "<p>At the end of your turn, ready 2 runes.</p>",
+        "plain": "At the end of your turn, ready 2 runes."
+      },
+      "set": {
+        "set_id": "OGS",
+        "label": "Proving Grounds"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/89963e1d1cffd69c620fb5d6b037f50d5c334463-744x1039.png",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Legend: Dark Child - Starter. At the end of your turn, ready 2 runes."
+      },
+      "tags": [
+        "Annie"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Dark Child  Starter",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      }
+    },
+    {
+      "id": "7a85c39c-c96c-45d5-8120-ad063f352c0a",
+      "name": "Final Spark",
+      "riftbound_id": "ogs-022-024",
+      "tcgplayer_id": "653157",
+      "public_code": "OGS-022/024",
+      "collector_number": 22,
+      "attributes": {
+        "energy": 8,
+        "might": null,
+        "power": null
+      },
+      "classification": {
+        "type": "Spell",
+        "supertype": "Signature",
+        "rarity": "Epic",
+        "domain": [
+          "Mind",
+          "Order"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Action] <em>(Play on your turn or in showdowns.)</em><br />Deal 8 to a unit.</p>",
+        "plain": "[Action] (Play on your turn or in showdowns.)Deal 8 to a unit."
+      },
+      "set": {
+        "set_id": "OGS",
+        "label": "Proving Grounds"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4558a2dc1bb1f1b8a73ec0d82244654e84b12687-744x1039.png",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Final Spark. [Action] (Play on your turn or in showdowns.)\nDeal 8 to a unit."
+      },
+      "tags": [
+        "Lux"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Final Spark",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      }
+    },
+    {
+      "id": "84ae4762-09fb-414b-a4af-f72c996c3c33",
+      "name": "Firestorm",
+      "riftbound_id": "ogs-002-024",
+      "tcgplayer_id": "653137",
+      "public_code": "OGS-002/024",
+      "collector_number": 2,
+      "attributes": {
+        "energy": 6,
+        "might": null,
+        "power": 1
+      },
+      "classification": {
+        "type": "Spell",
+        "supertype": null,
+        "rarity": "Uncommon",
+        "domain": [
+          "Fury"
+        ]
+      },
+      "text": {
+        "rich": "<p>Deal 3 to all enemy units at a battlefield.</p>",
+        "plain": "Deal 3 to all enemy units at a battlefield."
+      },
+      "set": {
+        "set_id": "OGS",
+        "label": "Proving Grounds"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a7a34129e64f0296bf2da166c2b06ed156d568db-744x1039.png",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Firestorm. Deal 3 to all enemy units at a battlefield."
+      },
+      "tags": [],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Firestorm",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      }
+    },
+    {
+      "id": "93f1e74f-35fc-49e2-a997-a8fe23e832b9",
+      "name": "Flash",
+      "riftbound_id": "ogs-011-024",
+      "tcgplayer_id": "653146",
+      "public_code": "OGS-011/024",
+      "collector_number": 11,
+      "attributes": {
+        "energy": 2,
+        "might": null,
+        "power": null
+      },
+      "classification": {
+        "type": "Spell",
+        "supertype": null,
+        "rarity": "Common",
+        "domain": [
+          "Chaos"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Reaction] <em>(Play any time, even before spells and abilities resolve.)</em><br />Move up to 2 friendly units to base.</p>",
+        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)Move up to 2 friendly units to base."
+      },
+      "set": {
+        "set_id": "OGS",
+        "label": "Proving Grounds"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4d9cc1c13b75933e509e642213f13359350cd3f9-744x1039.png",
+        "artist": "Sugar Free",
+        "accessibility_text": "Riftbound Spell: Flash. [Reaction] (Play any time, even before spells and abilities resolve.)\nMove up to 2 friendly units to base."
+      },
+      "tags": [],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Flash",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      }
+    },
+    {
+      "id": "f55e5090-af45-45d5-8a14-32a12f7b8e2f",
+      "name": "Blast of Power",
+      "riftbound_id": "ogs-012-024",
+      "tcgplayer_id": "653147",
+      "public_code": "OGS-012/024",
+      "collector_number": 12,
+      "attributes": {
+        "energy": 6,
+        "might": null,
+        "power": 1
+      },
+      "classification": {
+        "type": "Spell",
+        "supertype": null,
+        "rarity": "Common",
+        "domain": [
+          "Order"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Action] <em>(Play on your turn or in showdowns.)</em><br />Kill a unit at a battlefield.</p>",
+        "plain": "[Action] (Play on your turn or in showdowns.)Kill a unit at a battlefield."
+      },
+      "set": {
+        "set_id": "OGS",
+        "label": "Proving Grounds"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/026f851a703601fce4142c0791e913377c170b47-744x1039.png",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Blast of Power. [Action] (Play on your turn or in showdowns.)\nKill a unit at a battlefield."
+      },
+      "tags": [],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Blast of Power",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      }
+    },
+    {
+      "id": "a4658ad3-2540-43a9-8d2d-0108c64848b8",
+      "name": "Annie, Fiery",
+      "riftbound_id": "ogs-001-024",
+      "tcgplayer_id": "653136",
+      "public_code": "OGS-001/024",
+      "collector_number": 1,
+      "attributes": {
+        "energy": 5,
+        "might": 4,
+        "power": 1
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Epic",
+        "domain": [
+          "Fury"
+        ]
+      },
+      "text": {
+        "rich": "<p>Your spells and abilities deal 1 Bonus Damage. <em>(Each instance of damage the spell deals is increased by 1.)</em></p>",
+        "plain": "Your spells and abilities deal 1 Bonus Damage. (Each instance of damage the spell deals is increased by 1.)"
+      },
+      "set": {
+        "set_id": "OGS",
+        "label": "Proving Grounds"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/532d75dc36a16eb5954253a77366fcceac7aec62-744x1039.png",
+        "artist": "Polar Engine Studio",
+        "accessibility_text": "Riftbound Unit: Annie, Fiery. Your spells and abilities deal 1 Bonus Damage. (Each instance of damage the spell deals is increased by 1.)"
+      },
+      "tags": [
+        "Annie",
+        "Noxus"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Annie Fiery",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      }
+    },
+    {
+      "id": "4118a71c-c841-4b45-ab7a-af92e24b48f1",
+      "name": "Annie, Stubborn",
+      "riftbound_id": "ogs-010-024",
+      "tcgplayer_id": "653145",
+      "public_code": "OGS-010/024",
+      "collector_number": 10,
+      "attributes": {
+        "energy": 4,
+        "might": 3,
+        "power": 1
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Rare",
+        "domain": [
+          "Chaos"
+        ]
+      },
+      "text": {
+        "rich": "<p>When you play me, return a spell from your trash to your hand.</p>",
+        "plain": "When you play me, return a spell from your trash to your hand."
+      },
+      "set": {
+        "set_id": "OGS",
+        "label": "Proving Grounds"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/44eb968cf0c54e75970588b69eef5c5f5ccc9b24-744x1039.png",
+        "artist": "League Splash Team",
+        "accessibility_text": "Riftbound Unit: Annie, Stubborn. When you play me, return a spell from your trash to your hand."
+      },
+      "tags": [
+        "Annie",
+        "Noxus"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Annie Stubborn",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      }
+    },
+    {
+      "id": "adbc306c-99e5-44e6-89d5-2520908cc986",
+      "name": "Lux, Crownguard",
+      "riftbound_id": "ogs-014-024",
+      "tcgplayer_id": "653149",
+      "public_code": "OGS-014/024",
+      "collector_number": 14,
+      "attributes": {
+        "energy": 4,
+        "might": 2,
+        "power": null
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Epic",
+        "domain": [
+          "Order"
+        ]
+      },
+      "text": {
+        "rich": "<p>:rb_exhaust:: [Reaction] \u2014 [Add] :rb_energy_2:. Use only to play spells. <em>(Abilities that add resources can't be reacted to.)</em></p>",
+        "plain": ":rb_exhaust:: [Reaction] \u2014 [Add] :rb_energy_2:. Use only to play spells. (Abilities that add resources can't be reacted to.)"
+      },
+      "set": {
+        "set_id": "OGS",
+        "label": "Proving Grounds"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/17d0793ad495727e67bb1c94ae0e11cd4705870f-744x1039.png",
+        "artist": "Envar Studio",
+        "accessibility_text": "Riftbound Unit: Lux, Crownguard. [T]: [Reaction] \u2014 [Add] [2]. Use only to play spells. (Abilities that add resources can't be reacted to.)"
+      },
+      "tags": [
+        "Lux",
+        "Demacia"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Lux Crownguard",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      }
+    },
+    {
+      "id": "e91c4ec4-a19b-4e28-8e94-d1ba85dcb62e",
+      "name": "Lux, Illuminated",
+      "riftbound_id": "ogs-006-024",
+      "tcgplayer_id": "653141",
+      "public_code": "OGS-006/024",
+      "collector_number": 6,
+      "attributes": {
+        "energy": 6,
+        "might": 5,
+        "power": 1
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Rare",
+        "domain": [
+          "Mind"
+        ]
+      },
+      "text": {
+        "rich": "<p>When you play a spell that costs :rb_energy_5: or more, give me +3 :rb_might: this turn.</p>",
+        "plain": "When you play a spell that costs :rb_energy_5: or more, give me +3 :rb_might: this turn."
+      },
+      "set": {
+        "set_id": "OGS",
+        "label": "Proving Grounds"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a0d10edf30abb6fde21f5d386e9a7db3c1b0a098-744x1039.png",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Unit: Lux, Illuminated. When you play a spell that costs [5] or more, give me +3 [S] this turn."
+      },
+      "tags": [
+        "Lux",
+        "Demacia"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Lux Illuminated",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      }
+    },
+    {
+      "id": "fda78980-b4db-4efb-986d-5446b03d021e",
+      "name": "Might of Demacia - Starter",
+      "riftbound_id": "ogs-023-024",
+      "tcgplayer_id": "653158",
+      "public_code": "OGS-023/024",
+      "collector_number": 23,
+      "attributes": {
+        "energy": null,
+        "might": null,
+        "power": null
+      },
+      "classification": {
+        "type": "Legend",
+        "supertype": "Champion",
+        "rarity": "Rare",
+        "domain": [
+          "Body",
+          "Order"
+        ]
+      },
+      "text": {
+        "rich": "<p>When you conquer, if you have 4+ units at that battlefield, draw 2.</p>",
+        "plain": "When you conquer, if you have 4+ units at that battlefield, draw 2."
+      },
+      "set": {
+        "set_id": "OGS",
+        "label": "Proving Grounds"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e7185deb46f17770802d06aeddfe3b929afff880-744x1039.png",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Legend: Might of Demacia - Starter. When you conquer, if you have 4+ units at that battlefield, draw 2."
+      },
+      "tags": [
+        "Garen"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Might of Demacia  Starter",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      }
+    },
+    {
+      "id": "effeefb5-4276-4cf7-9be2-a7b84df0633c",
+      "name": "Highlander",
+      "riftbound_id": "ogs-020-024",
+      "tcgplayer_id": "653155",
+      "public_code": "OGS-020/024",
+      "collector_number": 20,
+      "attributes": {
+        "energy": 4,
+        "might": null,
+        "power": null
+      },
+      "classification": {
+        "type": "Spell",
+        "supertype": "Signature",
+        "rarity": "Epic",
+        "domain": [
+          "Calm",
+          "Body"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Reaction] <em>(Play any time, even before spells and abilities resolve.)</em><br />Choose a friendly unit. The next time it dies this turn, recall it exhausted instead. <em>(Send it to base. This isn't a move.)</em></p>",
+        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)Choose a friendly unit. The next time it dies this turn, recall it exhausted instead. (Send it to base. This isn't a move.)"
+      },
+      "set": {
+        "set_id": "OGS",
+        "label": "Proving Grounds"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/18c0818cbbfdf26a1237b4f7703b1f035f47b014-744x1039.png",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Highlander. [Reaction] (Play any time, even before spells and abilities resolve.)\nChoose a friendly unit. The next time it dies this turn, recall it exhausted instead. (Send it to base. This isn't a move.)"
+      },
+      "tags": [
+        "Master Yi"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Highlander",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      }
+    },
+    {
+      "id": "7b419775-97ce-4b49-80c1-9785c7c2a3d2",
+      "name": "Garen, Commander",
+      "riftbound_id": "ogs-013-024",
+      "tcgplayer_id": "653148",
+      "public_code": "OGS-013/024",
+      "collector_number": 13,
+      "attributes": {
+        "energy": 6,
+        "might": 5,
+        "power": 1
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Epic",
+        "domain": [
+          "Order"
+        ]
+      },
+      "text": {
+        "rich": "<p>Other friendly units have +1 :rb_might: here.</p>",
+        "plain": "Other friendly units have +1 :rb_might: here."
+      },
+      "set": {
+        "set_id": "OGS",
+        "label": "Proving Grounds"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cbf2c12d69a86566e4cda07050b2d4495e40187e-744x1039.png",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Unit: Garen, Commander. Other friendly units have +1 [S] here."
+      },
+      "tags": [
+        "Elite",
+        "Garen",
+        "Demacia"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Garen Commander",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      }
+    },
+    {
+      "id": "cf7196a6-8d8c-40a3-a692-62ab9b6e8d10",
+      "name": "Garen, Rugged",
+      "riftbound_id": "ogs-007-024",
+      "tcgplayer_id": "653142",
+      "public_code": "OGS-007/024",
+      "collector_number": 7,
+      "attributes": {
+        "energy": 6,
+        "might": 5,
+        "power": 1
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Rare",
+        "domain": [
+          "Body"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Assault 2], [Shield 2] <em>(+2 :rb_might: while I'm an attacker or defender.)</em></p>",
+        "plain": "[Assault 2], [Shield 2] (+2 :rb_might: while I'm an attacker or defender.)"
+      },
+      "set": {
+        "set_id": "OGS",
+        "label": "Proving Grounds"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/67c22dc29a7a28dabe0f169a7848c25bef1fbda4-744x1039.png",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Unit: Garen, Rugged. [Assault 2], [Shield 2] (+2 [S] while I'm an attacker or defender.)"
+      },
+      "tags": [
+        "Elite",
+        "Garen",
+        "Demacia"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Garen Rugged",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      }
+    },
+    {
+      "id": "b8594cb7-e9f2-479e-871b-b3c2cd0a578a",
+      "name": "Gentlemen's Duel",
+      "riftbound_id": "ogs-008-024",
+      "tcgplayer_id": "653143",
+      "public_code": "OGS-008/024",
+      "collector_number": 8,
+      "attributes": {
+        "energy": 6,
+        "might": null,
+        "power": 1
+      },
+      "classification": {
+        "type": "Spell",
+        "supertype": null,
+        "rarity": "Common",
+        "domain": [
+          "Body"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Action] <em>(Play on your turn or in showdowns.)</em><br />Give a friendly unit +3 :rb_might: this turn. Then choose an enemy unit. They deal damage equal to their Mights to each other.</p>",
+        "plain": "[Action] (Play on your turn or in showdowns.)Give a friendly unit +3 :rb_might: this turn. Then choose an enemy unit. They deal damage equal to their Mights to each other."
+      },
+      "set": {
+        "set_id": "OGS",
+        "label": "Proving Grounds"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4568ab827fdcd42d6bb86b1c2de6182e286c9ee9-744x1039.png",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Gentlemen's Duel. [Action] (Play on your turn or in showdowns.)\nGive a friendly unit +3 [S] this turn. Then choose an enemy unit. They deal damage equal to their Mights to each other."
+      },
+      "tags": [],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Gentlemens Duel",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      }
+    },
+    {
+      "id": "85ce2468-4628-4c2c-960d-286728e81afa",
+      "name": "Lady of Luminosity - Starter",
+      "riftbound_id": "ogs-021-024",
+      "tcgplayer_id": "653156",
+      "public_code": "OGS-021/024",
+      "collector_number": 21,
+      "attributes": {
+        "energy": null,
+        "might": null,
+        "power": null
+      },
+      "classification": {
+        "type": "Legend",
+        "supertype": "Champion",
+        "rarity": "Rare",
+        "domain": [
+          "Mind",
+          "Order"
+        ]
+      },
+      "text": {
+        "rich": "<p>When you play a spell that costs :rb_energy_5: or more, draw 1.</p>",
+        "plain": "When you play a spell that costs :rb_energy_5: or more, draw 1."
+      },
+      "set": {
+        "set_id": "OGS",
+        "label": "Proving Grounds"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/44885d811b70621b188d9813b2b10b5cff1b81e6-744x1039.png",
+        "artist": "Grafit Studio/Maki Planas Mata",
+        "accessibility_text": "Riftbound Legend: Lady of Luminosity - Starter. When you play a spell that costs [5] or more, draw 1."
+      },
+      "tags": [
+        "Lux"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Lady of Luminosity  Starter",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      }
+    },
+    {
+      "id": "72379165-4e6a-42a0-be85-b60f4e9e491b",
+      "name": "Incinerate",
+      "riftbound_id": "ogs-003-024",
+      "tcgplayer_id": "653138",
+      "public_code": "OGS-003/024",
+      "collector_number": 3,
+      "attributes": {
+        "energy": 2,
+        "might": null,
+        "power": null
+      },
+      "classification": {
+        "type": "Spell",
+        "supertype": null,
+        "rarity": "Common",
+        "domain": [
+          "Fury"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Action]_ (Play on your turn or in showdowns.)_<br />Deal 2 to a unit at a battlefield.</p>",
+        "plain": "[Action]_ (Play on your turn or in showdowns.)_Deal 2 to a unit at a battlefield."
+      },
+      "set": {
+        "set_id": "OGS",
+        "label": "Proving Grounds"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/46e4eaada1412f9b6c24751bdb3932c6a51e905f-744x1039.png",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Incinerate. [Action] (Play on your turn or in showdowns.)\nDeal 2 to a unit at a battlefield."
+      },
+      "tags": [],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Incinerate",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      }
+    }
+  ]
+}

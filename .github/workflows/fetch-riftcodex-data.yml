@@ -50,14 +50,17 @@ jobs:
                   
                   cards = response.json()
                   
-                  if cards:
+                  if cards and (isinstance(cards, dict) and cards.get('items') or isinstance(cards, list)):
                       # Save individual set file
                       with open(f'riftcodex-viewer/data/{set_code}.json', 'w') as f:
                           json.dump(cards, f, indent=2)
                       
                       all_sets_data[set_code] = cards
                       successful_sets.append(set_code)
-                      print(f'✓ Successfully fetched {len(cards)} cards from {set_code}')
+                      
+                      # Count actual cards (handle both dict with items and plain list)
+                      card_count = len(cards.get('items', [])) if isinstance(cards, dict) else len(cards)
+                      print(f'✓ Successfully fetched {card_count} cards from {set_code}')
                   else:
                       print(f'⚠ No cards found for {set_code}')
                       failed_sets.append(set_code)

@@ -121,6 +121,7 @@
             display: flex;
             gap: 10px;
             align-items: center;
+            position: relative;
         }
 
         .filter-group label {
@@ -129,13 +130,66 @@
             font-size: 14px;
         }
 
-        .filter-group select {
+        .filter-dropdown {
             padding: 10px 15px;
             border: 2px solid #dee2e6;
             border-radius: 6px;
             font-size: 14px;
             background: white;
             cursor: pointer;
+            min-width: 150px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .filter-dropdown:hover {
+            border-color: #667eea;
+        }
+
+        .filter-dropdown::after {
+            content: '▼';
+            font-size: 10px;
+            margin-left: 8px;
+        }
+
+        .filter-menu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            margin-top: 5px;
+            background: white;
+            border: 2px solid #dee2e6;
+            border-radius: 6px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            display: none;
+            z-index: 1000;
+            min-width: 200px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .filter-menu.show {
+            display: block;
+        }
+
+        .filter-option {
+            padding: 8px 12px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: background 0.2s;
+        }
+
+        .filter-option:hover {
+            background: rgba(102,126,234,0.1);
+        }
+
+        .filter-option input[type="checkbox"] {
+            cursor: pointer;
+            width: 16px;
+            height: 16px;
         }
 
         .loading {
@@ -427,15 +481,17 @@
             </div>
             <div class="filter-group">
                 <label>Rarity:</label>
-                <select id="rarityFilter">
-                    <option value="">All Rarities</option>
-                </select>
+                <div class="filter-dropdown" id="rarityDropdown">
+                    <span id="rarityLabel">All Rarities</span>
+                </div>
+                <div class="filter-menu" id="rarityMenu"></div>
             </div>
             <div class="filter-group">
                 <label>Type:</label>
-                <select id="typeFilter">
-                    <option value="">All Types</option>
-                </select>
+                <div class="filter-dropdown" id="typeDropdown">
+                    <span id="typeLabel">All Types</span>
+                </div>
+                <div class="filter-menu" id="typeMenu"></div>
             </div>
         </div>
 
@@ -530,21 +586,90 @@
                 });
             });
 
-            const rarityFilter = document.getElementById('rarityFilter');
+            const rarityMenu = document.getElementById('rarityMenu');
+            rarityMenu.innerHTML = '';
             [...rarities].sort().forEach(rarity => {
-                const option = document.createElement('option');
-                option.value = rarity;
-                option.textContent = rarity;
-                rarityFilter.appendChild(option);
+                const option = document.createElement('div');
+                option.className = 'filter-option';
+                option.innerHTML = `
+                    <input type="checkbox" value="${rarity}" class="rarity-checkbox">
+                    <span>${rarity}</span>
+                `;
+                rarityMenu.appendChild(option);
+                
+                const checkbox = option.querySelector('input');
+                checkbox.addEventListener('change', () => {
+                    updateFilterLabel('rarity');
+                    displayCards();
+                });
             });
 
-            const typeFilter = document.getElementById('typeFilter');
+            const typeMenu = document.getElementById('typeMenu');
+            typeMenu.innerHTML = '';
             [...types].sort().forEach(type => {
-                const option = document.createElement('option');
-                option.value = type;
-                option.textContent = type;
-                typeFilter.appendChild(option);
+                const option = document.createElement('div');
+                option.className = 'filter-option';
+                option.innerHTML = `
+                    <input type="checkbox" value="${type}" class="type-checkbox">
+                    <span>${type}</span>
+                `;
+                typeMenu.appendChild(option);
+                
+                const checkbox = option.querySelector('input');
+                checkbox.addEventListener('change', () => {
+                    updateFilterLabel('type');
+                    displayCards();
+                });
             });
+
+            // Setup dropdown toggles
+            document.getElementById('rarityDropdown').addEventListener('click', (e) => {
+                e.stopPropagation();
+                const menu = document.getElementById('rarityMenu');
+                menu.classList.toggle('show');
+                document.getElementById('typeMenu').classList.remove('show');
+            });
+
+            document.getElementById('typeDropdown').addEventListener('click', (e) => {
+                e.stopPropagation();
+                const menu = document.getElementById('typeMenu');
+                menu.classList.toggle('show');
+                document.getElementById('rarityMenu').classList.remove('show');
+            });
+
+            // Close dropdowns when clicking outside
+            document.addEventListener('click', () => {
+                document.getElementById('rarityMenu').classList.remove('show');
+                document.getElementById('typeMenu').classList.remove('show');
+            });
+
+            // Prevent dropdown from closing when clicking inside
+            document.getElementById('rarityMenu').addEventListener('click', (e) => e.stopPropagation());
+            document.getElementById('typeMenu').addEventListener('click', (e) => e.stopPropagation());
+        }
+
+        function updateFilterLabel(filterType) {
+            if (filterType === 'rarity') {
+                const selected = Array.from(document.querySelectorAll('.rarity-checkbox:checked'));
+                const label = document.getElementById('rarityLabel');
+                if (selected.length === 0) {
+                    label.textContent = 'All Rarities';
+                } else if (selected.length === 1) {
+                    label.textContent = selected[0].value;
+                } else {
+                    label.textContent = `${selected.length} selected`;
+                }
+            } else {
+                const selected = Array.from(document.querySelectorAll('.type-checkbox:checked'));
+                const label = document.getElementById('typeLabel');
+                if (selected.length === 0) {
+                    label.textContent = 'All Types';
+                } else if (selected.length === 1) {
+                    label.textContent = selected[0].value;
+                } else {
+                    label.textContent = `${selected.length} selected`;
+                }
+            }
         }
 
         function getFilteredCards() {
@@ -559,8 +684,11 @@
             }
 
             const searchTerm = document.getElementById('searchInput').value.toLowerCase();
-            const rarityFilter = document.getElementById('rarityFilter').value;
-            const typeFilter = document.getElementById('typeFilter').value;
+            
+            const selectedRarities = Array.from(document.querySelectorAll('.rarity-checkbox:checked'))
+                .map(cb => cb.value);
+            const selectedTypes = Array.from(document.querySelectorAll('.type-checkbox:checked'))
+                .map(cb => cb.value);
 
             return cards.filter(card => {
                 const matchesSearch = !searchTerm || 
@@ -568,8 +696,10 @@
                     card.text?.plain?.toLowerCase().includes(searchTerm) ||
                     card.classification?.type?.toLowerCase().includes(searchTerm);
 
-                const matchesRarity = !rarityFilter || card.classification?.rarity === rarityFilter;
-                const matchesType = !typeFilter || card.classification?.type === typeFilter;
+                const matchesRarity = selectedRarities.length === 0 || 
+                    selectedRarities.includes(card.classification?.rarity);
+                const matchesType = selectedTypes.length === 0 || 
+                    selectedTypes.includes(card.classification?.type);
 
                 return matchesSearch && matchesRarity && matchesType;
             });
@@ -668,8 +798,6 @@
         }
 
         document.getElementById('searchInput').addEventListener('input', displayCards);
-        document.getElementById('rarityFilter').addEventListener('change', displayCards);
-        document.getElementById('typeFilter').addEventListener('change', displayCards);
 
         init();
     </script>

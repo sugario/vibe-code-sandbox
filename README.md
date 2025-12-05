@@ -24,4 +24,5 @@ Choose a project to explore:
 
 - [TCG Cards Proxy 🔗](tcg-cards-proxy-to-print/index.html)
 - [Nemesis Draft System 🔗](nemesis-draft/index.html)
-- [Blod Bowl 2025 - Team Management 🔗](bb-2025-team-management/index.html)
+- [Blood Bowl 2025 - Team Management 🔗](bb-2025-team-management/index.html)
+- [Riftcodex Viewer 🔗](riftcodex-viewer/index.html)

@@ -1,0 +1,96 @@
+name: Fetch Riftcodex Card Data
+
+on:
+  workflow_dispatch: # Manual trigger only
+
+jobs:
+  fetch-cards:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies
+        run: |
+          pip install requests
+          
+      - name: Fetch card data from Riftcodex
+        run: |
+          python << 'EOF'
+          import requests
+          import json
+          import os
+          from datetime import datetime
+          
+          # List of set codes to fetch
+          sets = ['OGN', 'OGS', 'SFD']
+          
+          # Create data directory if it doesn't exist
+          os.makedirs('riftcodex-viewer/data', exist_ok=True)
+          
+          all_sets_data = {}
+          successful_sets = []
+          failed_sets = []
+          
+          for set_code in sets:
+              try:
+                  url = f'https://api.riftcodex.com/cards?set={set_code}'
+                  response = requests.get(url, timeout=30)
+                  response.raise_for_status()
+                  
+                  cards = response.json()
+                  
+                  if cards:
+                      # Save individual set file
+                      with open(f'riftcodex-viewer/data/{set_code}.json', 'w') as f:
+                          json.dump(cards, f, indent=2)
+                      
+                      all_sets_data[set_code] = cards
+                      successful_sets.append(set_code)
+                      print(f'✓ Successfully fetched {len(cards)} cards from {set_code}')
+                  else:
+                      print(f'⚠ No cards found for {set_code}')
+                      failed_sets.append(set_code)
+              
+              except Exception as e:
+                  print(f'✗ Failed to fetch {set_code}: {str(e)}')
+                  failed_sets.append(set_code)
+          
+          # Save combined data
+          with open('riftcodex-viewer/data/all-sets.json', 'w') as f:
+              json.dump(all_sets_data, f, indent=2)
+          
+          # Save metadata
+          metadata = {
+              'last_updated': datetime.utcnow().isoformat() + 'Z',
+              'successful_sets': successful_sets,
+              'failed_sets': failed_sets,
+              'total_sets': len(successful_sets),
+              'sets_available': successful_sets
+          }
+          
+          with open('riftcodex-viewer/data/metadata.json', 'w') as f:
+              json.dump(metadata, f, indent=2)
+          
+          print(f'\n✓ Successfully fetched {len(successful_sets)} sets')
+          print(f'  Sets: {", ".join(successful_sets)}')
+          if failed_sets:
+              print(f'✗ Failed sets: {", ".join(failed_sets)}')
+          
+          EOF
+          
+      - name: Commit and push if changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add riftcodex-viewer/data/
+          git diff --staged --quiet || git commit -m "Update Riftcodex card data - $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

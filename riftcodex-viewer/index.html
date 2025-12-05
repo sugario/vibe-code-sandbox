@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riftcodex Card Viewer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 25px 70px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            font-weight: 800;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .update-info {
+            background: rgba(255,255,255,0.15);
+            padding: 10px 20px;
+            border-radius: 8px;
+            margin-top: 15px;
+            font-size: 0.9em;
+            display: inline-block;
+        }
+
+        .tabs {
+            display: flex;
+            background: #f8f9fa;
+            border-bottom: 3px solid #e9ecef;
+            overflow-x: auto;
+            padding: 0 20px;
+        }
+
+        .tab {
+            padding: 18px 35px;
+            cursor: pointer;
+            border: none;
+            background: transparent;
+            font-size: 16px;
+            font-weight: 600;
+            color: #6c757d;
+            transition: all 0.3s;
+            border-bottom: 3px solid transparent;
+            margin-bottom: -3px;
+            white-space: nowrap;
+        }
+
+        .tab:hover {
+            color: #667eea;
+            background: rgba(102,126,234,0.05);
+        }
+
+        .tab.active {
+            color: #667eea;
+            border-bottom-color: #667eea;
+            background: white;
+        }
+
+        .controls {
+            padding: 25px 30px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e9ecef;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .search-box {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 12px 18px;
+            font-size: 15px;
+            border: 2px solid #dee2e6;
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102,126,234,0.1);
+        }
+
+        .filter-group {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .filter-group label {
+            font-weight: 600;
+            color: #495057;
+            font-size: 14px;
+        }
+
+        .filter-group select {
+            padding: 10px 15px;
+            border: 2px solid #dee2e6;
+            border-radius: 6px;
+            font-size: 14px;
+            background: white;
+            cursor: pointer;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 60px;
+            font-size: 20px;
+            color: #667eea;
+        }
+
+        .error {
+            background: #f8d7da;
+            border: 2px solid #f5c6cb;
+            color: #721c24;
+            padding: 25px;
+            margin: 30px;
+            border-radius: 10px;
+            font-size: 15px;
+        }
+
+        .stats-bar {
+            background: white;
+            padding: 20px 30px;
+            border-bottom: 2px solid #e9ecef;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .stats-left {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 28px;
+            font-weight: 700;
+            color: #667eea;
+        }
+
+        .stat-label {
+            font-size: 13px;
+            color: #6c757d;
+            margin-top: 3px;
+            font-weight: 500;
+        }
+
+        .view-toggle {
+            display: flex;
+            gap: 8px;
+            background: #f8f9fa;
+            padding: 5px;
+            border-radius: 8px;
+        }
+
+        .view-btn {
+            padding: 8px 16px;
+            border: none;
+            background: transparent;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            color: #6c757d;
+            transition: all 0.2s;
+        }
+
+        .view-btn.active {
+            background: white;
+            color: #667eea;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .cards-container {
+            padding: 30px;
+            display: grid;
+            gap: 25px;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        }
+
+        .cards-container.list-view {
+            grid-template-columns: 1fr;
+        }
+
+        .card {
+            background: white;
+            border: 2px solid #e9ecef;
+            border-radius: 14px;
+            overflow: hidden;
+            transition: all 0.3s;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .cards-container.list-view .card {
+            flex-direction: row;
+            max-height: 200px;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 35px rgba(102,126,234,0.25);
+            border-color: #667eea;
+        }
+
+        .card-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        }
+
+        .cards-container.list-view .card-image {
+            width: 180px;
+            height: 100%;
+        }
+
+        .card-info {
+            padding: 18px;
+            flex: 1;
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 10px;
+        }
+
+        .card-name {
+            font-size: 19px;
+            font-weight: 700;
+            color: #2c3e50;
+            flex: 1;
+        }
+
+        .card-cost {
+            font-size: 24px;
+            font-weight: 800;
+            color: #667eea;
+            background: rgba(102,126,234,0.1);
+            padding: 4px 12px;
+            border-radius: 8px;
+            margin-left: 10px;
+        }
+
+        .card-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 12px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .rarity-common { background: #95a5a6; color: white; }
+        .rarity-uncommon { background: #3498db; color: white; }
+        .rarity-rare { background: #f39c12; color: white; }
+        .rarity-epic { background: #9b59b6; color: white; }
+        .rarity-legendary { background: #e74c3c; color: white; }
+        .rarity-mythic { background: linear-gradient(135deg, #ff6b6b, #feca57); color: white; }
+
+        .type-badge { background: #6c757d; color: white; }
+        .faction-badge { background: #17a2b8; color: white; }
+
+        .card-details {
+            font-size: 14px;
+            color: #495057;
+            line-height: 1.6;
+        }
+
+        .card-detail {
+            margin: 6px 0;
+        }
+
+        .card-detail strong {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+
+        .card-description {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid #e9ecef;
+            font-size: 13px;
+            line-height: 1.5;
+            color: #6c757d;
+            font-style: italic;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 80px 30px;
+            color: #6c757d;
+        }
+
+        .empty-state-icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+            opacity: 0.3;
+        }
+
+        .empty-state h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #495057;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .tabs {
+                padding: 0 10px;
+            }
+
+            .tab {
+                padding: 15px 20px;
+                font-size: 14px;
+            }
+
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .stats-bar {
+                flex-direction: column;
+            }
+
+            .cards-container.list-view .card {
+                flex-direction: column;
+                max-height: none;
+            }
+
+            .cards-container.list-view .card-image {
+                width: 100%;
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎴 Riftcodex Card Viewer</h1>
+            <p>Browse Riftbound cards from all available sets</p>
+            <div class="update-info" id="updateInfo">Loading...</div>
+        </div>
+
+        <div class="tabs" id="tabsContainer"></div>
+
+        <div class="controls">
+            <div class="search-box">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="🔍 Search cards by name, description, or type..."
+                />
+            </div>
+            <div class="filter-group">
+                <label>Rarity:</label>
+                <select id="rarityFilter">
+                    <option value="">All Rarities</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Type:</label>
+                <select id="typeFilter">
+                    <option value="">All Types</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="stats-bar" id="statsBar"></div>
+
+        <div id="content">
+            <div class="loading">⏳ Loading card data...</div>
+        </div>
+    </div>
+
+    <script>
+        let allSetsData = {};
+        let currentSet = 'ALL';
+        let filteredCards = [];
+        let viewMode = 'grid';
+
+        async function init() {
+            try {
+                const metaResponse = await fetch('data/metadata.json');
+                const metadata = await metaResponse.json();
+                
+                document.getElementById('updateInfo').textContent = 
+                    `Last updated: ${new Date(metadata.last_updated).toLocaleString()}`;
+
+                const dataResponse = await fetch('data/all-sets.json');
+                allSetsData = await dataResponse.json();
+
+                createTabs(metadata.sets_available || Object.keys(allSetsData));
+                populateFilters();
+                displayCards();
+            } catch (error) {
+                document.getElementById('content').innerHTML = `
+                    <div class="error">
+                        <strong>Error loading card data:</strong> ${error.message}<br><br>
+                        Make sure the GitHub Action has run and generated the data files.
+                    </div>
+                `;
+            }
+        }
+
+        function createTabs(sets) {
+            const tabsContainer = document.getElementById('tabsContainer');
+            
+            const allTab = document.createElement('button');
+            allTab.className = 'tab active';
+            allTab.textContent = `All Sets (${Object.keys(allSetsData).length})`;
+            allTab.onclick = () => switchSet('ALL');
+            tabsContainer.appendChild(allTab);
+
+            sets.forEach(setCode => {
+                const tab = document.createElement('button');
+                tab.className = 'tab';
+                const count = allSetsData[setCode]?.length || 0;
+                tab.textContent = `${setCode} (${count})`;
+                tab.onclick = () => switchSet(setCode);
+                tabsContainer.appendChild(tab);
+            });
+        }
+
+        function switchSet(setCode) {
+            currentSet = setCode;
+            
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            event.target.classList.add('active');
+
+            displayCards();
+        }
+
+        function populateFilters() {
+            const rarities = new Set();
+            const types = new Set();
+
+            Object.values(allSetsData).flat().forEach(card => {
+                if (card.rarity) rarities.add(card.rarity);
+                if (card.type) types.add(card.type);
+            });
+
+            const rarityFilter = document.getElementById('rarityFilter');
+            [...rarities].sort().forEach(rarity => {
+                const option = document.createElement('option');
+                option.value = rarity;
+                option.textContent = rarity;
+                rarityFilter.appendChild(option);
+            });
+
+            const typeFilter = document.getElementById('typeFilter');
+            [...types].sort().forEach(type => {
+                const option = document.createElement('option');
+                option.value = type;
+                option.textContent = type;
+                typeFilter.appendChild(option);
+            });
+        }
+
+        function getFilteredCards() {
+            let cards = currentSet === 'ALL' 
+                ? Object.values(allSetsData).flat()
+                : allSetsData[currentSet] || [];
+
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const rarityFilter = document.getElementById('rarityFilter').value;
+            const typeFilter = document.getElementById('typeFilter').value;
+
+            return cards.filter(card => {
+                const matchesSearch = !searchTerm || 
+                    card.name?.toLowerCase().includes(searchTerm) ||
+                    card.description?.toLowerCase().includes(searchTerm) ||
+                    card.type?.toLowerCase().includes(searchTerm);
+
+                const matchesRarity = !rarityFilter || card.rarity === rarityFilter;
+                const matchesType = !typeFilter || card.type === typeFilter;
+
+                return matchesSearch && matchesRarity && matchesType;
+            });
+        }
+
+        function displayCards() {
+            filteredCards = getFilteredCards();
+            
+            const statsBar = document.getElementById('statsBar');
+            const content = document.getElementById('content');
+
+            const rarities = {};
+            filteredCards.forEach(card => {
+                if (card.rarity) {
+                    rarities[card.rarity] = (rarities[card.rarity] || 0) + 1;
+                }
+            });
+
+            statsBar.innerHTML = `
+                <div class="stats-left">
+                    <div class="stat">
+                        <div class="stat-value">${filteredCards.length}</div>
+                        <div class="stat-label">Cards Showing</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">${currentSet}</div>
+                        <div class="stat-label">Current Set</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">${Object.keys(rarities).length}</div>
+                        <div class="stat-label">Rarities</div>
+                    </div>
+                </div>
+                <div class="view-toggle">
+                    <button class="view-btn ${viewMode === 'grid' ? 'active' : ''}" onclick="setViewMode('grid')">
+                        Grid
+                    </button>
+                    <button class="view-btn ${viewMode === 'list' ? 'active' : ''}" onclick="setViewMode('list')">
+                        List
+                    </button>
+                </div>
+            `;
+
+            if (filteredCards.length === 0) {
+                content.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">🔍</div>
+                        <h3>No cards found</h3>
+                        <p>Try adjusting your search or filters</p>
+                    </div>
+                `;
+                return;
+            }
+
+            const cardsHTML = filteredCards.map(card => {
+                const rarityClass = `rarity-${(card.rarity || 'common').toLowerCase()}`;
+                
+                return `
+                    <div class="card">
+                        <img 
+                            class="card-image" 
+                            src="${card.art?.fullUrl || card.art?.thumbnailUrl || 'https://via.placeholder.com/280x400?text=No+Image'}" 
+                            alt="${card.name || 'Unknown Card'}"
+                            onerror="this.src='https://via.placeholder.com/280x400?text=Image+Unavailable'"
+                        />
+                        <div class="card-info">
+                            <div class="card-header">
+                                <div class="card-name">${card.name || 'Unknown Card'}</div>
+                                ${card.cost !== undefined ? `<div class="card-cost">${card.cost}</div>` : ''}
+                            </div>
+                            <div class="card-badges">
+                                ${card.rarity ? `<span class="badge ${rarityClass}">${card.rarity}</span>` : ''}
+                                ${card.type ? `<span class="badge type-badge">${card.type}</span>` : ''}
+                                ${card.faction ? `<span class="badge faction-badge">${card.faction}</span>` : ''}
+                            </div>
+                            <div class="card-details">
+                                ${card.stats?.power !== undefined ? `<div class="card-detail"><strong>Power:</strong> ${card.stats.power}</div>` : ''}
+                                ${card.stats?.might !== undefined ? `<div class="card-detail"><strong>Might:</strong> ${card.stats.might}</div>` : ''}
+                                ${card.stats?.health !== undefined ? `<div class="card-detail"><strong>Health:</strong> ${card.stats.health}</div>` : ''}
+                                ${card.description ? `<div class="card-description">${card.description}</div>` : ''}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            content.innerHTML = `<div class="cards-container ${viewMode === 'list' ? 'list-view' : ''}">${cardsHTML}</div>`;
+        }
+
+        function setViewMode(mode) {
+            viewMode = mode;
+            displayCards();
+        }
+
+        document.getElementById('searchInput').addEventListener('input', displayCards);
+        document.getElementById('rarityFilter').addEventListener('change', displayCards);
+        document.getElementById('typeFilter').addEventListener('change', displayCards);
+
+        init();
+    </script>
+</body>
+</html>

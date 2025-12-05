@@ -255,9 +255,19 @@
             background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
         }
 
+        .card.landscape .card-image {
+            height: 200px;
+            object-fit: contain;
+        }
+
         .cards-container.list-view .card-image {
             width: 180px;
             height: 100%;
+        }
+
+        .cards-container.list-view .card.landscape .card-image {
+            width: 280px;
+            height: auto;
         }
 
         .card-info {
@@ -616,9 +626,10 @@
                 const rarity = card.classification?.rarity || 'common';
                 const rarityClass = `rarity-${rarity.toLowerCase()}`;
                 const domains = card.classification?.domain || [];
+                const orientation = card.orientation || 'portrait';
                 
                 return `
-                    <div class="card">
+                    <div class="card ${orientation}">
                         <img 
                             class="card-image" 
                             src="${card.media?.image_url || 'https://via.placeholder.com/280x400?text=No+Image'}" 

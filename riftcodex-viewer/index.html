@@ -468,14 +468,18 @@
             
             const allTab = document.createElement('button');
             allTab.className = 'tab active';
-            allTab.textContent = `All Sets (${Object.keys(allSetsData).length})`;
+            let totalCards = 0;
+            Object.values(allSetsData).forEach(setData => {
+                totalCards += (setData.items || []).length;
+            });
+            allTab.textContent = `All Sets (${totalCards})`;
             allTab.onclick = () => switchSet('ALL');
             tabsContainer.appendChild(allTab);
 
             sets.forEach(setCode => {
                 const tab = document.createElement('button');
                 tab.className = 'tab';
-                const count = allSetsData[setCode]?.length || 0;
+                const count = allSetsData[setCode]?.items?.length || 0;
                 tab.textContent = `${setCode} (${count})`;
                 tab.onclick = () => switchSet(setCode);
                 tabsContainer.appendChild(tab);
@@ -497,9 +501,12 @@
             const rarities = new Set();
             const types = new Set();
 
-            Object.values(allSetsData).flat().forEach(card => {
-                if (card.rarity) rarities.add(card.rarity);
-                if (card.type) types.add(card.type);
+            Object.values(allSetsData).forEach(setData => {
+                const cards = setData.items || [];
+                cards.forEach(card => {
+                    if (card.classification?.rarity) rarities.add(card.classification.rarity);
+                    if (card.classification?.type) types.add(card.classification.type);
+                });
             });
 
             const rarityFilter = document.getElementById('rarityFilter');
@@ -520,9 +527,15 @@
         }
 
         function getFilteredCards() {
-            let cards = currentSet === 'ALL' 
-                ? Object.values(allSetsData).flat()
-                : allSetsData[currentSet] || [];
+            let cards = [];
+            
+            if (currentSet === 'ALL') {
+                Object.values(allSetsData).forEach(setData => {
+                    cards = cards.concat(setData.items || []);
+                });
+            } else {
+                cards = allSetsData[currentSet]?.items || [];
+            }
 
             const searchTerm = document.getElementById('searchInput').value.toLowerCase();
             const rarityFilter = document.getElementById('rarityFilter').value;
@@ -531,11 +544,11 @@
             return cards.filter(card => {
                 const matchesSearch = !searchTerm || 
                     card.name?.toLowerCase().includes(searchTerm) ||
-                    card.description?.toLowerCase().includes(searchTerm) ||
-                    card.type?.toLowerCase().includes(searchTerm);
+                    card.text?.plain?.toLowerCase().includes(searchTerm) ||
+                    card.classification?.type?.toLowerCase().includes(searchTerm);
 
-                const matchesRarity = !rarityFilter || card.rarity === rarityFilter;
-                const matchesType = !typeFilter || card.type === typeFilter;
+                const matchesRarity = !rarityFilter || card.classification?.rarity === rarityFilter;
+                const matchesType = !typeFilter || card.classification?.type === typeFilter;
 
                 return matchesSearch && matchesRarity && matchesType;
             });
@@ -549,8 +562,9 @@
 
             const rarities = {};
             filteredCards.forEach(card => {
-                if (card.rarity) {
-                    rarities[card.rarity] = (rarities[card.rarity] || 0) + 1;
+                if (card.classification?.rarity) {
+                    const rarity = card.classification.rarity;
+                    rarities[rarity] = (rarities[rarity] || 0) + 1;
                 }
             });
 
@@ -591,31 +605,32 @@
             }
 
             const cardsHTML = filteredCards.map(card => {
-                const rarityClass = `rarity-${(card.rarity || 'common').toLowerCase()}`;
+                const rarity = card.classification?.rarity || 'common';
+                const rarityClass = `rarity-${rarity.toLowerCase()}`;
+                const domains = card.classification?.domain || [];
                 
                 return `
                     <div class="card">
                         <img 
                             class="card-image" 
-                            src="${card.art?.fullUrl || card.art?.thumbnailUrl || 'https://via.placeholder.com/280x400?text=No+Image'}" 
+                            src="${card.media?.image_url || 'https://via.placeholder.com/280x400?text=No+Image'}" 
                             alt="${card.name || 'Unknown Card'}"
                             onerror="this.src='https://via.placeholder.com/280x400?text=Image+Unavailable'"
                         />
                         <div class="card-info">
                             <div class="card-header">
                                 <div class="card-name">${card.name || 'Unknown Card'}</div>
-                                ${card.cost !== undefined ? `<div class="card-cost">${card.cost}</div>` : ''}
+                                ${card.attributes?.energy !== undefined && card.attributes.energy !== null ? `<div class="card-cost">${card.attributes.energy}</div>` : ''}
                             </div>
                             <div class="card-badges">
-                                ${card.rarity ? `<span class="badge ${rarityClass}">${card.rarity}</span>` : ''}
-                                ${card.type ? `<span class="badge type-badge">${card.type}</span>` : ''}
-                                ${card.faction ? `<span class="badge faction-badge">${card.faction}</span>` : ''}
+                                ${card.classification?.rarity ? `<span class="badge ${rarityClass}">${rarity}</span>` : ''}
+                                ${card.classification?.type ? `<span class="badge type-badge">${card.classification.type}</span>` : ''}
+                                ${domains.length > 0 ? `<span class="badge faction-badge">${domains.join(', ')}</span>` : ''}
                             </div>
                             <div class="card-details">
-                                ${card.stats?.power !== undefined ? `<div class="card-detail"><strong>Power:</strong> ${card.stats.power}</div>` : ''}
-                                ${card.stats?.might !== undefined ? `<div class="card-detail"><strong>Might:</strong> ${card.stats.might}</div>` : ''}
-                                ${card.stats?.health !== undefined ? `<div class="card-detail"><strong>Health:</strong> ${card.stats.health}</div>` : ''}
-                                ${card.description ? `<div class="card-description">${card.description}</div>` : ''}
+                                ${card.attributes?.power !== undefined && card.attributes.power !== null ? `<div class="card-detail"><strong>Power:</strong> ${card.attributes.power}</div>` : ''}
+                                ${card.attributes?.might !== undefined && card.attributes.might !== null ? `<div class="card-detail"><strong>Might:</strong> ${card.attributes.might}</div>` : ''}
+                                ${card.text?.plain ? `<div class="card-description">${card.text.plain}</div>` : ''}
                             </div>
                         </div>
                     </div>

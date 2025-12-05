@@ -492,7 +492,15 @@
             document.querySelectorAll('.tab').forEach(tab => {
                 tab.classList.remove('active');
             });
-            event.target.classList.add('active');
+            
+            // Find and activate the clicked tab
+            const tabs = document.querySelectorAll('.tab');
+            tabs.forEach(tab => {
+                if ((setCode === 'ALL' && tab.textContent.startsWith('All Sets')) ||
+                    (setCode !== 'ALL' && tab.textContent.startsWith(setCode))) {
+                    tab.classList.add('active');
+                }
+            });
 
             displayCards();
         }

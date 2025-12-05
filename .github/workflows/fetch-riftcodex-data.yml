@@ -44,23 +44,38 @@ jobs:
           
           for set_code in sets:
               try:
-                  url = f'https://api.riftcodex.com/cards?set={set_code}'
-                  response = requests.get(url, timeout=30)
-                  response.raise_for_status()
+                  all_cards = []
+                  page = 1
                   
-                  cards = response.json()
+                  while True:
+                      url = f'https://api.riftcodex.com/cards?set={set_code}&page={page}'
+                      response = requests.get(url, timeout=30)
+                      response.raise_for_status()
+                      
+                      data = response.json()
+                      
+                      if not data or not data.get('items'):
+                          break
+                      
+                      all_cards.extend(data['items'])
+                      print(f'  Fetched page {page}/{data.get("pages", "?")} ({len(data["items"])} cards) from {set_code}')
+                      
+                      # Check if there are more pages
+                      if page >= data.get('pages', 1):
+                          break
+                      
+                      page += 1
                   
-                  if cards and (isinstance(cards, dict) and cards.get('items') or isinstance(cards, list)):
-                      # Save individual set file
+                  if all_cards:
+                      # Save as items structure to match API format
+                      set_data = {'items': all_cards}
+                      
                       with open(f'riftcodex-viewer/data/{set_code}.json', 'w') as f:
-                          json.dump(cards, f, indent=2)
+                          json.dump(set_data, f, indent=2)
                       
-                      all_sets_data[set_code] = cards
+                      all_sets_data[set_code] = set_data
                       successful_sets.append(set_code)
-                      
-                      # Count actual cards (handle both dict with items and plain list)
-                      card_count = len(cards.get('items', [])) if isinstance(cards, dict) else len(cards)
-                      print(f'✓ Successfully fetched {card_count} cards from {set_code}')
+                      print(f'✓ Successfully fetched {len(all_cards)} total cards from {set_code}')
                   else:
                       print(f'⚠ No cards found for {set_code}')
                       failed_sets.append(set_code)

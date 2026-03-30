@@ -23,6 +23,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install requests
+          pip install cloudscraper
           
       - name: Fetch card data from Riftcodex
         run: |
@@ -31,6 +32,7 @@ jobs:
           import json
           import os
           from datetime import datetime
+          import cloudscraper
           
           # List of set codes to fetch
           sets = ['OGN', 'OGS', 'SFD', 'UNL']
@@ -48,13 +50,9 @@ jobs:
           
           print('Fetching all cards from API...')
           while True:
+              scraper = cloudscraper.create_scraper()
               url = f'https://api.riftcodex.com/cards?page={page}'
-              headers = {
-                  "User-Agent": "Mozilla/5.0",
-                  "Accept": "application/json",
-                  "Referer": "https://riftcodex.com/"
-              }
-              response = requests.get(url, headers=headers, timeout=30)
+              response = scraper.get(url, timeout=30)
               response.raise_for_status()
               
               data = response.json()

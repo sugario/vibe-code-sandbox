@@ -50,11 +50,11 @@ jobs:
           while True:
               url = f'https://api.riftcodex.com/cards?page={page}'
               headers = {
-                  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+                  "User-Agent": "Mozilla/5.0",
                   "Accept": "application/json",
                   "Referer": "https://riftcodex.com/"
               }
-              response = requests.get(url, headers, timeout=30)
+              response = requests.get(url, headers=headers, timeout=30)
               response.raise_for_status()
               
               data = response.json()

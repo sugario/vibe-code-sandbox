@@ -1,17 +1,19 @@
 {
-  "last_updated": "2026-07-18T09:19:44.982990Z",
+  "last_updated": "2026-07-19T11:30:01.604252Z",
   "successful_sets": [
     "OGN",
     "OGS",
     "SFD",
-    "UNL"
+    "UNL",
+    "VEN"
   ],
   "failed_sets": [],
-  "total_sets": 4,
+  "total_sets": 5,
   "sets_available": [
     "OGN",
     "OGS",
     "SFD",
-    "UNL"
+    "UNL",
+    "VEN"
   ]
 }

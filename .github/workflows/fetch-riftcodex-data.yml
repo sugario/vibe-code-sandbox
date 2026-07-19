@@ -35,7 +35,7 @@ jobs:
           import cloudscraper
           
           # List of set codes to fetch
-          sets = ['OGN', 'OGS', 'SFD', 'UNL']
+          sets = ['OGN', 'OGS', 'SFD', 'UNL', 'VEN']
           
           # Create data directory if it doesn't exist
           os.makedirs('riftcodex-viewer/data', exist_ok=True)

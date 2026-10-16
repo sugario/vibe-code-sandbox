@@ -1,10 +1,10 @@
 {
   "items": [
     {
-      "id": "69c4407c9288b1e85d94de89",
-      "name": "Vi - Piltover Enforcer (Overnumbered)",
-      "riftbound_id": "unl-229-219",
-      "tcgplayer_id": "685521",
+      "id": "69c4407c9288b1e85d94de8a",
+      "name": "Vi - Piltover Enforcer (Signature)",
+      "riftbound_id": "unl-229*-219",
+      "tcgplayer_id": "685522",
       "collector_number": 229,
       "attributes": {
         "energy": null,
@@ -30,7 +30,7 @@
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/08c48ad82381bb5830a0b413d7a2f25dd2b20d76-744x1039.png?accountingTag=RB",
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0febae9c611339d9ed65c7ebe43237b5ec42c9a3-744x1039.png?accountingTag=RB",
         "artist": "Jonathan Santoro",
         "accessibility_text": "Riftbound Legend: Piltover Enforcer. When you conquer, if you assigned 3 or more excess damage, you may exhaust me to ready a unit."
       },
@@ -39,10 +39,57 @@
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Vi Piltover Enforcer Overnumbered",
-        "updated_on": "2026-07-10T22:45:08.792663+00:00",
+        "clean_name": "Vi Piltover Enforcer Signature",
+        "updated_on": "2026-07-10T22:45:08.861364+00:00",
         "alternate_art": false,
-        "overnumbered": true,
+        "overnumbered": false,
+        "signature": true
+      },
+      "new": false
+    },
+    {
+      "id": "69c4407d9288b1e85d94de95",
+      "name": "Bewitching Spirit",
+      "riftbound_id": "unl-121-219",
+      "tcgplayer_id": "685592",
+      "collector_number": 121,
+      "attributes": {
+        "energy": 3,
+        "might": 2,
+        "power": null
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": null,
+        "rarity": "Common",
+        "domain": [
+          "Chaos"
+        ]
+      },
+      "text": {
+        "rich": "<p>When you play me, choose a player. They discard 1.</p>",
+        "plain": "When you play me, choose a player. They discard 1.",
+        "flavour": "Bandle Scout Rule 43: When a mysterious voice in the woods whispers for you to follow it, don't go alone! Your friends might want to see too!"
+      },
+      "set": {
+        "set_id": "UNL",
+        "label": "Unleashed"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a771917dea98b137c3f4a13e4967dccf9ee445e5-744x1039.png?accountingTag=RB",
+        "artist": "Wild Blue Studios",
+        "accessibility_text": "Riftbound Unit: Bewitching Spirit. When you play me, choose a player. They discard 1."
+      },
+      "tags": [
+        "Spirit",
+        "Shadow Isles"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Bewitching Spirit",
+        "updated_on": "2026-07-10T22:45:10.665063+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
         "signature": false
       },
       "new": false
@@ -502,10 +549,56 @@
       "new": false
     },
     {
-      "id": "69c4407c9288b1e85d94de8a",
-      "name": "Vi - Piltover Enforcer (Signature)",
-      "riftbound_id": "unl-229*-219",
-      "tcgplayer_id": "685522",
+      "id": "69c4407d9288b1e85d94de96",
+      "name": "Evershade Stalker",
+      "riftbound_id": "unl-123-219",
+      "tcgplayer_id": "685593",
+      "collector_number": 123,
+      "attributes": {
+        "energy": 3,
+        "might": 3,
+        "power": null
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": null,
+        "rarity": "Common",
+        "domain": [
+          "Chaos"
+        ]
+      },
+      "text": {
+        "rich": "<p>When you play me, discard 1, then draw 1.</p>",
+        "plain": "When you play me, discard 1, then draw 1.",
+        "flavour": "That's a LOT of eyes.\"\r\n - Common last words"
+      },
+      "set": {
+        "set_id": "UNL",
+        "label": "Unleashed"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d8fb687ecdb22d7497ac55a1be0db0ba33596b43-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Unit: Evershade Stalker. When you play me, discard 1, then draw 1."
+      },
+      "tags": [
+        "Shadow Isles"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Evershade Stalker",
+        "updated_on": "2026-07-10T22:45:10.731845+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": false
+    },
+    {
+      "id": "69c4407c9288b1e85d94de89",
+      "name": "Vi - Piltover Enforcer (Overnumbered)",
+      "riftbound_id": "unl-229-219",
+      "tcgplayer_id": "685521",
       "collector_number": 229,
       "attributes": {
         "energy": null,
@@ -531,7 +624,7 @@
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0febae9c611339d9ed65c7ebe43237b5ec42c9a3-744x1039.png?accountingTag=RB",
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/08c48ad82381bb5830a0b413d7a2f25dd2b20d76-744x1039.png?accountingTag=RB",
         "artist": "Jonathan Santoro",
         "accessibility_text": "Riftbound Legend: Piltover Enforcer. When you conquer, if you assigned 3 or more excess damage, you may exhaust me to ready a unit."
       },
@@ -540,57 +633,10 @@
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Vi Piltover Enforcer Signature",
-        "updated_on": "2026-07-10T22:45:08.861364+00:00",
+        "clean_name": "Vi Piltover Enforcer Overnumbered",
+        "updated_on": "2026-07-10T22:45:08.792663+00:00",
         "alternate_art": false,
-        "overnumbered": false,
-        "signature": true
-      },
-      "new": false
-    },
-    {
-      "id": "69c4407d9288b1e85d94de95",
-      "name": "Bewitching Spirit",
-      "riftbound_id": "unl-121-219",
-      "tcgplayer_id": "685592",
-      "collector_number": 121,
-      "attributes": {
-        "energy": 3,
-        "might": 2,
-        "power": null
-      },
-      "classification": {
-        "type": "Unit",
-        "supertype": null,
-        "rarity": "Common",
-        "domain": [
-          "Chaos"
-        ]
-      },
-      "text": {
-        "rich": "<p>When you play me, choose a player. They discard 1.</p>",
-        "plain": "When you play me, choose a player. They discard 1.",
-        "flavour": "Bandle Scout Rule 43: When a mysterious voice in the woods whispers for you to follow it, don't go alone! Your friends might want to see too!"
-      },
-      "set": {
-        "set_id": "UNL",
-        "label": "Unleashed"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a771917dea98b137c3f4a13e4967dccf9ee445e5-744x1039.png?accountingTag=RB",
-        "artist": "Wild Blue Studios",
-        "accessibility_text": "Riftbound Unit: Bewitching Spirit. When you play me, choose a player. They discard 1."
-      },
-      "tags": [
-        "Spirit",
-        "Shadow Isles"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": "Bewitching Spirit",
-        "updated_on": "2026-07-10T22:45:10.665063+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
+        "overnumbered": true,
         "signature": false
       },
       "new": false
@@ -1008,55 +1054,11 @@
       "new": false
     },
     {
-      "id": "69c43cd3c2f7428c5d24b4ee",
-      "name": "Bone Skewer",
-      "riftbound_id": "unl-139-219",
-      "tcgplayer_id": "685535",
-      "collector_number": 139,
-      "attributes": {
-        "energy": 2,
-        "might": null,
-        "power": 1
-      },
-      "classification": {
-        "type": "Spell",
-        "supertype": null,
-        "rarity": "Rare",
-        "domain": [
-          "Chaos"
-        ]
-      },
-      "text": {
-        "rich": "<p>[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)<br />Choose a battlefield. An opponent reveals their hand. You may choose a unit from it. They play that unit to that battlefield, ignoring any and all costs. When they do, [Stun] it. (It doesn't deal combat damage this turn.)</p>",
-        "plain": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)Choose a battlefield. An opponent reveals their hand. You may choose a unit from it. They play that unit to that battlefield, ignoring any and all costs. When they do, [Stun] it. (It doesn't deal combat damage this turn.)",
-        "flavour": null
-      },
-      "set": {
-        "set_id": "UNL",
-        "label": "Unleashed"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e06e3e3033640bc8a5bc98acd4e3a0925c6e2c9a-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Spell: Bone Skewer. [Hidden] (Hide now for [A] to react with later for [0].)\nChoose a battlefield. An opponent reveals their hand. You may choose a unit from it. They play that unit to that battlefield, ignoring any and all costs. When they do, [Stun] it. (It doesn't deal combat damage this turn.)"
-      },
-      "tags": [],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": "Bone Skewer",
-        "updated_on": "2026-07-10T22:45:09.477216+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": false
-    },
-    {
-      "id": "69c4407d9288b1e85d94dea0",
-      "name": "Rengar - Pridestalker (Overnumbered)",
-      "riftbound_id": "unl-227-219",
-      "tcgplayer_id": "685603",
-      "collector_number": 227,
+      "id": "69c4407d9288b1e85d94dea1",
+      "name": "Pyke - Bloodharbor Ripper (Overnumbered)",
+      "riftbound_id": "unl-228-219",
+      "tcgplayer_id": "685604",
+      "collector_number": 228,
       "attributes": {
         "energy": null,
         "might": null,
@@ -1068,12 +1070,12 @@
         "rarity": "Rare",
         "domain": [
           "Fury",
-          "Body"
+          "Chaos"
         ]
       },
       "text": {
-        "rich": "<p>When you play a unit, give a unit +1 :rb_might: this turn.</p>",
-        "plain": "When you play a unit, give a unit +1 :rb_might: this turn.",
+        "rich": "<p>:rb_energy_1:, :rb_exhaust:: Return a friendly unit at a battlefield to its owner's hand. Play a Gold gear token exhausted.</p>",
+        "plain": ":rb_energy_1:, :rb_exhaust:: Return a friendly unit at a battlefield to its owner's hand. Play a Gold gear token exhausted.",
         "flavour": null
       },
       "set": {
@@ -1081,19 +1083,66 @@
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1f80a016015ebc77bd3d23ce471e364d70698279-744x1039.png?accountingTag=RB",
-        "artist": "Duy Nguyen",
-        "accessibility_text": "Riftbound Legend: Pridestalker. When you play a unit, give a unit +1 [S] this turn."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b4095d98aff998fda5a08d4c32e97a2a66ccf1e6-744x1039.png?accountingTag=RB",
+        "artist": "Kindlejack",
+        "accessibility_text": "Riftbound Legend: Bloodharbor Ripper. [1], [T]: Return a friendly unit at a battlefield to its owner's hand. Play a Gold gear token exhausted."
       },
       "tags": [
-        "Rengar"
+        "Pyke"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Rengar Pridestalker Overnumbered",
-        "updated_on": "2026-07-10T22:45:11.335705+00:00",
+        "clean_name": "Pyke Bloodharbor Ripper Overnumbered",
+        "updated_on": "2026-07-10T22:45:11.387441+00:00",
         "alternate_art": false,
         "overnumbered": true,
+        "signature": false
+      },
+      "new": false
+    },
+    {
+      "id": "69c4407e9288b1e85d94deac",
+      "name": "Frisky Hunter",
+      "riftbound_id": "unl-033-219",
+      "tcgplayer_id": "685677",
+      "collector_number": 33,
+      "attributes": {
+        "energy": 4,
+        "might": 3,
+        "power": null
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": null,
+        "rarity": "Common",
+        "domain": [
+          "Calm"
+        ]
+      },
+      "text": {
+        "rich": "<p>When you play me, play a 1 :rb_might: Bird unit token with [Deflect] here. (Opponents must pay :rb_rune_rainbow: to choose it with a spell or ability.)</p>",
+        "plain": "When you play me, play a 1 :rb_might: Bird unit token with [Deflect] here. (Opponents must pay :rb_rune_rainbow: to choose it with a spell or ability.)",
+        "flavour": "Always following the scent of prey."
+      },
+      "set": {
+        "set_id": "UNL",
+        "label": "Unleashed"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6bf8978ca42fa50a60067e74364b3caf78b3e928-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Unit: Frisky Hunter. When you play me, play a 1 [S] Bird unit token with [Deflect] here. (Opponents must pay [A] to choose it with a spell or ability.)"
+      },
+      "tags": [
+        "Cat",
+        "Zaun"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Frisky Hunter",
+        "updated_on": "2026-07-10T22:45:12.483262+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
         "signature": false
       },
       "new": false
@@ -1566,11 +1615,55 @@
       "new": false
     },
     {
-      "id": "69c4407d9288b1e85d94dea1",
-      "name": "Pyke - Bloodharbor Ripper (Overnumbered)",
-      "riftbound_id": "unl-228-219",
-      "tcgplayer_id": "685604",
-      "collector_number": 228,
+      "id": "69c43cd3c2f7428c5d24b4ee",
+      "name": "Bone Skewer",
+      "riftbound_id": "unl-139-219",
+      "tcgplayer_id": "685535",
+      "collector_number": 139,
+      "attributes": {
+        "energy": 2,
+        "might": null,
+        "power": 1
+      },
+      "classification": {
+        "type": "Spell",
+        "supertype": null,
+        "rarity": "Rare",
+        "domain": [
+          "Chaos"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)<br />Choose a battlefield. An opponent reveals their hand. You may choose a unit from it. They play that unit to that battlefield, ignoring any and all costs. When they do, [Stun] it. (It doesn't deal combat damage this turn.)</p>",
+        "plain": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)Choose a battlefield. An opponent reveals their hand. You may choose a unit from it. They play that unit to that battlefield, ignoring any and all costs. When they do, [Stun] it. (It doesn't deal combat damage this turn.)",
+        "flavour": null
+      },
+      "set": {
+        "set_id": "UNL",
+        "label": "Unleashed"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e06e3e3033640bc8a5bc98acd4e3a0925c6e2c9a-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Bone Skewer. [Hidden] (Hide now for [A] to react with later for [0].)\nChoose a battlefield. An opponent reveals their hand. You may choose a unit from it. They play that unit to that battlefield, ignoring any and all costs. When they do, [Stun] it. (It doesn't deal combat damage this turn.)"
+      },
+      "tags": [],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Bone Skewer",
+        "updated_on": "2026-07-10T22:45:09.477216+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": false
+    },
+    {
+      "id": "69c4407d9288b1e85d94dea0",
+      "name": "Rengar - Pridestalker (Overnumbered)",
+      "riftbound_id": "unl-227-219",
+      "tcgplayer_id": "685603",
+      "collector_number": 227,
       "attributes": {
         "energy": null,
         "might": null,
@@ -1582,12 +1675,12 @@
         "rarity": "Rare",
         "domain": [
           "Fury",
-          "Chaos"
+          "Body"
         ]
       },
       "text": {
-        "rich": "<p>:rb_energy_1:, :rb_exhaust:: Return a friendly unit at a battlefield to its owner's hand. Play a Gold gear token exhausted.</p>",
-        "plain": ":rb_energy_1:, :rb_exhaust:: Return a friendly unit at a battlefield to its owner's hand. Play a Gold gear token exhausted.",
+        "rich": "<p>When you play a unit, give a unit +1 :rb_might: this turn.</p>",
+        "plain": "When you play a unit, give a unit +1 :rb_might: this turn.",
         "flavour": null
       },
       "set": {
@@ -1595,66 +1688,19 @@
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b4095d98aff998fda5a08d4c32e97a2a66ccf1e6-744x1039.png?accountingTag=RB",
-        "artist": "Kindlejack",
-        "accessibility_text": "Riftbound Legend: Bloodharbor Ripper. [1], [T]: Return a friendly unit at a battlefield to its owner's hand. Play a Gold gear token exhausted."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1f80a016015ebc77bd3d23ce471e364d70698279-744x1039.png?accountingTag=RB",
+        "artist": "Duy Nguyen",
+        "accessibility_text": "Riftbound Legend: Pridestalker. When you play a unit, give a unit +1 [S] this turn."
       },
       "tags": [
-        "Pyke"
+        "Rengar"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Pyke Bloodharbor Ripper Overnumbered",
-        "updated_on": "2026-07-10T22:45:11.387441+00:00",
+        "clean_name": "Rengar Pridestalker Overnumbered",
+        "updated_on": "2026-07-10T22:45:11.335705+00:00",
         "alternate_art": false,
         "overnumbered": true,
-        "signature": false
-      },
-      "new": false
-    },
-    {
-      "id": "69c43cd3c2f7428c5d24b4ed",
-      "name": "Enthralling Protector",
-      "riftbound_id": "unl-162-219",
-      "tcgplayer_id": "685534",
-      "collector_number": 162,
-      "attributes": {
-        "energy": 2,
-        "might": 2,
-        "power": null
-      },
-      "classification": {
-        "type": "Unit",
-        "supertype": null,
-        "rarity": "Uncommon",
-        "domain": [
-          "Order"
-        ]
-      },
-      "text": {
-        "rich": "<p>[Hunt] (When I conquer or hold, gain 1 XP.)<br />Spend 2 XP: [Buff] me. (Give me a +1 :rb_might: buff if I don't have one.)</p>",
-        "plain": "[Hunt] (When I conquer or hold, gain 1 XP.)Spend 2 XP: [Buff] me. (Give me a +1 :rb_might: buff if I don't have one.)",
-        "flavour": "Irresistible force indeed."
-      },
-      "set": {
-        "set_id": "UNL",
-        "label": "Unleashed"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3fdfe3bc7c7f81b99aa715bf54b52930ad41dcfa-744x1039.png?accountingTag=RB",
-        "artist": "Dao Trong Le",
-        "accessibility_text": "Riftbound Unit: Enthralling Protector. [Hunt] (When I conquer or hold, gain 1 XP.)\nSpend 2 XP: [Buff] me. (Give me a +1 [S] buff if I don't have one.)"
-      },
-      "tags": [
-        "Fae",
-        "Ionia"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": "Enthralling Protector",
-        "updated_on": "2026-07-10T22:45:09.421382+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
         "signature": false
       },
       "new": false
@@ -2080,91 +2126,46 @@
       "new": false
     },
     {
-      "id": "69c4407d9288b1e85d94de96",
-      "name": "Evershade Stalker",
-      "riftbound_id": "unl-123-219",
-      "tcgplayer_id": "685593",
-      "collector_number": 123,
+      "id": "69bff35758d0fbca04e93731",
+      "name": "Thrill of the Hunt",
+      "riftbound_id": "unl-184-219",
+      "tcgplayer_id": "685233",
+      "collector_number": 184,
       "attributes": {
-        "energy": 3,
-        "might": 3,
-        "power": null
+        "energy": 2,
+        "might": null,
+        "power": 1
       },
       "classification": {
-        "type": "Unit",
-        "supertype": null,
-        "rarity": "Common",
+        "type": "Spell",
+        "supertype": "Signature",
+        "rarity": "Epic",
         "domain": [
-          "Chaos"
+          "Fury",
+          "Body"
         ]
       },
       "text": {
-        "rich": "<p>When you play me, discard 1, then draw 1.</p>",
-        "plain": "When you play me, discard 1, then draw 1.",
-        "flavour": "That's a LOT of eyes.\"\r\n - Common last words"
+        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />Banish a friendly unit, then its owner plays it to any battlefield, ignoring its cost.</p>",
+        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)Banish a friendly unit, then its owner plays it to any battlefield, ignoring its cost.",
+        "flavour": "What a glorious hunt!\"\r\n \r\n- Rengar"
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d8fb687ecdb22d7497ac55a1be0db0ba33596b43-744x1039.png?accountingTag=RB",
-        "artist": "Six More Vodka",
-        "accessibility_text": "Riftbound Unit: Evershade Stalker. When you play me, discard 1, then draw 1."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2753c2b3ea4fd55e5225a4451a29736b5c3434a8-744x1039.png?accountingTag=RB",
+        "artist": "\u534e\u9510",
+        "accessibility_text": "Riftbound Spell: Thrill of the Hunt. [Reaction] (Play any time, even before spells and abilities resolve.)\nBanish a friendly unit, then its owner plays it to any battlefield, ignoring its cost."
       },
       "tags": [
-        "Shadow Isles"
+        "Rengar"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Evershade Stalker",
-        "updated_on": "2026-07-10T22:45:10.731845+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": false
-    },
-    {
-      "id": "69bff35758d0fbca04e93730",
-      "name": "Megatusk",
-      "riftbound_id": "unl-126-219",
-      "tcgplayer_id": "685204",
-      "collector_number": 126,
-      "attributes": {
-        "energy": 6,
-        "might": 6,
-        "power": null
-      },
-      "classification": {
-        "type": "Unit",
-        "supertype": null,
-        "rarity": "Common",
-        "domain": [
-          "Chaos"
-        ]
-      },
-      "text": {
-        "rich": "<p>Spend 3 XP: Give your units here [Ganking] this turn. (We can move from battlefield to battlefield.)</p>",
-        "plain": "Spend 3 XP: Give your units here [Ganking] this turn. (We can move from battlefield to battlefield.)",
-        "flavour": "Q: What do you do if there's a megatusk in your boat?\r\n \r\nA: Buy a new boat."
-      },
-      "set": {
-        "set_id": "UNL",
-        "label": "Unleashed"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d073247bc2437443d8a9901f089632a15d11e7a0-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Unit: Megatusk. Spend 3 XP: Give your units here [Ganking] this turn. (We can move from battlefield to battlefield.)"
-      },
-      "tags": [
-        "Bilgewater"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": "Megatusk",
-        "updated_on": "2026-07-10T22:45:08.018904+00:00",
+        "clean_name": "Thrill of the Hunt",
+        "updated_on": "2026-07-10T22:45:08.085263+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -2538,46 +2539,45 @@
       "new": false
     },
     {
-      "id": "69bff35758d0fbca04e93731",
-      "name": "Thrill of the Hunt",
-      "riftbound_id": "unl-184-219",
-      "tcgplayer_id": "685233",
-      "collector_number": 184,
+      "id": "69bff35758d0fbca04e93730",
+      "name": "Megatusk",
+      "riftbound_id": "unl-126-219",
+      "tcgplayer_id": "685204",
+      "collector_number": 126,
       "attributes": {
-        "energy": 2,
-        "might": null,
-        "power": 1
+        "energy": 6,
+        "might": 6,
+        "power": null
       },
       "classification": {
-        "type": "Spell",
-        "supertype": "Signature",
-        "rarity": "Epic",
+        "type": "Unit",
+        "supertype": null,
+        "rarity": "Common",
         "domain": [
-          "Fury",
-          "Body"
+          "Chaos"
         ]
       },
       "text": {
-        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />Banish a friendly unit, then its owner plays it to any battlefield, ignoring its cost.</p>",
-        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)Banish a friendly unit, then its owner plays it to any battlefield, ignoring its cost.",
-        "flavour": "What a glorious hunt!\"\r\n \r\n- Rengar"
+        "rich": "<p>Spend 3 XP: Give your units here [Ganking] this turn. (We can move from battlefield to battlefield.)</p>",
+        "plain": "Spend 3 XP: Give your units here [Ganking] this turn. (We can move from battlefield to battlefield.)",
+        "flavour": "Q: What do you do if there's a megatusk in your boat?\r\n \r\nA: Buy a new boat."
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2753c2b3ea4fd55e5225a4451a29736b5c3434a8-744x1039.png?accountingTag=RB",
-        "artist": "\u534e\u9510",
-        "accessibility_text": "Riftbound Spell: Thrill of the Hunt. [Reaction] (Play any time, even before spells and abilities resolve.)\nBanish a friendly unit, then its owner plays it to any battlefield, ignoring its cost."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d073247bc2437443d8a9901f089632a15d11e7a0-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Unit: Megatusk. Spend 3 XP: Give your units here [Ganking] this turn. (We can move from battlefield to battlefield.)"
       },
       "tags": [
-        "Rengar"
+        "Bilgewater"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Thrill of the Hunt",
-        "updated_on": "2026-07-10T22:45:08.085263+00:00",
+        "clean_name": "Megatusk",
+        "updated_on": "2026-07-10T22:45:08.018904+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -2996,46 +2996,47 @@
       "new": false
     },
     {
-      "id": "69bff35658d0fbca04e93726",
-      "name": "Galio - Indefatigable",
-      "riftbound_id": "unl-171-219",
-      "tcgplayer_id": "685026",
-      "collector_number": 171,
+      "id": "69c43cd2c2f7428c5d24b4e3",
+      "name": "Poppy - Paragon",
+      "riftbound_id": "unl-116-219",
+      "tcgplayer_id": "685520",
+      "collector_number": 116,
       "attributes": {
-        "energy": 3,
-        "might": 6,
-        "power": 1
+        "energy": 5,
+        "might": 5,
+        "power": null
       },
       "classification": {
         "type": "Unit",
         "supertype": "Champion",
         "rarity": "Rare",
         "domain": [
-          "Order"
+          "Body"
         ]
       },
       "text": {
-        "rich": "<p>[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)<br />[Tank] (I must be assigned combat damage first.)<br />I don't deal combat damage.</p>",
-        "plain": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)[Tank] (I must be assigned combat damage first.)I don't deal combat damage.",
-        "flavour": "Hahahaha! Did we win yet?"
+        "rich": "<p>[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)<br />When you play me, if an opponent's score is within 3 points of the Victory Score, ready me and gain 3 XP.</p>",
+        "plain": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)When you play me, if an opponent's score is within 3 points of the Victory Score, ready me and gain 3 XP.",
+        "flavour": "Me? The hero? Nah, that's ridiculous."
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fc3f1248dc4a02ce90ce172c3b3d5ec35e5f14c3-744x1039.png?accountingTag=RB",
-        "artist": "Six More Vodka",
-        "accessibility_text": "Riftbound Unit: Galio, Indefatigable. [Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\n[Tank] (I must be assigned combat damage first.)\nI don't deal combat damage."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ef8a8434e1a4c4262dd97213741a4b126cb1449b-744x1039.png?accountingTag=RB",
+        "artist": "League Splash Team",
+        "accessibility_text": "Riftbound Unit: Poppy, Paragon. [Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\nWhen you play me, if an opponent's score is within 3 points of the Victory Score, ready me and gain 3 XP."
       },
       "tags": [
+        "Yordle",
         "Demacia",
-        "Galio"
+        "Poppy"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Galio Indefatigable",
-        "updated_on": "2026-07-10T22:45:07.448488+00:00",
+        "clean_name": "Poppy Paragon",
+        "updated_on": "2026-07-10T22:45:08.731954+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -3043,45 +3044,46 @@
       "new": false
     },
     {
-      "id": "69c43cd2c2f7428c5d24b4e2",
-      "name": "Scuttle Crab",
-      "riftbound_id": "unl-053-219",
-      "tcgplayer_id": "685519",
-      "collector_number": 53,
+      "id": "69c43cd3c2f7428c5d24b4ed",
+      "name": "Enthralling Protector",
+      "riftbound_id": "unl-162-219",
+      "tcgplayer_id": "685534",
+      "collector_number": 162,
       "attributes": {
         "energy": 2,
-        "might": 0,
+        "might": 2,
         "power": null
       },
       "classification": {
         "type": "Unit",
         "supertype": null,
-        "rarity": "Rare",
+        "rarity": "Uncommon",
         "domain": [
-          "Calm"
+          "Order"
         ]
       },
       "text": {
-        "rich": "<p>(Units with 0 :rb_might: can conquer and hold.)<br />When you play me, draw 1.<br />[Deathknell][&gt;] Choose an opponent. They reveal their hand. You can look at their facedown cards this turn. Gain 1 XP. (When I die, get the effects.)</p>",
-        "plain": "(Units with 0 :rb_might: can conquer and hold.)When you play me, draw 1.[Deathknell][&gt;] Choose an opponent. They reveal their hand. You can look at their facedown cards this turn. Gain 1 XP. (When I die, get the effects.)",
-        "flavour": "As harmless as it is delicious."
+        "rich": "<p>[Hunt] (When I conquer or hold, gain 1 XP.)<br />Spend 2 XP: [Buff] me. (Give me a +1 :rb_might: buff if I don't have one.)</p>",
+        "plain": "[Hunt] (When I conquer or hold, gain 1 XP.)Spend 2 XP: [Buff] me. (Give me a +1 :rb_might: buff if I don't have one.)",
+        "flavour": "Irresistible force indeed."
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8c9a251b2deb21716fba0ac83c6aac96563fa19d-744x1039.png?accountingTag=RB",
-        "artist": "\u9eef\u8367\u5c9bDark Glow",
-        "accessibility_text": "Riftbound Unit: Scuttle Crab. (Units with 0 [S] can conquer and hold.)\nWhen you play me, draw 1.\n[Deathknell][>] Choose an opponent. They reveal their hand. You can look at their facedown cards this turn. Gain 1 XP. (When I die, get the effects.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3fdfe3bc7c7f81b99aa715bf54b52930ad41dcfa-744x1039.png?accountingTag=RB",
+        "artist": "Dao Trong Le",
+        "accessibility_text": "Riftbound Unit: Enthralling Protector. [Hunt] (When I conquer or hold, gain 1 XP.)\nSpend 2 XP: [Buff] me. (Give me a +1 [S] buff if I don't have one.)"
       },
       "tags": [
-        "Bilgewater"
+        "Fae",
+        "Ionia"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Scuttle Crab",
-        "updated_on": "2026-07-10T22:45:08.667816+00:00",
+        "clean_name": "Enthralling Protector",
+        "updated_on": "2026-07-10T22:45:09.421382+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -3505,62 +3507,14 @@
       "new": false
     },
     {
-      "id": "69c43cd2c2f7428c5d24b4e3",
-      "name": "Poppy - Paragon",
-      "riftbound_id": "unl-116-219",
-      "tcgplayer_id": "685520",
-      "collector_number": 116,
-      "attributes": {
-        "energy": 5,
-        "might": 5,
-        "power": null
-      },
-      "classification": {
-        "type": "Unit",
-        "supertype": "Champion",
-        "rarity": "Rare",
-        "domain": [
-          "Body"
-        ]
-      },
-      "text": {
-        "rich": "<p>[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)<br />When you play me, if an opponent's score is within 3 points of the Victory Score, ready me and gain 3 XP.</p>",
-        "plain": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)When you play me, if an opponent's score is within 3 points of the Victory Score, ready me and gain 3 XP.",
-        "flavour": "Me? The hero? Nah, that's ridiculous."
-      },
-      "set": {
-        "set_id": "UNL",
-        "label": "Unleashed"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ef8a8434e1a4c4262dd97213741a4b126cb1449b-744x1039.png?accountingTag=RB",
-        "artist": "League Splash Team",
-        "accessibility_text": "Riftbound Unit: Poppy, Paragon. [Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\nWhen you play me, if an opponent's score is within 3 points of the Victory Score, ready me and gain 3 XP."
-      },
-      "tags": [
-        "Yordle",
-        "Demacia",
-        "Poppy"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": "Poppy Paragon",
-        "updated_on": "2026-07-10T22:45:08.731954+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": false
-    },
-    {
-      "id": "69c4407e9288b1e85d94deac",
-      "name": "Frisky Hunter",
-      "riftbound_id": "unl-033-219",
-      "tcgplayer_id": "685677",
-      "collector_number": 33,
+      "id": "69c4407e9288b1e85d94dead",
+      "name": "Dramatic Visionary",
+      "riftbound_id": "unl-062-219",
+      "tcgplayer_id": "685678",
+      "collector_number": 62,
       "attributes": {
         "energy": 4,
-        "might": 3,
+        "might": 4,
         "power": null
       },
       "classification": {
@@ -3568,31 +3522,76 @@
         "supertype": null,
         "rarity": "Common",
         "domain": [
-          "Calm"
+          "Mind"
         ]
       },
       "text": {
-        "rich": "<p>When you play me, play a 1 :rb_might: Bird unit token with [Deflect] here. (Opponents must pay :rb_rune_rainbow: to choose it with a spell or ability.)</p>",
-        "plain": "When you play me, play a 1 :rb_might: Bird unit token with [Deflect] here. (Opponents must pay :rb_rune_rainbow: to choose it with a spell or ability.)",
-        "flavour": "Always following the scent of prey."
+        "rich": "<p>[Deathknell][&gt;] [Predict 2]. (When I die, look at the top two cards of your Main Deck. Recycle any of them and put the rest back in any order.)</p>",
+        "plain": "[Deathknell][&gt;] [Predict 2]. (When I die, look at the top two cards of your Main Deck. Recycle any of them and put the rest back in any order.)",
+        "flavour": "Truth rarely comes without sacrifice."
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6bf8978ca42fa50a60067e74364b3caf78b3e928-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Unit: Frisky Hunter. When you play me, play a 1 [S] Bird unit token with [Deflect] here. (Opponents must pay [A] to choose it with a spell or ability.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3153c05a8c3fb4d8f945a95fad54ea25e087ad47-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "accessibility_text": "Riftbound Unit: Dramatic Visionary. [Deathknell][>] [Predict 2]. (When I die, look at the top two cards of your Main Deck. Recycle any of them and put the rest back in any order.)"
       },
       "tags": [
-        "Cat",
-        "Zaun"
+        "Ionia"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Frisky Hunter",
-        "updated_on": "2026-07-10T22:45:12.483262+00:00",
+        "clean_name": "Dramatic Visionary",
+        "updated_on": "2026-07-10T22:45:12.544860+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": false
+    },
+    {
+      "id": "69c43cd2c2f7428c5d24b4e2",
+      "name": "Scuttle Crab",
+      "riftbound_id": "unl-053-219",
+      "tcgplayer_id": "685519",
+      "collector_number": 53,
+      "attributes": {
+        "energy": 2,
+        "might": 0,
+        "power": null
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": null,
+        "rarity": "Rare",
+        "domain": [
+          "Calm"
+        ]
+      },
+      "text": {
+        "rich": "<p>(Units with 0 :rb_might: can conquer and hold.)<br />When you play me, draw 1.<br />[Deathknell][&gt;] Choose an opponent. They reveal their hand. You can look at their facedown cards this turn. Gain 1 XP. (When I die, get the effects.)</p>",
+        "plain": "(Units with 0 :rb_might: can conquer and hold.)When you play me, draw 1.[Deathknell][&gt;] Choose an opponent. They reveal their hand. You can look at their facedown cards this turn. Gain 1 XP. (When I die, get the effects.)",
+        "flavour": "As harmless as it is delicious."
+      },
+      "set": {
+        "set_id": "UNL",
+        "label": "Unleashed"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8c9a251b2deb21716fba0ac83c6aac96563fa19d-744x1039.png?accountingTag=RB",
+        "artist": "\u9eef\u8367\u5c9bDark Glow",
+        "accessibility_text": "Riftbound Unit: Scuttle Crab. (Units with 0 [S] can conquer and hold.)\nWhen you play me, draw 1.\n[Deathknell][>] Choose an opponent. They reveal their hand. You can look at their facedown cards this turn. Gain 1 XP. (When I die, get the effects.)"
+      },
+      "tags": [
+        "Bilgewater"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Scuttle Crab",
+        "updated_on": "2026-07-10T22:45:08.667816+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -3646,18 +3645,18 @@
       "new": false
     },
     {
-      "id": "69c8378e2c3db56eb7d760cf",
-      "name": "Lunar Boon",
-      "riftbound_id": "unl-125-219",
-      "tcgplayer_id": "686327",
-      "collector_number": 125,
+      "id": "69c8378e2c3db56eb7d760d0",
+      "name": "Vicious Snapjaws",
+      "riftbound_id": "unl-129-219",
+      "tcgplayer_id": "686328",
+      "collector_number": 129,
       "attributes": {
-        "energy": 3,
-        "might": null,
+        "energy": 5,
+        "might": 5,
         "power": null
       },
       "classification": {
-        "type": "Spell",
+        "type": "Unit",
         "supertype": null,
         "rarity": "Common",
         "domain": [
@@ -3665,24 +3664,26 @@
         ]
       },
       "text": {
-        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />Discard 1, then draw 2.</p>",
-        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)Discard 1, then draw 2.",
-        "flavour": "A new moon is rising.\"\r\n - Diana"
+        "rich": "<p>When another friendly unit dies, gain 1 XP.</p>",
+        "plain": "When another friendly unit dies, gain 1 XP.",
+        "flavour": "They don't know friend or foe, only food."
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7dc31cec93a355ba52b8cf2ca0b232a0edd57586-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Spell: Lunar Boon. [Reaction] (Play any time, even before spells and abilities resolve.)\nDiscard 1, then draw 2."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/99845de971eb165c7a6bb424050cd9a29b45b548-744x1039.png?accountingTag=RB",
+        "artist": "JiHun Lee",
+        "accessibility_text": "Riftbound Unit: Vicious Snapjaws. When another friendly unit dies, gain 1 XP."
       },
-      "tags": [],
+      "tags": [
+        "Bilgewater"
+      ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Lunar Boon",
-        "updated_on": "2026-07-10T22:45:15.336171+00:00",
+        "clean_name": "Vicious Snapjaws",
+        "updated_on": "2026-07-10T22:45:15.389785+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -4143,18 +4144,18 @@
       "new": false
     },
     {
-      "id": "69c8378e2c3db56eb7d760d0",
-      "name": "Vicious Snapjaws",
-      "riftbound_id": "unl-129-219",
-      "tcgplayer_id": "686328",
-      "collector_number": 129,
+      "id": "69c8378e2c3db56eb7d760cf",
+      "name": "Lunar Boon",
+      "riftbound_id": "unl-125-219",
+      "tcgplayer_id": "686327",
+      "collector_number": 125,
       "attributes": {
-        "energy": 5,
-        "might": 5,
+        "energy": 3,
+        "might": null,
         "power": null
       },
       "classification": {
-        "type": "Unit",
+        "type": "Spell",
         "supertype": null,
         "rarity": "Common",
         "domain": [
@@ -4162,26 +4163,24 @@
         ]
       },
       "text": {
-        "rich": "<p>When another friendly unit dies, gain 1 XP.</p>",
-        "plain": "When another friendly unit dies, gain 1 XP.",
-        "flavour": "They don't know friend or foe, only food."
+        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />Discard 1, then draw 2.</p>",
+        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)Discard 1, then draw 2.",
+        "flavour": "A new moon is rising.\"\r\n - Diana"
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/99845de971eb165c7a6bb424050cd9a29b45b548-744x1039.png?accountingTag=RB",
-        "artist": "JiHun Lee",
-        "accessibility_text": "Riftbound Unit: Vicious Snapjaws. When another friendly unit dies, gain 1 XP."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7dc31cec93a355ba52b8cf2ca0b232a0edd57586-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Lunar Boon. [Reaction] (Play any time, even before spells and abilities resolve.)\nDiscard 1, then draw 2."
       },
-      "tags": [
-        "Bilgewater"
-      ],
+      "tags": [],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Vicious Snapjaws",
-        "updated_on": "2026-07-10T22:45:15.389785+00:00",
+        "clean_name": "Lunar Boon",
+        "updated_on": "2026-07-10T22:45:15.336171+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -4655,46 +4654,43 @@
       "new": false
     },
     {
-      "id": "69c8378d2c3db56eb7d760c4",
-      "name": "Allay, Eager Admirer",
-      "riftbound_id": "unl-041-219",
-      "tcgplayer_id": "686316",
-      "collector_number": 41,
+      "id": "69c56c6d7700f78fff1c757b",
+      "name": "Tactical Retreat",
+      "riftbound_id": "unl-175-219",
+      "tcgplayer_id": "685668",
+      "collector_number": 175,
       "attributes": {
-        "energy": 3,
-        "might": 3,
+        "energy": 2,
+        "might": null,
         "power": null
       },
       "classification": {
-        "type": "Unit",
+        "type": "Spell",
         "supertype": null,
-        "rarity": "Uncommon",
+        "rarity": "Rare",
         "domain": [
-          "Calm"
+          "Order"
         ]
       },
       "text": {
-        "rich": "<p>[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)<br />While I'm at a battlefield, your other units here have [Deflect].</p>",
-        "plain": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)While I'm at a battlefield, your other units here have [Deflect].",
-        "flavour": "Hey, Vex! Look what I've got! It's a surprise! For you! Aren't you excited?!"
+        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />Choose a friendly unit. The next time it would die this turn, heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)</p>",
+        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)Choose a friendly unit. The next time it would die this turn, heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)",
+        "flavour": "Valor has nothing on discretion."
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bf1045b559b20d3e86383a07de54cd1893e5a94b-744x1039.png?accountingTag=RB",
-        "artist": "Envar Studio",
-        "accessibility_text": "Riftbound Unit: Allay, Eager Admirer. [Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\nWhile I'm at a battlefield, your other units here have [Deflect]."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cd5abf6c27f5faac247f6044306db3d710fb9d61-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Tactical Retreat. [Reaction] (Play any time, even before spells and abilities resolve.)\nChoose a friendly unit. The next time it would die this turn, heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)"
       },
-      "tags": [
-        "Yordle",
-        "Bandle City"
-      ],
+      "tags": [],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Allay Eager Admirer",
-        "updated_on": "2026-07-10T22:45:14.684291+00:00",
+        "clean_name": "Tactical Retreat",
+        "updated_on": "2026-07-10T22:45:12.241580+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -4702,46 +4698,46 @@
       "new": false
     },
     {
-      "id": "69c56c6d7700f78fff1c757a",
-      "name": "Sprite Queen",
-      "riftbound_id": "unl-084-219",
-      "tcgplayer_id": "685666",
-      "collector_number": 84,
+      "id": "69c5be6abf82ff7cb69f4293",
+      "name": "Scorchclaw",
+      "riftbound_id": "unl-016-219",
+      "tcgplayer_id": "685943",
+      "collector_number": 16,
       "attributes": {
-        "energy": 7,
-        "might": 6,
+        "energy": 3,
+        "might": 3,
         "power": 1
       },
       "classification": {
         "type": "Unit",
         "supertype": null,
-        "rarity": "Rare",
+        "rarity": "Uncommon",
         "domain": [
-          "Mind"
+          "Fury"
         ]
       },
       "text": {
-        "rich": "<p>When you play me or at the start of your Beginning Phase, play a ready 3 :rb_might: Sprite unit token with [Temporary] to your base. (Kill them at the start of their controller's next Beginning Phase, before scoring.)</p>",
-        "plain": "When you play me or at the start of your Beginning Phase, play a ready 3 :rb_might: Sprite unit token with [Temporary] to your base. (Kill them at the start of their controller's next Beginning Phase, before scoring.)",
-        "flavour": null
+        "rich": "<p>[Hunt 2] (When I conquer or hold, gain 2 XP.)<br />[Level 3][&gt;] I have +1 :rb_might: and enter ready. (While you have 3+ XP, get the effect.)</p>",
+        "plain": "[Hunt 2] (When I conquer or hold, gain 2 XP.)[Level 3][&gt;] I have +1 :rb_might: and enter ready. (While you have 3+ XP, get the effect.)",
+        "flavour": "Sit. Stay. Burn."
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/64b7debe0dd3d7b644f627eba562187bc45dd313-744x1039.png?accountingTag=RB",
-        "artist": "Envar Studio",
-        "accessibility_text": "Riftbound Unit: Sprite Queen. When you play me or at the start of your Beginning Phase, play a ready 3 [S] Sprite unit token with [Temporary] to your base. (Kill them at the start of their controller's next Beginning Phase, before scoring.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f69940824f8ce62a479df28988dcbdf6ea6d3960-744x1039.png?accountingTag=RB",
+        "artist": "\u9eef\u8367\u5c9bDark Glow",
+        "accessibility_text": "Riftbound Unit: Scorchclaw. [Hunt 2] (When I conquer or hold, gain 2 XP.)\n[Level 3][>] I have +1 [S] and enter ready. (While you have 3+ XP, get the effect.)"
       },
       "tags": [
-        "Fae",
-        "Ionia"
+        "Dog",
+        "Noxus"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Sprite Queen",
-        "updated_on": "2026-07-10T22:45:12.181275+00:00",
+        "clean_name": "Scorchclaw",
+        "updated_on": "2026-07-10T22:45:13.452664+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -5201,62 +5197,18 @@
       "new": false
     },
     {
-      "id": "69c56c6d7700f78fff1c757b",
-      "name": "Tactical Retreat",
-      "riftbound_id": "unl-175-219",
-      "tcgplayer_id": "685668",
-      "collector_number": 175,
+      "id": "69c5be6abf82ff7cb69f4294",
+      "name": "Monster Harpoon",
+      "riftbound_id": "unl-014-219",
+      "tcgplayer_id": "685944",
+      "collector_number": 14,
       "attributes": {
-        "energy": 2,
+        "energy": 1,
         "might": null,
-        "power": null
-      },
-      "classification": {
-        "type": "Spell",
-        "supertype": null,
-        "rarity": "Rare",
-        "domain": [
-          "Order"
-        ]
-      },
-      "text": {
-        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />Choose a friendly unit. The next time it would die this turn, heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)</p>",
-        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)Choose a friendly unit. The next time it would die this turn, heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)",
-        "flavour": "Valor has nothing on discretion."
-      },
-      "set": {
-        "set_id": "UNL",
-        "label": "Unleashed"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cd5abf6c27f5faac247f6044306db3d710fb9d61-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Spell: Tactical Retreat. [Reaction] (Play any time, even before spells and abilities resolve.)\nChoose a friendly unit. The next time it would die this turn, heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)"
-      },
-      "tags": [],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": "Tactical Retreat",
-        "updated_on": "2026-07-10T22:45:12.241580+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": false
-    },
-    {
-      "id": "69c5be6abf82ff7cb69f4293",
-      "name": "Scorchclaw",
-      "riftbound_id": "unl-016-219",
-      "tcgplayer_id": "685943",
-      "collector_number": 16,
-      "attributes": {
-        "energy": 3,
-        "might": 3,
         "power": 1
       },
       "classification": {
-        "type": "Unit",
+        "type": "Spell",
         "supertype": null,
         "rarity": "Uncommon",
         "domain": [
@@ -5264,27 +5216,71 @@
         ]
       },
       "text": {
-        "rich": "<p>[Hunt 2] (When I conquer or hold, gain 2 XP.)<br />[Level 3][&gt;] I have +1 :rb_might: and enter ready. (While you have 3+ XP, get the effect.)</p>",
-        "plain": "[Hunt 2] (When I conquer or hold, gain 2 XP.)[Level 3][&gt;] I have +1 :rb_might: and enter ready. (While you have 3+ XP, get the effect.)",
-        "flavour": "Sit. Stay. Burn."
+        "rich": "<p>[Action] (Play on your turn or in showdowns.)<br />Deal 2 to a unit at a battlefield. If you control a facedown card, deal 4 to it instead.</p>",
+        "plain": "[Action] (Play on your turn or in showdowns.)Deal 2 to a unit at a battlefield. If you control a facedown card, deal 4 to it instead.",
+        "flavour": "Ready\" and \"fire\" are easy. Aiming, now that's the hard part."
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f69940824f8ce62a479df28988dcbdf6ea6d3960-744x1039.png?accountingTag=RB",
-        "artist": "\u9eef\u8367\u5c9bDark Glow",
-        "accessibility_text": "Riftbound Unit: Scorchclaw. [Hunt 2] (When I conquer or hold, gain 2 XP.)\n[Level 3][>] I have +1 [S] and enter ready. (While you have 3+ XP, get the effect.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ed51ed36ad0938048ee50894d75d299c29d17759-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Monster Harpoon. [Action] (Play on your turn or in showdowns.)\nDeal 2 to a unit at a battlefield. If you control a facedown card, deal 4 to it instead."
+      },
+      "tags": [],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Monster Harpoon",
+        "updated_on": "2026-07-10T22:45:13.502680+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": false
+    },
+    {
+      "id": "69c56c6d7700f78fff1c757a",
+      "name": "Sprite Queen",
+      "riftbound_id": "unl-084-219",
+      "tcgplayer_id": "685666",
+      "collector_number": 84,
+      "attributes": {
+        "energy": 7,
+        "might": 6,
+        "power": 1
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": null,
+        "rarity": "Rare",
+        "domain": [
+          "Mind"
+        ]
+      },
+      "text": {
+        "rich": "<p>When you play me or at the start of your Beginning Phase, play a ready 3 :rb_might: Sprite unit token with [Temporary] to your base. (Kill them at the start of their controller's next Beginning Phase, before scoring.)</p>",
+        "plain": "When you play me or at the start of your Beginning Phase, play a ready 3 :rb_might: Sprite unit token with [Temporary] to your base. (Kill them at the start of their controller's next Beginning Phase, before scoring.)",
+        "flavour": null
+      },
+      "set": {
+        "set_id": "UNL",
+        "label": "Unleashed"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/64b7debe0dd3d7b644f627eba562187bc45dd313-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "accessibility_text": "Riftbound Unit: Sprite Queen. When you play me or at the start of your Beginning Phase, play a ready 3 [S] Sprite unit token with [Temporary] to your base. (Kill them at the start of their controller's next Beginning Phase, before scoring.)"
       },
       "tags": [
-        "Dog",
-        "Noxus"
+        "Fae",
+        "Ionia"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Scorchclaw",
-        "updated_on": "2026-07-10T22:45:13.452664+00:00",
+        "clean_name": "Sprite Queen",
+        "updated_on": "2026-07-10T22:45:12.181275+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -5702,45 +5698,43 @@
       "new": false
     },
     {
-      "id": "69c4407e9288b1e85d94dead",
-      "name": "Dramatic Visionary",
-      "riftbound_id": "unl-062-219",
-      "tcgplayer_id": "685678",
-      "collector_number": 62,
+      "id": "69c8378d2c3db56eb7d760ba",
+      "name": "Double Trouble",
+      "riftbound_id": "unl-032-219",
+      "tcgplayer_id": "686271",
+      "collector_number": 32,
       "attributes": {
-        "energy": 4,
-        "might": 4,
+        "energy": 2,
+        "might": null,
         "power": null
       },
       "classification": {
-        "type": "Unit",
+        "type": "Spell",
         "supertype": null,
         "rarity": "Common",
         "domain": [
-          "Mind"
+          "Calm"
         ]
       },
       "text": {
-        "rich": "<p>[Deathknell][&gt;] [Predict 2]. (When I die, look at the top two cards of your Main Deck. Recycle any of them and put the rest back in any order.)</p>",
-        "plain": "[Deathknell][&gt;] [Predict 2]. (When I die, look at the top two cards of your Main Deck. Recycle any of them and put the rest back in any order.)",
-        "flavour": "Truth rarely comes without sacrifice."
+        "rich": "<p>[Repeat] :rb_energy_2: (You may pay the additional cost to repeat this spell's effect.)<br />Look at the top 3 cards of your Main Deck. You may reveal a unit from among them and draw it. Recycle the rest.</p>",
+        "plain": "[Repeat] :rb_energy_2: (You may pay the additional cost to repeat this spell's effect.)Look at the top 3 cards of your Main Deck. You may reveal a unit from among them and draw it. Recycle the rest.",
+        "flavour": "Two heads pay better than one."
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3153c05a8c3fb4d8f945a95fad54ea25e087ad47-744x1039.png?accountingTag=RB",
-        "artist": "Envar Studio",
-        "accessibility_text": "Riftbound Unit: Dramatic Visionary. [Deathknell][>] [Predict 2]. (When I die, look at the top two cards of your Main Deck. Recycle any of them and put the rest back in any order.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/64e977213f50471ad7b6e8664488fb9017693f71-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Double Trouble. [Repeat] [2] (You may pay the additional cost to repeat this spell's effect.)\nLook at the top 3 cards of your Main Deck. You may reveal a unit from among them and draw it. Recycle the rest."
       },
-      "tags": [
-        "Ionia"
-      ],
+      "tags": [],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Dramatic Visionary",
-        "updated_on": "2026-07-10T22:45:12.544860+00:00",
+        "clean_name": "Double Trouble",
+        "updated_on": "2026-07-10T22:45:14.112698+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -5748,43 +5742,46 @@
       "new": false
     },
     {
-      "id": "69c8378d2c3db56eb7d760b9",
-      "name": "Square Up",
-      "riftbound_id": "unl-017-219",
-      "tcgplayer_id": "686270",
-      "collector_number": 17,
+      "id": "69c8378d2c3db56eb7d760c4",
+      "name": "Allay, Eager Admirer",
+      "riftbound_id": "unl-041-219",
+      "tcgplayer_id": "686316",
+      "collector_number": 41,
       "attributes": {
-        "energy": 4,
-        "might": null,
+        "energy": 3,
+        "might": 3,
         "power": null
       },
       "classification": {
-        "type": "Spell",
+        "type": "Unit",
         "supertype": null,
         "rarity": "Uncommon",
         "domain": [
-          "Fury"
+          "Calm"
         ]
       },
       "text": {
-        "rich": "<p>[Repeat] \u2014 Discard 1 (You may pay the additional cost to repeat this spell's effect.)<br />Give a unit [Assault 4] this turn. (+4 :rb_might: while it's an attacker.)</p>",
-        "plain": "[Repeat] \u2014 Discard 1 (You may pay the additional cost to repeat this spell's effect.)Give a unit [Assault 4] this turn. (+4 :rb_might: while it's an attacker.)",
-        "flavour": "Nothing like a good roar to work up an appetite for violence."
+        "rich": "<p>[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)<br />While I'm at a battlefield, your other units here have [Deflect].</p>",
+        "plain": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)While I'm at a battlefield, your other units here have [Deflect].",
+        "flavour": "Hey, Vex! Look what I've got! It's a surprise! For you! Aren't you excited?!"
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5e14c09db2f064e5f6986f500a04335d73d459dd-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Spell: Square Up. [Repeat] \u2014 Discard 1 (You may pay the additional cost to repeat this spell's effect.)\nGive a unit [Assault 4] this turn. (+4 [S] while it's an attacker.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bf1045b559b20d3e86383a07de54cd1893e5a94b-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "accessibility_text": "Riftbound Unit: Allay, Eager Admirer. [Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\nWhile I'm at a battlefield, your other units here have [Deflect]."
       },
-      "tags": [],
+      "tags": [
+        "Yordle",
+        "Bandle City"
+      ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Square Up",
-        "updated_on": "2026-07-10T22:45:14.051660+00:00",
+        "clean_name": "Allay Eager Admirer",
+        "updated_on": "2026-07-10T22:45:14.684291+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -6205,43 +6202,46 @@
       "new": false
     },
     {
-      "id": "69c8378d2c3db56eb7d760ba",
-      "name": "Double Trouble",
-      "riftbound_id": "unl-032-219",
-      "tcgplayer_id": "686271",
-      "collector_number": 32,
+      "id": "69bff35658d0fbca04e93726",
+      "name": "Galio - Indefatigable",
+      "riftbound_id": "unl-171-219",
+      "tcgplayer_id": "685026",
+      "collector_number": 171,
       "attributes": {
-        "energy": 2,
-        "might": null,
-        "power": null
+        "energy": 3,
+        "might": 6,
+        "power": 1
       },
       "classification": {
-        "type": "Spell",
-        "supertype": null,
-        "rarity": "Common",
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Rare",
         "domain": [
-          "Calm"
+          "Order"
         ]
       },
       "text": {
-        "rich": "<p>[Repeat] :rb_energy_2: (You may pay the additional cost to repeat this spell's effect.)<br />Look at the top 3 cards of your Main Deck. You may reveal a unit from among them and draw it. Recycle the rest.</p>",
-        "plain": "[Repeat] :rb_energy_2: (You may pay the additional cost to repeat this spell's effect.)Look at the top 3 cards of your Main Deck. You may reveal a unit from among them and draw it. Recycle the rest.",
-        "flavour": "Two heads pay better than one."
+        "rich": "<p>[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)<br />[Tank] (I must be assigned combat damage first.)<br />I don't deal combat damage.</p>",
+        "plain": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)[Tank] (I must be assigned combat damage first.)I don't deal combat damage.",
+        "flavour": "Hahahaha! Did we win yet?"
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/64e977213f50471ad7b6e8664488fb9017693f71-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Spell: Double Trouble. [Repeat] [2] (You may pay the additional cost to repeat this spell's effect.)\nLook at the top 3 cards of your Main Deck. You may reveal a unit from among them and draw it. Recycle the rest."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fc3f1248dc4a02ce90ce172c3b3d5ec35e5f14c3-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Unit: Galio, Indefatigable. [Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\n[Tank] (I must be assigned combat damage first.)\nI don't deal combat damage."
       },
-      "tags": [],
+      "tags": [
+        "Demacia",
+        "Galio"
+      ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Double Trouble",
-        "updated_on": "2026-07-10T22:45:14.112698+00:00",
+        "clean_name": "Galio Indefatigable",
+        "updated_on": "2026-07-10T22:45:07.448488+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -6249,43 +6249,43 @@
       "new": false
     },
     {
-      "id": "69bff35658d0fbca04e93725",
-      "name": "The Academy",
-      "riftbound_id": "unl-216-219",
-      "tcgplayer_id": "685025",
-      "collector_number": 216,
+      "id": "69c8378d2c3db56eb7d760b9",
+      "name": "Square Up",
+      "riftbound_id": "unl-017-219",
+      "tcgplayer_id": "686270",
+      "collector_number": 17,
       "attributes": {
-        "energy": null,
+        "energy": 4,
         "might": null,
         "power": null
       },
       "classification": {
-        "type": "Battlefield",
+        "type": "Spell",
         "supertype": null,
         "rarity": "Uncommon",
         "domain": [
-          "Colorless"
+          "Fury"
         ]
       },
       "text": {
-        "rich": "<p>When you hold here, give your next spell this turn [Repeat] equal to its base cost. (You may pay the additional cost to repeat the spell's effect.)</p>",
-        "plain": "When you hold here, give your next spell this turn [Repeat] equal to its base cost. (You may pay the additional cost to repeat the spell's effect.)",
-        "flavour": null
+        "rich": "<p>[Repeat] \u2014 Discard 1 (You may pay the additional cost to repeat this spell's effect.)<br />Give a unit [Assault 4] this turn. (+4 :rb_might: while it's an attacker.)</p>",
+        "plain": "[Repeat] \u2014 Discard 1 (You may pay the additional cost to repeat this spell's effect.)Give a unit [Assault 4] this turn. (+4 :rb_might: while it's an attacker.)",
+        "flavour": "Nothing like a good roar to work up an appetite for violence."
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/82646c995f3d0b897ce97f7b68c35f5fd9384b8e-1039x744.png?accountingTag=RB",
-        "artist": "Six More Vodka",
-        "accessibility_text": "Riftbound Battlefield: The Academy. When you hold here, give your next spell this turn [Repeat] equal to its base cost. (You may pay the additional cost to repeat the spell's effect.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5e14c09db2f064e5f6986f500a04335d73d459dd-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Square Up. [Repeat] \u2014 Discard 1 (You may pay the additional cost to repeat this spell's effect.)\nGive a unit [Assault 4] this turn. (+4 [S] while it's an attacker.)"
       },
       "tags": [],
-      "orientation": "landscape",
+      "orientation": "portrait",
       "metadata": {
-        "clean_name": "The Academy",
-        "updated_on": "2026-07-10T22:45:07.388748+00:00",
+        "clean_name": "Square Up",
+        "updated_on": "2026-07-10T22:45:14.051660+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -6661,50 +6661,6 @@
       "new": false
     },
     {
-      "id": "69c5be6abf82ff7cb69f4294",
-      "name": "Monster Harpoon",
-      "riftbound_id": "unl-014-219",
-      "tcgplayer_id": "685944",
-      "collector_number": 14,
-      "attributes": {
-        "energy": 1,
-        "might": null,
-        "power": 1
-      },
-      "classification": {
-        "type": "Spell",
-        "supertype": null,
-        "rarity": "Uncommon",
-        "domain": [
-          "Fury"
-        ]
-      },
-      "text": {
-        "rich": "<p>[Action] (Play on your turn or in showdowns.)<br />Deal 2 to a unit at a battlefield. If you control a facedown card, deal 4 to it instead.</p>",
-        "plain": "[Action] (Play on your turn or in showdowns.)Deal 2 to a unit at a battlefield. If you control a facedown card, deal 4 to it instead.",
-        "flavour": "Ready\" and \"fire\" are easy. Aiming, now that's the hard part."
-      },
-      "set": {
-        "set_id": "UNL",
-        "label": "Unleashed"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ed51ed36ad0938048ee50894d75d299c29d17759-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Spell: Monster Harpoon. [Action] (Play on your turn or in showdowns.)\nDeal 2 to a unit at a battlefield. If you control a facedown card, deal 4 to it instead."
-      },
-      "tags": [],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": "Monster Harpoon",
-        "updated_on": "2026-07-10T22:45:13.502680+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": false
-    },
-    {
       "id": "69bc5beed308c64675ca89ba",
       "name": "Daring Poro (Overnumbered)",
       "riftbound_id": "unl-225-219",
@@ -6797,92 +6753,94 @@
       "new": false
     },
     {
-      "id": "69bc5beed308c64675ca89b8",
-      "name": "Veteran Poro (Overnumbered)",
-      "riftbound_id": "unl-223-219",
-      "tcgplayer_id": "684635",
-      "collector_number": 223,
+      "id": "69bc5becd308c64675ca8997",
+      "name": "Lillia - Protector of Dreams (Alternate Art)",
+      "riftbound_id": "unl-058a-219",
+      "tcgplayer_id": "684588",
+      "collector_number": 58,
       "attributes": {
-        "energy": 2,
-        "might": 2,
+        "energy": 5,
+        "might": 4,
         "power": null
       },
       "classification": {
         "type": "Unit",
-        "supertype": null,
-        "rarity": "Common",
-        "domain": [
-          "Body"
-        ]
-      },
-      "text": {
-        "rich": "<p>[Weaponmaster]</p>",
-        "plain": "[Weaponmaster]",
-        "flavour": "As other know when we've been strong\r\n \r\nSo others strive to be enough"
-      },
-      "set": {
-        "set_id": "UNL",
-        "label": "Unleashed"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/337f38fae6a4d801fc14abcda2a7d09c3e7e6ae3-744x1039.png?accountingTag=RB",
-        "artist": "FOREDAWN",
-        "accessibility_text": "Riftbound Unit: Veteran Poro. [Weaponmaster]"
-      },
-      "tags": [
-        "Poro",
-        "Freljord"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": "Veteran Poro Overnumbered",
-        "updated_on": "2026-07-10T22:45:05.826280+00:00",
-        "alternate_art": false,
-        "overnumbered": true,
-        "signature": false
-      },
-      "new": false
-    },
-    {
-      "id": "69bc5becd308c64675ca8996",
-      "name": "Shadow Watcher",
-      "riftbound_id": "unl-037-219",
-      "tcgplayer_id": "684587",
-      "collector_number": 37,
-      "attributes": {
-        "energy": 4,
-        "might": 5,
-        "power": 1
-      },
-      "classification": {
-        "type": "Unit",
-        "supertype": null,
-        "rarity": "Common",
+        "supertype": "Champion",
+        "rarity": "Epic",
         "domain": [
           "Calm"
         ]
       },
       "text": {
-        "rich": "<p>If a friendly unit died during your Beginning Phase this turn, I enter ready.</p>",
-        "plain": "If a friendly unit died during your Beginning Phase this turn, I enter ready.",
-        "flavour": "It follows in memory's wake."
+        "rich": "<p>When you play a token unit, give me +1 :rb_might: this turn.<br />Your token units have [Tank].</p>",
+        "plain": "When you play a token unit, give me +1 :rb_might: this turn.Your token units have [Tank].",
+        "flavour": "Nothing cries louder than loneliness."
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f6f5ff413efc57d7948b4b9a46a4bba6eebd39d2-744x1039.png?accountingTag=RB",
-        "artist": "Dao Trong Le",
-        "accessibility_text": "Riftbound Unit: Shadow Watcher. If a friendly unit died during your Beginning Phase this turn, I enter ready."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/92cdae8b6bfef70d0a38761f1dc4aa771a37753a-744x1039.png?accountingTag=RB",
+        "artist": "League Splash Team",
+        "accessibility_text": "Riftbound Unit: Lillia, Protector of Dreams. When you play a token unit, give me +1 [S] this turn.\nYour token units have [Tank]."
       },
       "tags": [
+        "Fae",
+        "Lillia",
         "Ionia"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Shadow Watcher",
-        "updated_on": "2026-07-10T22:45:03.905854+00:00",
+        "clean_name": "Lillia Protector of Dreams Alternate Art",
+        "updated_on": "2026-07-10T22:45:03.954019+00:00",
+        "alternate_art": true,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": false
+    },
+    {
+      "id": "69bc5bedd308c64675ca89a2",
+      "name": "Master Yi - Tempered",
+      "riftbound_id": "unl-113-219",
+      "tcgplayer_id": "684600",
+      "collector_number": 113,
+      "attributes": {
+        "energy": 4,
+        "might": 4,
+        "power": null
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Rare",
+        "domain": [
+          "Body"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Hunt 2] (When I conquer or hold, gain 2 XP.)<br />[Level 6][&gt;] I have [Deflect] and [Ganking]. (While you have 6+ XP, opponents must pay :rb_rune_rainbow: to choose me with a spell or ability and I can move from battlefield to battlefield.)</p>",
+        "plain": "[Hunt 2] (When I conquer or hold, gain 2 XP.)[Level 6][&gt;] I have [Deflect] and [Ganking]. (While you have 6+ XP, opponents must pay :rb_rune_rainbow: to choose me with a spell or ability and I can move from battlefield to battlefield.)",
+        "flavour": "Watch, and learn."
+      },
+      "set": {
+        "set_id": "UNL",
+        "label": "Unleashed"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a21feb3555825392fdb98f868840db3827ad0389-744x1039.png?accountingTag=RB",
+        "artist": "HXY",
+        "accessibility_text": "Riftbound Unit: Master Yi, Tempered. [Hunt 2] (When I conquer or hold, gain 2 XP.)\n[Level 6][>] I have [Deflect] and [Ganking]. (While you have 6+ XP, opponents must pay [A] to choose me with a spell or ability and I can move from battlefield to battlefield.)"
+      },
+      "tags": [
+        "Master Yi",
+        "Ionia"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Master Yi Tempered",
+        "updated_on": "2026-07-10T22:45:04.598702+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -7346,58 +7304,10 @@
       "new": false
     },
     {
-      "id": "69bc5becd308c64675ca8997",
-      "name": "Lillia - Protector of Dreams (Alternate Art)",
-      "riftbound_id": "unl-058a-219",
-      "tcgplayer_id": "684588",
-      "collector_number": 58,
-      "attributes": {
-        "energy": 5,
-        "might": 4,
-        "power": null
-      },
-      "classification": {
-        "type": "Unit",
-        "supertype": "Champion",
-        "rarity": "Epic",
-        "domain": [
-          "Calm"
-        ]
-      },
-      "text": {
-        "rich": "<p>When you play a token unit, give me +1 :rb_might: this turn.<br />Your token units have [Tank].</p>",
-        "plain": "When you play a token unit, give me +1 :rb_might: this turn.Your token units have [Tank].",
-        "flavour": "Nothing cries louder than loneliness."
-      },
-      "set": {
-        "set_id": "UNL",
-        "label": "Unleashed"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/92cdae8b6bfef70d0a38761f1dc4aa771a37753a-744x1039.png?accountingTag=RB",
-        "artist": "League Splash Team",
-        "accessibility_text": "Riftbound Unit: Lillia, Protector of Dreams. When you play a token unit, give me +1 [S] this turn.\nYour token units have [Tank]."
-      },
-      "tags": [
-        "Fae",
-        "Lillia",
-        "Ionia"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": "Lillia Protector of Dreams Alternate Art",
-        "updated_on": "2026-07-10T22:45:03.954019+00:00",
-        "alternate_art": true,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": false
-    },
-    {
-      "id": "69bc5bedd308c64675ca89a2",
-      "name": "Master Yi - Tempered",
-      "riftbound_id": "unl-113-219",
-      "tcgplayer_id": "684600",
+      "id": "69bc5bedd308c64675ca89a3",
+      "name": "Master Yi - Tempered (Alternate Art)",
+      "riftbound_id": "unl-113a-219",
+      "tcgplayer_id": "684601",
       "collector_number": 113,
       "attributes": {
         "energy": 4,
@@ -7413,8 +7323,8 @@
         ]
       },
       "text": {
-        "rich": "<p>[Hunt 2] (When I conquer or hold, gain 2 XP.)<br />[Level 6][&gt;] I have [Deflect] and [Ganking]. (While you have 6+ XP, opponents must pay :rb_rune_rainbow: to choose me with a spell or ability and I can move from battlefield to battlefield.)</p>",
-        "plain": "[Hunt 2] (When I conquer or hold, gain 2 XP.)[Level 6][&gt;] I have [Deflect] and [Ganking]. (While you have 6+ XP, opponents must pay :rb_rune_rainbow: to choose me with a spell or ability and I can move from battlefield to battlefield.)",
+        "rich": "<p>[Hunt 2]<br />[Level 6][&gt;] I have [Deflect] and [Ganking].</p>",
+        "plain": "[Hunt 2][Level 6][&gt;] I have [Deflect] and [Ganking].",
         "flavour": "Watch, and learn."
       },
       "set": {
@@ -7422,9 +7332,9 @@
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a21feb3555825392fdb98f868840db3827ad0389-744x1039.png?accountingTag=RB",
-        "artist": "HXY",
-        "accessibility_text": "Riftbound Unit: Master Yi, Tempered. [Hunt 2] (When I conquer or hold, gain 2 XP.)\n[Level 6][>] I have [Deflect] and [Ganking]. (While you have 6+ XP, opponents must pay [A] to choose me with a spell or ability and I can move from battlefield to battlefield.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1adb032501aac0070ea1bb0ca31c4efa11cd31a3-744x1039.png?accountingTag=RB",
+        "artist": "League Splash Team",
+        "accessibility_text": "Riftbound Unit: Master Yi, Tempered. [Hunt 2]\n[Level 6][>] I have [Deflect] and [Ganking]."
       },
       "tags": [
         "Master Yi",
@@ -7432,8 +7342,54 @@
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Master Yi Tempered",
-        "updated_on": "2026-07-10T22:45:04.598702+00:00",
+        "clean_name": "Master Yi Tempered Alternate Art",
+        "updated_on": "2026-07-10T22:45:04.655013+00:00",
+        "alternate_art": true,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": false
+    },
+    {
+      "id": "69bc5becd308c64675ca8996",
+      "name": "Shadow Watcher",
+      "riftbound_id": "unl-037-219",
+      "tcgplayer_id": "684587",
+      "collector_number": 37,
+      "attributes": {
+        "energy": 4,
+        "might": 5,
+        "power": 1
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": null,
+        "rarity": "Common",
+        "domain": [
+          "Calm"
+        ]
+      },
+      "text": {
+        "rich": "<p>If a friendly unit died during your Beginning Phase this turn, I enter ready.</p>",
+        "plain": "If a friendly unit died during your Beginning Phase this turn, I enter ready.",
+        "flavour": "It follows in memory's wake."
+      },
+      "set": {
+        "set_id": "UNL",
+        "label": "Unleashed"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f6f5ff413efc57d7948b4b9a46a4bba6eebd39d2-744x1039.png?accountingTag=RB",
+        "artist": "Dao Trong Le",
+        "accessibility_text": "Riftbound Unit: Shadow Watcher. If a friendly unit died during your Beginning Phase this turn, I enter ready."
+      },
+      "tags": [
+        "Ionia"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Shadow Watcher",
+        "updated_on": "2026-07-10T22:45:03.905854+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -7861,61 +7817,14 @@
       "new": false
     },
     {
-      "id": "69bc5becd308c64675ca898b",
-      "name": "Diana - Lunari",
-      "riftbound_id": "unl-079-219",
-      "tcgplayer_id": "684512",
-      "collector_number": 79,
+      "id": "69bc5beed308c64675ca89ae",
+      "name": "Scrutinizing Sergeant",
+      "riftbound_id": "unl-157-219",
+      "tcgplayer_id": "684612",
+      "collector_number": 157,
       "attributes": {
-        "energy": 3,
-        "might": 3,
-        "power": null
-      },
-      "classification": {
-        "type": "Unit",
-        "supertype": "Champion",
-        "rarity": "Rare",
-        "domain": [
-          "Mind"
-        ]
-      },
-      "text": {
-        "rich": "<p>When a showdown begins here, you may pay :rb_energy_1:. If you do, [Predict], then reveal the top card of your Main Deck. If it's a spell, draw it. (To Predict, look at the top card of your Main Deck. You may recycle it.)</p>",
-        "plain": "When a showdown begins here, you may pay :rb_energy_1:. If you do, [Predict], then reveal the top card of your Main Deck. If it's a spell, draw it. (To Predict, look at the top card of your Main Deck. You may recycle it.)",
-        "flavour": "Follow no false light."
-      },
-      "set": {
-        "set_id": "UNL",
-        "label": "Unleashed"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3e284397713abb21d2c8d9b85202ab65d21689e9-744x1039.png?accountingTag=RB",
-        "artist": "Six More Vodka",
-        "accessibility_text": "Riftbound Unit: Diana, Lunari. When a showdown begins here, you may pay [1]. If you do, [Predict], then reveal the top card of your Main Deck. If it's a spell, draw it. (To Predict, look at the top card of your Main Deck. You may recycle it.)"
-      },
-      "tags": [
-        "Diana",
-        "Mount Targon"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": "Diana Lunari",
-        "updated_on": "2026-07-10T22:45:03.296376+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": false
-    },
-    {
-      "id": "69bc5beed308c64675ca89ad",
-      "name": "Loyal Poro",
-      "riftbound_id": "unl-156-219",
-      "tcgplayer_id": "684611",
-      "collector_number": 156,
-      "attributes": {
-        "energy": 3,
-        "might": 3,
+        "energy": 6,
+        "might": 6,
         "power": null
       },
       "classification": {
@@ -7927,18 +7836,65 @@
         ]
       },
       "text": {
-        "rich": "<p>[Deathknell][&gt;] If I didn't die alone, draw 1. (When I die, get the effect. I wasn't alone if there were other friendly units here.)</p>",
-        "plain": "[Deathknell][&gt;] If I didn't die alone, draw 1. (When I die, get the effect. I wasn't alone if there were other friendly units here.)",
-        "flavour": "A head full of bravery and not much else."
+        "rich": "<p>When you play me, gain 1 XP for each friendly unit.</p>",
+        "plain": "When you play me, gain 1 XP for each friendly unit.",
+        "flavour": "Hmmmm ..."
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/860e1afc7364a002c6305ece7b6941e2e328d0a4-744x1039.png?accountingTag=RB",
-        "artist": "Six More Vodka",
-        "accessibility_text": "Riftbound Unit: Loyal Poro. [Deathknell][>] If I didn't die alone, draw 1. (When I die, get the effect. I wasn't alone if there were other friendly units here.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/18a034ba1f4eaf7204312ca68ffb413012f6cf6b-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Unit: Scrutinizing Sergeant . When you play me, gain 1 XP for each friendly unit."
+      },
+      "tags": [
+        "Elite",
+        "Demacia"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Scrutinizing Sergeant",
+        "updated_on": "2026-07-10T22:45:05.284620+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": false
+    },
+    {
+      "id": "69bc5beed308c64675ca89b8",
+      "name": "Veteran Poro (Overnumbered)",
+      "riftbound_id": "unl-223-219",
+      "tcgplayer_id": "684635",
+      "collector_number": 223,
+      "attributes": {
+        "energy": 2,
+        "might": 2,
+        "power": null
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": null,
+        "rarity": "Common",
+        "domain": [
+          "Body"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Weaponmaster]</p>",
+        "plain": "[Weaponmaster]",
+        "flavour": "As other know when we've been strong\r\n \r\nSo others strive to be enough"
+      },
+      "set": {
+        "set_id": "UNL",
+        "label": "Unleashed"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/337f38fae6a4d801fc14abcda2a7d09c3e7e6ae3-744x1039.png?accountingTag=RB",
+        "artist": "FOREDAWN",
+        "accessibility_text": "Riftbound Unit: Veteran Poro. [Weaponmaster]"
       },
       "tags": [
         "Poro",
@@ -7946,10 +7902,10 @@
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Loyal Poro",
-        "updated_on": "2026-07-10T22:45:05.226122+00:00",
+        "clean_name": "Veteran Poro Overnumbered",
+        "updated_on": "2026-07-10T22:45:05.826280+00:00",
         "alternate_art": false,
-        "overnumbered": false,
+        "overnumbered": true,
         "signature": false
       },
       "new": false
@@ -8378,14 +8334,14 @@
       "new": false
     },
     {
-      "id": "69bc5beed308c64675ca89ae",
-      "name": "Scrutinizing Sergeant",
-      "riftbound_id": "unl-157-219",
-      "tcgplayer_id": "684612",
-      "collector_number": 157,
+      "id": "69bc5beed308c64675ca89ad",
+      "name": "Loyal Poro",
+      "riftbound_id": "unl-156-219",
+      "tcgplayer_id": "684611",
+      "collector_number": 156,
       "attributes": {
-        "energy": 6,
-        "might": 6,
+        "energy": 3,
+        "might": 3,
         "power": null
       },
       "classification": {
@@ -8397,27 +8353,27 @@
         ]
       },
       "text": {
-        "rich": "<p>When you play me, gain 1 XP for each friendly unit.</p>",
-        "plain": "When you play me, gain 1 XP for each friendly unit.",
-        "flavour": "Hmmmm ..."
+        "rich": "<p>[Deathknell][&gt;] If I didn't die alone, draw 1. (When I die, get the effect. I wasn't alone if there were other friendly units here.)</p>",
+        "plain": "[Deathknell][&gt;] If I didn't die alone, draw 1. (When I die, get the effect. I wasn't alone if there were other friendly units here.)",
+        "flavour": "A head full of bravery and not much else."
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/18a034ba1f4eaf7204312ca68ffb413012f6cf6b-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Unit: Scrutinizing Sergeant . When you play me, gain 1 XP for each friendly unit."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/860e1afc7364a002c6305ece7b6941e2e328d0a4-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Unit: Loyal Poro. [Deathknell][>] If I didn't die alone, draw 1. (When I die, get the effect. I wasn't alone if there were other friendly units here.)"
       },
       "tags": [
-        "Elite",
-        "Demacia"
+        "Poro",
+        "Freljord"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Scrutinizing Sergeant",
-        "updated_on": "2026-07-10T22:45:05.284620+00:00",
+        "clean_name": "Loyal Poro",
+        "updated_on": "2026-07-10T22:45:05.226122+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -8838,47 +8794,44 @@
       "new": false
     },
     {
-      "id": "69bc5bedd308c64675ca89a3",
-      "name": "Master Yi - Tempered (Alternate Art)",
-      "riftbound_id": "unl-113a-219",
-      "tcgplayer_id": "684601",
-      "collector_number": 113,
+      "id": "69bd162140ff39fe1396df8a",
+      "name": "Friendship",
+      "riftbound_id": "unl-046-219",
+      "tcgplayer_id": "684652",
+      "collector_number": 46,
       "attributes": {
-        "energy": 4,
-        "might": 4,
+        "energy": 1,
+        "might": null,
         "power": null
       },
       "classification": {
-        "type": "Unit",
-        "supertype": "Champion",
-        "rarity": "Rare",
+        "type": "Spell",
+        "supertype": null,
+        "rarity": "Uncommon",
         "domain": [
-          "Body"
+          "Calm"
         ]
       },
       "text": {
-        "rich": "<p>[Hunt 2]<br />[Level 6][&gt;] I have [Deflect] and [Ganking].</p>",
-        "plain": "[Hunt 2][Level 6][&gt;] I have [Deflect] and [Ganking].",
-        "flavour": "Watch, and learn."
+        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />Choose a unit. Give it +1 :rb_might: this turn for each of the following tags among your units \u2014 Bird, Cat, Dog, and Poro.</p>",
+        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)Choose a unit. Give it +1 :rb_might: this turn for each of the following tags among your units \u2014 Bird, Cat, Dog, and Poro.",
+        "flavour": "There's always time for scritches."
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1adb032501aac0070ea1bb0ca31c4efa11cd31a3-744x1039.png?accountingTag=RB",
-        "artist": "League Splash Team",
-        "accessibility_text": "Riftbound Unit: Master Yi, Tempered. [Hunt 2]\n[Level 6][>] I have [Deflect] and [Ganking]."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4a1a08ec8c23a2663babd2fc683481888347407a-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Friendship. [Reaction] (Play any time, even before spells and abilities resolve.)\nChoose a unit. Give it +1 [S] this turn for each of the following tags among your units \u2014 Bird, Cat, Dog, and Poro."
       },
-      "tags": [
-        "Master Yi",
-        "Ionia"
-      ],
+      "tags": [],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Master Yi Tempered Alternate Art",
-        "updated_on": "2026-07-10T22:45:04.655013+00:00",
-        "alternate_art": true,
+        "clean_name": "Friendship",
+        "updated_on": "2026-07-10T22:45:06.162276+00:00",
+        "alternate_art": false,
         "overnumbered": false,
         "signature": false
       },
@@ -9019,43 +8972,45 @@
       "new": false
     },
     {
-      "id": "69bd162140ff39fe1396df8a",
-      "name": "Friendship",
-      "riftbound_id": "unl-046-219",
-      "tcgplayer_id": "684652",
-      "collector_number": 46,
+      "id": "69bd162140ff39fe1396df8b",
+      "name": "Towering Pairofant",
+      "riftbound_id": "unl-008-219",
+      "tcgplayer_id": "684653",
+      "collector_number": 8,
       "attributes": {
-        "energy": 1,
-        "might": null,
+        "energy": 6,
+        "might": 6,
         "power": null
       },
       "classification": {
-        "type": "Spell",
+        "type": "Unit",
         "supertype": null,
-        "rarity": "Uncommon",
+        "rarity": "Common",
         "domain": [
-          "Calm"
+          "Fury"
         ]
       },
       "text": {
-        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />Choose a unit. Give it +1 :rb_might: this turn for each of the following tags among your units \u2014 Bird, Cat, Dog, and Poro.</p>",
-        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)Choose a unit. Give it +1 :rb_might: this turn for each of the following tags among your units \u2014 Bird, Cat, Dog, and Poro.",
-        "flavour": "There's always time for scritches."
+        "rich": "<p>[Assault] (+1 :rb_might: while I'm an attacker.)<br />If a unit died this turn, I enter ready.</p>",
+        "plain": "[Assault] (+1 :rb_might: while I'm an attacker.)If a unit died this turn, I enter ready.",
+        "flavour": "A pairofant never forgives."
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4a1a08ec8c23a2663babd2fc683481888347407a-744x1039.png?accountingTag=RB",
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/47ac3971efe67f7910771709b8bb9a5df5b63952-744x1039.png?accountingTag=RB",
         "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Spell: Friendship. [Reaction] (Play any time, even before spells and abilities resolve.)\nChoose a unit. Give it +1 [S] this turn for each of the following tags among your units \u2014 Bird, Cat, Dog, and Poro."
+        "accessibility_text": "Riftbound Unit: Towering Pairofant. [Assault] (+1 [S] while I'm an attacker.)\nIf a unit died this turn, I enter ready."
       },
-      "tags": [],
+      "tags": [
+        "Shurima"
+      ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Friendship",
-        "updated_on": "2026-07-10T22:45:06.162276+00:00",
+        "clean_name": "Towering Pairofant",
+        "updated_on": "2026-07-10T22:45:06.222836+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -9063,11 +9018,57 @@
       "new": false
     },
     {
-      "id": "69bff35558d0fbca04e9371a",
-      "name": "Frozen Fortress",
-      "riftbound_id": "unl-212-219",
-      "tcgplayer_id": "684678",
-      "collector_number": 212,
+      "id": "69bff35558d0fbca04e9371b",
+      "name": "Sharkling",
+      "riftbound_id": "unl-006-219",
+      "tcgplayer_id": "685002",
+      "collector_number": 6,
+      "attributes": {
+        "energy": 3,
+        "might": 1,
+        "power": null
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": null,
+        "rarity": "Common",
+        "domain": [
+          "Fury"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Accelerate] (You may pay :rb_energy_1::rb_rune_fury: as an additional cost to have me enter ready.)<br />[Assault 4] (+4 :rb_might: while I'm an attacker.)</p>",
+        "plain": "[Accelerate] (You may pay :rb_energy_1::rb_rune_fury: as an additional cost to have me enter ready.)[Assault 4] (+4 :rb_might: while I'm an attacker.)",
+        "flavour": "Don't worry, it's only a little one.\"\r\n \r\n- Common last words"
+      },
+      "set": {
+        "set_id": "UNL",
+        "label": "Unleashed"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f2aa213fe1e54d0d6f1507c7ed8829c8ba2bc610-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Unit: Sharkling. [Accelerate] (You may pay [1][C] as an additional cost to have me enter ready.)\n[Assault 4] (+4 [S] while I'm an attacker.)"
+      },
+      "tags": [
+        "Bilgewater"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Sharkling",
+        "updated_on": "2026-07-10T22:45:06.813248+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": false
+    },
+    {
+      "id": "69bff35658d0fbca04e93725",
+      "name": "The Academy",
+      "riftbound_id": "unl-216-219",
+      "tcgplayer_id": "685025",
+      "collector_number": 216,
       "attributes": {
         "energy": null,
         "might": null,
@@ -9082,8 +9083,8 @@
         ]
       },
       "text": {
-        "rich": "<p>At the start of each player's Beginning Phase, deal 1 to each unit here. (This happens before scoring.)</p>",
-        "plain": "At the start of each player's Beginning Phase, deal 1 to each unit here. (This happens before scoring.)",
+        "rich": "<p>When you hold here, give your next spell this turn [Repeat] equal to its base cost. (You may pay the additional cost to repeat the spell's effect.)</p>",
+        "plain": "When you hold here, give your next spell this turn [Repeat] equal to its base cost. (You may pay the additional cost to repeat the spell's effect.)",
         "flavour": null
       },
       "set": {
@@ -9091,15 +9092,15 @@
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b5e33fdb4ddc8c73e03bca648862fc080aa8bbcf-1039x744.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Battlefield: Frozen Fortress. At the start of each player's Beginning Phase, deal 1 to each unit here. (This happens before scoring.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/82646c995f3d0b897ce97f7b68c35f5fd9384b8e-1039x744.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Battlefield: The Academy. When you hold here, give your next spell this turn [Repeat] equal to its base cost. (You may pay the additional cost to repeat the spell's effect.)"
       },
       "tags": [],
       "orientation": "landscape",
       "metadata": {
-        "clean_name": "Frozen Fortress",
-        "updated_on": "2026-07-10T22:45:06.750218+00:00",
+        "clean_name": "The Academy",
+        "updated_on": "2026-07-10T22:45:07.388748+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -9514,45 +9515,43 @@
       "new": false
     },
     {
-      "id": "69bff35558d0fbca04e9371b",
-      "name": "Sharkling",
-      "riftbound_id": "unl-006-219",
-      "tcgplayer_id": "685002",
-      "collector_number": 6,
+      "id": "69bff35558d0fbca04e9371a",
+      "name": "Frozen Fortress",
+      "riftbound_id": "unl-212-219",
+      "tcgplayer_id": "684678",
+      "collector_number": 212,
       "attributes": {
-        "energy": 3,
-        "might": 1,
+        "energy": null,
+        "might": null,
         "power": null
       },
       "classification": {
-        "type": "Unit",
+        "type": "Battlefield",
         "supertype": null,
-        "rarity": "Common",
+        "rarity": "Uncommon",
         "domain": [
-          "Fury"
+          "Colorless"
         ]
       },
       "text": {
-        "rich": "<p>[Accelerate] (You may pay :rb_energy_1::rb_rune_fury: as an additional cost to have me enter ready.)<br />[Assault 4] (+4 :rb_might: while I'm an attacker.)</p>",
-        "plain": "[Accelerate] (You may pay :rb_energy_1::rb_rune_fury: as an additional cost to have me enter ready.)[Assault 4] (+4 :rb_might: while I'm an attacker.)",
-        "flavour": "Don't worry, it's only a little one.\"\r\n \r\n- Common last words"
+        "rich": "<p>At the start of each player's Beginning Phase, deal 1 to each unit here. (This happens before scoring.)</p>",
+        "plain": "At the start of each player's Beginning Phase, deal 1 to each unit here. (This happens before scoring.)",
+        "flavour": null
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f2aa213fe1e54d0d6f1507c7ed8829c8ba2bc610-744x1039.png?accountingTag=RB",
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b5e33fdb4ddc8c73e03bca648862fc080aa8bbcf-1039x744.png?accountingTag=RB",
         "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Unit: Sharkling. [Accelerate] (You may pay [1][C] as an additional cost to have me enter ready.)\n[Assault 4] (+4 [S] while I'm an attacker.)"
+        "accessibility_text": "Riftbound Battlefield: Frozen Fortress. At the start of each player's Beginning Phase, deal 1 to each unit here. (This happens before scoring.)"
       },
-      "tags": [
-        "Bilgewater"
-      ],
-      "orientation": "portrait",
+      "tags": [],
+      "orientation": "landscape",
       "metadata": {
-        "clean_name": "Sharkling",
-        "updated_on": "2026-07-10T22:45:06.813248+00:00",
+        "clean_name": "Frozen Fortress",
+        "updated_on": "2026-07-10T22:45:06.750218+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -9969,45 +9968,46 @@
       "new": false
     },
     {
-      "id": "69bd162140ff39fe1396df8b",
-      "name": "Towering Pairofant",
-      "riftbound_id": "unl-008-219",
-      "tcgplayer_id": "684653",
-      "collector_number": 8,
+      "id": "69bc5becd308c64675ca898b",
+      "name": "Diana - Lunari",
+      "riftbound_id": "unl-079-219",
+      "tcgplayer_id": "684512",
+      "collector_number": 79,
       "attributes": {
-        "energy": 6,
-        "might": 6,
+        "energy": 3,
+        "might": 3,
         "power": null
       },
       "classification": {
         "type": "Unit",
-        "supertype": null,
-        "rarity": "Common",
+        "supertype": "Champion",
+        "rarity": "Rare",
         "domain": [
-          "Fury"
+          "Mind"
         ]
       },
       "text": {
-        "rich": "<p>[Assault] (+1 :rb_might: while I'm an attacker.)<br />If a unit died this turn, I enter ready.</p>",
-        "plain": "[Assault] (+1 :rb_might: while I'm an attacker.)If a unit died this turn, I enter ready.",
-        "flavour": "A pairofant never forgives."
+        "rich": "<p>When a showdown begins here, you may pay :rb_energy_1:. If you do, [Predict], then reveal the top card of your Main Deck. If it's a spell, draw it. (To Predict, look at the top card of your Main Deck. You may recycle it.)</p>",
+        "plain": "When a showdown begins here, you may pay :rb_energy_1:. If you do, [Predict], then reveal the top card of your Main Deck. If it's a spell, draw it. (To Predict, look at the top card of your Main Deck. You may recycle it.)",
+        "flavour": "Follow no false light."
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/47ac3971efe67f7910771709b8bb9a5df5b63952-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Unit: Towering Pairofant. [Assault] (+1 [S] while I'm an attacker.)\nIf a unit died this turn, I enter ready."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3e284397713abb21d2c8d9b85202ab65d21689e9-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Unit: Diana, Lunari. When a showdown begins here, you may pay [1]. If you do, [Predict], then reveal the top card of your Main Deck. If it's a spell, draw it. (To Predict, look at the top card of your Main Deck. You may recycle it.)"
       },
       "tags": [
-        "Shurima"
+        "Diana",
+        "Mount Targon"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Towering Pairofant",
-        "updated_on": "2026-07-10T22:45:06.222836+00:00",
+        "clean_name": "Diana Lunari",
+        "updated_on": "2026-07-10T22:45:03.296376+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -10015,27 +10015,28 @@
       "new": false
     },
     {
-      "id": "69bc5becd308c64675ca898a",
-      "name": "Ivern - Nurturer",
-      "riftbound_id": "unl-051-219",
-      "tcgplayer_id": "684511",
-      "collector_number": 51,
+      "id": "69bc5bead308c64675ca8969",
+      "name": "Curtain Call",
+      "riftbound_id": "unl-182-219",
+      "tcgplayer_id": "684477",
+      "collector_number": 182,
       "attributes": {
-        "energy": 5,
-        "might": 4,
-        "power": 1
+        "energy": 4,
+        "might": null,
+        "power": null
       },
       "classification": {
-        "type": "Unit",
-        "supertype": "Champion",
-        "rarity": "Rare",
+        "type": "Spell",
+        "supertype": "Signature",
+        "rarity": "Epic",
         "domain": [
-          "Calm"
+          "Fury",
+          "Mind"
         ]
       },
       "text": {
-        "rich": "<p>When you play me or when I hold, look at the top 3 cards of your Main Deck. You may reveal a unit from among them and draw it. Recycle the rest. Then if you revealed a Bird, Cat, Dog, or Poro, do this: [Buff] a friendly unit. (Give it a +1 :rb_might: buff if it doesn't have one.)</p>",
-        "plain": "When you play me or when I hold, look at the top 3 cards of your Main Deck. You may reveal a unit from among them and draw it. Recycle the rest. Then if you revealed a Bird, Cat, Dog, or Poro, do this: [Buff] a friendly unit. (Give it a +1 :rb_might: buff if it doesn't have one.)",
+        "rich": "<p>[Repeat] \u2014 :rb_energy_1: / :rb_rune_rainbow: / :rb_energy_1::rb_rune_rainbow: (You may pay each additional cost to repeat this spell's effect.)<br />Choose one you haven't already chosen \u2014</p><ul><li>Draw 1.</li><li>Deal 2 to a unit at a battlefield.</li><li>Deal 3 to a unit at a base.</li><li>Give a unit at a battlefield -4 :rb_might: this turn.</li></ul>",
+        "plain": "[Repeat] \u2014 :rb_energy_1: / :rb_rune_rainbow: / :rb_energy_1::rb_rune_rainbow: (You may pay each additional cost to repeat this spell's effect.)Choose one you haven't already chosen \u2014Draw 1.Deal 2 to a unit at a battlefield.Deal 3 to a unit at a base.Give a unit at a battlefield -4 :rb_might: this turn.",
         "flavour": null
       },
       "set": {
@@ -10043,18 +10044,17 @@
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a72b08dd57422d3441df88eb61c000cdb4ac688a-744x1039.png?accountingTag=RB",
-        "artist": "League Splash Team",
-        "accessibility_text": "Riftbound Unit: Ivern, Nurturer. When you play me or when I hold, look at the top 3 cards of your Main Deck. You may reveal a unit from among them and draw it. Recycle the rest. Then if you revealed a Bird, Cat, Dog, or Poro, do this: [Buff] a friendly unit. (Give it a +1 [S] buff if it doesn't have one.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/01496068d9a8d5567672d802bd008297bd1fe8cc-744x1039.png?accountingTag=RB",
+        "artist": "\u534e\u9510",
+        "accessibility_text": "Riftbound Spell: Curtain Call. [Repeat] \u2014 [1] / [A] / [1][A] (You may pay each additional cost to repeat this spell's effect.)\nChoose one you haven't already chosen \u2014\n- Draw 1.\n- Deal 2 to a unit at a battlefield.\n- Deal 3 to a unit at a base.\n- Give a unit at a battlefield -4 [S] this turn."
       },
       "tags": [
-        "Ivern",
-        "Ionia"
+        "Jhin"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Ivern Nurturer",
-        "updated_on": "2026-07-10T22:45:03.225908+00:00",
+        "clean_name": "Curtain Call",
+        "updated_on": "2026-07-10T22:45:01.331721+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -10062,46 +10062,43 @@
       "new": false
     },
     {
-      "id": "69bc5bead308c64675ca8968",
-      "name": "LeBlanc - Everywhere At Once",
-      "riftbound_id": "unl-090-219",
-      "tcgplayer_id": "684476",
-      "collector_number": 90,
+      "id": "69bc5bebd308c64675ca8974",
+      "name": "Dancing Grenade",
+      "riftbound_id": "unl-020-219",
+      "tcgplayer_id": "684488",
+      "collector_number": 20,
       "attributes": {
-        "energy": 4,
-        "might": 4,
-        "power": null
+        "energy": 2,
+        "might": null,
+        "power": 1
       },
       "classification": {
-        "type": "Unit",
-        "supertype": "Champion",
-        "rarity": "Epic",
+        "type": "Spell",
+        "supertype": null,
+        "rarity": "Rare",
         "domain": [
-          "Mind"
+          "Fury"
         ]
       },
       "text": {
-        "rich": "<p>[Backline] (I must be assigned combat damage last.)<br />Your [Temporary] effects at my battlefield don't trigger.</p>",
-        "plain": "[Backline] (I must be assigned combat damage last.)Your [Temporary] effects at my battlefield don't trigger.",
-        "flavour": "Vision. Might. Guile. It's almost comical how history repeats itself."
+        "rich": "<p>Deal 2 to a unit. Its controller may play this spell again for :rb_rune_rainbow:. If they do, this deals 1 additional Bonus Damage for each time this spell has dealt damage this turn.</p>",
+        "plain": "Deal 2 to a unit. Its controller may play this spell again for :rb_rune_rainbow:. If they do, this deals 1 additional Bonus Damage for each time this spell has dealt damage this turn.",
+        "flavour": "They're puppets. I pull their strings, and then they dance.\" \r\n - Jhin"
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a0389576206b1e750a0852c6ff46efd2646d47da-744x1039.png?accountingTag=RB",
-        "artist": "Envar Studio",
-        "accessibility_text": "Riftbound Unit: LeBlanc, Everywhere at Once. [Backline] (I must be assigned combat damage last.)\nYour [Temporary] effects at my battlefield don't trigger."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8afc30b1bc7cc1841dfe11cfa29adbcc02257845-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Dancing Grenade. Deal 2 to a unit. Its controller may play this spell again for [A]. If they do, this deals 1 additional Bonus Damage for each time this spell has dealt damage this turn."
       },
-      "tags": [
-        "Noxus",
-        "LeBlanc"
-      ],
+      "tags": [],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "LeBlanc Everywhere At Once",
-        "updated_on": "2026-07-10T22:45:01.262516+00:00",
+        "clean_name": "Dancing Grenade",
+        "updated_on": "2026-07-10T22:45:01.956955+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -10566,46 +10563,46 @@
       "new": false
     },
     {
-      "id": "69bc5bead308c64675ca8969",
-      "name": "Curtain Call",
-      "riftbound_id": "unl-182-219",
-      "tcgplayer_id": "684477",
-      "collector_number": 182,
+      "id": "69bc5bebd308c64675ca8975",
+      "name": "Jhin - Murderous Artist",
+      "riftbound_id": "unl-022-219",
+      "tcgplayer_id": "684489",
+      "collector_number": 22,
       "attributes": {
         "energy": 4,
-        "might": null,
-        "power": null
+        "might": 4,
+        "power": 1
       },
       "classification": {
-        "type": "Spell",
-        "supertype": "Signature",
-        "rarity": "Epic",
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Rare",
         "domain": [
-          "Fury",
-          "Mind"
+          "Fury"
         ]
       },
       "text": {
-        "rich": "<p>[Repeat] \u2014 :rb_energy_1: / :rb_rune_rainbow: / :rb_energy_1::rb_rune_rainbow: (You may pay each additional cost to repeat this spell's effect.)<br />Choose one you haven't already chosen \u2014</p><ul><li>Draw 1.</li><li>Deal 2 to a unit at a battlefield.</li><li>Deal 3 to a unit at a base.</li><li>Give a unit at a battlefield -4 :rb_might: this turn.</li></ul>",
-        "plain": "[Repeat] \u2014 :rb_energy_1: / :rb_rune_rainbow: / :rb_energy_1::rb_rune_rainbow: (You may pay each additional cost to repeat this spell's effect.)Choose one you haven't already chosen \u2014Draw 1.Deal 2 to a unit at a battlefield.Deal 3 to a unit at a base.Give a unit at a battlefield -4 :rb_might: this turn.",
-        "flavour": null
+        "rich": "<p>[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)<br />[Ganking] (I can move from battlefield to battlefield.)<br />When I move, [Add] :rb_energy_1::rb_rune_rainbow:. (Abilities that add resources can't be reacted to.)</p>",
+        "plain": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)[Ganking] (I can move from battlefield to battlefield.)When I move, [Add] :rb_energy_1::rb_rune_rainbow:. (Abilities that add resources can't be reacted to.)",
+        "flavour": "And now, the curtain rises."
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/01496068d9a8d5567672d802bd008297bd1fe8cc-744x1039.png?accountingTag=RB",
-        "artist": "\u534e\u9510",
-        "accessibility_text": "Riftbound Spell: Curtain Call. [Repeat] \u2014 [1] / [A] / [1][A] (You may pay each additional cost to repeat this spell's effect.)\nChoose one you haven't already chosen \u2014\n- Draw 1.\n- Deal 2 to a unit at a battlefield.\n- Deal 3 to a unit at a base.\n- Give a unit at a battlefield -4 [S] this turn."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8da724a842cf61cb24c3c02dd99adc93a9222e06-744x1039.png?accountingTag=RB",
+        "artist": "Alessandro Poli",
+        "accessibility_text": "Riftbound Unit: Jhin, Murderous Artist. [Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\n[Ganking] (I can move from battlefield to battlefield.)\nWhen I move, [Add] [1][A]. (Abilities that add resources can't be reacted to.)"
       },
       "tags": [
-        "Jhin"
+        "Jhin",
+        "Ionia"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Curtain Call",
-        "updated_on": "2026-07-10T22:45:01.331721+00:00",
+        "clean_name": "Jhin Murderous Artist",
+        "updated_on": "2026-07-10T22:45:02.012672+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -10613,43 +10610,46 @@
       "new": false
     },
     {
-      "id": "69bc5bebd308c64675ca8974",
-      "name": "Dancing Grenade",
-      "riftbound_id": "unl-020-219",
-      "tcgplayer_id": "684488",
-      "collector_number": 20,
+      "id": "69bc5bead308c64675ca8968",
+      "name": "LeBlanc - Everywhere At Once",
+      "riftbound_id": "unl-090-219",
+      "tcgplayer_id": "684476",
+      "collector_number": 90,
       "attributes": {
-        "energy": 2,
-        "might": null,
-        "power": 1
+        "energy": 4,
+        "might": 4,
+        "power": null
       },
       "classification": {
-        "type": "Spell",
-        "supertype": null,
-        "rarity": "Rare",
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Epic",
         "domain": [
-          "Fury"
+          "Mind"
         ]
       },
       "text": {
-        "rich": "<p>Deal 2 to a unit. Its controller may play this spell again for :rb_rune_rainbow:. If they do, this deals 1 additional Bonus Damage for each time this spell has dealt damage this turn.</p>",
-        "plain": "Deal 2 to a unit. Its controller may play this spell again for :rb_rune_rainbow:. If they do, this deals 1 additional Bonus Damage for each time this spell has dealt damage this turn.",
-        "flavour": "They're puppets. I pull their strings, and then they dance.\" \r\n - Jhin"
+        "rich": "<p>[Backline] (I must be assigned combat damage last.)<br />Your [Temporary] effects at my battlefield don't trigger.</p>",
+        "plain": "[Backline] (I must be assigned combat damage last.)Your [Temporary] effects at my battlefield don't trigger.",
+        "flavour": "Vision. Might. Guile. It's almost comical how history repeats itself."
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8afc30b1bc7cc1841dfe11cfa29adbcc02257845-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Spell: Dancing Grenade. Deal 2 to a unit. Its controller may play this spell again for [A]. If they do, this deals 1 additional Bonus Damage for each time this spell has dealt damage this turn."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a0389576206b1e750a0852c6ff46efd2646d47da-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "accessibility_text": "Riftbound Unit: LeBlanc, Everywhere at Once. [Backline] (I must be assigned combat damage last.)\nYour [Temporary] effects at my battlefield don't trigger."
       },
-      "tags": [],
+      "tags": [
+        "Noxus",
+        "LeBlanc"
+      ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Dancing Grenade",
-        "updated_on": "2026-07-10T22:45:01.956955+00:00",
+        "clean_name": "LeBlanc Everywhere At Once",
+        "updated_on": "2026-07-10T22:45:01.262516+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -11080,46 +11080,46 @@
       "new": false
     },
     {
-      "id": "69bc5bead308c64675ca895e",
-      "name": "Mirror Image",
-      "riftbound_id": "unl-200-219",
-      "tcgplayer_id": "684209",
-      "collector_number": 200,
+      "id": "69bc5bebd308c64675ca8980",
+      "name": "Jhin - Virtuoso",
+      "riftbound_id": "unl-181-219",
+      "tcgplayer_id": "684500",
+      "collector_number": 181,
       "attributes": {
-        "energy": 3,
+        "energy": null,
         "might": null,
-        "power": 2
+        "power": null
       },
       "classification": {
-        "type": "Spell",
-        "supertype": "Signature",
-        "rarity": "Epic",
+        "type": "Legend",
+        "supertype": null,
+        "rarity": "Rare",
         "domain": [
-          "Mind",
-          "Order"
+          "Fury",
+          "Mind"
         ]
       },
       "text": {
-        "rich": "<p>Choose a unit. Play a ready Reflection unit token to your base. It becomes a copy of that unit. Give it [Temporary]. (Kill it at the start of its controller's Beginning Phase, before scoring.)</p>",
-        "plain": "Choose a unit. Play a ready Reflection unit token to your base. It becomes a copy of that unit. Give it [Temporary]. (Kill it at the start of its controller's Beginning Phase, before scoring.)",
-        "flavour": "The best lies are beautiful.\"\r\n - LeBlanc"
+        "rich": "<p>When you play a spell, if you spent :rb_energy_4: or more, you may banish it. Then, if there are four spells banished with me, put each in its trash, channel 4 runes, and draw 1.</p>",
+        "plain": "When you play a spell, if you spent :rb_energy_4: or more, you may banish it. Then, if there are four spells banished with me, put each in its trash, channel 4 runes, and draw 1.",
+        "flavour": null
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a7ef8a09c0297cd796c4e2dee15922745ede7417-744x1039.png?accountingTag=RB",
-        "artist": "\u534e\u9510",
-        "accessibility_text": "Riftbound Spell: Mirror Image. Choose a unit. Play a ready Reflection unit token to your base. It becomes a copy of that unit. Give it [Temporary]. (Kill it at the start of its controller's Beginning Phase, before scoring.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d1e6947cf43a19488a2c31f71a4887aa0423a966-744x1039.png?accountingTag=RB",
+        "artist": "Pandart Studio",
+        "accessibility_text": "Riftbound Legend: Virtuoso. When you play a spell, if you spent [4] or more, you may banish it. Then, if there are four spells banished with me, put each in its trash, channel 4 runes, and draw 1."
       },
       "tags": [
-        "LeBlanc"
+        "Jhin"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Mirror Image",
-        "updated_on": "2026-07-10T22:45:00.693613+00:00",
+        "clean_name": "Jhin Virtuoso",
+        "updated_on": "2026-07-10T22:45:02.651137+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -11127,37 +11127,37 @@
       "new": false
     },
     {
-      "id": "69bc5bebd308c64675ca897f",
-      "name": "Ivern - Friend to All (Alternate Art)",
-      "riftbound_id": "unl-177a-219",
-      "tcgplayer_id": "684499",
-      "collector_number": 177,
+      "id": "69bc5becd308c64675ca898a",
+      "name": "Ivern - Nurturer",
+      "riftbound_id": "unl-051-219",
+      "tcgplayer_id": "684511",
+      "collector_number": 51,
       "attributes": {
-        "energy": 6,
-        "might": 6,
-        "power": null
+        "energy": 5,
+        "might": 4,
+        "power": 1
       },
       "classification": {
         "type": "Unit",
         "supertype": "Champion",
-        "rarity": "Epic",
+        "rarity": "Rare",
         "domain": [
-          "Order"
+          "Calm"
         ]
       },
       "text": {
-        "rich": "<p>As you play me, choose Bird, Cat, Dog, or Poro. I gain that tag.<br />When I conquer or hold, score 1 point if your units have all of the following tags among them \u2014 Bird, Cat, Dog, and Poro.</p>",
-        "plain": "As you play me, choose Bird, Cat, Dog, or Poro. I gain that tag.When I conquer or hold, score 1 point if your units have all of the following tags among them \u2014 Bird, Cat, Dog, and Poro.",
-        "flavour": "Life is such a strange miracle."
+        "rich": "<p>When you play me or when I hold, look at the top 3 cards of your Main Deck. You may reveal a unit from among them and draw it. Recycle the rest. Then if you revealed a Bird, Cat, Dog, or Poro, do this: [Buff] a friendly unit. (Give it a +1 :rb_might: buff if it doesn't have one.)</p>",
+        "plain": "When you play me or when I hold, look at the top 3 cards of your Main Deck. You may reveal a unit from among them and draw it. Recycle the rest. Then if you revealed a Bird, Cat, Dog, or Poro, do this: [Buff] a friendly unit. (Give it a +1 :rb_might: buff if it doesn't have one.)",
+        "flavour": null
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/72462350a7842b6b81c022ac255ae0e82f3559fd-744x1039.png?accountingTag=RB",
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a72b08dd57422d3441df88eb61c000cdb4ac688a-744x1039.png?accountingTag=RB",
         "artist": "League Splash Team",
-        "accessibility_text": "Riftbound Unit: Ivern, Friend to All. As you play me, choose Bird, Cat, Dog, or Poro. I gain that tag.\nWhen I conquer or hold, score 1 point if your units have all of the following tags among them \u2014 Bird, Cat, Dog, and Poro."
+        "accessibility_text": "Riftbound Unit: Ivern, Nurturer. When you play me or when I hold, look at the top 3 cards of your Main Deck. You may reveal a unit from among them and draw it. Recycle the rest. Then if you revealed a Bird, Cat, Dog, or Poro, do this: [Buff] a friendly unit. (Give it a +1 [S] buff if it doesn't have one.)"
       },
       "tags": [
         "Ivern",
@@ -11165,9 +11165,9 @@
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Ivern Friend to All Alternate Art",
-        "updated_on": "2026-07-10T22:45:02.593177+00:00",
-        "alternate_art": true,
+        "clean_name": "Ivern Nurturer",
+        "updated_on": "2026-07-10T22:45:03.225908+00:00",
+        "alternate_art": false,
         "overnumbered": false,
         "signature": false
       },
@@ -11597,46 +11597,46 @@
       "new": false
     },
     {
-      "id": "69bc5bebd308c64675ca8980",
-      "name": "Jhin - Virtuoso",
-      "riftbound_id": "unl-181-219",
-      "tcgplayer_id": "684500",
-      "collector_number": 181,
+      "id": "69bc5bead308c64675ca895e",
+      "name": "Mirror Image",
+      "riftbound_id": "unl-200-219",
+      "tcgplayer_id": "684209",
+      "collector_number": 200,
       "attributes": {
-        "energy": null,
+        "energy": 3,
         "might": null,
-        "power": null
+        "power": 2
       },
       "classification": {
-        "type": "Legend",
-        "supertype": null,
-        "rarity": "Rare",
+        "type": "Spell",
+        "supertype": "Signature",
+        "rarity": "Epic",
         "domain": [
-          "Fury",
-          "Mind"
+          "Mind",
+          "Order"
         ]
       },
       "text": {
-        "rich": "<p>When you play a spell, if you spent :rb_energy_4: or more, you may banish it. Then, if there are four spells banished with me, put each in its trash, channel 4 runes, and draw 1.</p>",
-        "plain": "When you play a spell, if you spent :rb_energy_4: or more, you may banish it. Then, if there are four spells banished with me, put each in its trash, channel 4 runes, and draw 1.",
-        "flavour": null
+        "rich": "<p>Choose a unit. Play a ready Reflection unit token to your base. It becomes a copy of that unit. Give it [Temporary]. (Kill it at the start of its controller's Beginning Phase, before scoring.)</p>",
+        "plain": "Choose a unit. Play a ready Reflection unit token to your base. It becomes a copy of that unit. Give it [Temporary]. (Kill it at the start of its controller's Beginning Phase, before scoring.)",
+        "flavour": "The best lies are beautiful.\"\r\n - LeBlanc"
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d1e6947cf43a19488a2c31f71a4887aa0423a966-744x1039.png?accountingTag=RB",
-        "artist": "Pandart Studio",
-        "accessibility_text": "Riftbound Legend: Virtuoso. When you play a spell, if you spent [4] or more, you may banish it. Then, if there are four spells banished with me, put each in its trash, channel 4 runes, and draw 1."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a7ef8a09c0297cd796c4e2dee15922745ede7417-744x1039.png?accountingTag=RB",
+        "artist": "\u534e\u9510",
+        "accessibility_text": "Riftbound Spell: Mirror Image. Choose a unit. Play a ready Reflection unit token to your base. It becomes a copy of that unit. Give it [Temporary]. (Kill it at the start of its controller's Beginning Phase, before scoring.)"
       },
       "tags": [
-        "Jhin"
+        "LeBlanc"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Jhin Virtuoso",
-        "updated_on": "2026-07-10T22:45:02.651137+00:00",
+        "clean_name": "Mirror Image",
+        "updated_on": "2026-07-10T22:45:00.693613+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -11644,47 +11644,47 @@
       "new": false
     },
     {
-      "id": "69bc5be9d308c64675ca895d",
-      "name": "LeBlanc - Deceiver",
-      "riftbound_id": "unl-199-219",
-      "tcgplayer_id": "684208",
-      "collector_number": 199,
+      "id": "69bc5bebd308c64675ca897f",
+      "name": "Ivern - Friend to All (Alternate Art)",
+      "riftbound_id": "unl-177a-219",
+      "tcgplayer_id": "684499",
+      "collector_number": 177,
       "attributes": {
-        "energy": null,
-        "might": null,
+        "energy": 6,
+        "might": 6,
         "power": null
       },
       "classification": {
-        "type": "Legend",
-        "supertype": null,
-        "rarity": "Rare",
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Epic",
         "domain": [
-          "Mind",
           "Order"
         ]
       },
       "text": {
-        "rich": "<p>When you conquer or hold, you may discard 1 and exhaust me to play a ready Reflection unit token there. It becomes a copy of another unit there. Give it [Temporary].</p>",
-        "plain": "When you conquer or hold, you may discard 1 and exhaust me to play a ready Reflection unit token there. It becomes a copy of another unit there. Give it [Temporary].",
-        "flavour": null
+        "rich": "<p>As you play me, choose Bird, Cat, Dog, or Poro. I gain that tag.<br />When I conquer or hold, score 1 point if your units have all of the following tags among them \u2014 Bird, Cat, Dog, and Poro.</p>",
+        "plain": "As you play me, choose Bird, Cat, Dog, or Poro. I gain that tag.When I conquer or hold, score 1 point if your units have all of the following tags among them \u2014 Bird, Cat, Dog, and Poro.",
+        "flavour": "Life is such a strange miracle."
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c17d29602d61d6702372fec4db44c6fb2a29e8a2-744x1039.png?accountingTag=RB",
-        "artist": "\u9eef\u8367\u5c9bDark Glow",
-        "accessibility_text": "Riftbound Legend: Deceiver. When you conquer or hold, you may discard 1 and exhaust me to play a ready Reflection unit token there. It becomes a copy of another unit there. Give it [Temporary]."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/72462350a7842b6b81c022ac255ae0e82f3559fd-744x1039.png?accountingTag=RB",
+        "artist": "League Splash Team",
+        "accessibility_text": "Riftbound Unit: Ivern, Friend to All. As you play me, choose Bird, Cat, Dog, or Poro. I gain that tag.\nWhen I conquer or hold, score 1 point if your units have all of the following tags among them \u2014 Bird, Cat, Dog, and Poro."
       },
       "tags": [
-        "LeBlanc"
+        "Ivern",
+        "Ionia"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "LeBlanc Deceiver",
-        "updated_on": "2026-07-10T22:45:00.630191+00:00",
-        "alternate_art": false,
+        "clean_name": "Ivern Friend to All Alternate Art",
+        "updated_on": "2026-07-10T22:45:02.593177+00:00",
+        "alternate_art": true,
         "overnumbered": false,
         "signature": false
       },
@@ -12112,46 +12112,46 @@
       "new": false
     },
     {
-      "id": "69bc5bebd308c64675ca8975",
-      "name": "Jhin - Murderous Artist",
-      "riftbound_id": "unl-022-219",
-      "tcgplayer_id": "684489",
-      "collector_number": 22,
+      "id": "69bc5be9d308c64675ca8953",
+      "name": "Mutated Mouser",
+      "riftbound_id": "unl-036-219",
+      "tcgplayer_id": "684124",
+      "collector_number": 36,
       "attributes": {
-        "energy": 4,
-        "might": 4,
-        "power": 1
+        "energy": 2,
+        "might": 1,
+        "power": null
       },
       "classification": {
         "type": "Unit",
-        "supertype": "Champion",
-        "rarity": "Rare",
+        "supertype": null,
+        "rarity": "Common",
         "domain": [
-          "Fury"
+          "Calm"
         ]
       },
       "text": {
-        "rich": "<p>[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)<br />[Ganking] (I can move from battlefield to battlefield.)<br />When I move, [Add] :rb_energy_1::rb_rune_rainbow:. (Abilities that add resources can't be reacted to.)</p>",
-        "plain": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)[Ganking] (I can move from battlefield to battlefield.)When I move, [Add] :rb_energy_1::rb_rune_rainbow:. (Abilities that add resources can't be reacted to.)",
-        "flavour": "And now, the curtain rises."
+        "rich": "<p>[Shield 2] (+2 :rb_might: while I'm a defender.)<br />[Tank] (I must be assigned combat damage first.)</p>",
+        "plain": "[Shield 2] (+2 :rb_might: while I'm a defender.)[Tank] (I must be assigned combat damage first.)",
+        "flavour": "One of the few cats that can scratch its own belly."
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8da724a842cf61cb24c3c02dd99adc93a9222e06-744x1039.png?accountingTag=RB",
-        "artist": "Alessandro Poli",
-        "accessibility_text": "Riftbound Unit: Jhin, Murderous Artist. [Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\n[Ganking] (I can move from battlefield to battlefield.)\nWhen I move, [Add] [1][A]. (Abilities that add resources can't be reacted to.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/20276519677a4d1ebe230aaad7692588e1e8d046-744x1039.png?accountingTag=RB",
+        "artist": "Caravan Studio",
+        "accessibility_text": "Riftbound Unit: Mutated Mouser. [Shield 2] (+2 [S] while I'm a defender.)\n[Tank] (I must be assigned combat damage first.)"
       },
       "tags": [
-        "Jhin",
-        "Ionia"
+        "Cat",
+        "Bilgewater"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Jhin Murderous Artist",
-        "updated_on": "2026-07-10T22:45:02.012672+00:00",
+        "clean_name": "Mutated Mouser",
+        "updated_on": "2026-07-10T22:45:00.055542+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -12159,45 +12159,46 @@
       "new": false
     },
     {
-      "id": "69bc5be9d308c64675ca8952",
-      "name": "Crowd Favorite",
-      "riftbound_id": "unl-102-219",
-      "tcgplayer_id": "684123",
-      "collector_number": 102,
+      "id": "69bc5be9d308c64675ca895d",
+      "name": "LeBlanc - Deceiver",
+      "riftbound_id": "unl-199-219",
+      "tcgplayer_id": "684208",
+      "collector_number": 199,
       "attributes": {
-        "energy": 3,
-        "might": 3,
+        "energy": null,
+        "might": null,
         "power": null
       },
       "classification": {
-        "type": "Unit",
+        "type": "Legend",
         "supertype": null,
-        "rarity": "Uncommon",
+        "rarity": "Rare",
         "domain": [
-          "Body"
+          "Mind",
+          "Order"
         ]
       },
       "text": {
-        "rich": "<p>[Hunt] (When I conquer or hold, gain 1 XP.)<br />Spend 2 XP: [Buff] me. (Give me a +1 :rb_might: buff if I don't have one.)</p>",
-        "plain": "[Hunt] (When I conquer or hold, gain 1 XP.)Spend 2 XP: [Buff] me. (Give me a +1 :rb_might: buff if I don't have one.)",
-        "flavour": "The crowd is a beast like any other. Hear it roar?"
+        "rich": "<p>When you conquer or hold, you may discard 1 and exhaust me to play a ready Reflection unit token there. It becomes a copy of another unit there. Give it [Temporary].</p>",
+        "plain": "When you conquer or hold, you may discard 1 and exhaust me to play a ready Reflection unit token there. It becomes a copy of another unit there. Give it [Temporary].",
+        "flavour": null
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0031569ff123a8317e1be753f0bd895501bf838b-744x1039.png?accountingTag=RB",
-        "artist": "Six More Vodka",
-        "accessibility_text": "Riftbound Unit: Crowd Favorite. [Hunt] (When I conquer or hold, gain 1 XP.)\nSpend 2 XP: [Buff] me. (Give me a +1 [S] buff if I don't have one.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c17d29602d61d6702372fec4db44c6fb2a29e8a2-744x1039.png?accountingTag=RB",
+        "artist": "\u9eef\u8367\u5c9bDark Glow",
+        "accessibility_text": "Riftbound Legend: Deceiver. When you conquer or hold, you may discard 1 and exhaust me to play a ready Reflection unit token there. It becomes a copy of another unit there. Give it [Temporary]."
       },
       "tags": [
-        "Noxus"
+        "LeBlanc"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Crowd Favorite",
-        "updated_on": "2026-07-10T22:44:59.996261+00:00",
+        "clean_name": "LeBlanc Deceiver",
+        "updated_on": "2026-07-10T22:45:00.630191+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -12620,46 +12621,45 @@
       "new": false
     },
     {
-      "id": "69bc5be9d308c64675ca8953",
-      "name": "Mutated Mouser",
-      "riftbound_id": "unl-036-219",
-      "tcgplayer_id": "684124",
-      "collector_number": 36,
+      "id": "69bc5be9d308c64675ca8952",
+      "name": "Crowd Favorite",
+      "riftbound_id": "unl-102-219",
+      "tcgplayer_id": "684123",
+      "collector_number": 102,
       "attributes": {
-        "energy": 2,
-        "might": 1,
+        "energy": 3,
+        "might": 3,
         "power": null
       },
       "classification": {
         "type": "Unit",
         "supertype": null,
-        "rarity": "Common",
+        "rarity": "Uncommon",
         "domain": [
-          "Calm"
+          "Body"
         ]
       },
       "text": {
-        "rich": "<p>[Shield 2] (+2 :rb_might: while I'm a defender.)<br />[Tank] (I must be assigned combat damage first.)</p>",
-        "plain": "[Shield 2] (+2 :rb_might: while I'm a defender.)[Tank] (I must be assigned combat damage first.)",
-        "flavour": "One of the few cats that can scratch its own belly."
+        "rich": "<p>[Hunt] (When I conquer or hold, gain 1 XP.)<br />Spend 2 XP: [Buff] me. (Give me a +1 :rb_might: buff if I don't have one.)</p>",
+        "plain": "[Hunt] (When I conquer or hold, gain 1 XP.)Spend 2 XP: [Buff] me. (Give me a +1 :rb_might: buff if I don't have one.)",
+        "flavour": "The crowd is a beast like any other. Hear it roar?"
       },
       "set": {
         "set_id": "UNL",
         "label": "Unleashed"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/20276519677a4d1ebe230aaad7692588e1e8d046-744x1039.png?accountingTag=RB",
-        "artist": "Caravan Studio",
-        "accessibility_text": "Riftbound Unit: Mutated Mouser. [Shield 2] (+2 [S] while I'm a defender.)\n[Tank] (I must be assigned combat damage first.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0031569ff123a8317e1be753f0bd895501bf838b-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Unit: Crowd Favorite. [Hunt] (When I conquer or hold, gain 1 XP.)\nSpend 2 XP: [Buff] me. (Give me a +1 [S] buff if I don't have one.)"
       },
       "tags": [
-        "Cat",
-        "Bilgewater"
+        "Noxus"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Mutated Mouser",
-        "updated_on": "2026-07-10T22:45:00.055542+00:00",
+        "clean_name": "Crowd Favorite",
+        "updated_on": "2026-07-10T22:44:59.996261+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-19T11:30:01.604252Z",
+  "last_updated": "2026-10-16T19:05:39.748473Z",
   "successful_sets": [
     "OGN",
     "OGS",
@@ -7,7 +7,9 @@
     "UNL",
     "VEN"
   ],
-  "failed_sets": [],
+  "failed_sets": [
+    "RAD"
+  ],
   "total_sets": 5,
   "sets_available": [
     "OGN",

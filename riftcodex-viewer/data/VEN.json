@@ -1,46 +1,90 @@
 {
   "items": [
     {
-      "id": "6a56ab99ff602fd324f4765c",
-      "name": "Sacred Protector",
-      "riftbound_id": "ven-129-166",
-      "tcgplayer_id": "706096",
-      "collector_number": 129,
+      "id": "6a56ab99ff602fd324f4765d",
+      "name": "Sandswept Tomb",
+      "riftbound_id": "ven-164-166",
+      "tcgplayer_id": "706097",
+      "collector_number": 164,
       "attributes": {
-        "energy": 4,
-        "might": 6,
-        "power": 1
+        "energy": null,
+        "might": null,
+        "power": null
       },
       "classification": {
-        "type": "Unit",
+        "type": "Battlefield",
         "supertype": null,
         "rarity": "Uncommon",
         "domain": [
-          "Order"
+          "Colorless"
         ]
       },
       "text": {
-        "rich": "<p>I don't deal combat damage unless I'm at a battlefield with exactly one other unit you control.</p>",
-        "plain": "I don't deal combat damage unless I'm at a battlefield with exactly one other unit you control.",
-        "flavour": "It is single mindedly dedicated to its charge."
+        "rich": "<p>Each spell that chooses one or more units here that are friendly to it costs :rb_rune_rainbow: less.</p>",
+        "plain": "Each spell that chooses one or more units here that are friendly to it costs :rb_rune_rainbow: less.",
+        "flavour": null
       },
       "set": {
         "set_id": "VEN",
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a93887af1128d19cdec798611ffdd29900ac5d85-744x1039.png?accountingTag=RB",
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d77c607878d6815e02796f8bfa8a5696ad5f1a7d-1039x744.png?accountingTag=RB",
         "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Unit: Sacred Protector. I don't deal combat damage unless I'm at a battlefield with exactly one other unit you control."
+        "accessibility_text": "Riftbound Battlefield: Sandswept Tomb. Each spell that chooses one or more units here that are friendly to it costs [A] less."
+      },
+      "tags": [],
+      "orientation": "landscape",
+      "metadata": {
+        "clean_name": "Sandswept Tomb",
+        "updated_on": "2026-07-14T21:35:21.927106+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": false
+    },
+    {
+      "id": "6a56ab9aff602fd324f47668",
+      "name": "Siphoning Strike",
+      "riftbound_id": "ven-146-166",
+      "tcgplayer_id": "706108",
+      "collector_number": 146,
+      "attributes": {
+        "energy": 4,
+        "might": null,
+        "power": null
+      },
+      "classification": {
+        "type": "Spell",
+        "supertype": "Signature",
+        "rarity": "Epic",
+        "domain": [
+          "Calm",
+          "Mind"
+        ]
+      },
+      "text": {
+        "rich": "<p>Deal 4 to a unit at a battlefield. If you control 7 or more runes, deal 7 to it instead. When it dies this turn, channel 1 rune exhausted.</p>",
+        "plain": "Deal 4 to a unit at a battlefield. If you control 7 or more runes, deal 7 to it instead. When it dies this turn, channel 1 rune exhausted.",
+        "flavour": "Your spirit is hollow.\" - Nasus"
+      },
+      "set": {
+        "set_id": "VEN",
+        "label": "Vendetta"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8b28e4a0681eee9b19c29770a5f167e1e68c78cf-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Siphoning Strike. Deal 4 to a unit at a battlefield. If you control 7 or more runes, deal 7 to it instead. When it dies this turn, channel 1 rune exhausted."
       },
       "tags": [
-        "Fae",
-        "Ionia"
+        "Nasus"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Sacred Protector",
-        "updated_on": "2026-07-17T20:38:05.952478+00:00",
+        "clean_name": "Siphoning Strike",
+        "updated_on": "2026-07-16T17:03:37.887905+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -510,43 +554,45 @@
       "new": false
     },
     {
-      "id": "6a56ab99ff602fd324f4765d",
-      "name": "Sandswept Tomb",
-      "riftbound_id": "ven-164-166",
-      "tcgplayer_id": "706097",
-      "collector_number": 164,
+      "id": "6a56ab9aff602fd324f47669",
+      "name": "Sky Cruiser",
+      "riftbound_id": "ven-060-166",
+      "tcgplayer_id": "706109",
+      "collector_number": 60,
       "attributes": {
-        "energy": null,
-        "might": null,
-        "power": null
+        "energy": 4,
+        "might": 3,
+        "power": 1
       },
       "classification": {
-        "type": "Battlefield",
+        "type": "Unit",
         "supertype": null,
         "rarity": "Uncommon",
         "domain": [
-          "Colorless"
+          "Mind"
         ]
       },
       "text": {
-        "rich": "<p>Each spell that chooses one or more units here that are friendly to it costs :rb_rune_rainbow: less.</p>",
-        "plain": "Each spell that chooses one or more units here that are friendly to it costs :rb_rune_rainbow: less.",
-        "flavour": null
+        "rich": "<p>Discard a gear, :rb_energy_1:, :rb_exhaust:: Deal 4 to a unit at a battlefield.</p>",
+        "plain": "Discard a gear, :rb_energy_1:, :rb_exhaust:: Deal 4 to a unit at a battlefield.",
+        "flavour": "Look out below."
       },
       "set": {
         "set_id": "VEN",
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d77c607878d6815e02796f8bfa8a5696ad5f1a7d-1039x744.png?accountingTag=RB",
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4a99fbe995f6d5d71c1c46e1c38f64a9f9d7c3e9-744x1039.png?accountingTag=RB",
         "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Battlefield: Sandswept Tomb. Each spell that chooses one or more units here that are friendly to it costs [A] less."
+        "accessibility_text": "Riftbound Unit: Sky Cruiser. Discard a gear, [1], [T]: Deal 4 to a unit at a battlefield."
       },
-      "tags": [],
-      "orientation": "landscape",
+      "tags": [
+        "Piltover"
+      ],
+      "orientation": "portrait",
       "metadata": {
-        "clean_name": "Sandswept Tomb",
-        "updated_on": "2026-07-14T21:35:21.927106+00:00",
+        "clean_name": "Sky Cruiser",
+        "updated_on": "2026-07-17T20:38:06.374000+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -554,46 +600,46 @@
       "new": false
     },
     {
-      "id": "6a56ab9aff602fd324f47668",
-      "name": "Siphoning Strike",
-      "riftbound_id": "ven-146-166",
-      "tcgplayer_id": "706108",
-      "collector_number": 146,
+      "id": "6a56ab99ff602fd324f4765c",
+      "name": "Sacred Protector",
+      "riftbound_id": "ven-129-166",
+      "tcgplayer_id": "706096",
+      "collector_number": 129,
       "attributes": {
         "energy": 4,
-        "might": null,
-        "power": null
+        "might": 6,
+        "power": 1
       },
       "classification": {
-        "type": "Spell",
-        "supertype": "Signature",
-        "rarity": "Epic",
+        "type": "Unit",
+        "supertype": null,
+        "rarity": "Uncommon",
         "domain": [
-          "Calm",
-          "Mind"
+          "Order"
         ]
       },
       "text": {
-        "rich": "<p>Deal 4 to a unit at a battlefield. If you control 7 or more runes, deal 7 to it instead. When it dies this turn, channel 1 rune exhausted.</p>",
-        "plain": "Deal 4 to a unit at a battlefield. If you control 7 or more runes, deal 7 to it instead. When it dies this turn, channel 1 rune exhausted.",
-        "flavour": "Your spirit is hollow.\" - Nasus"
+        "rich": "<p>I don't deal combat damage unless I'm at a battlefield with exactly one other unit you control.</p>",
+        "plain": "I don't deal combat damage unless I'm at a battlefield with exactly one other unit you control.",
+        "flavour": "It is single mindedly dedicated to its charge."
       },
       "set": {
         "set_id": "VEN",
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8b28e4a0681eee9b19c29770a5f167e1e68c78cf-744x1039.png?accountingTag=RB",
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a93887af1128d19cdec798611ffdd29900ac5d85-744x1039.png?accountingTag=RB",
         "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Spell: Siphoning Strike. Deal 4 to a unit at a battlefield. If you control 7 or more runes, deal 7 to it instead. When it dies this turn, channel 1 rune exhausted."
+        "accessibility_text": "Riftbound Unit: Sacred Protector. I don't deal combat damage unless I'm at a battlefield with exactly one other unit you control."
       },
       "tags": [
-        "Nasus"
+        "Fae",
+        "Ionia"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Siphoning Strike",
-        "updated_on": "2026-07-16T17:03:37.887905+00:00",
+        "clean_name": "Sacred Protector",
+        "updated_on": "2026-07-17T20:38:05.952478+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -1020,45 +1066,43 @@
       "new": false
     },
     {
-      "id": "6a56ab99ff602fd324f47652",
-      "name": "Ravenbloom Prefect",
-      "riftbound_id": "ven-102-166",
-      "tcgplayer_id": "706086",
-      "collector_number": 102,
+      "id": "6a56ab9bff602fd324f47674",
+      "name": "Wild Claw",
+      "riftbound_id": "ven-089-166",
+      "tcgplayer_id": "706120",
+      "collector_number": 89,
       "attributes": {
-        "energy": 3,
-        "might": 3,
-        "power": null
+        "energy": 7,
+        "might": null,
+        "power": 1
       },
       "classification": {
-        "type": "Unit",
+        "type": "Spell",
         "supertype": null,
-        "rarity": "Common",
+        "rarity": "Rare",
         "domain": [
-          "Chaos"
+          "Body"
         ]
       },
       "text": {
-        "rich": "<p>When an opponent plays a gear, you may banish me to banish it.</p>",
-        "plain": "When an opponent plays a gear, you may banish me to banish it.",
-        "flavour": "Do you have a permit for that?"
+        "rich": "<p>Look at the top 5 cards of your Main Deck. You may banish a unit or gear from among them and play it, reducing its Energy cost by :rb_energy_5:. Recycle the rest. Then you may do this: Empower it. (It becomes Empowered if it's not already.)</p>",
+        "plain": "Look at the top 5 cards of your Main Deck. You may banish a unit or gear from among them and play it, reducing its Energy cost by :rb_energy_5:. Recycle the rest. Then you may do this: Empower it. (It becomes Empowered if it's not already.)",
+        "flavour": null
       },
       "set": {
         "set_id": "VEN",
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/57ecb26880ea084ea16b785c9a563ff298ee6a42-744x1039.png?accountingTag=RB",
-        "artist": "Polar Engine Studio",
-        "accessibility_text": "Riftbound Unit: Ravenbloom Prefect. When an opponent plays a gear, you may banish me to banish it."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a58871b08a51efb8ce33f399fe4d168fd25b596a-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Wild Claw. Look at the top 5 cards of your Main Deck. You may banish a unit or gear from among them and play it, reducing its Energy cost by [5]. Recycle the rest. Then you may do this: Empower it. (It becomes Empowered if it's not already.)"
       },
-      "tags": [
-        "Noxus"
-      ],
+      "tags": [],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Ravenbloom Prefect",
-        "updated_on": "2026-07-16T17:03:36.998703+00:00",
+        "clean_name": "Wild Claw",
+        "updated_on": "2026-07-14T21:35:23.117129+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -1066,50 +1110,48 @@
       "new": false
     },
     {
-      "id": "6a56ab9bff602fd324f47673",
-      "name": "Viktor, Innovator",
-      "riftbound_id": "ven-176-166",
-      "tcgplayer_id": "706119",
-      "collector_number": 176,
+      "id": "6a56aba0ff602fd324f4767f",
+      "name": "Crumbling Sands",
+      "riftbound_id": "ven-039-166",
+      "tcgplayer_id": null,
+      "collector_number": 39,
       "attributes": {
-        "energy": 4,
-        "might": 3,
+        "energy": 1,
+        "might": null,
         "power": 1
       },
       "classification": {
-        "type": "Unit",
-        "supertype": "Champion",
+        "type": "Spell",
+        "supertype": null,
         "rarity": "Rare",
         "domain": [
-          "Mind"
+          "Calm"
         ]
       },
       "text": {
-        "rich": "<p>When you play a card on an opponent's turn, play a 1 :rb_might: Recruit unit token to your base.</p>",
-        "plain": "When you play a card on an opponent's turn, play a 1 :rb_might: Recruit unit token to your base.",
-        "flavour": "You betray your future."
+        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />Counter a spell if an opponent has played another spell this turn.</p>",
+        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)Counter a spell if an opponent has played another spell this turn.",
+        "flavour": null
       },
       "set": {
         "set_id": "VEN",
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0416b4a447494acac41413a4511bb59ce983b4ec-744x1039.png?accountingTag=RB",
-        "artist": "\u83ba\u4e4b\u6b4c",
-        "accessibility_text": "Riftbound Unit: Viktor, Innovator. When you play a card on an opponent's turn, play a 1 [S] Recruit unit token to your base."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0d7491bdb2e9d18f64a5b53a16623b26a7cac6a1-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Crumbling Sands. [Reaction] (Play any time, even before spells and abilities resolve.)\nCounter a spell if an opponent has played another spell this turn."
       },
-      "tags": [
-        "Viktor"
-      ],
+      "tags": [],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Viktor Innovator",
-        "updated_on": "2026-07-16T17:03:38.333826+00:00",
+        "clean_name": null,
+        "updated_on": "2026-07-14T21:35:28.081478+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
       },
-      "new": false
+      "new": true
     },
     {
       "id": "6a56aba0ff602fd324f4767e",
@@ -1571,43 +1613,45 @@
       "new": false
     },
     {
-      "id": "6a56ab9bff602fd324f47674",
-      "name": "Wild Claw",
-      "riftbound_id": "ven-089-166",
-      "tcgplayer_id": "706120",
-      "collector_number": 89,
+      "id": "6a56ab99ff602fd324f47652",
+      "name": "Ravenbloom Prefect",
+      "riftbound_id": "ven-102-166",
+      "tcgplayer_id": "706086",
+      "collector_number": 102,
       "attributes": {
-        "energy": 7,
-        "might": null,
-        "power": 1
+        "energy": 3,
+        "might": 3,
+        "power": null
       },
       "classification": {
-        "type": "Spell",
+        "type": "Unit",
         "supertype": null,
-        "rarity": "Rare",
+        "rarity": "Common",
         "domain": [
-          "Body"
+          "Chaos"
         ]
       },
       "text": {
-        "rich": "<p>Look at the top 5 cards of your Main Deck. You may banish a unit or gear from among them and play it, reducing its Energy cost by :rb_energy_5:. Recycle the rest. Then you may do this: Empower it. (It becomes Empowered if it's not already.)</p>",
-        "plain": "Look at the top 5 cards of your Main Deck. You may banish a unit or gear from among them and play it, reducing its Energy cost by :rb_energy_5:. Recycle the rest. Then you may do this: Empower it. (It becomes Empowered if it's not already.)",
-        "flavour": null
+        "rich": "<p>When an opponent plays a gear, you may banish me to banish it.</p>",
+        "plain": "When an opponent plays a gear, you may banish me to banish it.",
+        "flavour": "Do you have a permit for that?"
       },
       "set": {
         "set_id": "VEN",
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a58871b08a51efb8ce33f399fe4d168fd25b596a-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Spell: Wild Claw. Look at the top 5 cards of your Main Deck. You may banish a unit or gear from among them and play it, reducing its Energy cost by [5]. Recycle the rest. Then you may do this: Empower it. (It becomes Empowered if it's not already.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/57ecb26880ea084ea16b785c9a563ff298ee6a42-744x1039.png?accountingTag=RB",
+        "artist": "Polar Engine Studio",
+        "accessibility_text": "Riftbound Unit: Ravenbloom Prefect. When an opponent plays a gear, you may banish me to banish it."
       },
-      "tags": [],
+      "tags": [
+        "Noxus"
+      ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Wild Claw",
-        "updated_on": "2026-07-14T21:35:23.117129+00:00",
+        "clean_name": "Ravenbloom Prefect",
+        "updated_on": "2026-07-16T17:03:36.998703+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -1615,43 +1659,45 @@
       "new": false
     },
     {
-      "id": "6a56ab99ff602fd324f47651",
-      "name": "Rampage",
-      "riftbound_id": "ven-083-166",
-      "tcgplayer_id": "706085",
-      "collector_number": 83,
+      "id": "6a56ab9bff602fd324f47673",
+      "name": "Viktor, Innovator",
+      "riftbound_id": "ven-176-166",
+      "tcgplayer_id": "706119",
+      "collector_number": 176,
       "attributes": {
-        "energy": 3,
-        "might": null,
-        "power": null
+        "energy": 4,
+        "might": 3,
+        "power": 1
       },
       "classification": {
-        "type": "Spell",
-        "supertype": null,
-        "rarity": "Uncommon",
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Rare",
         "domain": [
-          "Body"
+          "Mind"
         ]
       },
       "text": {
-        "rich": "<p>As you play this, you may pay :rb_rune_body: as an additional cost.<br />Choose a friendly unit and an enemy unit. If you paid the additional cost, give the friendly unit +2 :rb_might: this turn. They deal damage equal to their Mights to each other.</p>",
-        "plain": "As you play this, you may pay :rb_rune_body: as an additional cost.Choose a friendly unit and an enemy unit. If you paid the additional cost, give the friendly unit +2 :rb_might: this turn. They deal damage equal to their Mights to each other.",
-        "flavour": null
+        "rich": "<p>When you play a card on an opponent's turn, play a 1 :rb_might: Recruit unit token to your base.</p>",
+        "plain": "When you play a card on an opponent's turn, play a 1 :rb_might: Recruit unit token to your base.",
+        "flavour": "You betray your future."
       },
       "set": {
         "set_id": "VEN",
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3c85ae2c6bd5b2644651564fad0f86ad19c5709a-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Spell: Rampage. As you play this, you may pay [C] as an additional cost.\nChoose a friendly unit and an enemy unit. If you paid the additional cost, give the friendly unit +2 [S] this turn. They deal damage equal to their Mights to each other."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0416b4a447494acac41413a4511bb59ce983b4ec-744x1039.png?accountingTag=RB",
+        "artist": "\u83ba\u4e4b\u6b4c",
+        "accessibility_text": "Riftbound Unit: Viktor, Innovator. When you play a card on an opponent's turn, play a 1 [S] Recruit unit token to your base."
       },
-      "tags": [],
+      "tags": [
+        "Viktor"
+      ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Rampage",
-        "updated_on": "2026-07-17T20:38:05.558902+00:00",
+        "clean_name": "Viktor Innovator",
+        "updated_on": "2026-07-16T17:03:38.333826+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -2070,60 +2116,14 @@
       "new": false
     },
     {
-      "id": "6a56ab9aff602fd324f47669",
-      "name": "Sky Cruiser",
-      "riftbound_id": "ven-060-166",
-      "tcgplayer_id": "706109",
-      "collector_number": 60,
+      "id": "6a56ab97ff602fd324f47630",
+      "name": "Kha'Zix, Evolving Hunter",
+      "riftbound_id": "ven-180-166",
+      "tcgplayer_id": "706052",
+      "collector_number": 180,
       "attributes": {
-        "energy": 4,
-        "might": 3,
-        "power": 1
-      },
-      "classification": {
-        "type": "Unit",
-        "supertype": null,
-        "rarity": "Uncommon",
-        "domain": [
-          "Mind"
-        ]
-      },
-      "text": {
-        "rich": "<p>Discard a gear, :rb_energy_1:, :rb_exhaust:: Deal 4 to a unit at a battlefield.</p>",
-        "plain": "Discard a gear, :rb_energy_1:, :rb_exhaust:: Deal 4 to a unit at a battlefield.",
-        "flavour": "Look out below."
-      },
-      "set": {
-        "set_id": "VEN",
-        "label": "Vendetta"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4a99fbe995f6d5d71c1c46e1c38f64a9f9d7c3e9-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Unit: Sky Cruiser. Discard a gear, [1], [T]: Deal 4 to a unit at a battlefield."
-      },
-      "tags": [
-        "Piltover"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": "Sky Cruiser",
-        "updated_on": "2026-07-17T20:38:06.374000+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": false
-    },
-    {
-      "id": "6a56ab97ff602fd324f4762f",
-      "name": "Kennen, Storm of Shuriken",
-      "riftbound_id": "ven-113-166",
-      "tcgplayer_id": "706051",
-      "collector_number": 113,
-      "attributes": {
-        "energy": 3,
-        "might": 4,
+        "energy": 5,
+        "might": 5,
         "power": 1
       },
       "classification": {
@@ -2131,31 +2131,78 @@
         "supertype": "Champion",
         "rarity": "Epic",
         "domain": [
-          "Chaos"
+          "Body"
         ]
       },
       "text": {
-        "rich": "<p>When you play me, [Burn 2]. (Put the top 2 cards of your Main Deck into your trash.)<br />When I conquer, give a spell in your trash [Flow] equal to its cost this turn. (You may play it from your trash for its Flow cost. Then banish it.)</p>",
-        "plain": "When you play me, [Burn 2]. (Put the top 2 cards of your Main Deck into your trash.)When I conquer, give a spell in your trash [Flow] equal to its cost this turn. (You may play it from your trash for its Flow cost. Then banish it.)",
-        "flavour": "Time to strike!"
+        "rich": "<p>[Hunt]<br />When I attack, you may spend 3 XP to deal damage equal to my Might to an enemy unit here.</p>",
+        "plain": "[Hunt]When I attack, you may spend 3 XP to deal damage equal to my Might to an enemy unit here.",
+        "flavour": "A predator to challenge the keenest foe."
       },
       "set": {
         "set_id": "VEN",
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2f27c99f3df2940940dddd65105e5e42bbeeab3d-744x1039.png?accountingTag=RB",
-        "artist": "Six More Vodka",
-        "accessibility_text": "Riftbound Unit: Kennen, Storm of Shuriken. When you play me, [Burn 2]. (Put the top 2 cards of your Main Deck into your trash.)\nWhen I conquer, give a spell in your trash [Flow] equal to its cost this turn. (You may play it from your trash for its Flow cost. Then banish it.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4875b0eb5705f9723118f0895dd702373826bdbc-744x1039.png?accountingTag=RB",
+        "artist": "\u83ba\u4e4b\u6b4c",
+        "accessibility_text": "Riftbound Unit: Kha'Zix, Evolving Hunter. [Hunt]\nWhen I attack, you may spend 3 XP to deal damage equal to my Might to an enemy unit here."
       },
       "tags": [
-        "Yordle",
-        "Kennen"
+        "Kha'Zix",
+        "The Void"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Kennen Storm of Shuriken",
-        "updated_on": "2026-07-14T21:35:19.417168+00:00",
+        "clean_name": "KhaZix Evolving Hunter",
+        "updated_on": "2026-07-16T17:03:35.636104+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": false
+    },
+    {
+      "id": "6a56ab98ff602fd324f4763b",
+      "name": "Mel, Defiant Soul",
+      "riftbound_id": "ven-110-166",
+      "tcgplayer_id": "706063",
+      "collector_number": 110,
+      "attributes": {
+        "energy": 5,
+        "might": 4,
+        "power": null
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Rare",
+        "domain": [
+          "Chaos"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Empower] \u2014 Discard a spell (Pay the cost: Empower me. Use only if not Empowered.)<br />When I become [Empowered], banish an enemy unit at a battlefield with 3 :rb_might: or less.</p>",
+        "plain": "[Empower] \u2014 Discard a spell (Pay the cost: Empower me. Use only if not Empowered.)When I become [Empowered], banish an enemy unit at a battlefield with 3 :rb_might: or less.",
+        "flavour": "Medardas are known for our strategy and strength."
+      },
+      "set": {
+        "set_id": "VEN",
+        "label": "Vendetta"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/214567717b4f0156ff06c923e1603234cb52db61-744x1039.png?accountingTag=RB",
+        "artist": "Pandart Studio",
+        "accessibility_text": "Riftbound Unit: Mel, Defiant Soul. [Empower] \u2014 Discard a spell (Pay the cost: Empower me. Use only if not Empowered.)\nWhen I become [Empowered], banish an enemy unit at a battlefield with 3 [S] or less."
+      },
+      "tags": [
+        "Noxus",
+        "Mel"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Mel Defiant Soul",
+        "updated_on": "2026-07-16T17:03:36.066358+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -2624,14 +2671,14 @@
       "new": false
     },
     {
-      "id": "6a56ab97ff602fd324f47630",
-      "name": "Kha'Zix, Evolving Hunter",
-      "riftbound_id": "ven-180-166",
-      "tcgplayer_id": "706052",
-      "collector_number": 180,
+      "id": "6a56ab98ff602fd324f4763c",
+      "name": "Mel, Newly Awakened",
+      "riftbound_id": "ven-069-166",
+      "tcgplayer_id": "706064",
+      "collector_number": 69,
       "attributes": {
-        "energy": 5,
-        "might": 5,
+        "energy": 4,
+        "might": 4,
         "power": 1
       },
       "classification": {
@@ -2639,69 +2686,22 @@
         "supertype": "Champion",
         "rarity": "Epic",
         "domain": [
-          "Body"
+          "Mind"
         ]
       },
       "text": {
-        "rich": "<p>[Hunt]<br />When I attack, you may spend 3 XP to deal damage equal to my Might to an enemy unit here.</p>",
-        "plain": "[Hunt]When I attack, you may spend 3 XP to deal damage equal to my Might to an enemy unit here.",
-        "flavour": "A predator to challenge the keenest foe."
+        "rich": "<p>When you play me, draw 1.<br />[Empower] :rb_energy_3: (:rb_energy_3:: Empower me. Use only if not Empowered.)<br />[Empowered][&gt;] Your spells and abilities can't be countered. If a spell or ability you control would give -:rb_might: to a unit it chooses, it gives an additional -1 :rb_might:.</p>",
+        "plain": "When you play me, draw 1.[Empower] :rb_energy_3: (:rb_energy_3:: Empower me. Use only if not Empowered.)[Empowered][&gt;] Your spells and abilities can't be countered. If a spell or ability you control would give -:rb_might: to a unit it chooses, it gives an additional -1 :rb_might:.",
+        "flavour": null
       },
       "set": {
         "set_id": "VEN",
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4875b0eb5705f9723118f0895dd702373826bdbc-744x1039.png?accountingTag=RB",
-        "artist": "\u83ba\u4e4b\u6b4c",
-        "accessibility_text": "Riftbound Unit: Kha'Zix, Evolving Hunter. [Hunt]\nWhen I attack, you may spend 3 XP to deal damage equal to my Might to an enemy unit here."
-      },
-      "tags": [
-        "Kha'Zix",
-        "The Void"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": "KhaZix Evolving Hunter",
-        "updated_on": "2026-07-16T17:03:35.636104+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": false
-    },
-    {
-      "id": "6a56ab98ff602fd324f4763b",
-      "name": "Mel, Defiant Soul",
-      "riftbound_id": "ven-110-166",
-      "tcgplayer_id": "706063",
-      "collector_number": 110,
-      "attributes": {
-        "energy": 5,
-        "might": 4,
-        "power": null
-      },
-      "classification": {
-        "type": "Unit",
-        "supertype": "Champion",
-        "rarity": "Rare",
-        "domain": [
-          "Chaos"
-        ]
-      },
-      "text": {
-        "rich": "<p>[Empower] \u2014 Discard a spell (Pay the cost: Empower me. Use only if not Empowered.)<br />When I become [Empowered], banish an enemy unit at a battlefield with 3 :rb_might: or less.</p>",
-        "plain": "[Empower] \u2014 Discard a spell (Pay the cost: Empower me. Use only if not Empowered.)When I become [Empowered], banish an enemy unit at a battlefield with 3 :rb_might: or less.",
-        "flavour": "Medardas are known for our strategy and strength."
-      },
-      "set": {
-        "set_id": "VEN",
-        "label": "Vendetta"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/214567717b4f0156ff06c923e1603234cb52db61-744x1039.png?accountingTag=RB",
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7d794234d8efef9ad647046d1e2cd3736441899f-744x1039.png?accountingTag=RB",
         "artist": "Pandart Studio",
-        "accessibility_text": "Riftbound Unit: Mel, Defiant Soul. [Empower] \u2014 Discard a spell (Pay the cost: Empower me. Use only if not Empowered.)\nWhen I become [Empowered], banish an enemy unit at a battlefield with 3 [S] or less."
+        "accessibility_text": "Riftbound Unit: Mel, Newly Awakened. When you play me, draw 1.\n[Empower] [3] ([3]: Empower me. Use only if not Empowered.)\n[Empowered][>] Your spells and abilities can't be countered. If a spell or ability you control would give -[S] to a unit it chooses, it gives an additional -1 [S]."
       },
       "tags": [
         "Noxus",
@@ -2709,8 +2709,55 @@
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Mel Defiant Soul",
-        "updated_on": "2026-07-16T17:03:36.066358+00:00",
+        "clean_name": "Mel Newly Awakened",
+        "updated_on": "2026-07-14T21:35:20.181267+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": false
+    },
+    {
+      "id": "6a56ab97ff602fd324f4762f",
+      "name": "Kennen, Storm of Shuriken",
+      "riftbound_id": "ven-113-166",
+      "tcgplayer_id": "706051",
+      "collector_number": 113,
+      "attributes": {
+        "energy": 3,
+        "might": 4,
+        "power": 1
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Epic",
+        "domain": [
+          "Chaos"
+        ]
+      },
+      "text": {
+        "rich": "<p>When you play me, [Burn 2]. (Put the top 2 cards of your Main Deck into your trash.)<br />When I conquer, give a spell in your trash [Flow] equal to its cost this turn. (You may play it from your trash for its Flow cost. Then banish it.)</p>",
+        "plain": "When you play me, [Burn 2]. (Put the top 2 cards of your Main Deck into your trash.)When I conquer, give a spell in your trash [Flow] equal to its cost this turn. (You may play it from your trash for its Flow cost. Then banish it.)",
+        "flavour": "Time to strike!"
+      },
+      "set": {
+        "set_id": "VEN",
+        "label": "Vendetta"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2f27c99f3df2940940dddd65105e5e42bbeeab3d-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Unit: Kennen, Storm of Shuriken. When you play me, [Burn 2]. (Put the top 2 cards of your Main Deck into your trash.)\nWhen I conquer, give a spell in your trash [Flow] equal to its cost this turn. (You may play it from your trash for its Flow cost. Then banish it.)"
+      },
+      "tags": [
+        "Yordle",
+        "Kennen"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Kennen Storm of Shuriken",
+        "updated_on": "2026-07-14T21:35:19.417168+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -3138,45 +3185,45 @@
       "new": false
     },
     {
-      "id": "6a56ab96ff602fd324f47625",
-      "name": "Jagged Cutlass",
-      "riftbound_id": "ven-073-166",
-      "tcgplayer_id": "706041",
-      "collector_number": 73,
+      "id": "6a56ab98ff602fd324f47647",
+      "name": "Oasis Raider",
+      "riftbound_id": "ven-006-166",
+      "tcgplayer_id": "706075",
+      "collector_number": 6,
       "attributes": {
-        "energy": 3,
-        "might": null,
+        "energy": 4,
+        "might": 4,
         "power": null
       },
       "classification": {
-        "type": "Gear",
+        "type": "Unit",
         "supertype": null,
         "rarity": "Common",
         "domain": [
-          "Body"
+          "Fury"
         ]
       },
       "text": {
-        "rich": "<p>Equip :rb_rune_body: (:rb_rune_body:: Attach this to a unit you control.)</p>",
-        "plain": "Equip :rb_rune_body: (:rb_rune_body:: Attach this to a unit you control.)",
-        "flavour": null
+        "rich": "<p>If you control fewer runes than an opponent at the start of your Beginning Phase, give me +2 :rb_might: and [Ganking] this turn. (I can move from battlefield to battlefield.)</p>",
+        "plain": "If you control fewer runes than an opponent at the start of your Beginning Phase, give me +2 :rb_might: and [Ganking] this turn. (I can move from battlefield to battlefield.)",
+        "flavour": "A simple mistake! It's actually more closely related to a gharial- AUGH!\"- Surprisingly common last words"
       },
       "set": {
         "set_id": "VEN",
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/22aae23e1ac1797beb50f3f735becfe65b51ee02-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Gear: Jagged Cutlass. Equip [C] ([C]: Attach this to a unit you control.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d44355b9b129054e63b6f2c8de30518fe87b6295-744x1039.png?accountingTag=RB",
+        "artist": "JiHun Lee",
+        "accessibility_text": "Riftbound Unit: Oasis Raider. If you control fewer runes than an opponent at the start of your Beginning Phase, give me +2 [S] and [Ganking] this turn. (I can move from battlefield to battlefield.)"
       },
       "tags": [
-        "Equipment"
+        "Shurima"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Jagged Cutlass",
-        "updated_on": "2026-07-14T21:35:18.870906+00:00",
+        "clean_name": "Oasis Raider",
+        "updated_on": "2026-07-17T20:38:05.193977+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -3184,18 +3231,18 @@
       "new": false
     },
     {
-      "id": "6a56ab98ff602fd324f47646",
-      "name": "Noxian Demolitionist",
-      "riftbound_id": "ven-080-166",
-      "tcgplayer_id": "706074",
-      "collector_number": 80,
+      "id": "6a56ab99ff602fd324f47651",
+      "name": "Rampage",
+      "riftbound_id": "ven-083-166",
+      "tcgplayer_id": "706085",
+      "collector_number": 83,
       "attributes": {
-        "energy": 2,
-        "might": 1,
+        "energy": 3,
+        "might": null,
         "power": null
       },
       "classification": {
-        "type": "Unit",
+        "type": "Spell",
         "supertype": null,
         "rarity": "Uncommon",
         "domain": [
@@ -3203,26 +3250,24 @@
         ]
       },
       "text": {
-        "rich": "<p>When I conquer, you may kill a gear with Energy cost no more than my Might.</p>",
-        "plain": "When I conquer, you may kill a gear with Energy cost no more than my Might.",
-        "flavour": "She lives for the sound, for the wave of heat and pressure, for pushing herself past her limit."
+        "rich": "<p>As you play this, you may pay :rb_rune_body: as an additional cost.<br />Choose a friendly unit and an enemy unit. If you paid the additional cost, give the friendly unit +2 :rb_might: this turn. They deal damage equal to their Mights to each other.</p>",
+        "plain": "As you play this, you may pay :rb_rune_body: as an additional cost.Choose a friendly unit and an enemy unit. If you paid the additional cost, give the friendly unit +2 :rb_might: this turn. They deal damage equal to their Mights to each other.",
+        "flavour": null
       },
       "set": {
         "set_id": "VEN",
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a8c9a1b0eefc89106aa154ce3958c82d86e70940-744x1039.png?accountingTag=RB",
-        "artist": "Dao Trong Le",
-        "accessibility_text": "Riftbound Unit: Noxian Demolitionist. When I conquer, you may kill a gear with Energy cost no more than my Might."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3c85ae2c6bd5b2644651564fad0f86ad19c5709a-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Rampage. As you play this, you may pay [C] as an additional cost.\nChoose a friendly unit and an enemy unit. If you paid the additional cost, give the friendly unit +2 [S] this turn. They deal damage equal to their Mights to each other."
       },
-      "tags": [
-        "Noxus"
-      ],
+      "tags": [],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Noxian Demolitionist",
-        "updated_on": "2026-07-17T20:38:05.140366+00:00",
+        "clean_name": "Rampage",
+        "updated_on": "2026-07-17T20:38:05.558902+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -3639,61 +3684,15 @@
       "new": false
     },
     {
-      "id": "6a56ab98ff602fd324f47647",
-      "name": "Oasis Raider",
-      "riftbound_id": "ven-006-166",
-      "tcgplayer_id": "706075",
-      "collector_number": 6,
-      "attributes": {
-        "energy": 4,
-        "might": 4,
-        "power": null
-      },
-      "classification": {
-        "type": "Unit",
-        "supertype": null,
-        "rarity": "Common",
-        "domain": [
-          "Fury"
-        ]
-      },
-      "text": {
-        "rich": "<p>If you control fewer runes than an opponent at the start of your Beginning Phase, give me +2 :rb_might: and [Ganking] this turn. (I can move from battlefield to battlefield.)</p>",
-        "plain": "If you control fewer runes than an opponent at the start of your Beginning Phase, give me +2 :rb_might: and [Ganking] this turn. (I can move from battlefield to battlefield.)",
-        "flavour": "A simple mistake! It's actually more closely related to a gharial- AUGH!\"- Surprisingly common last words"
-      },
-      "set": {
-        "set_id": "VEN",
-        "label": "Vendetta"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d44355b9b129054e63b6f2c8de30518fe87b6295-744x1039.png?accountingTag=RB",
-        "artist": "JiHun Lee",
-        "accessibility_text": "Riftbound Unit: Oasis Raider. If you control fewer runes than an opponent at the start of your Beginning Phase, give me +2 [S] and [Ganking] this turn. (I can move from battlefield to battlefield.)"
-      },
-      "tags": [
-        "Shurima"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": "Oasis Raider",
-        "updated_on": "2026-07-17T20:38:05.193977+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": false
-    },
-    {
-      "id": "6a56aba0ff602fd324f4767f",
-      "name": "Crumbling Sands",
-      "riftbound_id": "ven-039-166",
+      "id": "6a56aba0ff602fd324f47680",
+      "name": "Decree of Focus",
+      "riftbound_id": "ven-040-166",
       "tcgplayer_id": null,
-      "collector_number": 39,
+      "collector_number": 40,
       "attributes": {
         "energy": 1,
         "might": null,
-        "power": 1
+        "power": null
       },
       "classification": {
         "type": "Spell",
@@ -3704,8 +3703,8 @@
         ]
       },
       "text": {
-        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />Counter a spell if an opponent has played another spell this turn.</p>",
-        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)Counter a spell if an opponent has played another spell this turn.",
+        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />Choose a friendly unit that's in combat with an enemy Fury (:rb_rune_fury:) unit or that's being chosen by an enemy Fury spell. Give it +4 :rb_might: this turn.</p>",
+        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)Choose a friendly unit that's in combat with an enemy Fury (:rb_rune_fury:) unit or that's being chosen by an enemy Fury spell. Give it +4 :rb_might: this turn.",
         "flavour": null
       },
       "set": {
@@ -3713,20 +3712,66 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0d7491bdb2e9d18f64a5b53a16623b26a7cac6a1-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Spell: Crumbling Sands. [Reaction] (Play any time, even before spells and abilities resolve.)\nCounter a spell if an opponent has played another spell this turn."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3f9a1b209cfd6097bac6fa9aec57531e300ef511-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "accessibility_text": "Riftbound Spell: Decree of Focus. [Reaction] (Play any time, even before spells and abilities resolve.)\nChoose a friendly unit that's in combat with an enemy Fury ([R]) unit or that's being chosen by an enemy Fury spell. Give it +4 [S] this turn."
       },
       "tags": [],
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-14T21:35:28.081478+00:00",
+        "updated_on": "2026-07-14T21:35:28.136479+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
       },
       "new": true
+    },
+    {
+      "id": "6a56ab98ff602fd324f47646",
+      "name": "Noxian Demolitionist",
+      "riftbound_id": "ven-080-166",
+      "tcgplayer_id": "706074",
+      "collector_number": 80,
+      "attributes": {
+        "energy": 2,
+        "might": 1,
+        "power": null
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": null,
+        "rarity": "Uncommon",
+        "domain": [
+          "Body"
+        ]
+      },
+      "text": {
+        "rich": "<p>When I conquer, you may kill a gear with Energy cost no more than my Might.</p>",
+        "plain": "When I conquer, you may kill a gear with Energy cost no more than my Might.",
+        "flavour": "She lives for the sound, for the wave of heat and pressure, for pushing herself past her limit."
+      },
+      "set": {
+        "set_id": "VEN",
+        "label": "Vendetta"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a8c9a1b0eefc89106aa154ce3958c82d86e70940-744x1039.png?accountingTag=RB",
+        "artist": "Dao Trong Le",
+        "accessibility_text": "Riftbound Unit: Noxian Demolitionist. When I conquer, you may kill a gear with Energy cost no more than my Might."
+      },
+      "tags": [
+        "Noxus"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Noxian Demolitionist",
+        "updated_on": "2026-07-17T20:38:05.140366+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": false
     },
     {
       "id": "6a56ab98ff602fd324f47645",
@@ -4147,74 +4192,27 @@
       "new": false
     },
     {
-      "id": "6a56ab98ff602fd324f4763c",
-      "name": "Mel, Newly Awakened",
-      "riftbound_id": "ven-069-166",
-      "tcgplayer_id": "706064",
-      "collector_number": 69,
-      "attributes": {
-        "energy": 4,
-        "might": 4,
-        "power": 1
-      },
-      "classification": {
-        "type": "Unit",
-        "supertype": "Champion",
-        "rarity": "Epic",
-        "domain": [
-          "Mind"
-        ]
-      },
-      "text": {
-        "rich": "<p>When you play me, draw 1.<br />[Empower] :rb_energy_3: (:rb_energy_3:: Empower me. Use only if not Empowered.)<br />[Empowered][&gt;] Your spells and abilities can't be countered. If a spell or ability you control would give -:rb_might: to a unit it chooses, it gives an additional -1 :rb_might:.</p>",
-        "plain": "When you play me, draw 1.[Empower] :rb_energy_3: (:rb_energy_3:: Empower me. Use only if not Empowered.)[Empowered][&gt;] Your spells and abilities can't be countered. If a spell or ability you control would give -:rb_might: to a unit it chooses, it gives an additional -1 :rb_might:.",
-        "flavour": null
-      },
-      "set": {
-        "set_id": "VEN",
-        "label": "Vendetta"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7d794234d8efef9ad647046d1e2cd3736441899f-744x1039.png?accountingTag=RB",
-        "artist": "Pandart Studio",
-        "accessibility_text": "Riftbound Unit: Mel, Newly Awakened. When you play me, draw 1.\n[Empower] [3] ([3]: Empower me. Use only if not Empowered.)\n[Empowered][>] Your spells and abilities can't be countered. If a spell or ability you control would give -[S] to a unit it chooses, it gives an additional -1 [S]."
-      },
-      "tags": [
-        "Noxus",
-        "Mel"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": "Mel Newly Awakened",
-        "updated_on": "2026-07-14T21:35:20.181267+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": false
-    },
-    {
-      "id": "6a590ef10e5d4c92d5d1f001",
-      "name": "Shen, Scourge of Shadows",
-      "riftbound_id": "ven-170-166",
+      "id": "6a590ef10e5d4c92d5d1f002",
+      "name": "Spiderling",
+      "riftbound_id": "ven-097-166",
       "tcgplayer_id": null,
-      "collector_number": 170,
+      "collector_number": 97,
       "attributes": {
-        "energy": 5,
-        "might": 6,
-        "power": 1
+        "energy": 3,
+        "might": 1,
+        "power": null
       },
       "classification": {
         "type": "Unit",
-        "supertype": "Champion",
-        "rarity": "Rare",
+        "supertype": null,
+        "rarity": "Common",
         "domain": [
-          "Calm"
+          "Chaos"
         ]
       },
       "text": {
-        "rich": "<p>When I hold, if there is exactly one other unit you control here, draw 1.</p>",
-        "plain": "When I hold, if there is exactly one other unit you control here, draw 1.",
+        "rich": "<p>[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)<br />I have +1 :rb_might: for each other unit you control here with my name.<br />Your deck can have any number of cards named Spiderling.</p>",
+        "plain": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)I have +1 :rb_might: for each other unit you control here with my name.Your deck can have any number of cards named Spiderling.",
         "flavour": null
       },
       "set": {
@@ -4222,17 +4220,64 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/56d6b54bdc2ae37579da820cec613c127a8843d3-744x1039.png?accountingTag=RB",
-        "artist": "\u534e\u9510",
-        "accessibility_text": "Riftbound Unit: Shen, Scourge of Shadows. When I hold, if there is exactly one other unit you control here, draw 1."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fadf12e6e52eb5c70c65b479438f999f49d825fc-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Unit: Spiderling. [Hidden] (Hide now for [A] to react with later for [0].)\nI have +1 [S] for each other unit you control here with my name.\nYour deck can have any number of cards named Spiderling."
       },
       "tags": [
-        "Shen"
+        "Shadow Isles",
+        "Spider"
       ],
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-16T17:03:45.801060+00:00",
+        "updated_on": "2026-07-16T17:03:45.865382+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": true
+    },
+    {
+      "id": "6a5a92b4fe2355878c40cc8a",
+      "name": "Forsaken Baccai",
+      "riftbound_id": "ven-005-166",
+      "tcgplayer_id": null,
+      "collector_number": 5,
+      "attributes": {
+        "energy": 2,
+        "might": 2,
+        "power": null
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": null,
+        "rarity": "Common",
+        "domain": [
+          "Fury"
+        ]
+      },
+      "text": {
+        "rich": "<p>If you control fewer runes than an opponent at the start of your Beginning Phase, give me +1 :rb_might: this turn.</p>",
+        "plain": "If you control fewer runes than an opponent at the start of your Beginning Phase, give me +1 :rb_might: this turn.",
+        "flavour": null
+      },
+      "set": {
+        "set_id": "VEN",
+        "label": "Vendetta"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/33d3e7840280e2780687057f08f30312a56d230f-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Unit: Forsaken Baccai. If you control fewer runes than an opponent at the start of your Beginning Phase, give me +1 [S] this turn."
+      },
+      "tags": [
+        "Shurima"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": null,
+        "updated_on": "2026-07-17T20:38:12.117593+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -4695,27 +4740,27 @@
       "new": true
     },
     {
-      "id": "6a590ef10e5d4c92d5d1f002",
-      "name": "Spiderling",
-      "riftbound_id": "ven-097-166",
+      "id": "6a5a92b4fe2355878c40cc8b",
+      "name": "Frostcoat Mother",
+      "riftbound_id": "ven-032-166",
       "tcgplayer_id": null,
-      "collector_number": 97,
+      "collector_number": 32,
       "attributes": {
         "energy": 3,
-        "might": 1,
+        "might": 3,
         "power": null
       },
       "classification": {
         "type": "Unit",
         "supertype": null,
-        "rarity": "Common",
+        "rarity": "Uncommon",
         "domain": [
-          "Chaos"
+          "Calm"
         ]
       },
       "text": {
-        "rich": "<p>[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)<br />I have +1 :rb_might: for each other unit you control here with my name.<br />Your deck can have any number of cards named Spiderling.</p>",
-        "plain": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)I have +1 :rb_might: for each other unit you control here with my name.Your deck can have any number of cards named Spiderling.",
+        "rich": "<p>[Empower] :rb_energy_12:. This ability costs :rb_energy_1: less for each rune you control. (Pay the cost: Empower me. Use only if not Empowered.)<br />[Empowered][&gt;] I have +3 :rb_might:.</p>",
+        "plain": "[Empower] :rb_energy_12:. This ability costs :rb_energy_1: less for each rune you control. (Pay the cost: Empower me. Use only if not Empowered.)[Empowered][&gt;] I have +3 :rb_might:.",
         "flavour": null
       },
       "set": {
@@ -4723,18 +4768,18 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fadf12e6e52eb5c70c65b479438f999f49d825fc-744x1039.png?accountingTag=RB",
-        "artist": "Six More Vodka",
-        "accessibility_text": "Riftbound Unit: Spiderling. [Hidden] (Hide now for [A] to react with later for [0].)\nI have +1 [S] for each other unit you control here with my name.\nYour deck can have any number of cards named Spiderling."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/38e2b4f12346a1af420f875c0a5f922c56c4140f-744x1039.png?accountingTag=RB",
+        "artist": "Caravan Studio",
+        "accessibility_text": "Riftbound Unit: Frostcoat Mother. [Empower] [12]. This ability costs [1] less for each rune you control. (Pay the cost: Empower me. Use only if not Empowered.)\n[Empowered][>] I have +3 [S]."
       },
       "tags": [
-        "Shadow Isles",
-        "Spider"
+        "Dog",
+        "Freljord"
       ],
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-16T17:03:45.865382+00:00",
+        "updated_on": "2026-07-17T20:38:12.194624+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -4742,27 +4787,27 @@
       "new": true
     },
     {
-      "id": "6a5a92b4fe2355878c40cc8a",
-      "name": "Forsaken Baccai",
-      "riftbound_id": "ven-005-166",
+      "id": "6a590ef10e5d4c92d5d1f001",
+      "name": "Shen, Scourge of Shadows",
+      "riftbound_id": "ven-170-166",
       "tcgplayer_id": null,
-      "collector_number": 5,
+      "collector_number": 170,
       "attributes": {
-        "energy": 2,
-        "might": 2,
-        "power": null
+        "energy": 5,
+        "might": 6,
+        "power": 1
       },
       "classification": {
         "type": "Unit",
-        "supertype": null,
-        "rarity": "Common",
+        "supertype": "Champion",
+        "rarity": "Rare",
         "domain": [
-          "Fury"
+          "Calm"
         ]
       },
       "text": {
-        "rich": "<p>If you control fewer runes than an opponent at the start of your Beginning Phase, give me +1 :rb_might: this turn.</p>",
-        "plain": "If you control fewer runes than an opponent at the start of your Beginning Phase, give me +1 :rb_might: this turn.",
+        "rich": "<p>When I hold, if there is exactly one other unit you control here, draw 1.</p>",
+        "plain": "When I hold, if there is exactly one other unit you control here, draw 1.",
         "flavour": null
       },
       "set": {
@@ -4770,17 +4815,17 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/33d3e7840280e2780687057f08f30312a56d230f-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Unit: Forsaken Baccai. If you control fewer runes than an opponent at the start of your Beginning Phase, give me +1 [S] this turn."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/56d6b54bdc2ae37579da820cec613c127a8843d3-744x1039.png?accountingTag=RB",
+        "artist": "\u534e\u9510",
+        "accessibility_text": "Riftbound Unit: Shen, Scourge of Shadows. When I hold, if there is exactly one other unit you control here, draw 1."
       },
       "tags": [
-        "Shurima"
+        "Shen"
       ],
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-17T20:38:12.117593+00:00",
+        "updated_on": "2026-07-16T17:03:45.801060+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -5201,11 +5246,11 @@
       "new": true
     },
     {
-      "id": "6a590ef10e5d4c92d5d1eff7",
-      "name": "Otterpus",
-      "riftbound_id": "ven-053-166",
+      "id": "6a5a92b5fe2355878c40cc96",
+      "name": "Shadow Fiend",
+      "riftbound_id": "ven-014-166",
       "tcgplayer_id": null,
-      "collector_number": 53,
+      "collector_number": 14,
       "attributes": {
         "energy": 2,
         "might": 2,
@@ -5216,12 +5261,12 @@
         "supertype": null,
         "rarity": "Uncommon",
         "domain": [
-          "Mind"
+          "Fury"
         ]
       },
       "text": {
-        "rich": "<p>If a player would score 1 point from conquering or holding during their first or second turn, they draw 1 instead.</p>",
-        "plain": "If a player would score 1 point from conquering or holding during their first or second turn, they draw 1 instead.",
+        "rich": "<p>[Empower] :rb_energy_2::rb_rune_fury: (:rb_energy_2::rb_rune_fury:: Empower me. Use only if not Empowered.)<br />[Empowered][&gt;] I have [Assault 3]. (+3 :rb_might: while I'm an attacker.)</p>",
+        "plain": "[Empower] :rb_energy_2::rb_rune_fury: (:rb_energy_2::rb_rune_fury:: Empower me. Use only if not Empowered.)[Empowered][&gt;] I have [Assault 3]. (+3 :rb_might: while I'm an attacker.)",
         "flavour": null
       },
       "set": {
@@ -5229,55 +5274,9 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/62f77b80a6d8f28a92c039595baf5943c4e055f0-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Unit: Otterpus. If a player would score 1 point from conquering or holding during their first or second turn, they draw 1 instead."
-      },
-      "tags": [
-        "Bandle City"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": null,
-        "updated_on": "2026-07-16T17:03:45.037576+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": true
-    },
-    {
-      "id": "6a5a92b5fe2355878c40cc95",
-      "name": "Serene Ascetic",
-      "riftbound_id": "ven-030-166",
-      "tcgplayer_id": null,
-      "collector_number": 30,
-      "attributes": {
-        "energy": 3,
-        "might": 3,
-        "power": null
-      },
-      "classification": {
-        "type": "Unit",
-        "supertype": null,
-        "rarity": "Common",
-        "domain": [
-          "Calm"
-        ]
-      },
-      "text": {
-        "rich": "<p>[Empower] :rb_energy_3: (:rb_energy_3:: Empower me. Use only if not Empowered.)<br />[Empowered][&gt;] I have [Deflect] and [Shield 3]. (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.+3 :rb_might: while I'm a defender.)</p>",
-        "plain": "[Empower] :rb_energy_3: (:rb_energy_3:: Empower me. Use only if not Empowered.)[Empowered][&gt;] I have [Deflect] and [Shield 3]. (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.+3 :rb_might: while I'm a defender.)",
-        "flavour": null
-      },
-      "set": {
-        "set_id": "VEN",
-        "label": "Vendetta"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7acc2f9fcdec5d2649e4a50dc3c96aeb31b87916-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Unit: Serene Ascetic. [Empower] [3] ([3]: Empower me. Use only if not Empowered.)\n[Empowered][>] I have [Deflect] and [Shield 3]. (Opponents must pay [A] to choose me with a spell or ability.+3 [S] while I'm a defender.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3bbeed15ac517c2e39c039e376553ce7e1c65f0c-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Unit: Shadow Fiend. [Empower] [2][C] ([2][C]: Empower me. Use only if not Empowered.)\n[Empowered][>] I have [Assault 3]. (+3 [S] while I'm an attacker.)"
       },
       "tags": [
         "Ionia"
@@ -5285,7 +5284,99 @@
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-17T20:38:13.458221+00:00",
+        "updated_on": "2026-07-17T20:38:13.536708+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": true
+    },
+    {
+      "id": "6a5fd1037dd422cf1aaca13d",
+      "name": "Morgana, Vindictive",
+      "riftbound_id": "ven-186-166",
+      "tcgplayer_id": null,
+      "collector_number": 186,
+      "attributes": {
+        "energy": 5,
+        "might": 5,
+        "power": 1
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Rare",
+        "domain": [
+          "Fury"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Ambush]<br />When you play me, deal damage to a unit equal to the damage marked on it.</p>",
+        "plain": "[Ambush]When you play me, deal damage to a unit equal to the damage marked on it.",
+        "flavour": null
+      },
+      "set": {
+        "set_id": "VEN",
+        "label": "Vendetta"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f5015b3077bbe6fbcdb0437fd47f119040e26ca3-744x1039.png?accountingTag=RB",
+        "artist": "Yuande Wu",
+        "accessibility_text": "Riftbound Unit: Morgana, Vindictive. [Ambush]\nWhen you play me, deal damage to a unit equal to the damage marked on it."
+      },
+      "tags": [
+        "Morgana"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": null,
+        "updated_on": "2026-07-21T20:05:23.285938+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": true
+    },
+    {
+      "id": "6a5fd1037dd422cf1aaca13c",
+      "name": "Kayle, Justified",
+      "riftbound_id": "ven-185-166",
+      "tcgplayer_id": null,
+      "collector_number": 185,
+      "attributes": {
+        "energy": 3,
+        "might": 3,
+        "power": null
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Rare",
+        "domain": [
+          "Order"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Empower] :rb_energy_3: (:rb_energy_3:: Empower me.)<br />I can be [Empowered] up to three times.<br />I have +2 :rb_might: for each time I\u2019m [Empowered].<br />While I'm [Empowered] three times, I have [Deflect 3] and [Ganking].</p>",
+        "plain": "[Empower] :rb_energy_3: (:rb_energy_3:: Empower me.)I can be [Empowered] up to three times.I have +2 :rb_might: for each time I\u2019m [Empowered].While I'm [Empowered] three times, I have [Deflect 3] and [Ganking].",
+        "flavour": null
+      },
+      "set": {
+        "set_id": "VEN",
+        "label": "Vendetta"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0fec986bfca86382c61770575ed20e1799b6b830-744x1039.png?accountingTag=RB",
+        "artist": "HCuu",
+        "accessibility_text": "Riftbound Unit: Kayle, Justified. [Empower] [3] ([3]: Empower me.)\nI can be [Empowered] up to three times.\nI have +2 [S] for each time I\u2019m [Empowered].\nWhile I'm [Empowered] three times, I have [Deflect 3] and [Ganking]."
+      },
+      "tags": [
+        "Kayle"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": null,
+        "updated_on": "2026-07-21T20:05:23.077874+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -5706,11 +5797,11 @@
       "new": true
     },
     {
-      "id": "6a5a92b5fe2355878c40cc96",
-      "name": "Shadow Fiend",
-      "riftbound_id": "ven-014-166",
+      "id": "6a590ef10e5d4c92d5d1eff7",
+      "name": "Otterpus",
+      "riftbound_id": "ven-053-166",
       "tcgplayer_id": null,
-      "collector_number": 14,
+      "collector_number": 53,
       "attributes": {
         "energy": 2,
         "might": 2,
@@ -5721,12 +5812,12 @@
         "supertype": null,
         "rarity": "Uncommon",
         "domain": [
-          "Fury"
+          "Mind"
         ]
       },
       "text": {
-        "rich": "<p>[Empower] :rb_energy_2::rb_rune_fury: (:rb_energy_2::rb_rune_fury:: Empower me. Use only if not Empowered.)<br />[Empowered][&gt;] I have [Assault 3]. (+3 :rb_might: while I'm an attacker.)</p>",
-        "plain": "[Empower] :rb_energy_2::rb_rune_fury: (:rb_energy_2::rb_rune_fury:: Empower me. Use only if not Empowered.)[Empowered][&gt;] I have [Assault 3]. (+3 :rb_might: while I'm an attacker.)",
+        "rich": "<p>If a player would score 1 point from conquering or holding during their first or second turn, they draw 1 instead.</p>",
+        "plain": "If a player would score 1 point from conquering or holding during their first or second turn, they draw 1 instead.",
         "flavour": null
       },
       "set": {
@@ -5734,17 +5825,17 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3bbeed15ac517c2e39c039e376553ce7e1c65f0c-744x1039.png?accountingTag=RB",
-        "artist": "Six More Vodka",
-        "accessibility_text": "Riftbound Unit: Shadow Fiend. [Empower] [2][C] ([2][C]: Empower me. Use only if not Empowered.)\n[Empowered][>] I have [Assault 3]. (+3 [S] while I'm an attacker.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/62f77b80a6d8f28a92c039595baf5943c4e055f0-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Unit: Otterpus. If a player would score 1 point from conquering or holding during their first or second turn, they draw 1 instead."
       },
       "tags": [
-        "Ionia"
+        "Bandle City"
       ],
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-17T20:38:13.536708+00:00",
+        "updated_on": "2026-07-16T17:03:45.037576+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -5752,27 +5843,27 @@
       "new": true
     },
     {
-      "id": "6a590ef00e5d4c92d5d1eff6",
-      "name": "Onslaught",
-      "riftbound_id": "ven-081-166",
+      "id": "6a5a92b5fe2355878c40cc95",
+      "name": "Serene Ascetic",
+      "riftbound_id": "ven-030-166",
       "tcgplayer_id": null,
-      "collector_number": 81,
+      "collector_number": 30,
       "attributes": {
-        "energy": 4,
-        "might": null,
+        "energy": 3,
+        "might": 3,
         "power": null
       },
       "classification": {
-        "type": "Spell",
+        "type": "Unit",
         "supertype": null,
-        "rarity": "Uncommon",
+        "rarity": "Common",
         "domain": [
-          "Body"
+          "Calm"
         ]
       },
       "text": {
-        "rich": "<p>Give a unit +6 :rb_might: this turn.<br />[Flow] :rb_energy_4: (You may play this from your trash for its Flow cost. Then banish it.)</p>",
-        "plain": "Give a unit +6 :rb_might: this turn.[Flow] :rb_energy_4: (You may play this from your trash for its Flow cost. Then banish it.)",
+        "rich": "<p>[Empower] :rb_energy_3: (:rb_energy_3:: Empower me. Use only if not Empowered.)<br />[Empowered][&gt;] I have [Deflect] and [Shield 3]. (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.+3 :rb_might: while I'm a defender.)</p>",
+        "plain": "[Empower] :rb_energy_3: (:rb_energy_3:: Empower me. Use only if not Empowered.)[Empowered][&gt;] I have [Deflect] and [Shield 3]. (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.+3 :rb_might: while I'm a defender.)",
         "flavour": null
       },
       "set": {
@@ -5780,15 +5871,17 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6a1ef90c64e07b3f561e34c8d43ff5f64db925d8-744x1039.png?accountingTag=RB",
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7acc2f9fcdec5d2649e4a50dc3c96aeb31b87916-744x1039.png?accountingTag=RB",
         "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Spell: Onslaught. Give a unit +6 [S] this turn.\n[Flow] [4] (You may play this from your trash for its Flow cost. Then banish it.)"
+        "accessibility_text": "Riftbound Unit: Serene Ascetic. [Empower] [3] ([3]: Empower me. Use only if not Empowered.)\n[Empowered][>] I have [Deflect] and [Shield 3]. (Opponents must pay [A] to choose me with a spell or ability.+3 [S] while I'm a defender.)"
       },
-      "tags": [],
+      "tags": [
+        "Ionia"
+      ],
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-16T17:03:44.985570+00:00",
+        "updated_on": "2026-07-17T20:38:13.458221+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -6209,27 +6302,27 @@
       "new": true
     },
     {
-      "id": "6a5a92b4fe2355878c40cc8b",
-      "name": "Frostcoat Mother",
-      "riftbound_id": "ven-032-166",
+      "id": "6a56aba0ff602fd324f4768b",
+      "name": "Mel, Defiant Soul",
+      "riftbound_id": "ven-188-166",
       "tcgplayer_id": null,
-      "collector_number": 32,
+      "collector_number": 188,
       "attributes": {
-        "energy": 3,
-        "might": 3,
+        "energy": 5,
+        "might": 4,
         "power": null
       },
       "classification": {
         "type": "Unit",
-        "supertype": null,
-        "rarity": "Uncommon",
+        "supertype": "Champion",
+        "rarity": "Rare",
         "domain": [
-          "Calm"
+          "Chaos"
         ]
       },
       "text": {
-        "rich": "<p>[Empower] :rb_energy_12:. This ability costs :rb_energy_1: less for each rune you control. (Pay the cost: Empower me. Use only if not Empowered.)<br />[Empowered][&gt;] I have +3 :rb_might:.</p>",
-        "plain": "[Empower] :rb_energy_12:. This ability costs :rb_energy_1: less for each rune you control. (Pay the cost: Empower me. Use only if not Empowered.)[Empowered][&gt;] I have +3 :rb_might:.",
+        "rich": "<p>[Empower] \u2014 Discard a spell<br />When I become [Empowered], banish an enemy unit at a battlefield with 3 :rb_might: or less.</p>",
+        "plain": "[Empower] \u2014 Discard a spellWhen I become [Empowered], banish an enemy unit at a battlefield with 3 :rb_might: or less.",
         "flavour": null
       },
       "set": {
@@ -6237,18 +6330,17 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/38e2b4f12346a1af420f875c0a5f922c56c4140f-744x1039.png?accountingTag=RB",
-        "artist": "Caravan Studio",
-        "accessibility_text": "Riftbound Unit: Frostcoat Mother. [Empower] [12]. This ability costs [1] less for each rune you control. (Pay the cost: Empower me. Use only if not Empowered.)\n[Empowered][>] I have +3 [S]."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0dac0b8b724d7d20f3e8c2126856d54d990e4ebc-744x1039.png?accountingTag=RB",
+        "artist": "Zhongqi Li",
+        "accessibility_text": "Riftbound Unit: Mel, Defiant Soul. [Empower] \u2014 Discard a spell\nWhen I become [Empowered], banish an enemy unit at a battlefield with 3 [S] or less."
       },
       "tags": [
-        "Dog",
-        "Freljord"
+        "Mel"
       ],
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-17T20:38:12.194624+00:00",
+        "updated_on": "2026-07-14T21:35:28.739017+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -6256,27 +6348,27 @@
       "new": true
     },
     {
-      "id": "6a56aba0ff602fd324f4768a",
-      "name": "Leona, Determined",
-      "riftbound_id": "ven-184-166",
+      "id": "6a590eef0e5d4c92d5d1efe0",
+      "name": "Ambessa, The Wolf",
+      "riftbound_id": "ven-084a-166",
       "tcgplayer_id": null,
-      "collector_number": 184,
+      "collector_number": 84,
       "attributes": {
         "energy": 4,
         "might": 4,
-        "power": 1
+        "power": null
       },
       "classification": {
         "type": "Unit",
         "supertype": "Champion",
         "rarity": "Rare",
         "domain": [
-          "Order"
+          "Body"
         ]
       },
       "text": {
-        "rich": "<p>[Shield]<br />When I attack, stun an enemy unit here.</p>",
-        "plain": "[Shield]When I attack, stun an enemy unit here.",
+        "rich": "<p>[Empower] :rb_energy_3::rb_rune_body:<br />[Empowered][&gt;] I have +3 :rb_might: and can't be dealt damage unless I'm in combat.</p>",
+        "plain": "[Empower] :rb_energy_3::rb_rune_body:[Empowered][&gt;] I have +3 :rb_might: and can't be dealt damage unless I'm in combat.",
         "flavour": null
       },
       "set": {
@@ -6284,17 +6376,17 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/92ac39878346a886129b6d339ab3d9e6c722a7eb-744x1039.png?accountingTag=RB",
-        "artist": "Naifan Zhang",
-        "accessibility_text": "Riftbound Unit: Leona, Determined. [Shield]\nWhen I attack, stun an enemy unit here."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/df72c64b97738a217508ee8ee6e6297000607a97-744x1039.png?accountingTag=RB",
+        "artist": "League Splash Team",
+        "accessibility_text": "Riftbound Unit: Ambessa, The Wolf. [Empower] [3][C]\n[Empowered][>] I have +3 [S] and can't be dealt damage unless I'm in combat."
       },
       "tags": [
-        "Leona"
+        "Ambessa"
       ],
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-14T21:35:28.694085+00:00",
+        "updated_on": "2026-07-16T17:03:43.243730+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -6758,55 +6850,9 @@
       "new": true
     },
     {
-      "id": "6a56aba0ff602fd324f4768b",
-      "name": "Mel, Defiant Soul",
-      "riftbound_id": "ven-188-166",
-      "tcgplayer_id": null,
-      "collector_number": 188,
-      "attributes": {
-        "energy": 5,
-        "might": 4,
-        "power": null
-      },
-      "classification": {
-        "type": "Unit",
-        "supertype": "Champion",
-        "rarity": "Rare",
-        "domain": [
-          "Chaos"
-        ]
-      },
-      "text": {
-        "rich": "<p>[Empower] \u2014 Discard a spell<br />When I become [Empowered], banish an enemy unit at a battlefield with 3 :rb_might: or less.</p>",
-        "plain": "[Empower] \u2014 Discard a spellWhen I become [Empowered], banish an enemy unit at a battlefield with 3 :rb_might: or less.",
-        "flavour": null
-      },
-      "set": {
-        "set_id": "VEN",
-        "label": "Vendetta"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0dac0b8b724d7d20f3e8c2126856d54d990e4ebc-744x1039.png?accountingTag=RB",
-        "artist": "Zhongqi Li",
-        "accessibility_text": "Riftbound Unit: Mel, Defiant Soul. [Empower] \u2014 Discard a spell\nWhen I become [Empowered], banish an enemy unit at a battlefield with 3 [S] or less."
-      },
-      "tags": [
-        "Mel"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": null,
-        "updated_on": "2026-07-14T21:35:28.739017+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": true
-    },
-    {
-      "id": "6a590eef0e5d4c92d5d1efe0",
+      "id": "6a590eef0e5d4c92d5d1efe1",
       "name": "Ambessa, The Wolf",
-      "riftbound_id": "ven-084a-166",
+      "riftbound_id": "ven-084-166",
       "tcgplayer_id": null,
       "collector_number": 84,
       "attributes": {
@@ -6823,8 +6869,8 @@
         ]
       },
       "text": {
-        "rich": "<p>[Empower] :rb_energy_3::rb_rune_body:<br />[Empowered][&gt;] I have +3 :rb_might: and can't be dealt damage unless I'm in combat.</p>",
-        "plain": "[Empower] :rb_energy_3::rb_rune_body:[Empowered][&gt;] I have +3 :rb_might: and can't be dealt damage unless I'm in combat.",
+        "rich": "<p>[Empower] :rb_energy_3::rb_rune_body: (:rb_energy_3::rb_rune_body:: Empower me. Use only if not Empowered.)<br />[Empowered][&gt;] I have +3 :rb_might: and can't be dealt damage unless I'm in combat.</p>",
+        "plain": "[Empower] :rb_energy_3::rb_rune_body: (:rb_energy_3::rb_rune_body:: Empower me. Use only if not Empowered.)[Empowered][&gt;] I have +3 :rb_might: and can't be dealt damage unless I'm in combat.",
         "flavour": null
       },
       "set": {
@@ -6832,17 +6878,64 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/df72c64b97738a217508ee8ee6e6297000607a97-744x1039.png?accountingTag=RB",
-        "artist": "League Splash Team",
-        "accessibility_text": "Riftbound Unit: Ambessa, The Wolf. [Empower] [3][C]\n[Empowered][>] I have +3 [S] and can't be dealt damage unless I'm in combat."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3907dc56d3a639e62f5222eaa0fd589c7a582da6-744x1039.png?accountingTag=RB",
+        "artist": "Pandart Studio",
+        "accessibility_text": "Riftbound Unit: Ambessa, The Wolf. [Empower] [3][C] ([3][C]: Empower me. Use only if not Empowered.)\n[Empowered][>] I have +3 [S] and can't be dealt damage unless I'm in combat."
       },
       "tags": [
+        "Noxus",
         "Ambessa"
       ],
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-16T17:03:43.243730+00:00",
+        "updated_on": "2026-07-16T17:03:43.299607+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": true
+    },
+    {
+      "id": "6a56aba0ff602fd324f4768a",
+      "name": "Leona, Determined",
+      "riftbound_id": "ven-184-166",
+      "tcgplayer_id": null,
+      "collector_number": 184,
+      "attributes": {
+        "energy": 4,
+        "might": 4,
+        "power": 1
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Rare",
+        "domain": [
+          "Order"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Shield]<br />When I attack, stun an enemy unit here.</p>",
+        "plain": "[Shield]When I attack, stun an enemy unit here.",
+        "flavour": null
+      },
+      "set": {
+        "set_id": "VEN",
+        "label": "Vendetta"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/92ac39878346a886129b6d339ab3d9e6c722a7eb-744x1039.png?accountingTag=RB",
+        "artist": "Naifan Zhang",
+        "accessibility_text": "Riftbound Unit: Leona, Determined. [Shield]\nWhen I attack, stun an enemy unit here."
+      },
+      "tags": [
+        "Leona"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": null,
+        "updated_on": "2026-07-14T21:35:28.694085+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -7262,27 +7355,27 @@
       "new": true
     },
     {
-      "id": "6a56aba0ff602fd324f47680",
-      "name": "Decree of Focus",
-      "riftbound_id": "ven-040-166",
+      "id": "6a590ef00e5d4c92d5d1efec",
+      "name": "Hand Hammer",
+      "riftbound_id": "ven-027-166",
       "tcgplayer_id": null,
-      "collector_number": 40,
+      "collector_number": 27,
       "attributes": {
-        "energy": 1,
+        "energy": 2,
         "might": null,
         "power": null
       },
       "classification": {
-        "type": "Spell",
+        "type": "Gear",
         "supertype": null,
-        "rarity": "Rare",
+        "rarity": "Common",
         "domain": [
           "Calm"
         ]
       },
       "text": {
-        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />Choose a friendly unit that's in combat with an enemy Fury (:rb_rune_fury:) unit or that's being chosen by an enemy Fury spell. Give it +4 :rb_might: this turn.</p>",
-        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)Choose a friendly unit that's in combat with an enemy Fury (:rb_rune_fury:) unit or that's being chosen by an enemy Fury spell. Give it +4 :rb_might: this turn.",
+        "rich": "<p>[Equip] :rb_rune_calm: (:rb_rune_calm:: Attach this to a unit you control.)</p>",
+        "plain": "[Equip] :rb_rune_calm: (:rb_rune_calm:: Attach this to a unit you control.)",
         "flavour": null
       },
       "set": {
@@ -7290,15 +7383,17 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3f9a1b209cfd6097bac6fa9aec57531e300ef511-744x1039.png?accountingTag=RB",
-        "artist": "Envar Studio",
-        "accessibility_text": "Riftbound Spell: Decree of Focus. [Reaction] (Play any time, even before spells and abilities resolve.)\nChoose a friendly unit that's in combat with an enemy Fury ([R]) unit or that's being chosen by an enemy Fury spell. Give it +4 [S] this turn."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/524fedb9116db0eb62380c03e0853c342c53daeb-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Gear: Hand Hammer. [Equip] [C] ([C]: Attach this to a unit you control.)"
       },
-      "tags": [],
+      "tags": [
+        "Equipment"
+      ],
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-14T21:35:28.136479+00:00",
+        "updated_on": "2026-07-16T17:03:44.282163+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -7306,27 +7401,27 @@
       "new": true
     },
     {
-      "id": "6a590ef00e5d4c92d5d1efeb",
-      "name": "Fretful Feline",
-      "riftbound_id": "ven-071-166",
+      "id": "6a590ef00e5d4c92d5d1eff6",
+      "name": "Onslaught",
+      "riftbound_id": "ven-081-166",
       "tcgplayer_id": null,
-      "collector_number": 71,
+      "collector_number": 81,
       "attributes": {
-        "energy": 6,
-        "might": 5,
+        "energy": 4,
+        "might": null,
         "power": null
       },
       "classification": {
-        "type": "Unit",
+        "type": "Spell",
         "supertype": null,
-        "rarity": "Common",
+        "rarity": "Uncommon",
         "domain": [
           "Body"
         ]
       },
       "text": {
-        "rich": "<p>When I become ready, give me +2 :rb_might: this turn.</p>",
-        "plain": "When I become ready, give me +2 :rb_might: this turn.",
+        "rich": "<p>Give a unit +6 :rb_might: this turn.<br />[Flow] :rb_energy_4: (You may play this from your trash for its Flow cost. Then banish it.)</p>",
+        "plain": "Give a unit +6 :rb_might: this turn.[Flow] :rb_energy_4: (You may play this from your trash for its Flow cost. Then banish it.)",
         "flavour": null
       },
       "set": {
@@ -7334,18 +7429,15 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/24370c9e33705b393c40f426e221ae851a65dd05-744x1039.png?accountingTag=RB",
-        "artist": "Six More Vodka",
-        "accessibility_text": "Riftbound Unit: Fretful Feline. When I become ready, give me +2 [S] this turn."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6a1ef90c64e07b3f561e34c8d43ff5f64db925d8-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Onslaught. Give a unit +6 [S] this turn.\n[Flow] [4] (You may play this from your trash for its Flow cost. Then banish it.)"
       },
-      "tags": [
-        "Cat",
-        "Piltover"
-      ],
+      "tags": [],
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-16T17:03:44.231409+00:00",
+        "updated_on": "2026-07-16T17:03:44.985570+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -7767,13 +7859,13 @@
       "new": true
     },
     {
-      "id": "6a590ef00e5d4c92d5d1efec",
-      "name": "Hand Hammer",
-      "riftbound_id": "ven-027-166",
-      "tcgplayer_id": null,
-      "collector_number": 27,
+      "id": "6a56ab96ff602fd324f47625",
+      "name": "Jagged Cutlass",
+      "riftbound_id": "ven-073-166",
+      "tcgplayer_id": "706041",
+      "collector_number": 73,
       "attributes": {
-        "energy": 2,
+        "energy": 3,
         "might": null,
         "power": null
       },
@@ -7782,12 +7874,12 @@
         "supertype": null,
         "rarity": "Common",
         "domain": [
-          "Calm"
+          "Body"
         ]
       },
       "text": {
-        "rich": "<p>[Equip] :rb_rune_calm: (:rb_rune_calm:: Attach this to a unit you control.)</p>",
-        "plain": "[Equip] :rb_rune_calm: (:rb_rune_calm:: Attach this to a unit you control.)",
+        "rich": "<p>Equip :rb_rune_body: (:rb_rune_body:: Attach this to a unit you control.)</p>",
+        "plain": "Equip :rb_rune_body: (:rb_rune_body:: Attach this to a unit you control.)",
         "flavour": null
       },
       "set": {
@@ -7795,69 +7887,69 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/524fedb9116db0eb62380c03e0853c342c53daeb-744x1039.png?accountingTag=RB",
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/22aae23e1ac1797beb50f3f735becfe65b51ee02-744x1039.png?accountingTag=RB",
         "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Gear: Hand Hammer. [Equip] [C] ([C]: Attach this to a unit you control.)"
+        "accessibility_text": "Riftbound Gear: Jagged Cutlass. Equip [C] ([C]: Attach this to a unit you control.)"
       },
       "tags": [
         "Equipment"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": null,
-        "updated_on": "2026-07-16T17:03:44.282163+00:00",
+        "clean_name": "Jagged Cutlass",
+        "updated_on": "2026-07-14T21:35:18.870906+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
       },
-      "new": true
+      "new": false
     },
     {
-      "id": "6a56ab96ff602fd324f47624",
-      "name": "Illaoi, Prophet of the Great Kraken",
-      "riftbound_id": "ven-109-166",
-      "tcgplayer_id": "706040",
-      "collector_number": 109,
+      "id": "6a590ef00e5d4c92d5d1efeb",
+      "name": "Fretful Feline",
+      "riftbound_id": "ven-071-166",
+      "tcgplayer_id": null,
+      "collector_number": 71,
       "attributes": {
         "energy": 6,
-        "might": 4,
+        "might": 5,
         "power": null
       },
       "classification": {
         "type": "Unit",
-        "supertype": "Champion",
-        "rarity": "Rare",
+        "supertype": null,
+        "rarity": "Common",
         "domain": [
-          "Chaos"
+          "Body"
         ]
       },
       "text": {
-        "rich": "<p>When you play me or when I score, play a :rb_energy_1: :rb_might: Tentacle unit token from Bilgewater.<br />I have +1 :rb_might: for each token unit you control.</p>",
-        "plain": "When you play me or when I score, play a :rb_energy_1: :rb_might: Tentacle unit token from Bilgewater.I have +1 :rb_might: for each token unit you control.",
-        "flavour": "We are not one soul. We are many."
+        "rich": "<p>When I become ready, give me +2 :rb_might: this turn.</p>",
+        "plain": "When I become ready, give me +2 :rb_might: this turn.",
+        "flavour": null
       },
       "set": {
         "set_id": "VEN",
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/86fccf469e67fb89312e0c860842e2801a8b12e7-744x1039.png?accountingTag=RB",
-        "artist": "Michal Ivan",
-        "accessibility_text": "Riftbound Unit: Illaoi, Prophet of the Great Kraken. When you play me or when I score, play a [1] [S] Tentacle unit token from Bilgewater.\nI have +1 [S] for each token unit you control."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/24370c9e33705b393c40f426e221ae851a65dd05-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Unit: Fretful Feline. When I become ready, give me +2 [S] this turn."
       },
       "tags": [
-        "Bilgewater",
-        "Illaoi"
+        "Cat",
+        "Piltover"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Illaoi Prophet of the Great Kraken",
-        "updated_on": "2026-07-16T17:03:35.119207+00:00",
+        "clean_name": null,
+        "updated_on": "2026-07-16T17:03:44.231409+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
       },
-      "new": false
+      "new": true
     },
     {
       "id": "6a590ef00e5d4c92d5d1efea",
@@ -8262,58 +8354,11 @@
       "new": true
     },
     {
-      "id": "6a590eef0e5d4c92d5d1efe1",
-      "name": "Ambessa, The Wolf",
-      "riftbound_id": "ven-084-166",
-      "tcgplayer_id": null,
-      "collector_number": 84,
-      "attributes": {
-        "energy": 4,
-        "might": 4,
-        "power": null
-      },
-      "classification": {
-        "type": "Unit",
-        "supertype": "Champion",
-        "rarity": "Rare",
-        "domain": [
-          "Body"
-        ]
-      },
-      "text": {
-        "rich": "<p>[Empower] :rb_energy_3::rb_rune_body: (:rb_energy_3::rb_rune_body:: Empower me. Use only if not Empowered.)<br />[Empowered][&gt;] I have +3 :rb_might: and can't be dealt damage unless I'm in combat.</p>",
-        "plain": "[Empower] :rb_energy_3::rb_rune_body: (:rb_energy_3::rb_rune_body:: Empower me. Use only if not Empowered.)[Empowered][&gt;] I have +3 :rb_might: and can't be dealt damage unless I'm in combat.",
-        "flavour": null
-      },
-      "set": {
-        "set_id": "VEN",
-        "label": "Vendetta"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3907dc56d3a639e62f5222eaa0fd589c7a582da6-744x1039.png?accountingTag=RB",
-        "artist": "Pandart Studio",
-        "accessibility_text": "Riftbound Unit: Ambessa, The Wolf. [Empower] [3][C] ([3][C]: Empower me. Use only if not Empowered.)\n[Empowered][>] I have +3 [S] and can't be dealt damage unless I'm in combat."
-      },
-      "tags": [
-        "Noxus",
-        "Ambessa"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": null,
-        "updated_on": "2026-07-16T17:03:43.299607+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": true
-    },
-    {
-      "id": "6a517606ad64d2d80a4f03a5",
+      "id": "6a517606ad64d2d80a4f03a6",
       "name": "Master of Shadows",
-      "riftbound_id": "ven-143-166",
+      "riftbound_id": "ven-191-166",
       "tcgplayer_id": null,
-      "collector_number": 143,
+      "collector_number": 191,
       "attributes": {
         "energy": null,
         "might": null,
@@ -8329,8 +8374,8 @@
         ]
       },
       "text": {
-        "rich": "<p>When you banish a card you own, empower me. (I become Empowered if I'm not already.)<br />[Action][&gt;] Disempower me, :rb_exhaust:: Discard 1, then draw 1.</p>",
-        "plain": "When you banish a card you own, empower me. (I become Empowered if I'm not already.)[Action][&gt;] Disempower me, :rb_exhaust:: Discard 1, then draw 1.",
+        "rich": "<p>When you banish a card you own, empower me.<br />[Action][&gt;] Disempower me, :rb_exhaust:: Discard 1, then draw 1.</p>",
+        "plain": "When you banish a card you own, empower me.[Action][&gt;] Disempower me, :rb_exhaust:: Discard 1, then draw 1.",
         "flavour": null
       },
       "set": {
@@ -8338,9 +8383,9 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/aa316eb1b01c8d036eaba84b03909027fe69f6e2-744x1039.png?accountingTag=RB",
-        "artist": "Envar Studio",
-        "accessibility_text": "Riftbound Legend: Master of Shadows. When you banish a card you own, empower me. (I become Empowered if I'm not already.)\n[Action][>] Disempower me, [T]: Discard 1, then draw 1."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/75b7ba57a83af496b26d9fe7e8521f9a851bf464-744x1039.png?accountingTag=RB",
+        "artist": "Yh Shen",
+        "accessibility_text": "Riftbound Legend: Master of Shadows. When you banish a card you own, empower me.\n[Action][>] Disempower me, [T]: Discard 1, then draw 1."
       },
       "tags": [
         "Zed"
@@ -8348,7 +8393,54 @@
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-10T22:45:26.446608+00:00",
+        "updated_on": "2026-07-10T22:45:26.496378+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": true
+    },
+    {
+      "id": "6a517607ad64d2d80a4f03b1",
+      "name": "Nasus, Guardian of Knowledge",
+      "riftbound_id": "ven-063a-166",
+      "tcgplayer_id": null,
+      "collector_number": 63,
+      "attributes": {
+        "energy": 5,
+        "might": 6,
+        "power": 1
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Rare",
+        "domain": [
+          "Mind"
+        ]
+      },
+      "text": {
+        "rich": "<p>Once each turn, when an enemy unit here dies, channel 1 rune exhausted.</p>",
+        "plain": "Once each turn, when an enemy unit here dies, channel 1 rune exhausted.",
+        "flavour": null
+      },
+      "set": {
+        "set_id": "VEN",
+        "label": "Vendetta"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c6bfe2146a52c3d8dd0230904435369ff29bac0e-744x1039.png?accountingTag=RB",
+        "artist": "League Splash Team",
+        "accessibility_text": "Riftbound Unit: Nasus, Guardian of Knowledge. Once each turn, when an enemy unit here dies, channel 1 rune exhausted."
+      },
+      "tags": [
+        "Dog",
+        "Nasus"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": null,
+        "updated_on": "2026-07-10T22:45:27.054334+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -8820,11 +8912,58 @@
       "new": true
     },
     {
-      "id": "6a517606ad64d2d80a4f03a6",
-      "name": "Master of Shadows",
-      "riftbound_id": "ven-191-166",
+      "id": "6a517607ad64d2d80a4f03b2",
+      "name": "Ocean Drake",
+      "riftbound_id": "ven-115-166",
       "tcgplayer_id": null,
-      "collector_number": 191,
+      "collector_number": 115,
+      "attributes": {
+        "energy": 8,
+        "might": 7,
+        "power": 2
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": null,
+        "rarity": "Epic",
+        "domain": [
+          "Chaos"
+        ]
+      },
+      "text": {
+        "rich": "<p>You may play me to an open battlefield.<br />When you play me, you may return a non-Dragon unit to its owner's hand.</p>",
+        "plain": "You may play me to an open battlefield.When you play me, you may return a non-Dragon unit to its owner's hand.",
+        "flavour": null
+      },
+      "set": {
+        "set_id": "VEN",
+        "label": "Vendetta"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bd93cc3c9165204cd3e830fc2022384bad7517be-744x1039.png?accountingTag=RB",
+        "artist": "Caravan Studio",
+        "accessibility_text": "Riftbound Unit: Ocean Drake. You may play me to an open battlefield.\nWhen you play me, you may return a non-Dragon unit to its owner's hand."
+      },
+      "tags": [
+        "Dragon",
+        "Ionia"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": null,
+        "updated_on": "2026-07-10T22:45:27.102371+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": true
+    },
+    {
+      "id": "6a517606ad64d2d80a4f03a5",
+      "name": "Master of Shadows",
+      "riftbound_id": "ven-143-166",
+      "tcgplayer_id": null,
+      "collector_number": 143,
       "attributes": {
         "energy": null,
         "might": null,
@@ -8840,8 +8979,8 @@
         ]
       },
       "text": {
-        "rich": "<p>When you banish a card you own, empower me.<br />[Action][&gt;] Disempower me, :rb_exhaust:: Discard 1, then draw 1.</p>",
-        "plain": "When you banish a card you own, empower me.[Action][&gt;] Disempower me, :rb_exhaust:: Discard 1, then draw 1.",
+        "rich": "<p>When you banish a card you own, empower me. (I become Empowered if I'm not already.)<br />[Action][&gt;] Disempower me, :rb_exhaust:: Discard 1, then draw 1.</p>",
+        "plain": "When you banish a card you own, empower me. (I become Empowered if I'm not already.)[Action][&gt;] Disempower me, :rb_exhaust:: Discard 1, then draw 1.",
         "flavour": null
       },
       "set": {
@@ -8849,9 +8988,9 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/75b7ba57a83af496b26d9fe7e8521f9a851bf464-744x1039.png?accountingTag=RB",
-        "artist": "Yh Shen",
-        "accessibility_text": "Riftbound Legend: Master of Shadows. When you banish a card you own, empower me.\n[Action][>] Disempower me, [T]: Discard 1, then draw 1."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/aa316eb1b01c8d036eaba84b03909027fe69f6e2-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "accessibility_text": "Riftbound Legend: Master of Shadows. When you banish a card you own, empower me. (I become Empowered if I'm not already.)\n[Action][>] Disempower me, [T]: Discard 1, then draw 1."
       },
       "tags": [
         "Zed"
@@ -8859,54 +8998,7 @@
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-10T22:45:26.496378+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": true
-    },
-    {
-      "id": "6a517607ad64d2d80a4f03b1",
-      "name": "Nasus, Guardian of Knowledge",
-      "riftbound_id": "ven-063a-166",
-      "tcgplayer_id": null,
-      "collector_number": 63,
-      "attributes": {
-        "energy": 5,
-        "might": 6,
-        "power": 1
-      },
-      "classification": {
-        "type": "Unit",
-        "supertype": "Champion",
-        "rarity": "Rare",
-        "domain": [
-          "Mind"
-        ]
-      },
-      "text": {
-        "rich": "<p>Once each turn, when an enemy unit here dies, channel 1 rune exhausted.</p>",
-        "plain": "Once each turn, when an enemy unit here dies, channel 1 rune exhausted.",
-        "flavour": null
-      },
-      "set": {
-        "set_id": "VEN",
-        "label": "Vendetta"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c6bfe2146a52c3d8dd0230904435369ff29bac0e-744x1039.png?accountingTag=RB",
-        "artist": "League Splash Team",
-        "accessibility_text": "Riftbound Unit: Nasus, Guardian of Knowledge. Once each turn, when an enemy unit here dies, channel 1 rune exhausted."
-      },
-      "tags": [
-        "Dog",
-        "Nasus"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": null,
-        "updated_on": "2026-07-10T22:45:27.054334+00:00",
+        "updated_on": "2026-07-10T22:45:26.446608+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -9333,55 +9425,9 @@
       "new": true
     },
     {
-      "id": "6a517605ad64d2d80a4f039b",
-      "name": "Jayce, Hammer in Hand",
-      "riftbound_id": "ven-088a-166",
-      "tcgplayer_id": null,
-      "collector_number": 88,
-      "attributes": {
-        "energy": 4,
-        "might": 5,
-        "power": 1
-      },
-      "classification": {
-        "type": "Unit",
-        "supertype": "Champion",
-        "rarity": "Rare",
-        "domain": [
-          "Body"
-        ]
-      },
-      "text": {
-        "rich": "<p>When I become ready, choose one to give me this turn \u2014</p><ul><li>[Assault 2]</li><li>[Deflect 2]</li><li>[Ganking]</li></ul>",
-        "plain": "When I become ready, choose one to give me this turn \u2014[Assault 2][Deflect 2][Ganking]",
-        "flavour": null
-      },
-      "set": {
-        "set_id": "VEN",
-        "label": "Vendetta"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/69539dc4cfa14f1cfe9dc8b49c67344eca176a32-744x1039.png?accountingTag=RB",
-        "artist": "League Splash Team",
-        "accessibility_text": "Riftbound Unit: Jayce, Hammer in Hand. When I become ready, choose one to give me this turn \u2014\n- [Assault 2]\n- [Deflect 2]\n- [Ganking]"
-      },
-      "tags": [
-        "Jayce"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": null,
-        "updated_on": "2026-07-10T22:45:25.877806+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": true
-    },
-    {
-      "id": "6a517607ad64d2d80a4f03bc",
+      "id": "6a517607ad64d2d80a4f03bd",
       "name": "Renekton, Rage Fueled",
-      "riftbound_id": "ven-019-166",
+      "riftbound_id": "ven-019a-166",
       "tcgplayer_id": null,
       "collector_number": 19,
       "attributes": {
@@ -9398,8 +9444,8 @@
         ]
       },
       "text": {
-        "rich": "<p>[Accelerate] (You may pay :rb_energy_1::rb_rune_fury: as an additional cost to have me enter ready.)<br />When I attack, if you control 4 or fewer runes, deal 2 to all enemy units here.</p>",
-        "plain": "[Accelerate] (You may pay :rb_energy_1::rb_rune_fury: as an additional cost to have me enter ready.)When I attack, if you control 4 or fewer runes, deal 2 to all enemy units here.",
+        "rich": "<p>[Accelerate]<br />When I attack, if you control 4 or fewer runes, deal 2 to all enemy units here.</p>",
+        "plain": "[Accelerate]When I attack, if you control 4 or fewer runes, deal 2 to all enemy units here.",
         "flavour": null
       },
       "set": {
@@ -9407,18 +9453,64 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2f6eb3e8328048ad52617c8639ecbe2c287efa36-744x1039.png?accountingTag=RB",
-        "artist": "Six More Vodka",
-        "accessibility_text": "Riftbound Unit: Renekton, Rage Fueled. [Accelerate] (You may pay [1][C] as an additional cost to have me enter ready.)\nWhen I attack, if you control 4 or fewer runes, deal 2 to all enemy units here."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cf5a7294a9ebd2d5a8727078efbfd2cf84f12e3e-744x1039.png?accountingTag=RB",
+        "artist": "League Splash Team",
+        "accessibility_text": "Riftbound Unit: Renekton, Rage Fueled. [Accelerate]\nWhen I attack, if you control 4 or fewer runes, deal 2 to all enemy units here."
       },
       "tags": [
-        "Shurima",
         "Renekton"
       ],
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-10T22:45:27.632571+00:00",
+        "updated_on": "2026-07-10T22:45:27.687646+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": true
+    },
+    {
+      "id": "6a517608ad64d2d80a4f03c8",
+      "name": "Shen, Leader of the Kinkou Order",
+      "riftbound_id": "ven-138a-166",
+      "tcgplayer_id": null,
+      "collector_number": 138,
+      "attributes": {
+        "energy": 6,
+        "might": 7,
+        "power": 2
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Epic",
+        "domain": [
+          "Order"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Shield]<br />When I hold, if there is exactly one other unit you control here, you score 1 point.</p>",
+        "plain": "[Shield]When I hold, if there is exactly one other unit you control here, you score 1 point.",
+        "flavour": null
+      },
+      "set": {
+        "set_id": "VEN",
+        "label": "Vendetta"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bf3f260e47de2887ba16fbc02e9df7f02e57a24a-744x1039.png?accountingTag=RB",
+        "artist": "League Splash Team",
+        "accessibility_text": "Riftbound Unit: Shen, Leader of the Kinkou Order. [Shield]\nWhen I hold, if there is exactly one other unit you control here, you score 1 point."
+      },
+      "tags": [
+        "Shen",
+        "Ionia"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": null,
+        "updated_on": "2026-07-10T22:45:28.301680+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -9884,55 +9976,9 @@
       "new": true
     },
     {
-      "id": "6a517607ad64d2d80a4f03bd",
-      "name": "Renekton, Rage Fueled",
-      "riftbound_id": "ven-019a-166",
-      "tcgplayer_id": null,
-      "collector_number": 19,
-      "attributes": {
-        "energy": 6,
-        "might": 6,
-        "power": null
-      },
-      "classification": {
-        "type": "Unit",
-        "supertype": "Champion",
-        "rarity": "Rare",
-        "domain": [
-          "Fury"
-        ]
-      },
-      "text": {
-        "rich": "<p>[Accelerate]<br />When I attack, if you control 4 or fewer runes, deal 2 to all enemy units here.</p>",
-        "plain": "[Accelerate]When I attack, if you control 4 or fewer runes, deal 2 to all enemy units here.",
-        "flavour": null
-      },
-      "set": {
-        "set_id": "VEN",
-        "label": "Vendetta"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cf5a7294a9ebd2d5a8727078efbfd2cf84f12e3e-744x1039.png?accountingTag=RB",
-        "artist": "League Splash Team",
-        "accessibility_text": "Riftbound Unit: Renekton, Rage Fueled. [Accelerate]\nWhen I attack, if you control 4 or fewer runes, deal 2 to all enemy units here."
-      },
-      "tags": [
-        "Renekton"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": null,
-        "updated_on": "2026-07-10T22:45:27.687646+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": true
-    },
-    {
-      "id": "6a517605ad64d2d80a4f039a",
+      "id": "6a517605ad64d2d80a4f039b",
       "name": "Jayce, Hammer in Hand",
-      "riftbound_id": "ven-088-166",
+      "riftbound_id": "ven-088a-166",
       "tcgplayer_id": null,
       "collector_number": 88,
       "attributes": {
@@ -9949,8 +9995,8 @@
         ]
       },
       "text": {
-        "rich": "<p>When I become ready, choose one to give me this turn \u2014</p><ul><li>[Assault 2] (+2 :rb_might: while I'm an attacker.)</li><li>[Deflect 2] (Opponents must pay :rb_rune_rainbow::rb_rune_rainbow: to choose me with a spell or ability.)</li><li>[Ganking] (I can move from battlefield to battlefield.)</li></ul>",
-        "plain": "When I become ready, choose one to give me this turn \u2014[Assault 2] (+2 :rb_might: while I'm an attacker.)[Deflect 2] (Opponents must pay :rb_rune_rainbow::rb_rune_rainbow: to choose me with a spell or ability.)[Ganking] (I can move from battlefield to battlefield.)",
+        "rich": "<p>When I become ready, choose one to give me this turn \u2014</p><ul><li>[Assault 2]</li><li>[Deflect 2]</li><li>[Ganking]</li></ul>",
+        "plain": "When I become ready, choose one to give me this turn \u2014[Assault 2][Deflect 2][Ganking]",
         "flavour": null
       },
       "set": {
@@ -9958,18 +10004,64 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2dcecc0aab2b62e48388177cc27d220fd70b8a78-744x1039.png?accountingTag=RB",
-        "artist": "League of Legends",
-        "accessibility_text": "Riftbound Unit: Jayce, Hammer in Hand. When I become ready, choose one to give me this turn \u2014\n- [Assault 2] (+2 [S] while I'm an attacker.)\n- [Deflect 2] (Opponents must pay [A][A] to choose me with a spell or ability.)\n- [Ganking] (I can move from battlefield to battlefield.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/69539dc4cfa14f1cfe9dc8b49c67344eca176a32-744x1039.png?accountingTag=RB",
+        "artist": "League Splash Team",
+        "accessibility_text": "Riftbound Unit: Jayce, Hammer in Hand. When I become ready, choose one to give me this turn \u2014\n- [Assault 2]\n- [Deflect 2]\n- [Ganking]"
       },
       "tags": [
-        "Jayce",
-        "Piltover"
+        "Jayce"
       ],
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-10T22:45:25.822906+00:00",
+        "updated_on": "2026-07-10T22:45:25.877806+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": true
+    },
+    {
+      "id": "6a517607ad64d2d80a4f03bc",
+      "name": "Renekton, Rage Fueled",
+      "riftbound_id": "ven-019-166",
+      "tcgplayer_id": null,
+      "collector_number": 19,
+      "attributes": {
+        "energy": 6,
+        "might": 6,
+        "power": null
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Rare",
+        "domain": [
+          "Fury"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Accelerate] (You may pay :rb_energy_1::rb_rune_fury: as an additional cost to have me enter ready.)<br />When I attack, if you control 4 or fewer runes, deal 2 to all enemy units here.</p>",
+        "plain": "[Accelerate] (You may pay :rb_energy_1::rb_rune_fury: as an additional cost to have me enter ready.)When I attack, if you control 4 or fewer runes, deal 2 to all enemy units here.",
+        "flavour": null
+      },
+      "set": {
+        "set_id": "VEN",
+        "label": "Vendetta"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2f6eb3e8328048ad52617c8639ecbe2c287efa36-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Unit: Renekton, Rage Fueled. [Accelerate] (You may pay [1][C] as an additional cost to have me enter ready.)\nWhen I attack, if you control 4 or fewer runes, deal 2 to all enemy units here."
+      },
+      "tags": [
+        "Shurima",
+        "Renekton"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": null,
+        "updated_on": "2026-07-10T22:45:27.632571+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -10387,27 +10479,27 @@
       "new": true
     },
     {
-      "id": "6a517607ad64d2d80a4f03b2",
-      "name": "Ocean Drake",
-      "riftbound_id": "ven-115-166",
+      "id": "6a517604ad64d2d80a4f0379",
+      "name": "Baccai Reaper",
+      "riftbound_id": "ven-009-166",
       "tcgplayer_id": null,
-      "collector_number": 115,
+      "collector_number": 9,
       "attributes": {
-        "energy": 8,
-        "might": 7,
-        "power": 2
+        "energy": 3,
+        "might": 4,
+        "power": 1
       },
       "classification": {
         "type": "Unit",
         "supertype": null,
-        "rarity": "Epic",
+        "rarity": "Uncommon",
         "domain": [
-          "Chaos"
+          "Fury"
         ]
       },
       "text": {
-        "rich": "<p>You may play me to an open battlefield.<br />When you play me, you may return a non-Dragon unit to its owner's hand.</p>",
-        "plain": "You may play me to an open battlefield.When you play me, you may return a non-Dragon unit to its owner's hand.",
+        "rich": "<p>When I attack, you may pay :rb_rune_fury: to give me [Assault 2] this turn. (+2 :rb_might: while I'm an attacker.)</p>",
+        "plain": "When I attack, you may pay :rb_rune_fury: to give me [Assault 2] this turn. (+2 :rb_might: while I'm an attacker.)",
         "flavour": null
       },
       "set": {
@@ -10415,18 +10507,17 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bd93cc3c9165204cd3e830fc2022384bad7517be-744x1039.png?accountingTag=RB",
-        "artist": "Caravan Studio",
-        "accessibility_text": "Riftbound Unit: Ocean Drake. You may play me to an open battlefield.\nWhen you play me, you may return a non-Dragon unit to its owner's hand."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/14c473be38b3ec40503f44555db9a4168a45bfb4-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Unit: Baccai Reaper. When I attack, you may pay [C] to give me [Assault 2] this turn. (+2 [S] while I'm an attacker.)"
       },
       "tags": [
-        "Dragon",
-        "Ionia"
+        "Shurima"
       ],
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-10T22:45:27.102371+00:00",
+        "updated_on": "2026-07-10T22:45:24.096676+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -10434,27 +10525,27 @@
       "new": true
     },
     {
-      "id": "6a517604ad64d2d80a4f0378",
-      "name": "Apprentice Mage",
-      "riftbound_id": "ven-047-166",
+      "id": "6a517604ad64d2d80a4f0384",
+      "name": "Dame the Despoiler",
+      "riftbound_id": "ven-079-166",
       "tcgplayer_id": null,
-      "collector_number": 47,
+      "collector_number": 79,
       "attributes": {
-        "energy": 3,
-        "might": 3,
+        "energy": 5,
+        "might": 5,
         "power": null
       },
       "classification": {
         "type": "Unit",
         "supertype": null,
-        "rarity": "Common",
+        "rarity": "Uncommon",
         "domain": [
-          "Mind"
+          "Body"
         ]
       },
       "text": {
-        "rich": "<p>[Empower] :rb_energy_2: (:rb_energy_2:: Empower me. Use only if not Empowered.)<br />When I become [Empowered], [Predict 2]. (Look at the top 2 cards of your Main Deck. Recycle any of them and put the rest back in any order.)<br />[Empowered][&gt;] I have +1 :rb_might:.</p>",
-        "plain": "[Empower] :rb_energy_2: (:rb_energy_2:: Empower me. Use only if not Empowered.)When I become [Empowered], [Predict 2]. (Look at the top 2 cards of your Main Deck. Recycle any of them and put the rest back in any order.)[Empowered][&gt;] I have +1 :rb_might:.",
+        "rich": "<p>[Empower] :rb_energy_5::rb_rune_body: (:rb_energy_5::rb_rune_body:: Empower me. Use only if not Empowered.)<br />[Empowered][&gt;] When I attack or defend, choose a unit here. Increase my Might to its Might this turn, then give me +1 :rb_might: this turn.</p>",
+        "plain": "[Empower] :rb_energy_5::rb_rune_body: (:rb_energy_5::rb_rune_body:: Empower me. Use only if not Empowered.)[Empowered][&gt;] When I attack or defend, choose a unit here. Increase my Might to its Might this turn, then give me +1 :rb_might: this turn.",
         "flavour": null
       },
       "set": {
@@ -10462,17 +10553,17 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6e650b9680864a949299cbe2ef7d06d1d22c7d18-744x1039.png?accountingTag=RB",
-        "artist": "Envar Studio",
-        "accessibility_text": "Riftbound Unit: Apprentice Mage. [Empower] [2] ([2]: Empower me. Use only if not Empowered.)\nWhen I become [Empowered], [Predict 2]. (Look at the top 2 cards of your Main Deck. Recycle any of them and put the rest back in any order.)\n[Empowered][>] I have +1 [S]."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7c45dc79e72efc8ddf8c5b20d83474e23dc66e5e-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Unit: Dame the Despoiler. [Empower] [5][C] ([5][C]: Empower me. Use only if not Empowered.)\n[Empowered][>] When I attack or defend, choose a unit here. Increase my Might to its Might this turn, then give me +1 [S] this turn."
       },
       "tags": [
-        "Bilgewater"
+        "Noxus"
       ],
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-10T22:45:24.041425+00:00",
+        "updated_on": "2026-07-10T22:45:24.674980+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -10941,27 +11032,28 @@
       "new": true
     },
     {
-      "id": "6a517604ad64d2d80a4f0379",
-      "name": "Baccai Reaper",
-      "riftbound_id": "ven-009-166",
+      "id": "6a517604ad64d2d80a4f0385",
+      "name": "Death Mark",
+      "riftbound_id": "ven-144-166",
       "tcgplayer_id": null,
-      "collector_number": 9,
+      "collector_number": 144,
       "attributes": {
-        "energy": 3,
-        "might": 4,
+        "energy": 2,
+        "might": null,
         "power": 1
       },
       "classification": {
-        "type": "Unit",
-        "supertype": null,
-        "rarity": "Uncommon",
+        "type": "Spell",
+        "supertype": "Signature",
+        "rarity": "Epic",
         "domain": [
-          "Fury"
+          "Fury",
+          "Chaos"
         ]
       },
       "text": {
-        "rich": "<p>When I attack, you may pay :rb_rune_fury: to give me [Assault 2] this turn. (+2 :rb_might: while I'm an attacker.)</p>",
-        "plain": "When I attack, you may pay :rb_rune_fury: to give me [Assault 2] this turn. (+2 :rb_might: while I'm an attacker.)",
+        "rich": "<p>[Burn 3]. (Put the top 3 cards of your Main Deck into your trash.)<br />Play a 0 :rb_might: Shadow Clone unit token. (It has &quot;When I attack, you may banish a unit from your trash. If you do, give me [Assault 4] this turn.&quot;)<br />[Flow] :rb_energy_1::rb_rune_rainbow::rb_rune_rainbow: (You may play this from your trash for its Flow cost. Then banish it.)</p>",
+        "plain": "[Burn 3]. (Put the top 3 cards of your Main Deck into your trash.)Play a 0 :rb_might: Shadow Clone unit token. (It has &quot;When I attack, you may banish a unit from your trash. If you do, give me [Assault 4] this turn.&quot;)[Flow] :rb_energy_1::rb_rune_rainbow::rb_rune_rainbow: (You may play this from your trash for its Flow cost. Then banish it.)",
         "flavour": null
       },
       "set": {
@@ -10969,17 +11061,17 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/14c473be38b3ec40503f44555db9a4168a45bfb4-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Unit: Baccai Reaper. When I attack, you may pay [C] to give me [Assault 2] this turn. (+2 [S] while I'm an attacker.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/87ccfb8d1c19f402bb37ffa392011ee2f0880aa9-744x1039.png?accountingTag=RB",
+        "artist": "JunHuan",
+        "accessibility_text": "Riftbound Spell: Death Mark. [Burn 3]. (Put the top 3 cards of your Main Deck into your trash.)\nPlay a 0 [S] Shadow Clone unit token. (It has \"When I attack, you may banish a unit from your trash. If you do, give me [Assault 4] this turn.\")\n[Flow] [1][A][A] (You may play this from your trash for its Flow cost. Then banish it.)"
       },
       "tags": [
-        "Shurima"
+        "Zed"
       ],
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-10T22:45:24.096676+00:00",
+        "updated_on": "2026-07-10T22:45:24.724829+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -10987,27 +11079,27 @@
       "new": true
     },
     {
-      "id": "6a517604ad64d2d80a4f0384",
-      "name": "Dame the Despoiler",
-      "riftbound_id": "ven-079-166",
+      "id": "6a517604ad64d2d80a4f0378",
+      "name": "Apprentice Mage",
+      "riftbound_id": "ven-047-166",
       "tcgplayer_id": null,
-      "collector_number": 79,
+      "collector_number": 47,
       "attributes": {
-        "energy": 5,
-        "might": 5,
+        "energy": 3,
+        "might": 3,
         "power": null
       },
       "classification": {
         "type": "Unit",
         "supertype": null,
-        "rarity": "Uncommon",
+        "rarity": "Common",
         "domain": [
-          "Body"
+          "Mind"
         ]
       },
       "text": {
-        "rich": "<p>[Empower] :rb_energy_5::rb_rune_body: (:rb_energy_5::rb_rune_body:: Empower me. Use only if not Empowered.)<br />[Empowered][&gt;] When I attack or defend, choose a unit here. Increase my Might to its Might this turn, then give me +1 :rb_might: this turn.</p>",
-        "plain": "[Empower] :rb_energy_5::rb_rune_body: (:rb_energy_5::rb_rune_body:: Empower me. Use only if not Empowered.)[Empowered][&gt;] When I attack or defend, choose a unit here. Increase my Might to its Might this turn, then give me +1 :rb_might: this turn.",
+        "rich": "<p>[Empower] :rb_energy_2: (:rb_energy_2:: Empower me. Use only if not Empowered.)<br />When I become [Empowered], [Predict 2]. (Look at the top 2 cards of your Main Deck. Recycle any of them and put the rest back in any order.)<br />[Empowered][&gt;] I have +1 :rb_might:.</p>",
+        "plain": "[Empower] :rb_energy_2: (:rb_energy_2:: Empower me. Use only if not Empowered.)When I become [Empowered], [Predict 2]. (Look at the top 2 cards of your Main Deck. Recycle any of them and put the rest back in any order.)[Empowered][&gt;] I have +1 :rb_might:.",
         "flavour": null
       },
       "set": {
@@ -11015,17 +11107,17 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7c45dc79e72efc8ddf8c5b20d83474e23dc66e5e-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Unit: Dame the Despoiler. [Empower] [5][C] ([5][C]: Empower me. Use only if not Empowered.)\n[Empowered][>] When I attack or defend, choose a unit here. Increase my Might to its Might this turn, then give me +1 [S] this turn."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6e650b9680864a949299cbe2ef7d06d1d22c7d18-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "accessibility_text": "Riftbound Unit: Apprentice Mage. [Empower] [2] ([2]: Empower me. Use only if not Empowered.)\nWhen I become [Empowered], [Predict 2]. (Look at the top 2 cards of your Main Deck. Recycle any of them and put the rest back in any order.)\n[Empowered][>] I have +1 [S]."
       },
       "tags": [
-        "Noxus"
+        "Bilgewater"
       ],
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-10T22:45:24.674980+00:00",
+        "updated_on": "2026-07-10T22:45:24.041425+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -11266,15 +11358,59 @@
       "new": true
     },
     {
-      "id": "6a517605ad64d2d80a4f038f",
-      "name": "Gangplank, Naval",
-      "riftbound_id": "ven-086-166",
+      "id": "6a517605ad64d2d80a4f0390",
+      "name": "Glowstone",
+      "riftbound_id": "ven-133-166",
       "tcgplayer_id": null,
-      "collector_number": 86,
+      "collector_number": 133,
       "attributes": {
-        "energy": 6,
-        "might": 6,
+        "energy": 2,
+        "might": null,
         "power": null
+      },
+      "classification": {
+        "type": "Gear",
+        "supertype": null,
+        "rarity": "Rare",
+        "domain": [
+          "Order"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Empower] :rb_rune_rainbow::rb_rune_rainbow: (:rb_rune_rainbow::rb_rune_rainbow:: Empower me. Use only if not Empowered.)<br />Disempower this, :rb_exhaust:: Choose a player. They gain control of this and recall it. (Send it to their base.)<br />At the end of your turn, kill this and deal 5 to all units you control.</p>",
+        "plain": "[Empower] :rb_rune_rainbow::rb_rune_rainbow: (:rb_rune_rainbow::rb_rune_rainbow:: Empower me. Use only if not Empowered.)Disempower this, :rb_exhaust:: Choose a player. They gain control of this and recall it. (Send it to their base.)At the end of your turn, kill this and deal 5 to all units you control.",
+        "flavour": null
+      },
+      "set": {
+        "set_id": "VEN",
+        "label": "Vendetta"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6426e9c2b168f0dde5430d5bc57108a0cc2bcebb-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Gear: Glowstone. [Empower] [A][A] ([A][A]: Empower me. Use only if not Empowered.)\nDisempower this, [T]: Choose a player. They gain control of this and recall it. (Send it to their base.)\nAt the end of your turn, kill this and deal 5 to all units you control."
+      },
+      "tags": [],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": null,
+        "updated_on": "2026-07-10T22:45:25.315982+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": true
+    },
+    {
+      "id": "6a517605ad64d2d80a4f039a",
+      "name": "Jayce, Hammer in Hand",
+      "riftbound_id": "ven-088-166",
+      "tcgplayer_id": null,
+      "collector_number": 88,
+      "attributes": {
+        "energy": 4,
+        "might": 5,
+        "power": 1
       },
       "classification": {
         "type": "Unit",
@@ -11285,8 +11421,8 @@
         ]
       },
       "text": {
-        "rich": "<p>[Empower] :rb_rune_body::rb_rune_body: (:rb_rune_body::rb_rune_body:: Empower me. Use only if not Empowered.)<br />[Empowered][&gt;] If a spell or ability that chooses me would stun me, give me -:rb_might:, or return me to hand, give me +3 :rb_might: instead.</p>",
-        "plain": "[Empower] :rb_rune_body::rb_rune_body: (:rb_rune_body::rb_rune_body:: Empower me. Use only if not Empowered.)[Empowered][&gt;] If a spell or ability that chooses me would stun me, give me -:rb_might:, or return me to hand, give me +3 :rb_might: instead.",
+        "rich": "<p>When I become ready, choose one to give me this turn \u2014</p><ul><li>[Assault 2] (+2 :rb_might: while I'm an attacker.)</li><li>[Deflect 2] (Opponents must pay :rb_rune_rainbow::rb_rune_rainbow: to choose me with a spell or ability.)</li><li>[Ganking] (I can move from battlefield to battlefield.)</li></ul>",
+        "plain": "When I become ready, choose one to give me this turn \u2014[Assault 2] (+2 :rb_might: while I'm an attacker.)[Deflect 2] (Opponents must pay :rb_rune_rainbow::rb_rune_rainbow: to choose me with a spell or ability.)[Ganking] (I can move from battlefield to battlefield.)",
         "flavour": null
       },
       "set": {
@@ -11294,18 +11430,18 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f270a3ecc4850594513c45d145f2b855152e2cb7-744x1039.png?accountingTag=RB",
-        "artist": "Six More Vodka",
-        "accessibility_text": "Riftbound Unit: Gangplank, Naval. [Empower] [C][C] ([C][C]: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -[S], or return me to hand, give me +3 [S] instead."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2dcecc0aab2b62e48388177cc27d220fd70b8a78-744x1039.png?accountingTag=RB",
+        "artist": "League of Legends",
+        "accessibility_text": "Riftbound Unit: Jayce, Hammer in Hand. When I become ready, choose one to give me this turn \u2014\n- [Assault 2] (+2 [S] while I'm an attacker.)\n- [Deflect 2] (Opponents must pay [A][A] to choose me with a spell or ability.)\n- [Ganking] (I can move from battlefield to battlefield.)"
       },
       "tags": [
-        "Bilgewater",
-        "Gangplank"
+        "Jayce",
+        "Piltover"
       ],
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-10T22:45:25.261873+00:00",
+        "updated_on": "2026-07-10T22:45:25.822906+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -11729,53 +11865,9 @@
       "new": true
     },
     {
-      "id": "6a517605ad64d2d80a4f0390",
-      "name": "Glowstone",
-      "riftbound_id": "ven-133-166",
-      "tcgplayer_id": null,
-      "collector_number": 133,
-      "attributes": {
-        "energy": 2,
-        "might": null,
-        "power": null
-      },
-      "classification": {
-        "type": "Gear",
-        "supertype": null,
-        "rarity": "Rare",
-        "domain": [
-          "Order"
-        ]
-      },
-      "text": {
-        "rich": "<p>[Empower] :rb_rune_rainbow::rb_rune_rainbow: (:rb_rune_rainbow::rb_rune_rainbow:: Empower me. Use only if not Empowered.)<br />Disempower this, :rb_exhaust:: Choose a player. They gain control of this and recall it. (Send it to their base.)<br />At the end of your turn, kill this and deal 5 to all units you control.</p>",
-        "plain": "[Empower] :rb_rune_rainbow::rb_rune_rainbow: (:rb_rune_rainbow::rb_rune_rainbow:: Empower me. Use only if not Empowered.)Disempower this, :rb_exhaust:: Choose a player. They gain control of this and recall it. (Send it to their base.)At the end of your turn, kill this and deal 5 to all units you control.",
-        "flavour": null
-      },
-      "set": {
-        "set_id": "VEN",
-        "label": "Vendetta"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6426e9c2b168f0dde5430d5bc57108a0cc2bcebb-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Gear: Glowstone. [Empower] [A][A] ([A][A]: Empower me. Use only if not Empowered.)\nDisempower this, [T]: Choose a player. They gain control of this and recall it. (Send it to their base.)\nAt the end of your turn, kill this and deal 5 to all units you control."
-      },
-      "tags": [],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": null,
-        "updated_on": "2026-07-10T22:45:25.315982+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": true
-    },
-    {
-      "id": "6a517608ad64d2d80a4f03c8",
+      "id": "6a517608ad64d2d80a4f03c9",
       "name": "Shen, Leader of the Kinkou Order",
-      "riftbound_id": "ven-138a-166",
+      "riftbound_id": "ven-138-166",
       "tcgplayer_id": null,
       "collector_number": 138,
       "attributes": {
@@ -11792,8 +11884,8 @@
         ]
       },
       "text": {
-        "rich": "<p>[Shield]<br />When I hold, if there is exactly one other unit you control here, you score 1 point.</p>",
-        "plain": "[Shield]When I hold, if there is exactly one other unit you control here, you score 1 point.",
+        "rich": "<p>[Shield] (+1 :rb_might: while I'm a defender.)<br />When I hold, if there is exactly one other unit you control here, you score 1 point.</p>",
+        "plain": "[Shield] (+1 :rb_might: while I'm a defender.)When I hold, if there is exactly one other unit you control here, you score 1 point.",
         "flavour": null
       },
       "set": {
@@ -11801,9 +11893,9 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bf3f260e47de2887ba16fbc02e9df7f02e57a24a-744x1039.png?accountingTag=RB",
-        "artist": "League Splash Team",
-        "accessibility_text": "Riftbound Unit: Shen, Leader of the Kinkou Order. [Shield]\nWhen I hold, if there is exactly one other unit you control here, you score 1 point."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b227d9f9abc6f165beffba4eaf3b5819cf06eab4-744x1039.png?accountingTag=RB",
+        "artist": "Pandart Studio",
+        "accessibility_text": "Riftbound Unit: Shen, Leader of the Kinkou Order. [Shield] (+1 [S] while I'm a defender.)\nWhen I hold, if there is exactly one other unit you control here, you score 1 point."
       },
       "tags": [
         "Shen",
@@ -11812,7 +11904,54 @@
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-10T22:45:28.301680+00:00",
+        "updated_on": "2026-07-10T22:45:28.354395+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": true
+    },
+    {
+      "id": "6a517605ad64d2d80a4f038f",
+      "name": "Gangplank, Naval",
+      "riftbound_id": "ven-086-166",
+      "tcgplayer_id": null,
+      "collector_number": 86,
+      "attributes": {
+        "energy": 6,
+        "might": 6,
+        "power": null
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Rare",
+        "domain": [
+          "Body"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Empower] :rb_rune_body::rb_rune_body: (:rb_rune_body::rb_rune_body:: Empower me. Use only if not Empowered.)<br />[Empowered][&gt;] If a spell or ability that chooses me would stun me, give me -:rb_might:, or return me to hand, give me +3 :rb_might: instead.</p>",
+        "plain": "[Empower] :rb_rune_body::rb_rune_body: (:rb_rune_body::rb_rune_body:: Empower me. Use only if not Empowered.)[Empowered][&gt;] If a spell or ability that chooses me would stun me, give me -:rb_might:, or return me to hand, give me +3 :rb_might: instead.",
+        "flavour": null
+      },
+      "set": {
+        "set_id": "VEN",
+        "label": "Vendetta"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f270a3ecc4850594513c45d145f2b855152e2cb7-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Unit: Gangplank, Naval. [Empower] [C][C] ([C][C]: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -[S], or return me to hand, give me +3 [S] instead."
+      },
+      "tags": [
+        "Bilgewater",
+        "Gangplank"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": null,
+        "updated_on": "2026-07-10T22:45:25.261873+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -12234,90 +12373,87 @@
       "new": true
     },
     {
-      "id": "6a517604ad64d2d80a4f0385",
-      "name": "Death Mark",
-      "riftbound_id": "ven-144-166",
-      "tcgplayer_id": null,
-      "collector_number": 144,
+      "id": "6a56ab94ff602fd324f47603",
+      "name": "Bottled Constellation",
+      "riftbound_id": "ven-067-166",
+      "tcgplayer_id": "706007",
+      "collector_number": 67,
       "attributes": {
-        "energy": 2,
+        "energy": 10,
+        "might": null,
+        "power": 2
+      },
+      "classification": {
+        "type": "Gear",
+        "supertype": null,
+        "rarity": "Epic",
+        "domain": [
+          "Mind"
+        ]
+      },
+      "text": {
+        "rich": "<p>At the start of your Main Phase, you may kill 3 other friendly units and/or gear to score 1 point.</p>",
+        "plain": "At the start of your Main Phase, you may kill 3 other friendly units and/or gear to score 1 point.",
+        "flavour": "Infinite possibilities in finite volume."
+      },
+      "set": {
+        "set_id": "VEN",
+        "label": "Vendetta"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2068b7c202cab7f877c331a7bad0531d6a8f0d73-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Gear: Bottled Constellation. At the start of your Main Phase, you may kill 3 other friendly units and/or gear to score 1 point."
+      },
+      "tags": [],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Bottled Constellation",
+        "updated_on": "2026-07-17T20:38:02.926132+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": false
+    },
+    {
+      "id": "6a56ab95ff602fd324f4760e",
+      "name": "Decree of Discord",
+      "riftbound_id": "ven-107-166",
+      "tcgplayer_id": "706018",
+      "collector_number": 107,
+      "attributes": {
+        "energy": 1,
         "might": null,
         "power": 1
       },
       "classification": {
         "type": "Spell",
-        "supertype": "Signature",
-        "rarity": "Epic",
+        "supertype": null,
+        "rarity": "Rare",
         "domain": [
-          "Fury",
           "Chaos"
         ]
       },
       "text": {
-        "rich": "<p>[Burn 3]. (Put the top 3 cards of your Main Deck into your trash.)<br />Play a 0 :rb_might: Shadow Clone unit token. (It has &quot;When I attack, you may banish a unit from your trash. If you do, give me [Assault 4] this turn.&quot;)<br />[Flow] :rb_energy_1::rb_rune_rainbow::rb_rune_rainbow: (You may play this from your trash for its Flow cost. Then banish it.)</p>",
-        "plain": "[Burn 3]. (Put the top 3 cards of your Main Deck into your trash.)Play a 0 :rb_might: Shadow Clone unit token. (It has &quot;When I attack, you may banish a unit from your trash. If you do, give me [Assault 4] this turn.&quot;)[Flow] :rb_energy_1::rb_rune_rainbow::rb_rune_rainbow: (You may play this from your trash for its Flow cost. Then banish it.)",
-        "flavour": null
+        "rich": "<p>Return any number of enemy Order (:rb_rune_order:) units with total Might 5 or less to their owners' hands.</p>",
+        "plain": "Return any number of enemy Order (:rb_rune_order:) units with total Might 5 or less to their owners' hands.",
+        "flavour": "Tradition is a prison. Break free."
       },
       "set": {
         "set_id": "VEN",
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/87ccfb8d1c19f402bb37ffa392011ee2f0880aa9-744x1039.png?accountingTag=RB",
-        "artist": "JunHuan",
-        "accessibility_text": "Riftbound Spell: Death Mark. [Burn 3]. (Put the top 3 cards of your Main Deck into your trash.)\nPlay a 0 [S] Shadow Clone unit token. (It has \"When I attack, you may banish a unit from your trash. If you do, give me [Assault 4] this turn.\")\n[Flow] [1][A][A] (You may play this from your trash for its Flow cost. Then banish it.)"
-      },
-      "tags": [
-        "Zed"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": null,
-        "updated_on": "2026-07-10T22:45:24.724829+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": true
-    },
-    {
-      "id": "6a56ab94ff602fd324f47602",
-      "name": "Body Rune",
-      "riftbound_id": "ven-r04",
-      "tcgplayer_id": "706006",
-      "collector_number": 4,
-      "attributes": {
-        "energy": null,
-        "might": null,
-        "power": null
-      },
-      "classification": {
-        "type": "Rune",
-        "supertype": "Basic",
-        "rarity": "Common",
-        "domain": [
-          "Body"
-        ]
-      },
-      "text": {
-        "rich": "<p>[NO TEXT]</p>",
-        "plain": "[NO TEXT]",
-        "flavour": null
-      },
-      "set": {
-        "set_id": "VEN",
-        "label": "Vendetta"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3313c73c5b31daa482073bfefbf4d2255a89d7d0-744x1039.png?accountingTag=RB",
-        "artist": "Greg Ghielmetti & Leah Chen",
-        "accessibility_text": "Riftbound Rune: Body Rune. [NO TEXT]"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b0e82842acddb99c47af6793dab48164caf498c2-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "accessibility_text": "Riftbound Spell: Decree of Discord. Return any number of enemy Order ([Y]) units with total Might 5 or less to their owners' hands."
       },
       "tags": [],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Body Rune",
-        "updated_on": "2026-07-14T21:35:16.916600+00:00",
+        "clean_name": "Decree of Discord",
+        "updated_on": "2026-07-17T20:38:03.249182+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -12788,43 +12924,43 @@
       "new": false
     },
     {
-      "id": "6a56ab94ff602fd324f47603",
-      "name": "Bottled Constellation",
-      "riftbound_id": "ven-067-166",
-      "tcgplayer_id": "706007",
-      "collector_number": 67,
+      "id": "6a56ab95ff602fd324f4760f",
+      "name": "Decree of Insight",
+      "riftbound_id": "ven-061-166",
+      "tcgplayer_id": "706019",
+      "collector_number": 61,
       "attributes": {
-        "energy": 10,
+        "energy": 1,
         "might": null,
-        "power": 2
+        "power": null
       },
       "classification": {
-        "type": "Gear",
+        "type": "Spell",
         "supertype": null,
-        "rarity": "Epic",
+        "rarity": "Rare",
         "domain": [
           "Mind"
         ]
       },
       "text": {
-        "rich": "<p>At the start of your Main Phase, you may kill 3 other friendly units and/or gear to score 1 point.</p>",
-        "plain": "At the start of your Main Phase, you may kill 3 other friendly units and/or gear to score 1 point.",
-        "flavour": "Infinite possibilities in finite volume."
+        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />Ignore [Deflect] while paying this spell's cost.<br />Give an enemy Body (:rb_rune_body:) unit -5 :rb_might: this turn.</p>",
+        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)Ignore [Deflect] while paying this spell's cost.Give an enemy Body (:rb_rune_body:) unit -5 :rb_might: this turn.",
+        "flavour": "Force is artless. Be inspiried."
       },
       "set": {
         "set_id": "VEN",
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2068b7c202cab7f877c331a7bad0531d6a8f0d73-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Gear: Bottled Constellation. At the start of your Main Phase, you may kill 3 other friendly units and/or gear to score 1 point."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/da019355562b207814be6aec55bccf415bd416df-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "accessibility_text": "Riftbound Spell: Decree of Insight. [Reaction] (Play any time, even before spells and abilities resolve.)\nIgnore [Deflect] while paying this spell's cost.\nGive an enemy Body ([O]) unit -5 [S] this turn."
       },
       "tags": [],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Bottled Constellation",
-        "updated_on": "2026-07-17T20:38:02.926132+00:00",
+        "clean_name": "Decree of Insight",
+        "updated_on": "2026-07-14T21:35:17.616734+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -12832,43 +12968,43 @@
       "new": false
     },
     {
-      "id": "6a56ab95ff602fd324f4760e",
-      "name": "Decree of Discord",
-      "riftbound_id": "ven-107-166",
-      "tcgplayer_id": "706018",
-      "collector_number": 107,
+      "id": "6a56ab94ff602fd324f47602",
+      "name": "Body Rune",
+      "riftbound_id": "ven-r04",
+      "tcgplayer_id": "706006",
+      "collector_number": 4,
       "attributes": {
-        "energy": 1,
+        "energy": null,
         "might": null,
-        "power": 1
+        "power": null
       },
       "classification": {
-        "type": "Spell",
-        "supertype": null,
-        "rarity": "Rare",
+        "type": "Rune",
+        "supertype": "Basic",
+        "rarity": "Common",
         "domain": [
-          "Chaos"
+          "Body"
         ]
       },
       "text": {
-        "rich": "<p>Return any number of enemy Order (:rb_rune_order:) units with total Might 5 or less to their owners' hands.</p>",
-        "plain": "Return any number of enemy Order (:rb_rune_order:) units with total Might 5 or less to their owners' hands.",
-        "flavour": "Tradition is a prison. Break free."
+        "rich": "<p>[NO TEXT]</p>",
+        "plain": "[NO TEXT]",
+        "flavour": null
       },
       "set": {
         "set_id": "VEN",
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b0e82842acddb99c47af6793dab48164caf498c2-744x1039.png?accountingTag=RB",
-        "artist": "Envar Studio",
-        "accessibility_text": "Riftbound Spell: Decree of Discord. Return any number of enemy Order ([Y]) units with total Might 5 or less to their owners' hands."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3313c73c5b31daa482073bfefbf4d2255a89d7d0-744x1039.png?accountingTag=RB",
+        "artist": "Greg Ghielmetti & Leah Chen",
+        "accessibility_text": "Riftbound Rune: Body Rune. [NO TEXT]"
       },
       "tags": [],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Decree of Discord",
-        "updated_on": "2026-07-17T20:38:03.249182+00:00",
+        "clean_name": "Body Rune",
+        "updated_on": "2026-07-14T21:35:16.916600+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -13294,58 +13430,11 @@
       "new": false
     },
     {
-      "id": "6a56ab94ff602fd324f475f8",
-      "name": "Ahri, Inquisitive",
-      "riftbound_id": "ven-sp3-006",
-      "tcgplayer_id": "705996",
-      "collector_number": 3,
-      "attributes": {
-        "energy": 3,
-        "might": 3,
-        "power": 1
-      },
-      "classification": {
-        "type": "Unit",
-        "supertype": "Champion",
-        "rarity": "Epic",
-        "domain": [
-          "Mind"
-        ]
-      },
-      "text": {
-        "rich": "<p>When I attack or defend, give an enemy unit here -2 :rb_might: this turn, to a minimum of 1 :rb_might:.</p>",
-        "plain": "When I attack or defend, give an enemy unit here -2 :rb_might: this turn, to a minimum of 1 :rb_might:.",
-        "flavour": null
-      },
-      "set": {
-        "set_id": "VEN",
-        "label": "Vendetta"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e8d1993018d8317494cbaab4e4dd738c2e80740d-744x1039.png?accountingTag=RB",
-        "artist": "Wild Rift Splash Team",
-        "accessibility_text": "Riftbound Unit: Ahri, Inquisitive. When I attack or defend, give an enemy unit here -2 [S] this turn, to a minimum of 1 [S]."
-      },
-      "tags": [
-        "Ahri",
-        "Ionia"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": "Ahri Inquisitive",
-        "updated_on": "2026-07-14T21:35:16.288209+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": false
-    },
-    {
-      "id": "6a56ab96ff602fd324f47619",
-      "name": "Gangplank, Naval (Overnumbered)",
-      "riftbound_id": "ven-181-166",
-      "tcgplayer_id": "706029",
-      "collector_number": 181,
+      "id": "6a56ab96ff602fd324f4761a",
+      "name": "Gangplank, Naval",
+      "riftbound_id": "ven-086-166",
+      "tcgplayer_id": "706030",
+      "collector_number": 86,
       "attributes": {
         "energy": 6,
         "might": 6,
@@ -13360,28 +13449,76 @@
         ]
       },
       "text": {
-        "rich": "<p>[Empower] :rb_rune_body::rb_rune_body:<br />[Empowered][&gt;] If a spell or ability that chooses me would stun me, give me -:rb_might:, or return me to hand, give me +3 :rb_might: instead.</p>",
-        "plain": "[Empower] :rb_rune_body::rb_rune_body:[Empowered][&gt;] If a spell or ability that chooses me would stun me, give me -:rb_might:, or return me to hand, give me +3 :rb_might: instead.",
-        "flavour": "My heart is iron."
+        "rich": "<p>[Empower] :rb_rune_body::rb_rune_body: (:rb_rune_body::rb_rune_body:: Empower me. Use only if not Empowered.)<br />[Empowered][&gt;] If a spell or ability that chooses me would stun me, give me -:rb_might:, or return me to hand, give me +3 :rb_might: instead.</p>",
+        "plain": "[Empower] :rb_rune_body::rb_rune_body: (:rb_rune_body::rb_rune_body:: Empower me. Use only if not Empowered.)[Empowered][&gt;] If a spell or ability that chooses me would stun me, give me -:rb_might:, or return me to hand, give me +3 :rb_might: instead.",
+        "flavour": "Death spit me out."
       },
       "set": {
         "set_id": "VEN",
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9d9fd99b083fb7104d533ca0eccb43a47c2cc74a-744x1039.png?accountingTag=RB",
-        "artist": "Grafit Studio",
-        "accessibility_text": "Riftbound Unit: Gangplank, Naval. [Empower] [C][C]\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -[S], or return me to hand, give me +3 [S] instead."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f270a3ecc4850594513c45d145f2b855152e2cb7-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Unit: Gangplank, Naval. [Empower] [C][C] ([C][C]: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -[S], or return me to hand, give me +3 [S] instead."
       },
       "tags": [
+        "Bilgewater",
         "Gangplank"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Gangplank Naval Overnumbered",
-        "updated_on": "2026-07-16T17:03:34.613088+00:00",
+        "clean_name": "Gangplank Naval",
+        "updated_on": "2026-07-16T17:03:34.683983+00:00",
         "alternate_art": false,
-        "overnumbered": true,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": false
+    },
+    {
+      "id": "6a56ab96ff602fd324f47624",
+      "name": "Illaoi, Prophet of the Great Kraken",
+      "riftbound_id": "ven-109-166",
+      "tcgplayer_id": "706040",
+      "collector_number": 109,
+      "attributes": {
+        "energy": 6,
+        "might": 4,
+        "power": null
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Rare",
+        "domain": [
+          "Chaos"
+        ]
+      },
+      "text": {
+        "rich": "<p>When you play me or when I score, play a :rb_energy_1: :rb_might: Tentacle unit token from Bilgewater.<br />I have +1 :rb_might: for each token unit you control.</p>",
+        "plain": "When you play me or when I score, play a :rb_energy_1: :rb_might: Tentacle unit token from Bilgewater.I have +1 :rb_might: for each token unit you control.",
+        "flavour": "We are not one soul. We are many."
+      },
+      "set": {
+        "set_id": "VEN",
+        "label": "Vendetta"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/86fccf469e67fb89312e0c860842e2801a8b12e7-744x1039.png?accountingTag=RB",
+        "artist": "Michal Ivan",
+        "accessibility_text": "Riftbound Unit: Illaoi, Prophet of the Great Kraken. When you play me or when I score, play a [1] [S] Tentacle unit token from Bilgewater.\nI have +1 [S] for each token unit you control."
+      },
+      "tags": [
+        "Bilgewater",
+        "Illaoi"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Illaoi Prophet of the Great Kraken",
+        "updated_on": "2026-07-16T17:03:35.119207+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
         "signature": false
       },
       "new": false
@@ -13798,11 +13935,58 @@
       "new": false
     },
     {
-      "id": "6a56ab96ff602fd324f4761a",
-      "name": "Gangplank, Naval",
-      "riftbound_id": "ven-086-166",
-      "tcgplayer_id": "706030",
-      "collector_number": 86,
+      "id": "6a56ab94ff602fd324f475f8",
+      "name": "Ahri, Inquisitive",
+      "riftbound_id": "ven-sp3-006",
+      "tcgplayer_id": "705996",
+      "collector_number": 3,
+      "attributes": {
+        "energy": 3,
+        "might": 3,
+        "power": 1
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Epic",
+        "domain": [
+          "Mind"
+        ]
+      },
+      "text": {
+        "rich": "<p>When I attack or defend, give an enemy unit here -2 :rb_might: this turn, to a minimum of 1 :rb_might:.</p>",
+        "plain": "When I attack or defend, give an enemy unit here -2 :rb_might: this turn, to a minimum of 1 :rb_might:.",
+        "flavour": null
+      },
+      "set": {
+        "set_id": "VEN",
+        "label": "Vendetta"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e8d1993018d8317494cbaab4e4dd738c2e80740d-744x1039.png?accountingTag=RB",
+        "artist": "Wild Rift Splash Team",
+        "accessibility_text": "Riftbound Unit: Ahri, Inquisitive. When I attack or defend, give an enemy unit here -2 [S] this turn, to a minimum of 1 [S]."
+      },
+      "tags": [
+        "Ahri",
+        "Ionia"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Ahri Inquisitive",
+        "updated_on": "2026-07-14T21:35:16.288209+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": false
+    },
+    {
+      "id": "6a56ab96ff602fd324f47619",
+      "name": "Gangplank, Naval (Overnumbered)",
+      "riftbound_id": "ven-181-166",
+      "tcgplayer_id": "706029",
+      "collector_number": 181,
       "attributes": {
         "energy": 6,
         "might": 6,
@@ -13817,78 +14001,31 @@
         ]
       },
       "text": {
-        "rich": "<p>[Empower] :rb_rune_body::rb_rune_body: (:rb_rune_body::rb_rune_body:: Empower me. Use only if not Empowered.)<br />[Empowered][&gt;] If a spell or ability that chooses me would stun me, give me -:rb_might:, or return me to hand, give me +3 :rb_might: instead.</p>",
-        "plain": "[Empower] :rb_rune_body::rb_rune_body: (:rb_rune_body::rb_rune_body:: Empower me. Use only if not Empowered.)[Empowered][&gt;] If a spell or ability that chooses me would stun me, give me -:rb_might:, or return me to hand, give me +3 :rb_might: instead.",
-        "flavour": "Death spit me out."
+        "rich": "<p>[Empower] :rb_rune_body::rb_rune_body:<br />[Empowered][&gt;] If a spell or ability that chooses me would stun me, give me -:rb_might:, or return me to hand, give me +3 :rb_might: instead.</p>",
+        "plain": "[Empower] :rb_rune_body::rb_rune_body:[Empowered][&gt;] If a spell or ability that chooses me would stun me, give me -:rb_might:, or return me to hand, give me +3 :rb_might: instead.",
+        "flavour": "My heart is iron."
       },
       "set": {
         "set_id": "VEN",
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f270a3ecc4850594513c45d145f2b855152e2cb7-744x1039.png?accountingTag=RB",
-        "artist": "Six More Vodka",
-        "accessibility_text": "Riftbound Unit: Gangplank, Naval. [Empower] [C][C] ([C][C]: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -[S], or return me to hand, give me +3 [S] instead."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9d9fd99b083fb7104d533ca0eccb43a47c2cc74a-744x1039.png?accountingTag=RB",
+        "artist": "Grafit Studio",
+        "accessibility_text": "Riftbound Unit: Gangplank, Naval. [Empower] [C][C]\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -[S], or return me to hand, give me +3 [S] instead."
       },
       "tags": [
-        "Bilgewater",
         "Gangplank"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Gangplank Naval",
-        "updated_on": "2026-07-16T17:03:34.683983+00:00",
+        "clean_name": "Gangplank Naval Overnumbered",
+        "updated_on": "2026-07-16T17:03:34.613088+00:00",
         "alternate_art": false,
-        "overnumbered": false,
+        "overnumbered": true,
         "signature": false
       },
       "new": false
-    },
-    {
-      "id": "6a518b2937f518eaadf8bb16",
-      "name": "Zed, From the Shadows",
-      "riftbound_id": "ven-169-166",
-      "tcgplayer_id": null,
-      "collector_number": 169,
-      "attributes": {
-        "energy": 4,
-        "might": 4,
-        "power": 1
-      },
-      "classification": {
-        "type": "Unit",
-        "supertype": "Champion",
-        "rarity": "Epic",
-        "domain": [
-          "Fury"
-        ]
-      },
-      "text": {
-        "rich": "<p>You may discard 1 as an additional cost to play me.<br />When you play me, if you paid the additional cost, play a 0 :rb_might: Shadow Clone unit token.</p>",
-        "plain": "You may discard 1 as an additional cost to play me.When you play me, if you paid the additional cost, play a 0 :rb_might: Shadow Clone unit token.",
-        "flavour": null
-      },
-      "set": {
-        "set_id": "VEN",
-        "label": "Vendetta"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5d665b28073066442b35f7b6aed98c83fca23631-744x1039.png?accountingTag=RB",
-        "artist": "\u534e\u9510",
-        "accessibility_text": "Riftbound Unit: Zed, From the Shadows. You may discard 1 as an additional cost to play me.\nWhen you play me, if you paid the additional cost, play a 0 [S] Shadow Clone unit token."
-      },
-      "tags": [
-        "Zed"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": null,
-        "updated_on": "2026-07-11T00:15:37.507898+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": true
     },
     {
       "id": "6a56ab96ff602fd324f47618",
@@ -14309,71 +14446,27 @@
       "new": false
     },
     {
-      "id": "6a56ab95ff602fd324f4760f",
-      "name": "Decree of Insight",
-      "riftbound_id": "ven-061-166",
-      "tcgplayer_id": "706019",
-      "collector_number": 61,
+      "id": "6a517608ad64d2d80a4f03d4",
+      "name": "Wild Claw",
+      "riftbound_id": "ven-089-166",
+      "tcgplayer_id": null,
+      "collector_number": 89,
       "attributes": {
-        "energy": 1,
+        "energy": 7,
         "might": null,
-        "power": null
+        "power": 1
       },
       "classification": {
         "type": "Spell",
         "supertype": null,
         "rarity": "Rare",
         "domain": [
-          "Mind"
+          "Body"
         ]
       },
       "text": {
-        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />Ignore [Deflect] while paying this spell's cost.<br />Give an enemy Body (:rb_rune_body:) unit -5 :rb_might: this turn.</p>",
-        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)Ignore [Deflect] while paying this spell's cost.Give an enemy Body (:rb_rune_body:) unit -5 :rb_might: this turn.",
-        "flavour": "Force is artless. Be inspiried."
-      },
-      "set": {
-        "set_id": "VEN",
-        "label": "Vendetta"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/da019355562b207814be6aec55bccf415bd416df-744x1039.png?accountingTag=RB",
-        "artist": "Envar Studio",
-        "accessibility_text": "Riftbound Spell: Decree of Insight. [Reaction] (Play any time, even before spells and abilities resolve.)\nIgnore [Deflect] while paying this spell's cost.\nGive an enemy Body ([O]) unit -5 [S] this turn."
-      },
-      "tags": [],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": "Decree of Insight",
-        "updated_on": "2026-07-14T21:35:17.616734+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": false
-    },
-    {
-      "id": "6a517608ad64d2d80a4f03d3",
-      "name": "Viktor, Innovator",
-      "riftbound_id": "ven-176-166",
-      "tcgplayer_id": null,
-      "collector_number": 176,
-      "attributes": {
-        "energy": 4,
-        "might": 3,
-        "power": 1
-      },
-      "classification": {
-        "type": "Unit",
-        "supertype": "Champion",
-        "rarity": "Rare",
-        "domain": [
-          "Mind"
-        ]
-      },
-      "text": {
-        "rich": "<p>When you play a card on an opponent's turn, play a 1 :rb_might: Recruit unit token to your base.</p>",
-        "plain": "When you play a card on an opponent's turn, play a 1 :rb_might: Recruit unit token to your base.",
+        "rich": "<p>Look at the top 5 cards of your Main Deck. You may banish a unit or gear from among them and play it, reducing its Energy cost by :rb_energy_5:. Recycle the rest. Then you may do this: Empower it. (It becomes Empowered if it's not already.)</p>",
+        "plain": "Look at the top 5 cards of your Main Deck. You may banish a unit or gear from among them and play it, reducing its Energy cost by :rb_energy_5:. Recycle the rest. Then you may do this: Empower it. (It becomes Empowered if it's not already.)",
         "flavour": null
       },
       "set": {
@@ -14381,17 +14474,62 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0416b4a447494acac41413a4511bb59ce983b4ec-744x1039.png?accountingTag=RB",
-        "artist": "\u83ba\u4e4b\u6b4c",
-        "accessibility_text": "Riftbound Unit: Viktor, Innovator. When you play a card on an opponent's turn, play a 1 [S] Recruit unit token to your base."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a58871b08a51efb8ce33f399fe4d168fd25b596a-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Wild Claw. Look at the top 5 cards of your Main Deck. You may banish a unit or gear from among them and play it, reducing its Energy cost by [5]. Recycle the rest. Then you may do this: Empower it. (It becomes Empowered if it's not already.)"
+      },
+      "tags": [],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": null,
+        "updated_on": "2026-07-10T22:45:28.968720+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": true
+    },
+    {
+      "id": "6a518b2537f518eaadf8bb00",
+      "name": "Ezreal, Prodigy",
+      "riftbound_id": "ven-sp5-006",
+      "tcgplayer_id": null,
+      "collector_number": 5,
+      "attributes": {
+        "energy": 3,
+        "might": 3,
+        "power": 1
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Epic",
+        "domain": [
+          "Chaos"
+        ]
+      },
+      "text": {
+        "rich": "<p>When you play me, discard 1, then draw 2.<br />Optional additional costs you pay cost :rb_energy_1: or :rb_rune_rainbow: less.</p>",
+        "plain": "When you play me, discard 1, then draw 2.Optional additional costs you pay cost :rb_energy_1: or :rb_rune_rainbow: less.",
+        "flavour": null
+      },
+      "set": {
+        "set_id": "VEN",
+        "label": "Vendetta"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fd4beecca19d4e84ead0852acce83d4c34ac1b4c-744x1039.png?accountingTag=RB",
+        "artist": "Wild Rift Splash Team",
+        "accessibility_text": "Riftbound Unit: Ezreal, Prodigy. When you play me, discard 1, then draw 2.\nOptional additional costs you pay cost [1] or [A] less."
       },
       "tags": [
-        "Viktor"
+        "Ezreal",
+        "Piltover"
       ],
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-10T22:45:28.913712+00:00",
+        "updated_on": "2026-07-11T00:15:33.624786+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -14857,27 +14995,27 @@
       "new": true
     },
     {
-      "id": "6a517608ad64d2d80a4f03d4",
-      "name": "Wild Claw",
-      "riftbound_id": "ven-089-166",
+      "id": "6a518b2537f518eaadf8bb01",
+      "name": "Gust Monk",
+      "riftbound_id": "ven-101-166",
       "tcgplayer_id": null,
-      "collector_number": 89,
+      "collector_number": 101,
       "attributes": {
-        "energy": 7,
-        "might": null,
-        "power": 1
+        "energy": 2,
+        "might": 2,
+        "power": null
       },
       "classification": {
-        "type": "Spell",
+        "type": "Unit",
         "supertype": null,
-        "rarity": "Rare",
+        "rarity": "Uncommon",
         "domain": [
-          "Body"
+          "Chaos"
         ]
       },
       "text": {
-        "rich": "<p>Look at the top 5 cards of your Main Deck. You may banish a unit or gear from among them and play it, reducing its Energy cost by :rb_energy_5:. Recycle the rest. Then you may do this: Empower it. (It becomes Empowered if it's not already.)</p>",
-        "plain": "Look at the top 5 cards of your Main Deck. You may banish a unit or gear from among them and play it, reducing its Energy cost by :rb_energy_5:. Recycle the rest. Then you may do this: Empower it. (It becomes Empowered if it's not already.)",
+        "rich": "<p>You may pay :rb_energy_1: as an additional cost to play me.<br />When you play me, if you paid the additional cost, banish a card from any trash to give a unit [Assault 2] this turn. (+2 :rb_might: while it's an attacker.)</p>",
+        "plain": "You may pay :rb_energy_1: as an additional cost to play me.When you play me, if you paid the additional cost, banish a card from any trash to give a unit [Assault 2] this turn. (+2 :rb_might: while it's an attacker.)",
         "flavour": null
       },
       "set": {
@@ -14885,15 +15023,18 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a58871b08a51efb8ce33f399fe4d168fd25b596a-744x1039.png?accountingTag=RB",
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/93a194c0c1f055c0b3bc3c0717cbe488749fed92-744x1039.png?accountingTag=RB",
         "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Spell: Wild Claw. Look at the top 5 cards of your Main Deck. You may banish a unit or gear from among them and play it, reducing its Energy cost by [5]. Recycle the rest. Then you may do this: Empower it. (It becomes Empowered if it's not already.)"
+        "accessibility_text": "Riftbound Unit: Gust Monk. You may pay [1] as an additional cost to play me.\nWhen you play me, if you paid the additional cost, banish a card from any trash to give a unit [Assault 2] this turn. (+2 [S] while it's an attacker.)"
       },
-      "tags": [],
+      "tags": [
+        "Yordle",
+        "Bandle City"
+      ],
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-10T22:45:28.968720+00:00",
+        "updated_on": "2026-07-11T00:15:33.852762+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -14901,27 +15042,27 @@
       "new": true
     },
     {
-      "id": "6a518b2537f518eaadf8bb00",
-      "name": "Ezreal, Prodigy",
-      "riftbound_id": "ven-sp5-006",
+      "id": "6a517608ad64d2d80a4f03d3",
+      "name": "Viktor, Innovator",
+      "riftbound_id": "ven-176-166",
       "tcgplayer_id": null,
-      "collector_number": 5,
+      "collector_number": 176,
       "attributes": {
-        "energy": 3,
+        "energy": 4,
         "might": 3,
         "power": 1
       },
       "classification": {
         "type": "Unit",
         "supertype": "Champion",
-        "rarity": "Epic",
+        "rarity": "Rare",
         "domain": [
-          "Chaos"
+          "Mind"
         ]
       },
       "text": {
-        "rich": "<p>When you play me, discard 1, then draw 2.<br />Optional additional costs you pay cost :rb_energy_1: or :rb_rune_rainbow: less.</p>",
-        "plain": "When you play me, discard 1, then draw 2.Optional additional costs you pay cost :rb_energy_1: or :rb_rune_rainbow: less.",
+        "rich": "<p>When you play a card on an opponent's turn, play a 1 :rb_might: Recruit unit token to your base.</p>",
+        "plain": "When you play a card on an opponent's turn, play a 1 :rb_might: Recruit unit token to your base.",
         "flavour": null
       },
       "set": {
@@ -14929,18 +15070,17 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fd4beecca19d4e84ead0852acce83d4c34ac1b4c-744x1039.png?accountingTag=RB",
-        "artist": "Wild Rift Splash Team",
-        "accessibility_text": "Riftbound Unit: Ezreal, Prodigy. When you play me, discard 1, then draw 2.\nOptional additional costs you pay cost [1] or [A] less."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0416b4a447494acac41413a4511bb59ce983b4ec-744x1039.png?accountingTag=RB",
+        "artist": "\u83ba\u4e4b\u6b4c",
+        "accessibility_text": "Riftbound Unit: Viktor, Innovator. When you play a card on an opponent's turn, play a 1 [S] Recruit unit token to your base."
       },
       "tags": [
-        "Ezreal",
-        "Piltover"
+        "Viktor"
       ],
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-11T00:15:33.624786+00:00",
+        "updated_on": "2026-07-10T22:45:28.913712+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -15364,27 +15504,27 @@
       "new": true
     },
     {
-      "id": "6a517608ad64d2d80a4f03c9",
-      "name": "Shen, Leader of the Kinkou Order",
-      "riftbound_id": "ven-138-166",
+      "id": "6a518b2737f518eaadf8bb0c",
+      "name": "Rage Amplifier",
+      "riftbound_id": "ven-018-166",
       "tcgplayer_id": null,
-      "collector_number": 138,
+      "collector_number": 18,
       "attributes": {
-        "energy": 6,
-        "might": 7,
-        "power": 2
+        "energy": 4,
+        "might": null,
+        "power": 1
       },
       "classification": {
-        "type": "Unit",
-        "supertype": "Champion",
-        "rarity": "Epic",
+        "type": "Gear",
+        "supertype": null,
+        "rarity": "Rare",
         "domain": [
-          "Order"
+          "Fury"
         ]
       },
       "text": {
-        "rich": "<p>[Shield] (+1 :rb_might: while I'm a defender.)<br />When I hold, if there is exactly one other unit you control here, you score 1 point.</p>",
-        "plain": "[Shield] (+1 :rb_might: while I'm a defender.)When I hold, if there is exactly one other unit you control here, you score 1 point.",
+        "rich": "<p>[Empower] :rb_energy_6::rb_rune_fury: (:rb_energy_6::rb_rune_fury:: Empower this. Use only if not Empowered.)<br />Your units have +1 :rb_might:. If I'm [Empowered], they have +2 :rb_might: instead.</p>",
+        "plain": "[Empower] :rb_energy_6::rb_rune_fury: (:rb_energy_6::rb_rune_fury:: Empower this. Use only if not Empowered.)Your units have +1 :rb_might:. If I'm [Empowered], they have +2 :rb_might: instead.",
         "flavour": null
       },
       "set": {
@@ -15392,18 +15532,15 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b227d9f9abc6f165beffba4eaf3b5819cf06eab4-744x1039.png?accountingTag=RB",
-        "artist": "Pandart Studio",
-        "accessibility_text": "Riftbound Unit: Shen, Leader of the Kinkou Order. [Shield] (+1 [S] while I'm a defender.)\nWhen I hold, if there is exactly one other unit you control here, you score 1 point."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/83a7cd497dd42f535f8f0adc72c3c4324f9aec14-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Gear: Rage Amplifier. [Empower] [6][C] ([6][C]: Empower this. Use only if not Empowered.)\nYour units have +1 [S]. If I'm [Empowered], they have +2 [S] instead."
       },
-      "tags": [
-        "Shen",
-        "Ionia"
-      ],
+      "tags": [],
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-10T22:45:28.354395+00:00",
+        "updated_on": "2026-07-11T00:15:35.909645+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -15411,27 +15548,27 @@
       "new": true
     },
     {
-      "id": "6a518b2737f518eaadf8bb0b",
-      "name": "Oasis Raider",
-      "riftbound_id": "ven-006-166",
+      "id": "6a518b2937f518eaadf8bb16",
+      "name": "Zed, From the Shadows",
+      "riftbound_id": "ven-169-166",
       "tcgplayer_id": null,
-      "collector_number": 6,
+      "collector_number": 169,
       "attributes": {
         "energy": 4,
         "might": 4,
-        "power": null
+        "power": 1
       },
       "classification": {
         "type": "Unit",
-        "supertype": null,
-        "rarity": "Common",
+        "supertype": "Champion",
+        "rarity": "Epic",
         "domain": [
           "Fury"
         ]
       },
       "text": {
-        "rich": "<p>If you control fewer runes than an opponent at the start of your Beginning Phase, give me +2 :rb_might: and [Ganking] this turn. (I can move from battlefield to battlefield.)</p>",
-        "plain": "If you control fewer runes than an opponent at the start of your Beginning Phase, give me +2 :rb_might: and [Ganking] this turn. (I can move from battlefield to battlefield.)",
+        "rich": "<p>You may discard 1 as an additional cost to play me.<br />When you play me, if you paid the additional cost, play a 0 :rb_might: Shadow Clone unit token.</p>",
+        "plain": "You may discard 1 as an additional cost to play me.When you play me, if you paid the additional cost, play a 0 :rb_might: Shadow Clone unit token.",
         "flavour": null
       },
       "set": {
@@ -15439,17 +15576,17 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d44355b9b129054e63b6f2c8de30518fe87b6295-744x1039.png?accountingTag=RB",
-        "artist": "JiHun Lee",
-        "accessibility_text": "Riftbound Unit: Oasis Raider. If you control fewer runes than an opponent at the start of your Beginning Phase, give me +2 [S] and [Ganking] this turn. (I can move from battlefield to battlefield.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5d665b28073066442b35f7b6aed98c83fca23631-744x1039.png?accountingTag=RB",
+        "artist": "\u534e\u9510",
+        "accessibility_text": "Riftbound Unit: Zed, From the Shadows. You may discard 1 as an additional cost to play me.\nWhen you play me, if you paid the additional cost, play a 0 [S] Shadow Clone unit token."
       },
       "tags": [
-        "Shurima"
+        "Zed"
       ],
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-11T00:15:35.593168+00:00",
+        "updated_on": "2026-07-11T00:15:37.507898+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -15870,27 +16007,27 @@
       "new": true
     },
     {
-      "id": "6a518b2737f518eaadf8bb0c",
-      "name": "Rage Amplifier",
-      "riftbound_id": "ven-018-166",
+      "id": "6a518b2737f518eaadf8bb0b",
+      "name": "Oasis Raider",
+      "riftbound_id": "ven-006-166",
       "tcgplayer_id": null,
-      "collector_number": 18,
+      "collector_number": 6,
       "attributes": {
         "energy": 4,
-        "might": null,
-        "power": 1
+        "might": 4,
+        "power": null
       },
       "classification": {
-        "type": "Gear",
+        "type": "Unit",
         "supertype": null,
-        "rarity": "Rare",
+        "rarity": "Common",
         "domain": [
           "Fury"
         ]
       },
       "text": {
-        "rich": "<p>[Empower] :rb_energy_6::rb_rune_fury: (:rb_energy_6::rb_rune_fury:: Empower this. Use only if not Empowered.)<br />Your units have +1 :rb_might:. If I'm [Empowered], they have +2 :rb_might: instead.</p>",
-        "plain": "[Empower] :rb_energy_6::rb_rune_fury: (:rb_energy_6::rb_rune_fury:: Empower this. Use only if not Empowered.)Your units have +1 :rb_might:. If I'm [Empowered], they have +2 :rb_might: instead.",
+        "rich": "<p>If you control fewer runes than an opponent at the start of your Beginning Phase, give me +2 :rb_might: and [Ganking] this turn. (I can move from battlefield to battlefield.)</p>",
+        "plain": "If you control fewer runes than an opponent at the start of your Beginning Phase, give me +2 :rb_might: and [Ganking] this turn. (I can move from battlefield to battlefield.)",
         "flavour": null
       },
       "set": {
@@ -15898,15 +16035,17 @@
         "label": "Vendetta"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/83a7cd497dd42f535f8f0adc72c3c4324f9aec14-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Gear: Rage Amplifier. [Empower] [6][C] ([6][C]: Empower this. Use only if not Empowered.)\nYour units have +1 [S]. If I'm [Empowered], they have +2 [S] instead."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d44355b9b129054e63b6f2c8de30518fe87b6295-744x1039.png?accountingTag=RB",
+        "artist": "JiHun Lee",
+        "accessibility_text": "Riftbound Unit: Oasis Raider. If you control fewer runes than an opponent at the start of your Beginning Phase, give me +2 [S] and [Ganking] this turn. (I can move from battlefield to battlefield.)"
       },
-      "tags": [],
+      "tags": [
+        "Shurima"
+      ],
       "orientation": "portrait",
       "metadata": {
         "clean_name": null,
-        "updated_on": "2026-07-11T00:15:35.909645+00:00",
+        "updated_on": "2026-07-11T00:15:35.593168+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -16320,53 +16459,6 @@
       "metadata": {
         "clean_name": null,
         "updated_on": "2026-07-11T00:15:34.015231+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": true
-    },
-    {
-      "id": "6a518b2537f518eaadf8bb01",
-      "name": "Gust Monk",
-      "riftbound_id": "ven-101-166",
-      "tcgplayer_id": null,
-      "collector_number": 101,
-      "attributes": {
-        "energy": 2,
-        "might": 2,
-        "power": null
-      },
-      "classification": {
-        "type": "Unit",
-        "supertype": null,
-        "rarity": "Uncommon",
-        "domain": [
-          "Chaos"
-        ]
-      },
-      "text": {
-        "rich": "<p>You may pay :rb_energy_1: as an additional cost to play me.<br />When you play me, if you paid the additional cost, banish a card from any trash to give a unit [Assault 2] this turn. (+2 :rb_might: while it's an attacker.)</p>",
-        "plain": "You may pay :rb_energy_1: as an additional cost to play me.When you play me, if you paid the additional cost, banish a card from any trash to give a unit [Assault 2] this turn. (+2 :rb_might: while it's an attacker.)",
-        "flavour": null
-      },
-      "set": {
-        "set_id": "VEN",
-        "label": "Vendetta"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/93a194c0c1f055c0b3bc3c0717cbe488749fed92-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Unit: Gust Monk. You may pay [1] as an additional cost to play me.\nWhen you play me, if you paid the additional cost, banish a card from any trash to give a unit [Assault 2] this turn. (+2 [S] while it's an attacker.)"
-      },
-      "tags": [
-        "Yordle",
-        "Bandle City"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": null,
-        "updated_on": "2026-07-11T00:15:33.852762+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false

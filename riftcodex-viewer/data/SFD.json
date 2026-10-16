@@ -45,46 +45,93 @@
       "new": false
     },
     {
-      "id": "69bc5be5d308c64675ca890d",
-      "name": "Riposte",
-      "riftbound_id": "sfd-206-221",
-      "tcgplayer_id": "666828",
-      "collector_number": 206,
+      "id": "69bc5be5d308c64675ca890e",
+      "name": "Fae Porter",
+      "riftbound_id": "sfd-125-221",
+      "tcgplayer_id": "666829",
+      "collector_number": 125,
       "attributes": {
-        "energy": 2,
-        "might": null,
-        "power": 2
+        "energy": 4,
+        "might": 4,
+        "power": null
       },
       "classification": {
-        "type": "Spell",
-        "supertype": "Signature",
-        "rarity": "Epic",
+        "type": "Unit",
+        "supertype": null,
+        "rarity": "Common",
         "domain": [
-          "Body",
-          "Order"
+          "Chaos"
         ]
       },
       "text": {
-        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />Choose a friendly unit and a spell. Counter that spell and give that unit +:rb_might: equal to that spell's Energy cost this turn.</p>",
-        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)Choose a friendly unit and a spell. Counter that spell and give that unit +:rb_might: equal to that spell's Energy cost this turn.",
-        "flavour": "Too slow!.\" - Fiora"
+        "rich": "<p>When I move to a battlefield, you may pay :rb_rune_chaos: to move a unit you control to the same battlefield.</p>",
+        "plain": "When I move to a battlefield, you may pay :rb_rune_chaos: to move a unit you control to the same battlefield.",
+        "flavour": "A surprisingly soft landing."
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/07af52eada661904b467ca118c2715435f0a3b00-744x1039.png?accountingTag=RB",
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4d233b11d4efb2652d7ede556dd9f730903cdba9-744x1039.png?accountingTag=RB",
         "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Spell: Riposte. [Reaction] (Play any time, even before spells and abilities resolve.)\nChoose a friendly unit and a spell. Counter that spell and give that unit +[S] equal to that spell's Energy cost this turn."
+        "accessibility_text": "Riftbound Unit: Fae Porter. When I move to a battlefield, you may pay [C] to move a unit you control to the same battlefield."
       },
       "tags": [
-        "Fiora"
+        "Fae",
+        "Ionia"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Riposte",
-        "updated_on": "2026-07-10T22:44:55.962603+00:00",
+        "clean_name": "Fae Porter",
+        "updated_on": "2026-07-10T22:44:56.139663+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": false
+    },
+    {
+      "id": "69bc5be6d308c64675ca8919",
+      "name": "Harpoon Squad",
+      "riftbound_id": "sfd-137-221",
+      "tcgplayer_id": "666840",
+      "collector_number": 137,
+      "attributes": {
+        "energy": 4,
+        "might": 4,
+        "power": null
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": null,
+        "rarity": "Uncommon",
+        "domain": [
+          "Chaos"
+        ]
+      },
+      "text": {
+        "rich": "<p>When I move from a battlefield, give me +2 :rb_might: this turn.</p>",
+        "plain": "When I move from a battlefield, give me +2 :rb_might: this turn.",
+        "flavour": "No room for fear on the boat."
+      },
+      "set": {
+        "set_id": "SFD",
+        "label": "Spiritforged"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f50d32a202375bf09781ae578db107abe84937e0-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Unit: Harpoon Squad. When I move from a battlefield, give me +2 [S] this turn."
+      },
+      "tags": [
+        "Pirate",
+        "Bilgewater"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Harpoon Squad",
+        "updated_on": "2026-07-10T22:44:56.725065+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -546,46 +593,43 @@
       "new": false
     },
     {
-      "id": "69bc5be5d308c64675ca890e",
-      "name": "Fae Porter",
-      "riftbound_id": "sfd-125-221",
-      "tcgplayer_id": "666829",
-      "collector_number": 125,
+      "id": "69bc5be6d308c64675ca891a",
+      "name": "Poro Snax",
+      "riftbound_id": "sfd-046-221",
+      "tcgplayer_id": "666842",
+      "collector_number": 46,
       "attributes": {
-        "energy": 4,
-        "might": 4,
-        "power": null
+        "energy": 1,
+        "might": null,
+        "power": 1
       },
       "classification": {
-        "type": "Unit",
+        "type": "Gear",
         "supertype": null,
-        "rarity": "Common",
+        "rarity": "Uncommon",
         "domain": [
-          "Chaos"
+          "Calm"
         ]
       },
       "text": {
-        "rich": "<p>When I move to a battlefield, you may pay :rb_rune_chaos: to move a unit you control to the same battlefield.</p>",
-        "plain": "When I move to a battlefield, you may pay :rb_rune_chaos: to move a unit you control to the same battlefield.",
-        "flavour": "A surprisingly soft landing."
+        "rich": "<p>When you play this, draw 1.<br />:rb_energy_1::rb_rune_calm:, :rb_exhaust:, Kill this: Draw 1.</p>",
+        "plain": "When you play this, draw 1.:rb_energy_1::rb_rune_calm:, :rb_exhaust:, Kill this: Draw 1.",
+        "flavour": "Eat, eat and grow strong!.\" - Braum"
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4d233b11d4efb2652d7ede556dd9f730903cdba9-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Unit: Fae Porter. When I move to a battlefield, you may pay [C] to move a unit you control to the same battlefield."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8caaa64513b5ba57d676c7b2b9ee64af61711539-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Gear: Poro Snax. When you play this, draw 1.\n[1][C], [T], Kill this: Draw 1."
       },
-      "tags": [
-        "Fae",
-        "Ionia"
-      ],
+      "tags": [],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Fae Porter",
-        "updated_on": "2026-07-10T22:44:56.139663+00:00",
+        "clean_name": "Poro Snax",
+        "updated_on": "2026-07-10T22:44:56.783691+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -593,46 +637,46 @@
       "new": false
     },
     {
-      "id": "69bc5be6d308c64675ca8919",
-      "name": "Harpoon Squad",
-      "riftbound_id": "sfd-137-221",
-      "tcgplayer_id": "666840",
-      "collector_number": 137,
+      "id": "69bc5be5d308c64675ca890d",
+      "name": "Riposte",
+      "riftbound_id": "sfd-206-221",
+      "tcgplayer_id": "666828",
+      "collector_number": 206,
       "attributes": {
-        "energy": 4,
-        "might": 4,
-        "power": null
+        "energy": 2,
+        "might": null,
+        "power": 2
       },
       "classification": {
-        "type": "Unit",
-        "supertype": null,
-        "rarity": "Uncommon",
+        "type": "Spell",
+        "supertype": "Signature",
+        "rarity": "Epic",
         "domain": [
-          "Chaos"
+          "Body",
+          "Order"
         ]
       },
       "text": {
-        "rich": "<p>When I move from a battlefield, give me +2 :rb_might: this turn.</p>",
-        "plain": "When I move from a battlefield, give me +2 :rb_might: this turn.",
-        "flavour": "No room for fear on the boat."
+        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />Choose a friendly unit and a spell. Counter that spell and give that unit +:rb_might: equal to that spell's Energy cost this turn.</p>",
+        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)Choose a friendly unit and a spell. Counter that spell and give that unit +:rb_might: equal to that spell's Energy cost this turn.",
+        "flavour": "Too slow!.\" - Fiora"
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f50d32a202375bf09781ae578db107abe84937e0-744x1039.png?accountingTag=RB",
-        "artist": "Six More Vodka",
-        "accessibility_text": "Riftbound Unit: Harpoon Squad. When I move from a battlefield, give me +2 [S] this turn."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/07af52eada661904b467ca118c2715435f0a3b00-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Riposte. [Reaction] (Play any time, even before spells and abilities resolve.)\nChoose a friendly unit and a spell. Counter that spell and give that unit +[S] equal to that spell's Energy cost this turn."
       },
       "tags": [
-        "Pirate",
-        "Bilgewater"
+        "Fiora"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Harpoon Squad",
-        "updated_on": "2026-07-10T22:44:56.725065+00:00",
+        "clean_name": "Riposte",
+        "updated_on": "2026-07-10T22:44:55.962603+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -1057,13 +1101,59 @@
       "new": false
     },
     {
-      "id": "69bc5be5d308c64675ca8903",
-      "name": "Rumble - Hotheaded (Alternate Art)",
-      "riftbound_id": "sfd-026a-221",
-      "tcgplayer_id": "666814",
-      "collector_number": 26,
+      "id": "69bc5be7d308c64675ca8925",
+      "name": "Gearhead",
+      "riftbound_id": "sfd-068-221",
+      "tcgplayer_id": "666856",
+      "collector_number": 68,
       "attributes": {
-        "energy": 4,
+        "energy": 5,
+        "might": 3,
+        "power": null
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": null,
+        "rarity": "Common",
+        "domain": [
+          "Mind"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Accelerate] (You may pay :rb_energy_1::rb_rune_mind: as an additional cost to have me enter ready.)<br />Each Equipment attached to me gives double its base Might bonus.</p>",
+        "plain": "[Accelerate] (You may pay :rb_energy_1::rb_rune_mind: as an additional cost to have me enter ready.)Each Equipment attached to me gives double its base Might bonus.",
+        "flavour": "Some people dream about the future. I'm living it."
+      },
+      "set": {
+        "set_id": "SFD",
+        "label": "Spiritforged"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/355b97bf135b8c60afabca7e4c6ecbf1aa25b4d9-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka & \u9eef\u8367\u5c9bDark Glow",
+        "accessibility_text": "Riftbound Unit: Gearhead. [Accelerate] (You may pay [1][C] as an additional cost to have me enter ready.)\nEach Equipment attached to me gives double its base Might bonus."
+      },
+      "tags": [
+        "Zaun"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Gearhead",
+        "updated_on": "2026-07-10T22:44:57.350630+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": false
+    },
+    {
+      "id": "69bc5be7d308c64675ca8930",
+      "name": "Renata Glasc - Mastermind (Alternate Art)",
+      "riftbound_id": "sfd-088a-221",
+      "tcgplayer_id": "666867",
+      "collector_number": 88,
+      "attributes": {
+        "energy": 5,
         "might": 4,
         "power": null
       },
@@ -1072,78 +1162,32 @@
         "supertype": "Champion",
         "rarity": "Showcase",
         "domain": [
-          "Fury"
-        ]
-      },
-      "text": {
-        "rich": "<p>Your Mechs each have [Assault]. (+1 :rb_might: while we're attackers.)<br />When I conquer, you may recycle another friendly unit to play a Mech from your trash. Reduce its Energy cost by the Might of the unit you recycled.</p>",
-        "plain": "Your Mechs each have [Assault]. (+1 :rb_might: while we're attackers.)When I conquer, you may recycle another friendly unit to play a Mech from your trash. Reduce its Energy cost by the Might of the unit you recycled.",
-        "flavour": null
-      },
-      "set": {
-        "set_id": "SFD",
-        "label": "Spiritforged"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/dfeef09dacae683e39013902d77b3398fdcd5db8-744x1039.png?accountingTag=RB",
-        "artist": "League Splash Team",
-        "accessibility_text": "Riftbound Unit: Rumble, Hotheaded. Your Mechs each have [Assault]. (+1 [S] while we're attackers.)\nWhen I conquer, you may recycle another friendly unit to play a Mech from your trash. Reduce its Energy cost by the Might of the unit you recycled."
-      },
-      "tags": [
-        "Mech",
-        "Yordle",
-        "Rumble",
-        "Bandle City"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": "Rumble Hotheaded Alternate Art",
-        "updated_on": "2026-07-10T22:44:55.419277+00:00",
-        "alternate_art": true,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": false
-    },
-    {
-      "id": "69bc5be7d308c64675ca8924",
-      "name": "Frigid Touch",
-      "riftbound_id": "sfd-066-221",
-      "tcgplayer_id": "666855",
-      "collector_number": 66,
-      "attributes": {
-        "energy": 2,
-        "might": null,
-        "power": null
-      },
-      "classification": {
-        "type": "Spell",
-        "supertype": null,
-        "rarity": "Common",
-        "domain": [
           "Mind"
         ]
       },
       "text": {
-        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />[Repeat] :rb_energy_2: (You may pay the additional cost to repeat this spell's effect.)<br />Give a unit -2 :rb_might: this turn.</p>",
-        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)[Repeat] :rb_energy_2: (You may pay the additional cost to repeat this spell's effect.)Give a unit -2 :rb_might: this turn.",
-        "flavour": "Freeze."
+        "rich": "<p>:rb_energy_1::rb_rune_mind:: Draw 1.<br />:rb_energy_4::rb_rune_mind::rb_rune_mind::rb_rune_mind::rb_rune_mind:, :rb_exhaust:: Score 1 point.<br />Use my abilities only while I'm at a battlefield.</p>",
+        "plain": ":rb_energy_1::rb_rune_mind:: Draw 1.:rb_energy_4::rb_rune_mind::rb_rune_mind::rb_rune_mind::rb_rune_mind:, :rb_exhaust:: Score 1 point.Use my abilities only while I'm at a battlefield.",
+        "flavour": "Progress comes at a price others aren't willing to pay."
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1caaf42d4cc12ab9acc57dc8c572448f8d8dd34d-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Spell: Frigid Touch. [Reaction] (Play any time, even before spells and abilities resolve.)\n[Repeat] [2] (You may pay the additional cost to repeat this spell's effect.)\nGive a unit -2 [S] this turn."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b2b269d8ec274f3869ba42982f5710b160c4c43f-744x1039.png?accountingTag=RB",
+        "artist": "League Splash Team",
+        "accessibility_text": "Riftbound Unit: Renata Glasc, Mastermind. [1][C]: Draw 1.\n[4][C][C][C][C], [T]: Score 1 point. \nUse my abilities only while I'm at a battlefield."
       },
-      "tags": [],
+      "tags": [
+        "Renata Glasc",
+        "Zaun"
+      ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Frigid Touch",
-        "updated_on": "2026-07-10T22:44:57.296905+00:00",
-        "alternate_art": false,
+        "clean_name": "Renata Glasc Mastermind Alternate Art",
+        "updated_on": "2026-07-10T22:44:57.966383+00:00",
+        "alternate_art": true,
         "overnumbered": false,
         "signature": false
       },
@@ -1603,56 +1647,10 @@
       "new": false
     },
     {
-      "id": "69bc5be7d308c64675ca8925",
-      "name": "Gearhead",
-      "riftbound_id": "sfd-068-221",
-      "tcgplayer_id": "666856",
-      "collector_number": 68,
-      "attributes": {
-        "energy": 5,
-        "might": 3,
-        "power": null
-      },
-      "classification": {
-        "type": "Unit",
-        "supertype": null,
-        "rarity": "Common",
-        "domain": [
-          "Mind"
-        ]
-      },
-      "text": {
-        "rich": "<p>[Accelerate] (You may pay :rb_energy_1::rb_rune_mind: as an additional cost to have me enter ready.)<br />Each Equipment attached to me gives double its base Might bonus.</p>",
-        "plain": "[Accelerate] (You may pay :rb_energy_1::rb_rune_mind: as an additional cost to have me enter ready.)Each Equipment attached to me gives double its base Might bonus.",
-        "flavour": "Some people dream about the future. I'm living it."
-      },
-      "set": {
-        "set_id": "SFD",
-        "label": "Spiritforged"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/355b97bf135b8c60afabca7e4c6ecbf1aa25b4d9-744x1039.png?accountingTag=RB",
-        "artist": "Six More Vodka & \u9eef\u8367\u5c9bDark Glow",
-        "accessibility_text": "Riftbound Unit: Gearhead. [Accelerate] (You may pay [1][C] as an additional cost to have me enter ready.)\nEach Equipment attached to me gives double its base Might bonus."
-      },
-      "tags": [
-        "Zaun"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": "Gearhead",
-        "updated_on": "2026-07-10T22:44:57.350630+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": false
-    },
-    {
-      "id": "69bc5be5d308c64675ca8902",
-      "name": "Rumble - Hotheaded",
-      "riftbound_id": "sfd-026-221",
-      "tcgplayer_id": "666813",
+      "id": "69bc5be5d308c64675ca8903",
+      "name": "Rumble - Hotheaded (Alternate Art)",
+      "riftbound_id": "sfd-026a-221",
+      "tcgplayer_id": "666814",
       "collector_number": 26,
       "attributes": {
         "energy": 4,
@@ -1662,7 +1660,7 @@
       "classification": {
         "type": "Unit",
         "supertype": "Champion",
-        "rarity": "Rare",
+        "rarity": "Showcase",
         "domain": [
           "Fury"
         ]
@@ -1677,8 +1675,8 @@
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e211311ecb1475e87d3d94eba4a6774b4e900091-744x1039.png?accountingTag=RB",
-        "artist": "Six More Vodka",
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/dfeef09dacae683e39013902d77b3398fdcd5db8-744x1039.png?accountingTag=RB",
+        "artist": "League Splash Team",
         "accessibility_text": "Riftbound Unit: Rumble, Hotheaded. Your Mechs each have [Assault]. (+1 [S] while we're attackers.)\nWhen I conquer, you may recycle another friendly unit to play a Mech from your trash. Reduce its Energy cost by the Might of the unit you recycled."
       },
       "tags": [
@@ -1689,8 +1687,52 @@
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Rumble Hotheaded",
-        "updated_on": "2026-07-10T22:44:55.364418+00:00",
+        "clean_name": "Rumble Hotheaded Alternate Art",
+        "updated_on": "2026-07-10T22:44:55.419277+00:00",
+        "alternate_art": true,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": false
+    },
+    {
+      "id": "69bc5be7d308c64675ca8924",
+      "name": "Frigid Touch",
+      "riftbound_id": "sfd-066-221",
+      "tcgplayer_id": "666855",
+      "collector_number": 66,
+      "attributes": {
+        "energy": 2,
+        "might": null,
+        "power": null
+      },
+      "classification": {
+        "type": "Spell",
+        "supertype": null,
+        "rarity": "Common",
+        "domain": [
+          "Mind"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />[Repeat] :rb_energy_2: (You may pay the additional cost to repeat this spell's effect.)<br />Give a unit -2 :rb_might: this turn.</p>",
+        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)[Repeat] :rb_energy_2: (You may pay the additional cost to repeat this spell's effect.)Give a unit -2 :rb_might: this turn.",
+        "flavour": "Freeze."
+      },
+      "set": {
+        "set_id": "SFD",
+        "label": "Spiritforged"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1caaf42d4cc12ab9acc57dc8c572448f8d8dd34d-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Frigid Touch. [Reaction] (Play any time, even before spells and abilities resolve.)\n[Repeat] [2] (You may pay the additional cost to repeat this spell's effect.)\nGive a unit -2 [S] this turn."
+      },
+      "tags": [],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Frigid Touch",
+        "updated_on": "2026-07-10T22:44:57.296905+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -2110,54 +2152,10 @@
       "new": false
     },
     {
-      "id": "69bc5be6d308c64675ca891a",
-      "name": "Poro Snax",
-      "riftbound_id": "sfd-046-221",
-      "tcgplayer_id": "666842",
-      "collector_number": 46,
-      "attributes": {
-        "energy": 1,
-        "might": null,
-        "power": 1
-      },
-      "classification": {
-        "type": "Gear",
-        "supertype": null,
-        "rarity": "Uncommon",
-        "domain": [
-          "Calm"
-        ]
-      },
-      "text": {
-        "rich": "<p>When you play this, draw 1.<br />:rb_energy_1::rb_rune_calm:, :rb_exhaust:, Kill this: Draw 1.</p>",
-        "plain": "When you play this, draw 1.:rb_energy_1::rb_rune_calm:, :rb_exhaust:, Kill this: Draw 1.",
-        "flavour": "Eat, eat and grow strong!.\" - Braum"
-      },
-      "set": {
-        "set_id": "SFD",
-        "label": "Spiritforged"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8caaa64513b5ba57d676c7b2b9ee64af61711539-744x1039.png?accountingTag=RB",
-        "artist": "Six More Vodka",
-        "accessibility_text": "Riftbound Gear: Poro Snax. When you play this, draw 1.\n[1][C], [T], Kill this: Draw 1."
-      },
-      "tags": [],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": "Poro Snax",
-        "updated_on": "2026-07-10T22:44:56.783691+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": false
-    },
-    {
-      "id": "69bc5be3d308c64675ca88e0",
-      "name": "Lucian - Gunslinger (Alternate Art)",
-      "riftbound_id": "sfd-028a-221",
-      "tcgplayer_id": "666719",
+      "id": "69bc5be3d308c64675ca88e1",
+      "name": "Lucian - Gunslinger",
+      "riftbound_id": "sfd-028-221",
+      "tcgplayer_id": "666720",
       "collector_number": 28,
       "attributes": {
         "energy": 3,
@@ -2167,7 +2165,7 @@
       "classification": {
         "type": "Unit",
         "supertype": "Champion",
-        "rarity": "Showcase",
+        "rarity": "Epic",
         "domain": [
           "Fury"
         ]
@@ -2182,8 +2180,8 @@
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3982de5a4aee53471ca589179f5cf8617169fb52-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2dfb106d7c85235436d25261195a638e2ab15092-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
         "accessibility_text": "Riftbound Unit: Lucian, Gunslinger. [Assault] (+1 [S] while I'm an attacker.)\nWhen I attack, deal damage equal to my [Assault] to an enemy unit here."
       },
       "tags": [
@@ -2193,10 +2191,57 @@
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Lucian Gunslinger Alternate Art",
-        "updated_on": "2026-07-10T22:44:53.467131+00:00",
-        "alternate_art": true,
+        "clean_name": "Lucian Gunslinger",
+        "updated_on": "2026-07-10T22:44:53.521671+00:00",
+        "alternate_art": false,
         "overnumbered": false,
+        "signature": false
+      },
+      "new": false
+    },
+    {
+      "id": "69bc5be4d308c64675ca88ec",
+      "name": "Aphelios - Exalted (Overnumbered)",
+      "riftbound_id": "sfd-224-221",
+      "tcgplayer_id": "666788",
+      "collector_number": 224,
+      "attributes": {
+        "energy": 4,
+        "might": 4,
+        "power": 1
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Showcase",
+        "domain": [
+          "Calm"
+        ]
+      },
+      "text": {
+        "rich": "<p>When you attach an Equipment to me, choose one that hasn't been chosen this turn \u2014</p><ul><li>Ready 2 runes.</li><li>Channel 1 rune exhausted.</li><li>Buff a friendly unit.</li></ul>",
+        "plain": "When you attach an Equipment to me, choose one that hasn't been chosen this turn \u2014Ready 2 runes.Channel 1 rune exhausted.Buff a friendly unit.",
+        "flavour": null
+      },
+      "set": {
+        "set_id": "SFD",
+        "label": "Spiritforged"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1da6ebc24ad6360186208ab70a0c43443c349bbe-744x1039.png?accountingTag=RB",
+        "artist": "Masaki Hsu",
+        "accessibility_text": "Riftbound Unit: Aphelios, Exalted. When you attach an Equipment to me, choose one that hasn't been chosen this turn \u2014\n- Ready 2 runes.\n- Channel 1 rune exhausted.\n- Buff a friendly unit."
+      },
+      "tags": [
+        "Aphelios",
+        "Mount Targon"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Aphelios Exalted Overnumbered",
+        "updated_on": "2026-07-10T22:44:54.151177+00:00",
+        "alternate_art": false,
+        "overnumbered": true,
         "signature": false
       },
       "new": false
@@ -2666,10 +2711,54 @@
       "new": false
     },
     {
-      "id": "69bc5be3d308c64675ca88e1",
-      "name": "Lucian - Gunslinger",
-      "riftbound_id": "sfd-028-221",
-      "tcgplayer_id": "666720",
+      "id": "69bc5be4d308c64675ca88ed",
+      "name": "Seal of Rage (Overnumbered)",
+      "riftbound_id": "sfd-222-221",
+      "tcgplayer_id": "666789",
+      "collector_number": 222,
+      "attributes": {
+        "energy": 0,
+        "might": null,
+        "power": 1
+      },
+      "classification": {
+        "type": "Gear",
+        "supertype": null,
+        "rarity": "Showcase",
+        "domain": [
+          "Fury"
+        ]
+      },
+      "text": {
+        "rich": "<p>:rb_exhaust:: [Reaction] \u2014 [Add] :rb_rune_fury:. (Abilities that add resources can't be reacted to.)</p>",
+        "plain": ":rb_exhaust:: [Reaction] \u2014 [Add] :rb_rune_fury:. (Abilities that add resources can't be reacted to.)",
+        "flavour": null
+      },
+      "set": {
+        "set_id": "SFD",
+        "label": "Spiritforged"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/669d4dd94cf2d88ad58333c13a98cca2014e71aa-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "accessibility_text": "Riftbound Gear: Seal of Rage. [T]: [Reaction] \u2014 [Add] [C]. (Abilities that add resources can't be reacted to.)"
+      },
+      "tags": [],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Seal of Rage Overnumbered",
+        "updated_on": "2026-07-10T22:44:54.206398+00:00",
+        "alternate_art": false,
+        "overnumbered": true,
+        "signature": false
+      },
+      "new": false
+    },
+    {
+      "id": "69bc5be3d308c64675ca88e0",
+      "name": "Lucian - Gunslinger (Alternate Art)",
+      "riftbound_id": "sfd-028a-221",
+      "tcgplayer_id": "666719",
       "collector_number": 28,
       "attributes": {
         "energy": 3,
@@ -2679,7 +2768,7 @@
       "classification": {
         "type": "Unit",
         "supertype": "Champion",
-        "rarity": "Epic",
+        "rarity": "Showcase",
         "domain": [
           "Fury"
         ]
@@ -2694,8 +2783,8 @@
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2dfb106d7c85235436d25261195a638e2ab15092-744x1039.png?accountingTag=RB",
-        "artist": "Six More Vodka",
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3982de5a4aee53471ca589179f5cf8617169fb52-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
         "accessibility_text": "Riftbound Unit: Lucian, Gunslinger. [Assault] (+1 [S] while I'm an attacker.)\nWhen I attack, deal damage equal to my [Assault] to an enemy unit here."
       },
       "tags": [
@@ -2705,57 +2794,10 @@
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Lucian Gunslinger",
-        "updated_on": "2026-07-10T22:44:53.521671+00:00",
-        "alternate_art": false,
+        "clean_name": "Lucian Gunslinger Alternate Art",
+        "updated_on": "2026-07-10T22:44:53.467131+00:00",
+        "alternate_art": true,
         "overnumbered": false,
-        "signature": false
-      },
-      "new": false
-    },
-    {
-      "id": "69bc5be4d308c64675ca88ec",
-      "name": "Aphelios - Exalted (Overnumbered)",
-      "riftbound_id": "sfd-224-221",
-      "tcgplayer_id": "666788",
-      "collector_number": 224,
-      "attributes": {
-        "energy": 4,
-        "might": 4,
-        "power": 1
-      },
-      "classification": {
-        "type": "Unit",
-        "supertype": "Champion",
-        "rarity": "Showcase",
-        "domain": [
-          "Calm"
-        ]
-      },
-      "text": {
-        "rich": "<p>When you attach an Equipment to me, choose one that hasn't been chosen this turn \u2014</p><ul><li>Ready 2 runes.</li><li>Channel 1 rune exhausted.</li><li>Buff a friendly unit.</li></ul>",
-        "plain": "When you attach an Equipment to me, choose one that hasn't been chosen this turn \u2014Ready 2 runes.Channel 1 rune exhausted.Buff a friendly unit.",
-        "flavour": null
-      },
-      "set": {
-        "set_id": "SFD",
-        "label": "Spiritforged"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1da6ebc24ad6360186208ab70a0c43443c349bbe-744x1039.png?accountingTag=RB",
-        "artist": "Masaki Hsu",
-        "accessibility_text": "Riftbound Unit: Aphelios, Exalted. When you attach an Equipment to me, choose one that hasn't been chosen this turn \u2014\n- Ready 2 runes.\n- Channel 1 rune exhausted.\n- Buff a friendly unit."
-      },
-      "tags": [
-        "Aphelios",
-        "Mount Targon"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": "Aphelios Exalted Overnumbered",
-        "updated_on": "2026-07-10T22:44:54.151177+00:00",
-        "alternate_art": false,
-        "overnumbered": true,
         "signature": false
       },
       "new": false
@@ -3183,45 +3225,43 @@
       "new": false
     },
     {
-      "id": "69bc5be2d308c64675ca88d6",
-      "name": "Card Sharp",
-      "riftbound_id": "sfd-081-221",
-      "tcgplayer_id": "666587",
-      "collector_number": 81,
+      "id": "69bc5be4d308c64675ca88f8",
+      "name": "Angle Shot",
+      "riftbound_id": "sfd-011-221",
+      "tcgplayer_id": "666801",
+      "collector_number": 11,
       "attributes": {
-        "energy": 3,
-        "might": 3,
+        "energy": 2,
+        "might": null,
         "power": null
       },
       "classification": {
-        "type": "Unit",
+        "type": "Spell",
         "supertype": null,
-        "rarity": "Rare",
+        "rarity": "Uncommon",
         "domain": [
-          "Mind"
+          "Fury"
         ]
       },
       "text": {
-        "rich": "<p>When you play me, you and each opponent may play a Gold gear token exhausted. For each opponent who did, you play a Gold gear token exhausted.</p>",
-        "plain": "When you play me, you and each opponent may play a Gold gear token exhausted. For each opponent who did, you play a Gold gear token exhausted.",
-        "flavour": "Call."
+        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />Choose a unit and an Equipment with the same controller. Attach that Equipment to that unit or detach that Equipment from that unit. Draw 1.</p>",
+        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)Choose a unit and an Equipment with the same controller. Attach that Equipment to that unit or detach that Equipment from that unit. Draw 1.",
+        "flavour": "Admit it, you're hooked."
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8bfd5dc22473d439cd78d5a3cb23ed03de66953d-744x1039.png?accountingTag=RB",
-        "artist": "Grafit Studio",
-        "accessibility_text": "Riftbound Unit: Card Sharp. When you play me, you and each opponent may play a Gold gear token exhausted. For each opponent who did, you play a Gold gear token exhausted."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/757d507b684e55e333bac0ecdf2ec9ff3ad6045c-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Angle Shot. [Reaction] (Play any time, even before spells and abilities resolve.)\nChoose a unit and an Equipment with the same controller. Attach that Equipment to that unit or detach that Equipment from that unit. Draw 1."
       },
-      "tags": [
-        "Bilgewater"
-      ],
+      "tags": [],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Card Sharp",
-        "updated_on": "2026-07-10T22:44:52.837418+00:00",
+        "clean_name": "Angle Shot",
+        "updated_on": "2026-07-10T22:44:54.809693+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -3229,27 +3269,27 @@
       "new": false
     },
     {
-      "id": "69bc5be4d308c64675ca88f7",
-      "name": "Serrated Dirk",
-      "riftbound_id": "sfd-009-221",
-      "tcgplayer_id": "666800",
-      "collector_number": 9,
+      "id": "69bc5be5d308c64675ca8902",
+      "name": "Rumble - Hotheaded",
+      "riftbound_id": "sfd-026-221",
+      "tcgplayer_id": "666813",
+      "collector_number": 26,
       "attributes": {
-        "energy": 1,
-        "might": null,
+        "energy": 4,
+        "might": 4,
         "power": null
       },
       "classification": {
-        "type": "Gear",
-        "supertype": null,
-        "rarity": "Common",
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Rare",
         "domain": [
           "Fury"
         ]
       },
       "text": {
-        "rich": "<p>[Equip] :rb_rune_fury: (:rb_rune_fury:: Attach this to a unit you control.)</p>",
-        "plain": "[Equip] :rb_rune_fury: (:rb_rune_fury:: Attach this to a unit you control.)",
+        "rich": "<p>Your Mechs each have [Assault]. (+1 :rb_might: while we're attackers.)<br />When I conquer, you may recycle another friendly unit to play a Mech from your trash. Reduce its Energy cost by the Might of the unit you recycled.</p>",
+        "plain": "Your Mechs each have [Assault]. (+1 :rb_might: while we're attackers.)When I conquer, you may recycle another friendly unit to play a Mech from your trash. Reduce its Energy cost by the Might of the unit you recycled.",
         "flavour": null
       },
       "set": {
@@ -3257,17 +3297,20 @@
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9498c8146745124fc45a7b55184854a9c9da21f5-744x1039.png?accountingTag=RB",
-        "artist": "\u9eef\u8367\u5c9bDark Glow",
-        "accessibility_text": "Riftbound Gear: Serrated Dirk. [Equip] [C] ([C]: Attach this to a unit you control.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e211311ecb1475e87d3d94eba4a6774b4e900091-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Unit: Rumble, Hotheaded. Your Mechs each have [Assault]. (+1 [S] while we're attackers.)\nWhen I conquer, you may recycle another friendly unit to play a Mech from your trash. Reduce its Energy cost by the Might of the unit you recycled."
       },
       "tags": [
-        "Equipment"
+        "Mech",
+        "Yordle",
+        "Rumble",
+        "Bandle City"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Serrated Dirk",
-        "updated_on": "2026-07-10T22:44:54.759849+00:00",
+        "clean_name": "Rumble Hotheaded",
+        "updated_on": "2026-07-10T22:44:55.364418+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -3689,43 +3732,45 @@
       "new": false
     },
     {
-      "id": "69bc5be4d308c64675ca88f8",
-      "name": "Angle Shot",
-      "riftbound_id": "sfd-011-221",
-      "tcgplayer_id": "666801",
-      "collector_number": 11,
+      "id": "69bc5be7d308c64675ca8931",
+      "name": "Combat Chef",
+      "riftbound_id": "sfd-092-221",
+      "tcgplayer_id": "666868",
+      "collector_number": 92,
       "attributes": {
-        "energy": 2,
-        "might": null,
+        "energy": 5,
+        "might": 5,
         "power": null
       },
       "classification": {
-        "type": "Spell",
+        "type": "Unit",
         "supertype": null,
-        "rarity": "Uncommon",
+        "rarity": "Common",
         "domain": [
-          "Fury"
+          "Body"
         ]
       },
       "text": {
-        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />Choose a unit and an Equipment with the same controller. Attach that Equipment to that unit or detach that Equipment from that unit. Draw 1.</p>",
-        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)Choose a unit and an Equipment with the same controller. Attach that Equipment to that unit or detach that Equipment from that unit. Draw 1.",
-        "flavour": "Admit it, you're hooked."
+        "rich": "<p>[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for :rb_rune_rainbow: less, even if it's already attached.)</p>",
+        "plain": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for :rb_rune_rainbow: less, even if it's already attached.)",
+        "flavour": "The tastiest soup is the one you eat after almost getting your head chopped off."
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/757d507b684e55e333bac0ecdf2ec9ff3ad6045c-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Spell: Angle Shot. [Reaction] (Play any time, even before spells and abilities resolve.)\nChoose a unit and an Equipment with the same controller. Attach that Equipment to that unit or detach that Equipment from that unit. Draw 1."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/dffa05408c0b53f62dfbb9452986342ff2d4352d-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "accessibility_text": "Riftbound Unit: Combat Chef. [Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for [A] less, even if it's already attached.)"
       },
-      "tags": [],
+      "tags": [
+        "Demacia"
+      ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Angle Shot",
-        "updated_on": "2026-07-10T22:44:54.809693+00:00",
+        "clean_name": "Combat Chef",
+        "updated_on": "2026-07-10T22:44:58.020047+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -3733,47 +3778,46 @@
       "new": false
     },
     {
-      "id": "69bc5be7d308c64675ca8930",
-      "name": "Renata Glasc - Mastermind (Alternate Art)",
-      "riftbound_id": "sfd-088a-221",
-      "tcgplayer_id": "666867",
-      "collector_number": 88,
+      "id": "69bc5be4d308c64675ca88f7",
+      "name": "Serrated Dirk",
+      "riftbound_id": "sfd-009-221",
+      "tcgplayer_id": "666800",
+      "collector_number": 9,
       "attributes": {
-        "energy": 5,
-        "might": 4,
+        "energy": 1,
+        "might": null,
         "power": null
       },
       "classification": {
-        "type": "Unit",
-        "supertype": "Champion",
-        "rarity": "Showcase",
+        "type": "Gear",
+        "supertype": null,
+        "rarity": "Common",
         "domain": [
-          "Mind"
+          "Fury"
         ]
       },
       "text": {
-        "rich": "<p>:rb_energy_1::rb_rune_mind:: Draw 1.<br />:rb_energy_4::rb_rune_mind::rb_rune_mind::rb_rune_mind::rb_rune_mind:, :rb_exhaust:: Score 1 point.<br />Use my abilities only while I'm at a battlefield.</p>",
-        "plain": ":rb_energy_1::rb_rune_mind:: Draw 1.:rb_energy_4::rb_rune_mind::rb_rune_mind::rb_rune_mind::rb_rune_mind:, :rb_exhaust:: Score 1 point.Use my abilities only while I'm at a battlefield.",
-        "flavour": "Progress comes at a price others aren't willing to pay."
+        "rich": "<p>[Equip] :rb_rune_fury: (:rb_rune_fury:: Attach this to a unit you control.)</p>",
+        "plain": "[Equip] :rb_rune_fury: (:rb_rune_fury:: Attach this to a unit you control.)",
+        "flavour": null
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b2b269d8ec274f3869ba42982f5710b160c4c43f-744x1039.png?accountingTag=RB",
-        "artist": "League Splash Team",
-        "accessibility_text": "Riftbound Unit: Renata Glasc, Mastermind. [1][C]: Draw 1.\n[4][C][C][C][C], [T]: Score 1 point. \nUse my abilities only while I'm at a battlefield."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9498c8146745124fc45a7b55184854a9c9da21f5-744x1039.png?accountingTag=RB",
+        "artist": "\u9eef\u8367\u5c9bDark Glow",
+        "accessibility_text": "Riftbound Gear: Serrated Dirk. [Equip] [C] ([C]: Attach this to a unit you control.)"
       },
       "tags": [
-        "Renata Glasc",
-        "Zaun"
+        "Equipment"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Renata Glasc Mastermind Alternate Art",
-        "updated_on": "2026-07-10T22:44:57.966383+00:00",
-        "alternate_art": true,
+        "clean_name": "Serrated Dirk",
+        "updated_on": "2026-07-10T22:44:54.759849+00:00",
+        "alternate_art": false,
         "overnumbered": false,
         "signature": false
       },
@@ -4197,55 +4241,11 @@
       "new": false
     },
     {
-      "id": "69bc5be4d308c64675ca88ed",
-      "name": "Seal of Rage (Overnumbered)",
-      "riftbound_id": "sfd-222-221",
-      "tcgplayer_id": "666789",
-      "collector_number": 222,
-      "attributes": {
-        "energy": 0,
-        "might": null,
-        "power": 1
-      },
-      "classification": {
-        "type": "Gear",
-        "supertype": null,
-        "rarity": "Showcase",
-        "domain": [
-          "Fury"
-        ]
-      },
-      "text": {
-        "rich": "<p>:rb_exhaust:: [Reaction] \u2014 [Add] :rb_rune_fury:. (Abilities that add resources can't be reacted to.)</p>",
-        "plain": ":rb_exhaust:: [Reaction] \u2014 [Add] :rb_rune_fury:. (Abilities that add resources can't be reacted to.)",
-        "flavour": null
-      },
-      "set": {
-        "set_id": "SFD",
-        "label": "Spiritforged"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/669d4dd94cf2d88ad58333c13a98cca2014e71aa-744x1039.png?accountingTag=RB",
-        "artist": "Envar Studio",
-        "accessibility_text": "Riftbound Gear: Seal of Rage. [T]: [Reaction] \u2014 [Add] [C]. (Abilities that add resources can't be reacted to.)"
-      },
-      "tags": [],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": "Seal of Rage Overnumbered",
-        "updated_on": "2026-07-10T22:44:54.206398+00:00",
-        "alternate_art": false,
-        "overnumbered": true,
-        "signature": false
-      },
-      "new": false
-    },
-    {
-      "id": "69bc5be8d308c64675ca893b",
-      "name": "The Papertree",
-      "riftbound_id": "sfd-219-221",
-      "tcgplayer_id": "666878",
-      "collector_number": 219,
+      "id": "69bc5be8d308c64675ca893c",
+      "name": "Veiled Temple",
+      "riftbound_id": "sfd-221-221",
+      "tcgplayer_id": "666879",
+      "collector_number": 221,
       "attributes": {
         "energy": null,
         "might": null,
@@ -4260,8 +4260,8 @@
         ]
       },
       "text": {
-        "rich": "<p>When you hold here, each player channels 1 rune exhausted.</p>",
-        "plain": "When you hold here, each player channels 1 rune exhausted.",
+        "rich": "<p>When you conquer here, you may ready a friendly gear. If it's an Equipment, you may detach it.</p>",
+        "plain": "When you conquer here, you may ready a friendly gear. If it's an Equipment, you may detach it.",
         "flavour": null
       },
       "set": {
@@ -4269,17 +4269,63 @@
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c395b94a4f78b4e8b0590b56787c33600b18e358-1039x744.png?accountingTag=RB",
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6f2b38874a09b3e3df3fe584ea77e84aa5423e37-1039x744.png?accountingTag=RB",
         "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Battlefield: The Papertree. When you hold here, each player channels 1 rune exhausted."
+        "accessibility_text": "Riftbound Battlefield: Veiled Temple. When you conquer here, you may ready a friendly gear. If it's an Equipment, you may detach it."
       },
       "tags": [],
       "orientation": "landscape",
       "metadata": {
-        "clean_name": "The Papertree",
-        "updated_on": "2026-07-10T22:44:58.563497+00:00",
+        "clean_name": "Veiled Temple",
+        "updated_on": "2026-07-10T22:44:58.622498+00:00",
         "alternate_art": false,
         "overnumbered": false,
+        "signature": false
+      },
+      "new": false
+    },
+    {
+      "id": "69bc5be8d308c64675ca8947",
+      "name": "Yasuo - Windrider (Overnumbered)",
+      "riftbound_id": "sfd-235-221",
+      "tcgplayer_id": "668210",
+      "collector_number": 235,
+      "attributes": {
+        "energy": 5,
+        "might": 4,
+        "power": 1
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Showcase",
+        "domain": [
+          "Chaos"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Ganking] (I can move from battlefield to battlefield.)<br />The third time I move in a turn, you score 1 point.</p>",
+        "plain": "[Ganking] (I can move from battlefield to battlefield.)The third time I move in a turn, you score 1 point.",
+        "flavour": "I hope you find the path that brings you joy."
+      },
+      "set": {
+        "set_id": "SFD",
+        "label": "Spiritforged"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/74021c17acc45cf743609a825490a0e6dd7466b5-744x1039.png?accountingTag=RB",
+        "artist": "Jennifer Wuestling",
+        "accessibility_text": "Riftbound Unit: Yasuo, Windrider. [Ganking] (I can move from battlefield to battlefield.)\nThe third time I move in a turn, you score 1 point."
+      },
+      "tags": [
+        "Yasuo"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Yasuo Windrider Overnumbered",
+        "updated_on": "2026-07-10T22:44:59.239892+00:00",
+        "alternate_art": false,
+        "overnumbered": true,
         "signature": false
       },
       "new": false
@@ -4747,54 +4793,10 @@
       "new": false
     },
     {
-      "id": "69bc5be8d308c64675ca893c",
-      "name": "Veiled Temple",
-      "riftbound_id": "sfd-221-221",
-      "tcgplayer_id": "666879",
-      "collector_number": 221,
-      "attributes": {
-        "energy": null,
-        "might": null,
-        "power": null
-      },
-      "classification": {
-        "type": "Battlefield",
-        "supertype": null,
-        "rarity": "Uncommon",
-        "domain": [
-          "Colorless"
-        ]
-      },
-      "text": {
-        "rich": "<p>When you conquer here, you may ready a friendly gear. If it's an Equipment, you may detach it.</p>",
-        "plain": "When you conquer here, you may ready a friendly gear. If it's an Equipment, you may detach it.",
-        "flavour": null
-      },
-      "set": {
-        "set_id": "SFD",
-        "label": "Spiritforged"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6f2b38874a09b3e3df3fe584ea77e84aa5423e37-1039x744.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Battlefield: Veiled Temple. When you conquer here, you may ready a friendly gear. If it's an Equipment, you may detach it."
-      },
-      "tags": [],
-      "orientation": "landscape",
-      "metadata": {
-        "clean_name": "Veiled Temple",
-        "updated_on": "2026-07-10T22:44:58.622498+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": false
-    },
-    {
-      "id": "69bc5be8d308c64675ca8947",
-      "name": "Yasuo - Windrider (Overnumbered)",
-      "riftbound_id": "sfd-235-221",
-      "tcgplayer_id": "668210",
+      "id": "69bc5be8d308c64675ca8948",
+      "name": "Yasuo - Windrider (Signature)",
+      "riftbound_id": "sfd-235*-221",
+      "tcgplayer_id": "668211",
       "collector_number": 235,
       "attributes": {
         "energy": 5,
@@ -4819,7 +4821,7 @@
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/74021c17acc45cf743609a825490a0e6dd7466b5-744x1039.png?accountingTag=RB",
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/40575a59f02c431223ef484edabdf7bd8cb28381-744x1039.png?accountingTag=RB",
         "artist": "Jennifer Wuestling",
         "accessibility_text": "Riftbound Unit: Yasuo, Windrider. [Ganking] (I can move from battlefield to battlefield.)\nThe third time I move in a turn, you score 1 point."
       },
@@ -4828,10 +4830,54 @@
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Yasuo Windrider Overnumbered",
-        "updated_on": "2026-07-10T22:44:59.239892+00:00",
+        "clean_name": "Yasuo Windrider Signature",
+        "updated_on": "2026-07-10T22:44:59.297721+00:00",
         "alternate_art": false,
-        "overnumbered": true,
+        "overnumbered": false,
+        "signature": true
+      },
+      "new": false
+    },
+    {
+      "id": "69bc5be8d308c64675ca893b",
+      "name": "The Papertree",
+      "riftbound_id": "sfd-219-221",
+      "tcgplayer_id": "666878",
+      "collector_number": 219,
+      "attributes": {
+        "energy": null,
+        "might": null,
+        "power": null
+      },
+      "classification": {
+        "type": "Battlefield",
+        "supertype": null,
+        "rarity": "Uncommon",
+        "domain": [
+          "Colorless"
+        ]
+      },
+      "text": {
+        "rich": "<p>When you hold here, each player channels 1 rune exhausted.</p>",
+        "plain": "When you hold here, each player channels 1 rune exhausted.",
+        "flavour": null
+      },
+      "set": {
+        "set_id": "SFD",
+        "label": "Spiritforged"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c395b94a4f78b4e8b0590b56787c33600b18e358-1039x744.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Battlefield: The Papertree. When you hold here, each player channels 1 rune exhausted."
+      },
+      "tags": [],
+      "orientation": "landscape",
+      "metadata": {
+        "clean_name": "The Papertree",
+        "updated_on": "2026-07-10T22:44:58.563497+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
         "signature": false
       },
       "new": false
@@ -5233,91 +5279,45 @@
       "new": false
     },
     {
-      "id": "69bc5be7d308c64675ca8931",
-      "name": "Combat Chef",
-      "riftbound_id": "sfd-092-221",
-      "tcgplayer_id": "666868",
-      "collector_number": 92,
+      "id": "69bc5be2d308c64675ca88d6",
+      "name": "Card Sharp",
+      "riftbound_id": "sfd-081-221",
+      "tcgplayer_id": "666587",
+      "collector_number": 81,
       "attributes": {
-        "energy": 5,
-        "might": 5,
+        "energy": 3,
+        "might": 3,
         "power": null
       },
       "classification": {
         "type": "Unit",
         "supertype": null,
-        "rarity": "Common",
+        "rarity": "Rare",
         "domain": [
-          "Body"
+          "Mind"
         ]
       },
       "text": {
-        "rich": "<p>[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for :rb_rune_rainbow: less, even if it's already attached.)</p>",
-        "plain": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for :rb_rune_rainbow: less, even if it's already attached.)",
-        "flavour": "The tastiest soup is the one you eat after almost getting your head chopped off."
+        "rich": "<p>When you play me, you and each opponent may play a Gold gear token exhausted. For each opponent who did, you play a Gold gear token exhausted.</p>",
+        "plain": "When you play me, you and each opponent may play a Gold gear token exhausted. For each opponent who did, you play a Gold gear token exhausted.",
+        "flavour": "Call."
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/dffa05408c0b53f62dfbb9452986342ff2d4352d-744x1039.png?accountingTag=RB",
-        "artist": "Envar Studio",
-        "accessibility_text": "Riftbound Unit: Combat Chef. [Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for [A] less, even if it's already attached.)"
-      },
-      "tags": [
-        "Demacia"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": "Combat Chef",
-        "updated_on": "2026-07-10T22:44:58.020047+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": false
-    },
-    {
-      "id": "69bc5be2d308c64675ca88d5",
-      "name": "Ruin Runner",
-      "riftbound_id": "sfd-105-221",
-      "tcgplayer_id": "666586",
-      "collector_number": 105,
-      "attributes": {
-        "energy": 6,
-        "might": 5,
-        "power": null
-      },
-      "classification": {
-        "type": "Unit",
-        "supertype": null,
-        "rarity": "Uncommon",
-        "domain": [
-          "Body"
-        ]
-      },
-      "text": {
-        "rich": "<p>I can't be chosen by enemy spells and abilities.</p>",
-        "plain": "I can't be chosen by enemy spells and abilities.",
-        "flavour": "Catch me if you can."
-      },
-      "set": {
-        "set_id": "SFD",
-        "label": "Spiritforged"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/08abcf17d3356325b0c1b83a78a87be855e5a71a-744x1039.png?accountingTag=RB",
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8bfd5dc22473d439cd78d5a3cb23ed03de66953d-744x1039.png?accountingTag=RB",
         "artist": "Grafit Studio",
-        "accessibility_text": "Riftbound Unit: Ruin Runner. I can't be chosen by enemy spells and abilities."
+        "accessibility_text": "Riftbound Unit: Card Sharp. When you play me, you and each opponent may play a Gold gear token exhausted. For each opponent who did, you play a Gold gear token exhausted."
       },
       "tags": [
-        "Shurima"
+        "Bilgewater"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Ruin Runner",
-        "updated_on": "2026-07-10T22:44:52.783832+00:00",
+        "clean_name": "Card Sharp",
+        "updated_on": "2026-07-10T22:44:52.837418+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -5511,95 +5511,92 @@
       "new": false
     },
     {
-      "id": "69bc5be8d308c64675ca8948",
-      "name": "Yasuo - Windrider (Signature)",
-      "riftbound_id": "sfd-235*-221",
-      "tcgplayer_id": "668211",
-      "collector_number": 235,
+      "id": "69bc5bdcd308c64675ca8859",
+      "name": "Seal of Discord (Overnumbered)",
+      "riftbound_id": "sfd-234-221",
+      "tcgplayer_id": "664931",
+      "collector_number": 234,
       "attributes": {
-        "energy": 5,
-        "might": 4,
+        "energy": 0,
+        "might": null,
         "power": 1
       },
       "classification": {
-        "type": "Unit",
-        "supertype": "Champion",
+        "type": "Gear",
+        "supertype": null,
         "rarity": "Showcase",
         "domain": [
           "Chaos"
         ]
       },
       "text": {
-        "rich": "<p>[Ganking] (I can move from battlefield to battlefield.)<br />The third time I move in a turn, you score 1 point.</p>",
-        "plain": "[Ganking] (I can move from battlefield to battlefield.)The third time I move in a turn, you score 1 point.",
-        "flavour": "I hope you find the path that brings you joy."
+        "rich": "<p>:rb_exhaust:: [Reaction] \u2014 [Add] :rb_rune_chaos:. (Abilities that add resources can't be reacted to.)</p>",
+        "plain": ":rb_exhaust:: [Reaction] \u2014 [Add] :rb_rune_chaos:. (Abilities that add resources can't be reacted to.)",
+        "flavour": null
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/40575a59f02c431223ef484edabdf7bd8cb28381-744x1039.png?accountingTag=RB",
-        "artist": "Jennifer Wuestling",
-        "accessibility_text": "Riftbound Unit: Yasuo, Windrider. [Ganking] (I can move from battlefield to battlefield.)\nThe third time I move in a turn, you score 1 point."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9263b8f36725a4cec320c1049608824ae72f6237-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "accessibility_text": "Riftbound Gear: Seal of Discord. [T]: [Reaction] \u2014 [Add] [C]. (Abilities that add resources can't be reacted to.)"
       },
-      "tags": [
-        "Yasuo"
-      ],
+      "tags": [],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Yasuo Windrider Signature",
-        "updated_on": "2026-07-10T22:44:59.297721+00:00",
+        "clean_name": "Seal of Discord Overnumbered",
+        "updated_on": "2026-07-10T22:44:45.880186+00:00",
         "alternate_art": false,
-        "overnumbered": false,
-        "signature": true
+        "overnumbered": true,
+        "signature": false
       },
       "new": false
     },
     {
-      "id": "69bc5bdcd308c64675ca8858",
-      "name": "Irelia - Fervent (Signature)",
-      "riftbound_id": "sfd-225*-221",
-      "tcgplayer_id": "664930",
-      "collector_number": 225,
+      "id": "69bc5bddd308c64675ca8864",
+      "name": "Honest Broker",
+      "riftbound_id": "sfd-155-221",
+      "tcgplayer_id": "664946",
+      "collector_number": 155,
       "attributes": {
-        "energy": 5,
-        "might": 4,
+        "energy": 2,
+        "might": 2,
         "power": null
       },
       "classification": {
         "type": "Unit",
-        "supertype": "Champion",
-        "rarity": "Showcase",
+        "supertype": null,
+        "rarity": "Common",
         "domain": [
-          "Calm"
+          "Order"
         ]
       },
       "text": {
-        "rich": "<p>[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)<br />When you choose or ready me, give me +1 :rb_might: this turn.</p>",
-        "plain": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)When you choose or ready me, give me +1 :rb_might: this turn.",
-        "flavour": "Everyone has purpose."
+        "rich": "<p>[Deathknell] \u2014 Play a Gold gear token exhausted. (When I die, get the effect.)</p>",
+        "plain": "[Deathknell] \u2014 Play a Gold gear token exhausted. (When I die, get the effect.)",
+        "flavour": "Among criminals, gangsters, and thieves, she trades in the most valuable currency: trust."
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e064a9017b5d6bf0e18c4452acfca4ed8c279657-744x1039.png?accountingTag=RB",
-        "artist": "Bo Chen",
-        "accessibility_text": "Riftbound Unit: Irelia, Fervent. [Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\nWhen you choose or ready me, give me +1 [S] this turn."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b3cc9bb93888f6f276f674baa16a0e53c724ae99-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Unit: Honest Broker. [Deathknell] \u2014 Play a Gold gear token exhausted. (When I die, get the effect.)"
       },
       "tags": [
-        "Irelia",
         "Ionia"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Irelia Fervent Signature",
-        "updated_on": "2026-07-10T22:44:45.812610+00:00",
+        "clean_name": "Honest Broker",
+        "updated_on": "2026-07-10T22:44:46.454668+00:00",
         "alternate_art": false,
         "overnumbered": false,
-        "signature": true
+        "signature": false
       },
       "new": false
     },
@@ -6068,92 +6065,95 @@
       "new": false
     },
     {
-      "id": "69bc5bdcd308c64675ca8859",
-      "name": "Seal of Discord (Overnumbered)",
-      "riftbound_id": "sfd-234-221",
-      "tcgplayer_id": "664931",
-      "collector_number": 234,
+      "id": "69bc5bddd308c64675ca8865",
+      "name": "Kato the Arm",
+      "riftbound_id": "sfd-112-221",
+      "tcgplayer_id": "664948",
+      "collector_number": 112,
       "attributes": {
-        "energy": 0,
-        "might": null,
+        "energy": 4,
+        "might": 3,
         "power": 1
       },
       "classification": {
-        "type": "Gear",
+        "type": "Unit",
         "supertype": null,
-        "rarity": "Showcase",
+        "rarity": "Rare",
         "domain": [
-          "Chaos"
+          "Body"
         ]
       },
       "text": {
-        "rich": "<p>:rb_exhaust:: [Reaction] \u2014 [Add] :rb_rune_chaos:. (Abilities that add resources can't be reacted to.)</p>",
-        "plain": ":rb_exhaust:: [Reaction] \u2014 [Add] :rb_rune_chaos:. (Abilities that add resources can't be reacted to.)",
-        "flavour": null
+        "rich": "<p>[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)<br />When I move to a battlefield, give a friendly unit my keywords and +:rb_might: equal to my Might this turn.</p>",
+        "plain": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)When I move to a battlefield, give a friendly unit my keywords and +:rb_might: equal to my Might this turn.",
+        "flavour": "Let's give \"em a good show!."
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9263b8f36725a4cec320c1049608824ae72f6237-744x1039.png?accountingTag=RB",
-        "artist": "Envar Studio",
-        "accessibility_text": "Riftbound Gear: Seal of Discord. [T]: [Reaction] \u2014 [Add] [C]. (Abilities that add resources can't be reacted to.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f4ea4f2f5169a3813d9eb7f0d3d2f41bdddebfc7-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Unit: Kato the Arm. [Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\nWhen I move to a battlefield, give a friendly unit my keywords and +[M] equal to my Might this turn."
       },
-      "tags": [],
+      "tags": [
+        "Noxus"
+      ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Seal of Discord Overnumbered",
-        "updated_on": "2026-07-10T22:44:45.880186+00:00",
+        "clean_name": "Kato the Arm",
+        "updated_on": "2026-07-10T22:44:46.503104+00:00",
         "alternate_art": false,
-        "overnumbered": true,
+        "overnumbered": false,
         "signature": false
       },
       "new": false
     },
     {
-      "id": "69bc5bddd308c64675ca8864",
-      "name": "Honest Broker",
-      "riftbound_id": "sfd-155-221",
-      "tcgplayer_id": "664946",
-      "collector_number": 155,
+      "id": "69bc5bdcd308c64675ca8858",
+      "name": "Irelia - Fervent (Signature)",
+      "riftbound_id": "sfd-225*-221",
+      "tcgplayer_id": "664930",
+      "collector_number": 225,
       "attributes": {
-        "energy": 2,
-        "might": 2,
+        "energy": 5,
+        "might": 4,
         "power": null
       },
       "classification": {
         "type": "Unit",
-        "supertype": null,
-        "rarity": "Common",
+        "supertype": "Champion",
+        "rarity": "Showcase",
         "domain": [
-          "Order"
+          "Calm"
         ]
       },
       "text": {
-        "rich": "<p>[Deathknell] \u2014 Play a Gold gear token exhausted. (When I die, get the effect.)</p>",
-        "plain": "[Deathknell] \u2014 Play a Gold gear token exhausted. (When I die, get the effect.)",
-        "flavour": "Among criminals, gangsters, and thieves, she trades in the most valuable currency: trust."
+        "rich": "<p>[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)<br />When you choose or ready me, give me +1 :rb_might: this turn.</p>",
+        "plain": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)When you choose or ready me, give me +1 :rb_might: this turn.",
+        "flavour": "Everyone has purpose."
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b3cc9bb93888f6f276f674baa16a0e53c724ae99-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Unit: Honest Broker. [Deathknell] \u2014 Play a Gold gear token exhausted. (When I die, get the effect.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e064a9017b5d6bf0e18c4452acfca4ed8c279657-744x1039.png?accountingTag=RB",
+        "artist": "Bo Chen",
+        "accessibility_text": "Riftbound Unit: Irelia, Fervent. [Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\nWhen you choose or ready me, give me +1 [S] this turn."
       },
       "tags": [
+        "Irelia",
         "Ionia"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Honest Broker",
-        "updated_on": "2026-07-10T22:44:46.454668+00:00",
+        "clean_name": "Irelia Fervent Signature",
+        "updated_on": "2026-07-10T22:44:45.812610+00:00",
         "alternate_art": false,
         "overnumbered": false,
-        "signature": false
+        "signature": true
       },
       "new": false
     },
@@ -6581,28 +6581,27 @@
       "new": false
     },
     {
-      "id": "69bc5bdbd308c64675ca884e",
-      "name": "Lucian - Purifier",
-      "riftbound_id": "sfd-183-221",
-      "tcgplayer_id": "664920",
-      "collector_number": 183,
+      "id": "69bc5bddd308c64675ca8870",
+      "name": "Yone - Blademaster",
+      "riftbound_id": "sfd-116-221",
+      "tcgplayer_id": "664972",
+      "collector_number": 116,
       "attributes": {
-        "energy": null,
-        "might": null,
-        "power": null
+        "energy": 5,
+        "might": 5,
+        "power": 1
       },
       "classification": {
-        "type": "Legend",
-        "supertype": null,
+        "type": "Unit",
+        "supertype": "Champion",
         "rarity": "Rare",
         "domain": [
-          "Fury",
           "Body"
         ]
       },
       "text": {
-        "rich": "<p>Your Equipment each give [Assault]. (+1 :rb_might: while equipped unit is an attacker.)</p>",
-        "plain": "Your Equipment each give [Assault]. (+1 :rb_might: while equipped unit is an attacker.)",
+        "rich": "<p>[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for :rb_rune_rainbow: less, even if it's already attached.)<br />When I conquer an open battlefield, deal damage equal to my Might to an enemy unit in a base.</p>",
+        "plain": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for :rb_rune_rainbow: less, even if it's already attached.)When I conquer an open battlefield, deal damage equal to my Might to an enemy unit in a base.",
         "flavour": null
       },
       "set": {
@@ -6610,17 +6609,19 @@
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/450cfb71b8890904d48b37a24bbdc78f8d849614-744x1039.png?accountingTag=RB",
-        "artist": "Pandart Studio",
-        "accessibility_text": "Riftbound Legend: Purifier. Your Equipment each give [Assault]. (+1 [S] while equipped unit is an attacker.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0e8efd9af74b65170e04eed45844e6d7e2c4d70b-744x1039.png?accountingTag=RB",
+        "artist": "\u86cb\u8d39\u9e21\u4e01",
+        "accessibility_text": "Riftbound Unit: Yone, Blademaster. [Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for [A] less, even if it's already attached.)\nWhen I conquer an open battlefield, deal damage equal to my Might to an enemy unit in a base."
       },
       "tags": [
-        "Lucian"
+        "Yone",
+        "Ionia",
+        "Demon"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Lucian Purifier",
-        "updated_on": "2026-07-10T22:44:45.277661+00:00",
+        "clean_name": "Yone Blademaster",
+        "updated_on": "2026-07-10T22:44:47.107039+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -6628,45 +6629,43 @@
       "new": false
     },
     {
-      "id": "69bc5bddd308c64675ca886f",
-      "name": "B.F. Sword",
-      "riftbound_id": "sfd-161-221",
-      "tcgplayer_id": "664970",
-      "collector_number": 161,
+      "id": "69bc5bded308c64675ca887b",
+      "name": "Switcheroo",
+      "riftbound_id": "sfd-145-221",
+      "tcgplayer_id": "665023",
+      "collector_number": 145,
       "attributes": {
-        "energy": 4,
+        "energy": 2,
         "might": null,
-        "power": null
+        "power": 2
       },
       "classification": {
-        "type": "Gear",
+        "type": "Spell",
         "supertype": null,
-        "rarity": "Uncommon",
+        "rarity": "Rare",
         "domain": [
-          "Order"
+          "Chaos"
         ]
       },
       "text": {
-        "rich": "<p>[Equip] :rb_rune_order: (:rb_rune_order:: Attach this to a unit you control.)</p>",
-        "plain": "[Equip] :rb_rune_order: (:rb_rune_order:: Attach this to a unit you control.)",
-        "flavour": "It certainly is big."
+        "rich": "<p>[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)<br />[Action] (Play on your turn or in showdowns.)<br />Swap the Might of two units at the same battlefield this turn.</p>",
+        "plain": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)[Action] (Play on your turn or in showdowns.)Swap the Might of two units at the same battlefield this turn.",
+        "flavour": "Always look out for the little guy."
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/97cd20e414c7282abb18cf7691eb1a5a2435af90-744x1039.png?accountingTag=RB",
-        "artist": "\u9eef\u8367\u5c9bDark Glow",
-        "accessibility_text": "Riftbound Gear: B.F. Sword. [Equip] [C] ([C]: Attach this to a unit you control.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a4338f495feff5eee46d5349b5fded5e35e76176-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Switcheroo. [Hidden] (Hide now for [A] to react with later for [0].)\n[Action] (Play on your turn or in showdowns.)\nSwap the Might of two units at the same battlefield this turn."
       },
-      "tags": [
-        "Equipment"
-      ],
+      "tags": [],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "BF Sword",
-        "updated_on": "2026-07-10T22:44:47.057976+00:00",
+        "clean_name": "Switcheroo",
+        "updated_on": "2026-07-10T22:44:47.728883+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -7130,27 +7129,28 @@
       "new": false
     },
     {
-      "id": "69bc5bddd308c64675ca8870",
-      "name": "Yone - Blademaster",
-      "riftbound_id": "sfd-116-221",
-      "tcgplayer_id": "664972",
-      "collector_number": 116,
+      "id": "69bc5bdbd308c64675ca884e",
+      "name": "Lucian - Purifier",
+      "riftbound_id": "sfd-183-221",
+      "tcgplayer_id": "664920",
+      "collector_number": 183,
       "attributes": {
-        "energy": 5,
-        "might": 5,
-        "power": 1
+        "energy": null,
+        "might": null,
+        "power": null
       },
       "classification": {
-        "type": "Unit",
-        "supertype": "Champion",
+        "type": "Legend",
+        "supertype": null,
         "rarity": "Rare",
         "domain": [
+          "Fury",
           "Body"
         ]
       },
       "text": {
-        "rich": "<p>[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for :rb_rune_rainbow: less, even if it's already attached.)<br />When I conquer an open battlefield, deal damage equal to my Might to an enemy unit in a base.</p>",
-        "plain": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for :rb_rune_rainbow: less, even if it's already attached.)When I conquer an open battlefield, deal damage equal to my Might to an enemy unit in a base.",
+        "rich": "<p>Your Equipment each give [Assault]. (+1 :rb_might: while equipped unit is an attacker.)</p>",
+        "plain": "Your Equipment each give [Assault]. (+1 :rb_might: while equipped unit is an attacker.)",
         "flavour": null
       },
       "set": {
@@ -7158,19 +7158,17 @@
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0e8efd9af74b65170e04eed45844e6d7e2c4d70b-744x1039.png?accountingTag=RB",
-        "artist": "\u86cb\u8d39\u9e21\u4e01",
-        "accessibility_text": "Riftbound Unit: Yone, Blademaster. [Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for [A] less, even if it's already attached.)\nWhen I conquer an open battlefield, deal damage equal to my Might to an enemy unit in a base."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/450cfb71b8890904d48b37a24bbdc78f8d849614-744x1039.png?accountingTag=RB",
+        "artist": "Pandart Studio",
+        "accessibility_text": "Riftbound Legend: Purifier. Your Equipment each give [Assault]. (+1 [S] while equipped unit is an attacker.)"
       },
       "tags": [
-        "Yone",
-        "Ionia",
-        "Demon"
+        "Lucian"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Yone Blademaster",
-        "updated_on": "2026-07-10T22:44:47.107039+00:00",
+        "clean_name": "Lucian Purifier",
+        "updated_on": "2026-07-10T22:44:45.277661+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -7178,46 +7176,45 @@
       "new": false
     },
     {
-      "id": "69bc5bdbd308c64675ca884d",
-      "name": "Danger Zone",
-      "riftbound_id": "sfd-182-221",
-      "tcgplayer_id": "664918",
-      "collector_number": 182,
+      "id": "69bc5bddd308c64675ca886f",
+      "name": "B.F. Sword",
+      "riftbound_id": "sfd-161-221",
+      "tcgplayer_id": "664970",
+      "collector_number": 161,
       "attributes": {
-        "energy": 1,
+        "energy": 4,
         "might": null,
-        "power": 1
+        "power": null
       },
       "classification": {
-        "type": "Spell",
-        "supertype": "Signature",
-        "rarity": "Epic",
+        "type": "Gear",
+        "supertype": null,
+        "rarity": "Uncommon",
         "domain": [
-          "Fury",
-          "Mind"
+          "Order"
         ]
       },
       "text": {
-        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />[Repeat] :rb_energy_1::rb_rune_rainbow: (You may pay the additional cost to repeat this spell's effect.)<br />Give your Mechs +1 :rb_might: this turn.</p>",
-        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)[Repeat] :rb_energy_1::rb_rune_rainbow: (You may pay the additional cost to repeat this spell's effect.)Give your Mechs +1 :rb_might: this turn.",
-        "flavour": null
+        "rich": "<p>[Equip] :rb_rune_order: (:rb_rune_order:: Attach this to a unit you control.)</p>",
+        "plain": "[Equip] :rb_rune_order: (:rb_rune_order:: Attach this to a unit you control.)",
+        "flavour": "It certainly is big."
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c4652150ba885dd346b8f3622fd0e4ada7cf767f-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Spell: Danger Zone. [Reaction] (Play any time, even before spells and abilities resolve.)\n[Repeat] [1][C] (You may pay the additional cost to repeat this spell's effect.)\nGive your Mechs +1 [S] this turn."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/97cd20e414c7282abb18cf7691eb1a5a2435af90-744x1039.png?accountingTag=RB",
+        "artist": "\u9eef\u8367\u5c9bDark Glow",
+        "accessibility_text": "Riftbound Gear: B.F. Sword. [Equip] [C] ([C]: Attach this to a unit you control.)"
       },
       "tags": [
-        "Rumble"
+        "Equipment"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Danger Zone",
-        "updated_on": "2026-07-10T22:44:45.223225+00:00",
+        "clean_name": "BF Sword",
+        "updated_on": "2026-07-10T22:44:47.057976+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -7638,45 +7635,46 @@
       "new": false
     },
     {
-      "id": "69bc5bddd308c64675ca8865",
-      "name": "Kato the Arm",
-      "riftbound_id": "sfd-112-221",
-      "tcgplayer_id": "664948",
-      "collector_number": 112,
+      "id": "69bc5bdad308c64675ca8837",
+      "name": "Renata Glasc - Chem-Baroness",
+      "riftbound_id": "sfd-201-221",
+      "tcgplayer_id": "663439",
+      "collector_number": 201,
       "attributes": {
-        "energy": 4,
-        "might": 3,
-        "power": 1
+        "energy": null,
+        "might": null,
+        "power": null
       },
       "classification": {
-        "type": "Unit",
+        "type": "Legend",
         "supertype": null,
         "rarity": "Rare",
         "domain": [
-          "Body"
+          "Mind",
+          "Order"
         ]
       },
       "text": {
-        "rich": "<p>[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)<br />When I move to a battlefield, give a friendly unit my keywords and +:rb_might: equal to my Might this turn.</p>",
-        "plain": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)When I move to a battlefield, give a friendly unit my keywords and +:rb_might: equal to my Might this turn.",
-        "flavour": "Let's give \"em a good show!."
+        "rich": "<p>When you or an ally hold, you may exhaust me to play a Gold gear token exhausted.<br />While your score is within 3 points of the Victory Score, your Gold [ADD] an additional :rb_energy_1:.</p>",
+        "plain": "When you or an ally hold, you may exhaust me to play a Gold gear token exhausted.While your score is within 3 points of the Victory Score, your Gold [ADD] an additional :rb_energy_1:.",
+        "flavour": null
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f4ea4f2f5169a3813d9eb7f0d3d2f41bdddebfc7-744x1039.png?accountingTag=RB",
-        "artist": "Six More Vodka",
-        "accessibility_text": "Riftbound Unit: Kato the Arm. [Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\nWhen I move to a battlefield, give a friendly unit my keywords and +[M] equal to my Might this turn."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4bd289c281ad64229061ff909abf88c12a574833-744x1039.png?accountingTag=RB",
+        "artist": "Pandart Studio",
+        "accessibility_text": "Riftbound Legend: Chem-Baroness. When you or an ally hold, you may exhaust me to play a Gold gear token exhausted.\nWhile your score is within 3 points of the Victory Score, your Gold [ADD] an additional [1]."
       },
       "tags": [
-        "Noxus"
+        "Renata Glasc"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Kato the Arm",
-        "updated_on": "2026-07-10T22:44:46.503104+00:00",
+        "clean_name": "Renata Glasc Chem Baroness",
+        "updated_on": "2026-07-10T22:44:43.974452+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -8101,11 +8099,11 @@
       "new": false
     },
     {
-      "id": "69bc5bdad308c64675ca8837",
-      "name": "Renata Glasc - Chem-Baroness",
-      "riftbound_id": "sfd-201-221",
-      "tcgplayer_id": "663439",
-      "collector_number": 201,
+      "id": "69bc5bdad308c64675ca8838",
+      "name": "Azir - Emperor of the Sands",
+      "riftbound_id": "sfd-197-221",
+      "tcgplayer_id": "663440",
+      "collector_number": 197,
       "attributes": {
         "energy": null,
         "might": null,
@@ -8116,13 +8114,13 @@
         "supertype": null,
         "rarity": "Rare",
         "domain": [
-          "Mind",
+          "Calm",
           "Order"
         ]
       },
       "text": {
-        "rich": "<p>When you or an ally hold, you may exhaust me to play a Gold gear token exhausted.<br />While your score is within 3 points of the Victory Score, your Gold [ADD] an additional :rb_energy_1:.</p>",
-        "plain": "When you or an ally hold, you may exhaust me to play a Gold gear token exhausted.While your score is within 3 points of the Victory Score, your Gold [ADD] an additional :rb_energy_1:.",
+        "rich": "<p>Your Sand Soldiers have [Weaponmaster].<br />:rb_energy_1:, :rb_exhaust:: Play a 2 :rb_might: Sand Soldier unit token to your base. Use only if you've played an Equipment this turn.</p>",
+        "plain": "Your Sand Soldiers have [Weaponmaster].:rb_energy_1:, :rb_exhaust:: Play a 2 :rb_might: Sand Soldier unit token to your base. Use only if you've played an Equipment this turn.",
         "flavour": null
       },
       "set": {
@@ -8130,17 +8128,17 @@
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4bd289c281ad64229061ff909abf88c12a574833-744x1039.png?accountingTag=RB",
-        "artist": "Pandart Studio",
-        "accessibility_text": "Riftbound Legend: Chem-Baroness. When you or an ally hold, you may exhaust me to play a Gold gear token exhausted.\nWhile your score is within 3 points of the Victory Score, your Gold [ADD] an additional [1]."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0472274c49f6540858758ebf9bd2f107a601541a-744x1039.png?accountingTag=RB",
+        "artist": "\u86cb\u8d39\u9e21\u4e01",
+        "accessibility_text": "Riftbound Legend: Emperor of the Sands. Your Sand Soldiers have [Weaponmaster].\n[1], [T]: Play a 2 [S] Sand Soldier unit token to your base. Use only if you've played an Equipment this turn."
       },
       "tags": [
-        "Renata Glasc"
+        "Azir"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Renata Glasc Chem Baroness",
-        "updated_on": "2026-07-10T22:44:43.974452+00:00",
+        "clean_name": "Azir Emperor of the Sands",
+        "updated_on": "2026-07-10T22:44:44.036541+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -8148,47 +8146,94 @@
       "new": false
     },
     {
-      "id": "69bc5bdbd308c64675ca8842",
-      "name": "Draven - Vanquisher (Alternate Art)",
-      "riftbound_id": "sfd-020a-221",
-      "tcgplayer_id": "664884",
-      "collector_number": 20,
+      "id": "69bc5bdbd308c64675ca8843",
+      "name": "Irelia - Fervent",
+      "riftbound_id": "sfd-057-221",
+      "tcgplayer_id": "664885",
+      "collector_number": 57,
       "attributes": {
-        "energy": 4,
+        "energy": 5,
         "might": 4,
         "power": null
       },
       "classification": {
         "type": "Unit",
         "supertype": "Champion",
-        "rarity": "Showcase",
+        "rarity": "Epic",
         "domain": [
-          "Fury"
+          "Calm"
         ]
       },
       "text": {
-        "rich": "<p>When I win a combat, play a Gold gear token exhausted.<br />When I attack or defend, you may pay :rb_rune_fury:. If you do, give me +2 :rb_might: this turn.</p>",
-        "plain": "When I win a combat, play a Gold gear token exhausted.When I attack or defend, you may pay :rb_rune_fury:. If you do, give me +2 :rb_might: this turn.",
-        "flavour": "Man, I'm good."
+        "rich": "<p>[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)<br />When you choose or ready me, give me +1 :rb_might: this turn.</p>",
+        "plain": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)When you choose or ready me, give me +1 :rb_might: this turn.",
+        "flavour": "Do we want to be safe, or free? The choice is ours."
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9019c449004f246de6607bf1829f4f3cabcda200-744x1039.png?accountingTag=RB",
-        "artist": "League Splash Team",
-        "accessibility_text": "Riftbound Unit: Draven, Vanquisher. When I win a combat, play a Gold gear token exhausted.\nWhen I attack or defend, you may pay [C]. If you do, give me +2 [S] this turn."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fe05fa55781f8036f8bfc9c10bba94326a0c8cc9-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Unit: Irelia, Fervent. [Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\nWhen you choose or ready me, give me +1 [S] this turn."
       },
       "tags": [
-        "Draven",
-        "Noxus"
+        "Irelia",
+        "Ionia"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Draven Vanquisher Alternate Art",
-        "updated_on": "2026-07-10T22:44:44.609753+00:00",
-        "alternate_art": true,
+        "clean_name": "Irelia Fervent",
+        "updated_on": "2026-07-10T22:44:44.665581+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": false
+    },
+    {
+      "id": "69bc5bdbd308c64675ca884d",
+      "name": "Danger Zone",
+      "riftbound_id": "sfd-182-221",
+      "tcgplayer_id": "664918",
+      "collector_number": 182,
+      "attributes": {
+        "energy": 1,
+        "might": null,
+        "power": 1
+      },
+      "classification": {
+        "type": "Spell",
+        "supertype": "Signature",
+        "rarity": "Epic",
+        "domain": [
+          "Fury",
+          "Mind"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />[Repeat] :rb_energy_1::rb_rune_rainbow: (You may pay the additional cost to repeat this spell's effect.)<br />Give your Mechs +1 :rb_might: this turn.</p>",
+        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)[Repeat] :rb_energy_1::rb_rune_rainbow: (You may pay the additional cost to repeat this spell's effect.)Give your Mechs +1 :rb_might: this turn.",
+        "flavour": null
+      },
+      "set": {
+        "set_id": "SFD",
+        "label": "Spiritforged"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c4652150ba885dd346b8f3622fd0e4ada7cf767f-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Danger Zone. [Reaction] (Play any time, even before spells and abilities resolve.)\n[Repeat] [1][C] (You may pay the additional cost to repeat this spell's effect.)\nGive your Mechs +1 [S] this turn."
+      },
+      "tags": [
+        "Rumble"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Danger Zone",
+        "updated_on": "2026-07-10T22:44:45.223225+00:00",
+        "alternate_art": false,
         "overnumbered": false,
         "signature": false
       },
@@ -8613,46 +8658,46 @@
       "new": false
     },
     {
-      "id": "69bc5bdbd308c64675ca8843",
-      "name": "Irelia - Fervent",
-      "riftbound_id": "sfd-057-221",
-      "tcgplayer_id": "664885",
-      "collector_number": 57,
+      "id": "69bc5bded308c64675ca887c",
+      "name": "Draven - Audacious",
+      "riftbound_id": "sfd-148-221",
+      "tcgplayer_id": "665027",
+      "collector_number": 148,
       "attributes": {
-        "energy": 5,
-        "might": 4,
-        "power": null
+        "energy": 6,
+        "might": 6,
+        "power": 1
       },
       "classification": {
         "type": "Unit",
         "supertype": "Champion",
         "rarity": "Epic",
         "domain": [
-          "Calm"
+          "Chaos"
         ]
       },
       "text": {
-        "rich": "<p>[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)<br />When you choose or ready me, give me +1 :rb_might: this turn.</p>",
-        "plain": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)When you choose or ready me, give me +1 :rb_might: this turn.",
-        "flavour": "Do we want to be safe, or free? The choice is ours."
+        "rich": "<p>[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)<br />The first time I win a combat each turn, you score 1 point.<br />When I die in combat, choose an opponent. They score 1 point.</p>",
+        "plain": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)The first time I win a combat each turn, you score 1 point.When I die in combat, choose an opponent. They score 1 point.",
+        "flavour": null
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fe05fa55781f8036f8bfc9c10bba94326a0c8cc9-744x1039.png?accountingTag=RB",
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8247622cbe90eadada8d0660ea31d146b1207a87-744x1039.png?accountingTag=RB",
         "artist": "Six More Vodka",
-        "accessibility_text": "Riftbound Unit: Irelia, Fervent. [Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\nWhen you choose or ready me, give me +1 [S] this turn."
+        "accessibility_text": "Riftbound Unit: Draven, Audacious. [Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\nThe first time I win a combat each turn, you score 1 point.\nWhen I die in combat, choose an opponent. They score 1 point."
       },
       "tags": [
-        "Irelia",
-        "Ionia"
+        "Draven",
+        "Noxus"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Irelia Fervent",
-        "updated_on": "2026-07-10T22:44:44.665581+00:00",
+        "clean_name": "Draven Audacious",
+        "updated_on": "2026-07-10T22:44:47.790686+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -8660,44 +8705,47 @@
       "new": false
     },
     {
-      "id": "69bc5bded308c64675ca887b",
-      "name": "Switcheroo",
-      "riftbound_id": "sfd-145-221",
-      "tcgplayer_id": "665023",
-      "collector_number": 145,
+      "id": "69bc5bdbd308c64675ca8842",
+      "name": "Draven - Vanquisher (Alternate Art)",
+      "riftbound_id": "sfd-020a-221",
+      "tcgplayer_id": "664884",
+      "collector_number": 20,
       "attributes": {
-        "energy": 2,
-        "might": null,
-        "power": 2
+        "energy": 4,
+        "might": 4,
+        "power": null
       },
       "classification": {
-        "type": "Spell",
-        "supertype": null,
-        "rarity": "Rare",
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Showcase",
         "domain": [
-          "Chaos"
+          "Fury"
         ]
       },
       "text": {
-        "rich": "<p>[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)<br />[Action] (Play on your turn or in showdowns.)<br />Swap the Might of two units at the same battlefield this turn.</p>",
-        "plain": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)[Action] (Play on your turn or in showdowns.)Swap the Might of two units at the same battlefield this turn.",
-        "flavour": "Always look out for the little guy."
+        "rich": "<p>When I win a combat, play a Gold gear token exhausted.<br />When I attack or defend, you may pay :rb_rune_fury:. If you do, give me +2 :rb_might: this turn.</p>",
+        "plain": "When I win a combat, play a Gold gear token exhausted.When I attack or defend, you may pay :rb_rune_fury:. If you do, give me +2 :rb_might: this turn.",
+        "flavour": "Man, I'm good."
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a4338f495feff5eee46d5349b5fded5e35e76176-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Spell: Switcheroo. [Hidden] (Hide now for [A] to react with later for [0].)\n[Action] (Play on your turn or in showdowns.)\nSwap the Might of two units at the same battlefield this turn."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9019c449004f246de6607bf1829f4f3cabcda200-744x1039.png?accountingTag=RB",
+        "artist": "League Splash Team",
+        "accessibility_text": "Riftbound Unit: Draven, Vanquisher. When I win a combat, play a Gold gear token exhausted.\nWhen I attack or defend, you may pay [C]. If you do, give me +2 [S] this turn."
       },
-      "tags": [],
+      "tags": [
+        "Draven",
+        "Noxus"
+      ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Switcheroo",
-        "updated_on": "2026-07-10T22:44:47.728883+00:00",
-        "alternate_art": false,
+        "clean_name": "Draven Vanquisher Alternate Art",
+        "updated_on": "2026-07-10T22:44:44.609753+00:00",
+        "alternate_art": true,
         "overnumbered": false,
         "signature": false
       },
@@ -9123,46 +9171,47 @@
       "new": false
     },
     {
-      "id": "69bc5bdad308c64675ca8838",
-      "name": "Azir - Emperor of the Sands",
-      "riftbound_id": "sfd-197-221",
-      "tcgplayer_id": "663440",
-      "collector_number": 197,
+      "id": "69bc5be1d308c64675ca88b4",
+      "name": "Azir - Sovereign",
+      "riftbound_id": "sfd-177-221",
+      "tcgplayer_id": "666473",
+      "collector_number": 177,
       "attributes": {
-        "energy": null,
-        "might": null,
+        "energy": 4,
+        "might": 4,
         "power": null
       },
       "classification": {
-        "type": "Legend",
-        "supertype": null,
-        "rarity": "Rare",
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Epic",
         "domain": [
-          "Calm",
           "Order"
         ]
       },
       "text": {
-        "rich": "<p>Your Sand Soldiers have [Weaponmaster].<br />:rb_energy_1:, :rb_exhaust:: Play a 2 :rb_might: Sand Soldier unit token to your base. Use only if you've played an Equipment this turn.</p>",
-        "plain": "Your Sand Soldiers have [Weaponmaster].:rb_energy_1:, :rb_exhaust:: Play a 2 :rb_might: Sand Soldier unit token to your base. Use only if you've played an Equipment this turn.",
-        "flavour": null
+        "rich": "<p>[Accelerate] (You may pay :rb_energy_1::rb_rune_order: as an additional cost to have me enter ready.)<br />When I attack, you may move any number of your token units to this battlefield.</p>",
+        "plain": "[Accelerate] (You may pay :rb_energy_1::rb_rune_order: as an additional cost to have me enter ready.)When I attack, you may move any number of your token units to this battlefield.",
+        "flavour": "You need not follow, but you must witness."
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0472274c49f6540858758ebf9bd2f107a601541a-744x1039.png?accountingTag=RB",
-        "artist": "\u86cb\u8d39\u9e21\u4e01",
-        "accessibility_text": "Riftbound Legend: Emperor of the Sands. Your Sand Soldiers have [Weaponmaster].\n[1], [T]: Play a 2 [S] Sand Soldier unit token to your base. Use only if you've played an Equipment this turn."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/088970936fc800bd2c4b36636734e16c83e1c8f9-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Unit: Azir, Sovereign. [Accelerate] (You may pay [1][C] as an additional cost to have me enter ready.)\nWhen I attack, you may move any number of your token units to this battlefield."
       },
       "tags": [
-        "Azir"
+        "Bird",
+        "Azir",
+        "Shurima"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Azir Emperor of the Sands",
-        "updated_on": "2026-07-10T22:44:44.036541+00:00",
+        "clean_name": "Azir Sovereign",
+        "updated_on": "2026-07-10T22:44:50.906937+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -9170,45 +9219,45 @@
       "new": false
     },
     {
-      "id": "69bc5be1d308c64675ca88b3",
-      "name": "Corina Veraza",
-      "riftbound_id": "sfd-179-221",
-      "tcgplayer_id": "666471",
-      "collector_number": 179,
+      "id": "69bc5be1d308c64675ca88bf",
+      "name": "Sacred Shears",
+      "riftbound_id": "sfd-172-221",
+      "tcgplayer_id": "666487",
+      "collector_number": 172,
       "attributes": {
-        "energy": 7,
-        "might": 6,
+        "energy": 2,
+        "might": null,
         "power": 1
       },
       "classification": {
-        "type": "Unit",
+        "type": "Gear",
         "supertype": null,
-        "rarity": "Epic",
+        "rarity": "Rare",
         "domain": [
           "Order"
         ]
       },
       "text": {
-        "rich": "<p>[Accelerate] (You may pay :rb_energy_1::rb_rune_order: as an additional cost to have me enter ready.)<br />When I move to a battlefield, play three 1 :rb_might: Recruit unit tokens here.</p>",
-        "plain": "[Accelerate] (You may pay :rb_energy_1::rb_rune_order: as an additional cost to have me enter ready.)When I move to a battlefield, play three 1 :rb_might: Recruit unit tokens here.",
-        "flavour": "I told them that every achievement has its cost. I didn't tell them who would pay it."
+        "rich": "<p>[Equip] :rb_rune_order: (:rb_rune_order:: Attach this to a unit you control.)</p>",
+        "plain": "[Equip] :rb_rune_order: (:rb_rune_order:: Attach this to a unit you control.)",
+        "flavour": null
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6b0f55aee4b4f9d0074c808e0fff00dcb7e35377-744x1039.png?accountingTag=RB",
-        "artist": "Six More Vodka",
-        "accessibility_text": "Riftbound Unit: Corina Veraza. [Accelerate] (You may pay [1][C] as an additional cost to have me enter ready.)\nWhen I move to a battlefield, play three 1 [S] Recruit unit tokens here."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/af1069aef68d413127dfa84e4e96b8d66a8720ca-744x1039.png?accountingTag=RB",
+        "artist": "Polar Engine Studio",
+        "accessibility_text": "Riftbound Gear: Sacred Shears. [Equip] [C] ([C]: Attach this to a unit you control.)"
       },
       "tags": [
-        "Zaun"
+        "Equipment"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Corina Veraza",
-        "updated_on": "2026-07-10T22:44:50.851363+00:00",
+        "clean_name": "Sacred Shears",
+        "updated_on": "2026-07-10T22:44:51.512633+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -9679,47 +9728,45 @@
       "new": false
     },
     {
-      "id": "69bc5be1d308c64675ca88b4",
-      "name": "Azir - Sovereign",
-      "riftbound_id": "sfd-177-221",
-      "tcgplayer_id": "666473",
-      "collector_number": 177,
+      "id": "69bc5be1d308c64675ca88c0",
+      "name": "Jae Medarda",
+      "riftbound_id": "sfd-142-221",
+      "tcgplayer_id": "666488",
+      "collector_number": 142,
       "attributes": {
-        "energy": 4,
-        "might": 4,
-        "power": null
+        "energy": 5,
+        "might": 5,
+        "power": 2
       },
       "classification": {
         "type": "Unit",
-        "supertype": "Champion",
-        "rarity": "Epic",
+        "supertype": null,
+        "rarity": "Rare",
         "domain": [
-          "Order"
+          "Chaos"
         ]
       },
       "text": {
-        "rich": "<p>[Accelerate] (You may pay :rb_energy_1::rb_rune_order: as an additional cost to have me enter ready.)<br />When I attack, you may move any number of your token units to this battlefield.</p>",
-        "plain": "[Accelerate] (You may pay :rb_energy_1::rb_rune_order: as an additional cost to have me enter ready.)When I attack, you may move any number of your token units to this battlefield.",
-        "flavour": "You need not follow, but you must witness."
+        "rich": "<p>When you choose me with a spell, draw 1.</p>",
+        "plain": "When you choose me with a spell, draw 1.",
+        "flavour": "A scion of the militant Medarda family, Jae seeks enchanted treasure rather than power or glory."
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/088970936fc800bd2c4b36636734e16c83e1c8f9-744x1039.png?accountingTag=RB",
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/92eac6bb020a068d9c1668b59ecaaeab05112b3f-744x1039.png?accountingTag=RB",
         "artist": "Six More Vodka",
-        "accessibility_text": "Riftbound Unit: Azir, Sovereign. [Accelerate] (You may pay [1][C] as an additional cost to have me enter ready.)\nWhen I attack, you may move any number of your token units to this battlefield."
+        "accessibility_text": "Riftbound Unit: Jae Medarda. When you choose me with a spell, draw 1."
       },
       "tags": [
-        "Bird",
-        "Azir",
-        "Shurima"
+        "Noxus"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Azir Sovereign",
-        "updated_on": "2026-07-10T22:44:50.906937+00:00",
+        "clean_name": "Jae Medarda",
+        "updated_on": "2026-07-10T22:44:51.561256+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -9727,45 +9774,45 @@
       "new": false
     },
     {
-      "id": "69bc5be1d308c64675ca88bf",
-      "name": "Sacred Shears",
-      "riftbound_id": "sfd-172-221",
-      "tcgplayer_id": "666487",
-      "collector_number": 172,
+      "id": "69bc5be1d308c64675ca88b3",
+      "name": "Corina Veraza",
+      "riftbound_id": "sfd-179-221",
+      "tcgplayer_id": "666471",
+      "collector_number": 179,
       "attributes": {
-        "energy": 2,
-        "might": null,
+        "energy": 7,
+        "might": 6,
         "power": 1
       },
       "classification": {
-        "type": "Gear",
+        "type": "Unit",
         "supertype": null,
-        "rarity": "Rare",
+        "rarity": "Epic",
         "domain": [
           "Order"
         ]
       },
       "text": {
-        "rich": "<p>[Equip] :rb_rune_order: (:rb_rune_order:: Attach this to a unit you control.)</p>",
-        "plain": "[Equip] :rb_rune_order: (:rb_rune_order:: Attach this to a unit you control.)",
-        "flavour": null
+        "rich": "<p>[Accelerate] (You may pay :rb_energy_1::rb_rune_order: as an additional cost to have me enter ready.)<br />When I move to a battlefield, play three 1 :rb_might: Recruit unit tokens here.</p>",
+        "plain": "[Accelerate] (You may pay :rb_energy_1::rb_rune_order: as an additional cost to have me enter ready.)When I move to a battlefield, play three 1 :rb_might: Recruit unit tokens here.",
+        "flavour": "I told them that every achievement has its cost. I didn't tell them who would pay it."
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/af1069aef68d413127dfa84e4e96b8d66a8720ca-744x1039.png?accountingTag=RB",
-        "artist": "Polar Engine Studio",
-        "accessibility_text": "Riftbound Gear: Sacred Shears. [Equip] [C] ([C]: Attach this to a unit you control.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6b0f55aee4b4f9d0074c808e0fff00dcb7e35377-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Unit: Corina Veraza. [Accelerate] (You may pay [1][C] as an additional cost to have me enter ready.)\nWhen I move to a battlefield, play three 1 [S] Recruit unit tokens here."
       },
       "tags": [
-        "Equipment"
+        "Zaun"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Sacred Shears",
-        "updated_on": "2026-07-10T22:44:51.512633+00:00",
+        "clean_name": "Corina Veraza",
+        "updated_on": "2026-07-10T22:44:50.851363+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -10198,57 +10245,11 @@
       "new": false
     },
     {
-      "id": "69bc5be0d308c64675ca88a9",
-      "name": "Bard - Mercurial",
-      "riftbound_id": "sfd-079-221",
-      "tcgplayer_id": "666442",
-      "collector_number": 79,
-      "attributes": {
-        "energy": 4,
-        "might": 4,
-        "power": 1
-      },
-      "classification": {
-        "type": "Unit",
-        "supertype": "Champion",
-        "rarity": "Rare",
-        "domain": [
-          "Mind"
-        ]
-      },
-      "text": {
-        "rich": "<p>You may exhaust your legend as an additional cost to play me.<br />When you play me, if you paid the additional cost, move any number of your units to an open battlefield.</p>",
-        "plain": "You may exhaust your legend as an additional cost to play me.When you play me, if you paid the additional cost, move any number of your units to an open battlefield.",
-        "flavour": "(Mysterious chiming noises intensify.)"
-      },
-      "set": {
-        "set_id": "SFD",
-        "label": "Spiritforged"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/edfefb81b8821f548a234d8e6d54fd072d7dc22c-744x1039.png?accountingTag=RB",
-        "artist": "Caravan Studio",
-        "accessibility_text": "Riftbound Unit: Bard, Mercurial. You may exhaust your legend as an additional cost to play me.\nWhen you play me, if you paid the additional cost, move any number of your units to an open battlefield."
-      },
-      "tags": [
-        "Bard"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": "Bard Mercurial",
-        "updated_on": "2026-07-10T22:44:50.296950+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": false
-    },
-    {
-      "id": "69bc5be2d308c64675ca88ca",
-      "name": "Bonds of Strength",
-      "riftbound_id": "sfd-151-221",
-      "tcgplayer_id": "666500",
-      "collector_number": 151,
+      "id": "69bc5be2d308c64675ca88cb",
+      "name": "Hard Bargain",
+      "riftbound_id": "sfd-136-221",
+      "tcgplayer_id": "666501",
+      "collector_number": 136,
       "attributes": {
         "energy": 2,
         "might": null,
@@ -10257,30 +10258,76 @@
       "classification": {
         "type": "Spell",
         "supertype": null,
-        "rarity": "Common",
+        "rarity": "Uncommon",
         "domain": [
-          "Order"
+          "Chaos"
         ]
       },
       "text": {
-        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />[Repeat] :rb_energy_2: (You may pay the additional cost to repeat this spell's effect.)<br />Give two friendly units each +1 :rb_might: this turn.</p>",
-        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)[Repeat] :rb_energy_2: (You may pay the additional cost to repeat this spell's effect.)Give two friendly units each +1 :rb_might: this turn.",
-        "flavour": "A vow is stronger than the words that make it."
+        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />[Repeat] :rb_energy_2: (You may pay the additional cost to repeat this spell's effect.)<br />Counter a spell unless its controller pays :rb_energy_2:.</p>",
+        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)[Repeat] :rb_energy_2: (You may pay the additional cost to repeat this spell's effect.)Counter a spell unless its controller pays :rb_energy_2:.",
+        "flavour": null
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/344034c00d9fad558e98a64efab0310ad4bac37c-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Spell: Bonds of Strength. [Reaction] (Play any time, even before spells and abilities resolve.)\n[Repeat] [2] (You may pay the additional cost to repeat this spell's effect.)\nGive two friendly units each +1 [S] this turn."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2b09887a6e0d2f109aefea62ca6744488794c233-744x1039.png?accountingTag=RB",
+        "artist": "Wild Blue Studios",
+        "accessibility_text": "Riftbound Spell: Hard Bargain. [Reaction] (Play any time, even before spells and abilities resolve.)\n[Repeat] [2] (You may pay the additional cost to repeat this spell's effect.)\nCounter a spell unless its controller pays [2]."
       },
       "tags": [],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Bonds of Strength",
-        "updated_on": "2026-07-10T22:44:52.145574+00:00",
+        "clean_name": "Hard Bargain",
+        "updated_on": "2026-07-10T22:44:52.203264+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": false
+    },
+    {
+      "id": "69bc5be2d308c64675ca88d5",
+      "name": "Ruin Runner",
+      "riftbound_id": "sfd-105-221",
+      "tcgplayer_id": "666586",
+      "collector_number": 105,
+      "attributes": {
+        "energy": 6,
+        "might": 5,
+        "power": null
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": null,
+        "rarity": "Uncommon",
+        "domain": [
+          "Body"
+        ]
+      },
+      "text": {
+        "rich": "<p>I can't be chosen by enemy spells and abilities.</p>",
+        "plain": "I can't be chosen by enemy spells and abilities.",
+        "flavour": "Catch me if you can."
+      },
+      "set": {
+        "set_id": "SFD",
+        "label": "Spiritforged"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/08abcf17d3356325b0c1b83a78a87be855e5a71a-744x1039.png?accountingTag=RB",
+        "artist": "Grafit Studio",
+        "accessibility_text": "Riftbound Unit: Ruin Runner. I can't be chosen by enemy spells and abilities."
+      },
+      "tags": [
+        "Shurima"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Ruin Runner",
+        "updated_on": "2026-07-10T22:44:52.783832+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -10700,11 +10747,57 @@
       "new": false
     },
     {
-      "id": "69bc5be2d308c64675ca88cb",
-      "name": "Hard Bargain",
-      "riftbound_id": "sfd-136-221",
-      "tcgplayer_id": "666501",
-      "collector_number": 136,
+      "id": "69bc5be0d308c64675ca88a9",
+      "name": "Bard - Mercurial",
+      "riftbound_id": "sfd-079-221",
+      "tcgplayer_id": "666442",
+      "collector_number": 79,
+      "attributes": {
+        "energy": 4,
+        "might": 4,
+        "power": 1
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": "Champion",
+        "rarity": "Rare",
+        "domain": [
+          "Mind"
+        ]
+      },
+      "text": {
+        "rich": "<p>You may exhaust your legend as an additional cost to play me.<br />When you play me, if you paid the additional cost, move any number of your units to an open battlefield.</p>",
+        "plain": "You may exhaust your legend as an additional cost to play me.When you play me, if you paid the additional cost, move any number of your units to an open battlefield.",
+        "flavour": "(Mysterious chiming noises intensify.)"
+      },
+      "set": {
+        "set_id": "SFD",
+        "label": "Spiritforged"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/edfefb81b8821f548a234d8e6d54fd072d7dc22c-744x1039.png?accountingTag=RB",
+        "artist": "Caravan Studio",
+        "accessibility_text": "Riftbound Unit: Bard, Mercurial. You may exhaust your legend as an additional cost to play me.\nWhen you play me, if you paid the additional cost, move any number of your units to an open battlefield."
+      },
+      "tags": [
+        "Bard"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Bard Mercurial",
+        "updated_on": "2026-07-10T22:44:50.296950+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": false
+    },
+    {
+      "id": "69bc5be2d308c64675ca88ca",
+      "name": "Bonds of Strength",
+      "riftbound_id": "sfd-151-221",
+      "tcgplayer_id": "666500",
+      "collector_number": 151,
       "attributes": {
         "energy": 2,
         "might": null,
@@ -10713,77 +10806,30 @@
       "classification": {
         "type": "Spell",
         "supertype": null,
-        "rarity": "Uncommon",
+        "rarity": "Common",
         "domain": [
-          "Chaos"
+          "Order"
         ]
       },
       "text": {
-        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />[Repeat] :rb_energy_2: (You may pay the additional cost to repeat this spell's effect.)<br />Counter a spell unless its controller pays :rb_energy_2:.</p>",
-        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)[Repeat] :rb_energy_2: (You may pay the additional cost to repeat this spell's effect.)Counter a spell unless its controller pays :rb_energy_2:.",
-        "flavour": null
+        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />[Repeat] :rb_energy_2: (You may pay the additional cost to repeat this spell's effect.)<br />Give two friendly units each +1 :rb_might: this turn.</p>",
+        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)[Repeat] :rb_energy_2: (You may pay the additional cost to repeat this spell's effect.)Give two friendly units each +1 :rb_might: this turn.",
+        "flavour": "A vow is stronger than the words that make it."
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2b09887a6e0d2f109aefea62ca6744488794c233-744x1039.png?accountingTag=RB",
-        "artist": "Wild Blue Studios",
-        "accessibility_text": "Riftbound Spell: Hard Bargain. [Reaction] (Play any time, even before spells and abilities resolve.)\n[Repeat] [2] (You may pay the additional cost to repeat this spell's effect.)\nCounter a spell unless its controller pays [2]."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/344034c00d9fad558e98a64efab0310ad4bac37c-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Bonds of Strength. [Reaction] (Play any time, even before spells and abilities resolve.)\n[Repeat] [2] (You may pay the additional cost to repeat this spell's effect.)\nGive two friendly units each +1 [S] this turn."
       },
       "tags": [],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Hard Bargain",
-        "updated_on": "2026-07-10T22:44:52.203264+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": false
-    },
-    {
-      "id": "69bc5be0d308c64675ca88a8",
-      "name": "Prize of Progress",
-      "riftbound_id": "sfd-075-221",
-      "tcgplayer_id": "666440",
-      "collector_number": 75,
-      "attributes": {
-        "energy": 4,
-        "might": 3,
-        "power": 1
-      },
-      "classification": {
-        "type": "Unit",
-        "supertype": null,
-        "rarity": "Uncommon",
-        "domain": [
-          "Mind"
-        ]
-      },
-      "text": {
-        "rich": "<p>When you use an activated ability of a gear, give me +1 :rb_might: this turn.</p>",
-        "plain": "When you use an activated ability of a gear, give me +1 :rb_might: this turn.",
-        "flavour": "In Piltover's Progress Day parade, even the floats are groundbreaking innovations."
-      },
-      "set": {
-        "set_id": "SFD",
-        "label": "Spiritforged"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c08f0b6ed24415e6a440a17931c7e2a2db3ab2cc-744x1039.png?accountingTag=RB",
-        "artist": "Six More Vodka",
-        "accessibility_text": "Riftbound Unit: Prize of Progress. When you use an activated ability of a gear, give me +1 [S] this turn."
-      },
-      "tags": [
-        "Mech",
-        "Piltover"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": "Prize of Progress",
-        "updated_on": "2026-07-10T22:44:50.238844+00:00",
+        "clean_name": "Bonds of Strength",
+        "updated_on": "2026-07-10T22:44:52.145574+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -11200,45 +11246,45 @@
       "new": false
     },
     {
-      "id": "69bc5be1d308c64675ca88c0",
-      "name": "Jae Medarda",
-      "riftbound_id": "sfd-142-221",
-      "tcgplayer_id": "666488",
-      "collector_number": 142,
+      "id": "69bc5bded308c64675ca8887",
+      "name": "Boneshiver",
+      "riftbound_id": "sfd-118-221",
+      "tcgplayer_id": "665138",
+      "collector_number": 118,
       "attributes": {
-        "energy": 5,
-        "might": 5,
-        "power": 2
+        "energy": 3,
+        "might": null,
+        "power": null
       },
       "classification": {
-        "type": "Unit",
+        "type": "Gear",
         "supertype": null,
-        "rarity": "Rare",
+        "rarity": "Epic",
         "domain": [
-          "Chaos"
+          "Body"
         ]
       },
       "text": {
-        "rich": "<p>When you choose me with a spell, draw 1.</p>",
-        "plain": "When you choose me with a spell, draw 1.",
-        "flavour": "A scion of the militant Medarda family, Jae seeks enchanted treasure rather than power or glory."
+        "rich": "<p>[Equip] :rb_energy_1::rb_rune_body: (:rb_energy_1::rb_rune_body:: Attach this to a unit you control.)</p>",
+        "plain": "[Equip] :rb_energy_1::rb_rune_body: (:rb_energy_1::rb_rune_body:: Attach this to a unit you control.)",
+        "flavour": null
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/92eac6bb020a068d9c1668b59ecaaeab05112b3f-744x1039.png?accountingTag=RB",
-        "artist": "Six More Vodka",
-        "accessibility_text": "Riftbound Unit: Jae Medarda. When you choose me with a spell, draw 1."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c3e4d8c3f3975a7429428ac90e5ebcffa1f8e5a9-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "accessibility_text": "Riftbound Gear: Boneshiver. [Equip] [1][C] ([1][C]: Attach this to a unit you control.)"
       },
       "tags": [
-        "Noxus"
+        "Equipment"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Jae Medarda",
-        "updated_on": "2026-07-10T22:44:51.561256+00:00",
+        "clean_name": "Boneshiver",
+        "updated_on": "2026-07-10T22:44:48.410327+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -11246,45 +11292,43 @@
       "new": false
     },
     {
-      "id": "69bc5bded308c64675ca8886",
-      "name": "Void Drone",
-      "riftbound_id": "sfd-010-221",
-      "tcgplayer_id": "665136",
-      "collector_number": 10,
+      "id": "69bc5bdfd308c64675ca8892",
+      "name": "Not So Fast",
+      "riftbound_id": "sfd-045-221",
+      "tcgplayer_id": "665592",
+      "collector_number": 45,
       "attributes": {
-        "energy": 3,
-        "might": 3,
-        "power": null
+        "energy": 2,
+        "might": null,
+        "power": 1
       },
       "classification": {
-        "type": "Unit",
+        "type": "Spell",
         "supertype": null,
-        "rarity": "Common",
+        "rarity": "Uncommon",
         "domain": [
-          "Fury"
+          "Calm"
         ]
       },
       "text": {
-        "rich": "<p>I cost :rb_energy_2: less to play from anywhere other than your hand.</p>",
-        "plain": "I cost :rb_energy_2: less to play from anywhere other than your hand.",
-        "flavour": "Rek'Sai's children appear without warning, ambushing their prey from beneath the shuriman sands."
+        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />Counter an enemy spell or ability that chooses a friendly unit or gear.</p>",
+        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)Counter an enemy spell or ability that chooses a friendly unit or gear.",
+        "flavour": null
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/589dde45bc610eb83bc808803e4becf8a6d2da84-744x1039.png?accountingTag=RB",
-        "artist": "Wild Blue Studios",
-        "accessibility_text": "Riftbound Unit: Void Drone. I cost [2] less to play from anywhere other than your hand."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e576fefdce72ad862a7e374bf8c0fd509f359da9-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Not So Fast. [Reaction] (Play any time, even before spells and abilities resolve.)\nCounter an enemy spell or ability that chooses a friendly unit or gear."
       },
-      "tags": [
-        "The Void"
-      ],
+      "tags": [],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Void Drone",
-        "updated_on": "2026-07-10T22:44:48.359565+00:00",
+        "clean_name": "Not So Fast",
+        "updated_on": "2026-07-10T22:44:49.001339+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -11754,27 +11798,27 @@
       "new": false
     },
     {
-      "id": "69bc5bded308c64675ca8887",
-      "name": "Boneshiver",
-      "riftbound_id": "sfd-118-221",
-      "tcgplayer_id": "665138",
-      "collector_number": 118,
+      "id": "69bc5bdfd308c64675ca8893",
+      "name": "Ravenbloom Conservatory",
+      "riftbound_id": "sfd-215-221",
+      "tcgplayer_id": "665593",
+      "collector_number": 215,
       "attributes": {
-        "energy": 3,
+        "energy": null,
         "might": null,
         "power": null
       },
       "classification": {
-        "type": "Gear",
+        "type": "Battlefield",
         "supertype": null,
-        "rarity": "Epic",
+        "rarity": "Uncommon",
         "domain": [
-          "Body"
+          "Colorless"
         ]
       },
       "text": {
-        "rich": "<p>[Equip] :rb_energy_1::rb_rune_body: (:rb_energy_1::rb_rune_body:: Attach this to a unit you control.)</p>",
-        "plain": "[Equip] :rb_energy_1::rb_rune_body: (:rb_energy_1::rb_rune_body:: Attach this to a unit you control.)",
+        "rich": "<p>When you defend here, reveal the top card of your Main Deck. If it's a spell, put it in your hand. Otherwise, recycle it.</p>",
+        "plain": "When you defend here, reveal the top card of your Main Deck. If it's a spell, put it in your hand. Otherwise, recycle it.",
         "flavour": null
       },
       "set": {
@@ -11782,17 +11826,15 @@
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c3e4d8c3f3975a7429428ac90e5ebcffa1f8e5a9-744x1039.png?accountingTag=RB",
-        "artist": "Envar Studio",
-        "accessibility_text": "Riftbound Gear: Boneshiver. [Equip] [1][C] ([1][C]: Attach this to a unit you control.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6d820754b197eb5fb2af7567b7a7573e9a076e51-1039x744.png?accountingTag=RB",
+        "artist": "Will Gist",
+        "accessibility_text": "Riftbound Battlefield: Ravenbloom Conservatory. When you defend here, reveal the top card of your Main Deck. If it's a spell, put it in your hand. Otherwise, recycle it."
       },
-      "tags": [
-        "Equipment"
-      ],
-      "orientation": "portrait",
+      "tags": [],
+      "orientation": "landscape",
       "metadata": {
-        "clean_name": "Boneshiver",
-        "updated_on": "2026-07-10T22:44:48.410327+00:00",
+        "clean_name": "Ravenbloom Conservatory",
+        "updated_on": "2026-07-10T22:44:49.055010+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -11800,43 +11842,45 @@
       "new": false
     },
     {
-      "id": "69bc5bdfd308c64675ca8892",
-      "name": "Not So Fast",
-      "riftbound_id": "sfd-045-221",
-      "tcgplayer_id": "665592",
-      "collector_number": 45,
+      "id": "69bc5bded308c64675ca8886",
+      "name": "Void Drone",
+      "riftbound_id": "sfd-010-221",
+      "tcgplayer_id": "665136",
+      "collector_number": 10,
       "attributes": {
-        "energy": 2,
-        "might": null,
-        "power": 1
+        "energy": 3,
+        "might": 3,
+        "power": null
       },
       "classification": {
-        "type": "Spell",
+        "type": "Unit",
         "supertype": null,
-        "rarity": "Uncommon",
+        "rarity": "Common",
         "domain": [
-          "Calm"
+          "Fury"
         ]
       },
       "text": {
-        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />Counter an enemy spell or ability that chooses a friendly unit or gear.</p>",
-        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)Counter an enemy spell or ability that chooses a friendly unit or gear.",
-        "flavour": null
+        "rich": "<p>I cost :rb_energy_2: less to play from anywhere other than your hand.</p>",
+        "plain": "I cost :rb_energy_2: less to play from anywhere other than your hand.",
+        "flavour": "Rek'Sai's children appear without warning, ambushing their prey from beneath the shuriman sands."
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e576fefdce72ad862a7e374bf8c0fd509f359da9-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Spell: Not So Fast. [Reaction] (Play any time, even before spells and abilities resolve.)\nCounter an enemy spell or ability that chooses a friendly unit or gear."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/589dde45bc610eb83bc808803e4becf8a6d2da84-744x1039.png?accountingTag=RB",
+        "artist": "Wild Blue Studios",
+        "accessibility_text": "Riftbound Unit: Void Drone. I cost [2] less to play from anywhere other than your hand."
       },
-      "tags": [],
+      "tags": [
+        "The Void"
+      ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Not So Fast",
-        "updated_on": "2026-07-10T22:44:49.001339+00:00",
+        "clean_name": "Void Drone",
+        "updated_on": "2026-07-10T22:44:48.359565+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -12263,61 +12307,14 @@
       "new": false
     },
     {
-      "id": "69bc5bded308c64675ca887c",
-      "name": "Draven - Audacious",
-      "riftbound_id": "sfd-148-221",
-      "tcgplayer_id": "665027",
-      "collector_number": 148,
+      "id": "69bc5be0d308c64675ca889e",
+      "name": "Jax - Unmatched",
+      "riftbound_id": "sfd-054-221",
+      "tcgplayer_id": "666402",
+      "collector_number": 54,
       "attributes": {
-        "energy": 6,
-        "might": 6,
-        "power": 1
-      },
-      "classification": {
-        "type": "Unit",
-        "supertype": "Champion",
-        "rarity": "Epic",
-        "domain": [
-          "Chaos"
-        ]
-      },
-      "text": {
-        "rich": "<p>[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)<br />The first time I win a combat each turn, you score 1 point.<br />When I die in combat, choose an opponent. They score 1 point.</p>",
-        "plain": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)The first time I win a combat each turn, you score 1 point.When I die in combat, choose an opponent. They score 1 point.",
-        "flavour": null
-      },
-      "set": {
-        "set_id": "SFD",
-        "label": "Spiritforged"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8247622cbe90eadada8d0660ea31d146b1207a87-744x1039.png?accountingTag=RB",
-        "artist": "Six More Vodka",
-        "accessibility_text": "Riftbound Unit: Draven, Audacious. [Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\nThe first time I win a combat each turn, you score 1 point.\nWhen I die in combat, choose an opponent. They score 1 point."
-      },
-      "tags": [
-        "Draven",
-        "Noxus"
-      ],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": "Draven Audacious",
-        "updated_on": "2026-07-10T22:44:47.790686+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": false
-    },
-    {
-      "id": "69bc5be0d308c64675ca889d",
-      "name": "Azir - Ascendant",
-      "riftbound_id": "sfd-050-221",
-      "tcgplayer_id": "666398",
-      "collector_number": 50,
-      "attributes": {
-        "energy": 6,
-        "might": 6,
+        "energy": 5,
+        "might": 5,
         "power": 1
       },
       "classification": {
@@ -12329,28 +12326,74 @@
         ]
       },
       "text": {
-        "rich": "<p>:rb_rune_calm:: [Action] \u2014 Choose a unit you control. Move me to its location and it to my original location. If it's equipped, you may attach one of its Equipment to me. Use only once per turn.</p>",
-        "plain": ":rb_rune_calm:: [Action] \u2014 Choose a unit you control. Move me to its location and it to my original location. If it's equipped, you may attach one of its Equipment to me. Use only once per turn.",
-        "flavour": "Challenge Shurima, challenge fate."
+        "rich": "<p>[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)<br />Each Equipment in your hand has [Quick-Draw]. (It gains [Reaction]. When you play it, attach it to a unit you control.)</p>",
+        "plain": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)Each Equipment in your hand has [Quick-Draw]. (It gains [Reaction]. When you play it, attach it to a unit you control.)",
+        "flavour": "Fighting Words! My favorite kind."
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3c42c02f6ebd2e4d4a640c2c6ac081231439888e-744x1039.png?accountingTag=RB",
-        "artist": "Six More Vodka",
-        "accessibility_text": "Riftbound Unit: Azir, Ascendant. [C]: [Action] \u2014 Choose a unit you control. Move me to its location and it to my original location. If it's equipped, you may attach one of its Equipment to me. Use only once per turn."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3d425589c74dbff818fa09db134fdd8bb7136420-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "accessibility_text": "Riftbound Unit: Jax, Unmatched. [Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\nEach Equipment in your hand has [Quick-Draw]. (It gains [Reaction]. When you play it, attach it to a unit you control.)"
       },
       "tags": [
-        "Bird",
-        "Azir",
-        "Shurima"
+        "Jax",
+        "Icathia"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Azir Ascendant",
-        "updated_on": "2026-07-10T22:44:49.613425+00:00",
+        "clean_name": "Jax Unmatched",
+        "updated_on": "2026-07-10T22:44:49.671367+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": false
+    },
+    {
+      "id": "69bc5be0d308c64675ca88a8",
+      "name": "Prize of Progress",
+      "riftbound_id": "sfd-075-221",
+      "tcgplayer_id": "666440",
+      "collector_number": 75,
+      "attributes": {
+        "energy": 4,
+        "might": 3,
+        "power": 1
+      },
+      "classification": {
+        "type": "Unit",
+        "supertype": null,
+        "rarity": "Uncommon",
+        "domain": [
+          "Mind"
+        ]
+      },
+      "text": {
+        "rich": "<p>When you use an activated ability of a gear, give me +1 :rb_might: this turn.</p>",
+        "plain": "When you use an activated ability of a gear, give me +1 :rb_might: this turn.",
+        "flavour": "In Piltover's Progress Day parade, even the floats are groundbreaking innovations."
+      },
+      "set": {
+        "set_id": "SFD",
+        "label": "Spiritforged"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c08f0b6ed24415e6a440a17931c7e2a2db3ab2cc-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Unit: Prize of Progress. When you use an activated ability of a gear, give me +1 [S] this turn."
+      },
+      "tags": [
+        "Mech",
+        "Piltover"
+      ],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Prize of Progress",
+        "updated_on": "2026-07-10T22:44:50.238844+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -12779,14 +12822,14 @@
       "new": false
     },
     {
-      "id": "69bc5be0d308c64675ca889e",
-      "name": "Jax - Unmatched",
-      "riftbound_id": "sfd-054-221",
-      "tcgplayer_id": "666402",
-      "collector_number": 54,
+      "id": "69bc5be0d308c64675ca889d",
+      "name": "Azir - Ascendant",
+      "riftbound_id": "sfd-050-221",
+      "tcgplayer_id": "666398",
+      "collector_number": 50,
       "attributes": {
-        "energy": 5,
-        "might": 5,
+        "energy": 6,
+        "might": 6,
         "power": 1
       },
       "classification": {
@@ -12798,27 +12841,28 @@
         ]
       },
       "text": {
-        "rich": "<p>[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)<br />Each Equipment in your hand has [Quick-Draw]. (It gains [Reaction]. When you play it, attach it to a unit you control.)</p>",
-        "plain": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)Each Equipment in your hand has [Quick-Draw]. (It gains [Reaction]. When you play it, attach it to a unit you control.)",
-        "flavour": "Fighting Words! My favorite kind."
+        "rich": "<p>:rb_rune_calm:: [Action] \u2014 Choose a unit you control. Move me to its location and it to my original location. If it's equipped, you may attach one of its Equipment to me. Use only once per turn.</p>",
+        "plain": ":rb_rune_calm:: [Action] \u2014 Choose a unit you control. Move me to its location and it to my original location. If it's equipped, you may attach one of its Equipment to me. Use only once per turn.",
+        "flavour": "Challenge Shurima, challenge fate."
       },
       "set": {
         "set_id": "SFD",
         "label": "Spiritforged"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3d425589c74dbff818fa09db134fdd8bb7136420-744x1039.png?accountingTag=RB",
-        "artist": "Envar Studio",
-        "accessibility_text": "Riftbound Unit: Jax, Unmatched. [Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\nEach Equipment in your hand has [Quick-Draw]. (It gains [Reaction]. When you play it, attach it to a unit you control.)"
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3c42c02f6ebd2e4d4a640c2c6ac081231439888e-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Unit: Azir, Ascendant. [C]: [Action] \u2014 Choose a unit you control. Move me to its location and it to my original location. If it's equipped, you may attach one of its Equipment to me. Use only once per turn."
       },
       "tags": [
-        "Jax",
-        "Icathia"
+        "Bird",
+        "Azir",
+        "Shurima"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Jax Unmatched",
-        "updated_on": "2026-07-10T22:44:49.671367+00:00",
+        "clean_name": "Azir Ascendant",
+        "updated_on": "2026-07-10T22:44:49.613425+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -13242,50 +13286,6 @@
         "updated_on": "2026-07-10T22:44:49.109334+00:00",
         "alternate_art": false,
         "overnumbered": true,
-        "signature": false
-      },
-      "new": false
-    },
-    {
-      "id": "69bc5bdfd308c64675ca8893",
-      "name": "Ravenbloom Conservatory",
-      "riftbound_id": "sfd-215-221",
-      "tcgplayer_id": "665593",
-      "collector_number": 215,
-      "attributes": {
-        "energy": null,
-        "might": null,
-        "power": null
-      },
-      "classification": {
-        "type": "Battlefield",
-        "supertype": null,
-        "rarity": "Uncommon",
-        "domain": [
-          "Colorless"
-        ]
-      },
-      "text": {
-        "rich": "<p>When you defend here, reveal the top card of your Main Deck. If it's a spell, put it in your hand. Otherwise, recycle it.</p>",
-        "plain": "When you defend here, reveal the top card of your Main Deck. If it's a spell, put it in your hand. Otherwise, recycle it.",
-        "flavour": null
-      },
-      "set": {
-        "set_id": "SFD",
-        "label": "Spiritforged"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6d820754b197eb5fb2af7567b7a7573e9a076e51-1039x744.png?accountingTag=RB",
-        "artist": "Will Gist",
-        "accessibility_text": "Riftbound Battlefield: Ravenbloom Conservatory. When you defend here, reveal the top card of your Main Deck. If it's a spell, put it in your hand. Otherwise, recycle it."
-      },
-      "tags": [],
-      "orientation": "landscape",
-      "metadata": {
-        "clean_name": "Ravenbloom Conservatory",
-        "updated_on": "2026-07-10T22:44:49.055010+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
         "signature": false
       },
       "new": false

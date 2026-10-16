@@ -1,6 +1,50 @@
 {
   "items": [
     {
+      "id": "69bc5bd9d308c64675ca8820",
+      "name": "Flash",
+      "riftbound_id": "ogs-011-024",
+      "tcgplayer_id": "653146",
+      "collector_number": 11,
+      "attributes": {
+        "energy": 2,
+        "might": null,
+        "power": null
+      },
+      "classification": {
+        "type": "Spell",
+        "supertype": null,
+        "rarity": "Common",
+        "domain": [
+          "Chaos"
+        ]
+      },
+      "text": {
+        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />Move up to 2 friendly units to base.</p>",
+        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)Move up to 2 friendly units to base.",
+        "flavour": "It's not running away. It's strategic positioning."
+      },
+      "set": {
+        "set_id": "OGS",
+        "label": "Proving Grounds"
+      },
+      "media": {
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4d9cc1c13b75933e509e642213f13359350cd3f9-744x1039.png?accountingTag=RB",
+        "artist": "Sugar Free",
+        "accessibility_text": "Riftbound Spell: Flash. [Reaction] (Play any time, even before spells and abilities resolve.)\nMove up to 2 friendly units to base."
+      },
+      "tags": [],
+      "orientation": "portrait",
+      "metadata": {
+        "clean_name": "Flash",
+        "updated_on": "2026-07-10T22:44:42.676615+00:00",
+        "alternate_art": false,
+        "overnumbered": false,
+        "signature": false
+      },
+      "new": false
+    },
+    {
       "id": "69bc5bd9d308c64675ca881f",
       "name": "Annie - Stubborn",
       "riftbound_id": "ogs-010-024",
@@ -463,43 +507,43 @@
       "new": false
     },
     {
-      "id": "69bc5bd9d308c64675ca8820",
-      "name": "Flash",
-      "riftbound_id": "ogs-011-024",
-      "tcgplayer_id": "653146",
-      "collector_number": 11,
+      "id": "69bc5bd9d308c64675ca8821",
+      "name": "Blast of Power",
+      "riftbound_id": "ogs-012-024",
+      "tcgplayer_id": "653147",
+      "collector_number": 12,
       "attributes": {
-        "energy": 2,
+        "energy": 6,
         "might": null,
-        "power": null
+        "power": 1
       },
       "classification": {
         "type": "Spell",
         "supertype": null,
         "rarity": "Common",
         "domain": [
-          "Chaos"
+          "Order"
         ]
       },
       "text": {
-        "rich": "<p>[Reaction] (Play any time, even before spells and abilities resolve.)<br />Move up to 2 friendly units to base.</p>",
-        "plain": "[Reaction] (Play any time, even before spells and abilities resolve.)Move up to 2 friendly units to base.",
-        "flavour": "It's not running away. It's strategic positioning."
+        "rich": "<p>[Action] (Play on your turn or in showdowns.)<br />Kill a unit at a battlefield.</p>",
+        "plain": "[Action] (Play on your turn or in showdowns.)Kill a unit at a battlefield.",
+        "flavour": "Illuminate the enemy!\" -Lux"
       },
       "set": {
         "set_id": "OGS",
         "label": "Proving Grounds"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4d9cc1c13b75933e509e642213f13359350cd3f9-744x1039.png?accountingTag=RB",
-        "artist": "Sugar Free",
-        "accessibility_text": "Riftbound Spell: Flash. [Reaction] (Play any time, even before spells and abilities resolve.)\nMove up to 2 friendly units to base."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/026f851a703601fce4142c0791e913377c170b47-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Blast of Power. [Action] (Play on your turn or in showdowns.)\nKill a unit at a battlefield."
       },
       "tags": [],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Flash",
-        "updated_on": "2026-07-10T22:44:42.676615+00:00",
+        "clean_name": "Blast of Power",
+        "updated_on": "2026-07-10T22:44:42.731109+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -507,28 +551,28 @@
       "new": false
     },
     {
-      "id": "69bc5bd9d308c64675ca882b",
-      "name": "Final Spark",
-      "riftbound_id": "ogs-022-024",
-      "tcgplayer_id": "653157",
-      "collector_number": 22,
+      "id": "69bc5bd9d308c64675ca882c",
+      "name": "Garen - Might of Demacia (Starter)",
+      "riftbound_id": "ogs-023-024",
+      "tcgplayer_id": "653158",
+      "collector_number": 23,
       "attributes": {
-        "energy": 8,
+        "energy": null,
         "might": null,
         "power": null
       },
       "classification": {
-        "type": "Spell",
-        "supertype": "Signature",
-        "rarity": "Epic",
+        "type": "Legend",
+        "supertype": "Champion",
+        "rarity": "Rare",
         "domain": [
-          "Mind",
+          "Body",
           "Order"
         ]
       },
       "text": {
-        "rich": "<p>[Action] (Play on your turn or in showdowns.)<br />Deal 8 to a unit.</p>",
-        "plain": "[Action] (Play on your turn or in showdowns.)Deal 8 to a unit.",
+        "rich": "<p>When you conquer, if you have 4+ units at that battlefield, draw 2.</p>",
+        "plain": "When you conquer, if you have 4+ units at that battlefield, draw 2.",
         "flavour": null
       },
       "set": {
@@ -536,17 +580,17 @@
         "label": "Proving Grounds"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4558a2dc1bb1f1b8a73ec0d82244654e84b12687-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Spell: Final Spark. [Action] (Play on your turn or in showdowns.)\nDeal 8 to a unit."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e7185deb46f17770802d06aeddfe3b929afff880-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "accessibility_text": "Riftbound Legend: Might of Demacia - Starter. When you conquer, if you have 4+ units at that battlefield, draw 2."
       },
       "tags": [
-        "Lux"
+        "Garen"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Final Spark",
-        "updated_on": "2026-07-10T22:44:43.291623+00:00",
+        "clean_name": "Garen Might of Demacia Starter",
+        "updated_on": "2026-07-10T22:44:43.339189+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -601,28 +645,28 @@
       "new": false
     },
     {
-      "id": "69bc5bd9d308c64675ca882c",
-      "name": "Garen - Might of Demacia (Starter)",
-      "riftbound_id": "ogs-023-024",
-      "tcgplayer_id": "653158",
-      "collector_number": 23,
+      "id": "69bc5bd9d308c64675ca882b",
+      "name": "Final Spark",
+      "riftbound_id": "ogs-022-024",
+      "tcgplayer_id": "653157",
+      "collector_number": 22,
       "attributes": {
-        "energy": null,
+        "energy": 8,
         "might": null,
         "power": null
       },
       "classification": {
-        "type": "Legend",
-        "supertype": "Champion",
-        "rarity": "Rare",
+        "type": "Spell",
+        "supertype": "Signature",
+        "rarity": "Epic",
         "domain": [
-          "Body",
+          "Mind",
           "Order"
         ]
       },
       "text": {
-        "rich": "<p>When you conquer, if you have 4+ units at that battlefield, draw 2.</p>",
-        "plain": "When you conquer, if you have 4+ units at that battlefield, draw 2.",
+        "rich": "<p>[Action] (Play on your turn or in showdowns.)<br />Deal 8 to a unit.</p>",
+        "plain": "[Action] (Play on your turn or in showdowns.)Deal 8 to a unit.",
         "flavour": null
       },
       "set": {
@@ -630,17 +674,17 @@
         "label": "Proving Grounds"
       },
       "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e7185deb46f17770802d06aeddfe3b929afff880-744x1039.png?accountingTag=RB",
-        "artist": "Six More Vodka",
-        "accessibility_text": "Riftbound Legend: Might of Demacia - Starter. When you conquer, if you have 4+ units at that battlefield, draw 2."
+        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4558a2dc1bb1f1b8a73ec0d82244654e84b12687-744x1039.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "accessibility_text": "Riftbound Spell: Final Spark. [Action] (Play on your turn or in showdowns.)\nDeal 8 to a unit."
       },
       "tags": [
-        "Garen"
+        "Lux"
       ],
       "orientation": "portrait",
       "metadata": {
-        "clean_name": "Garen Might of Demacia Starter",
-        "updated_on": "2026-07-10T22:44:43.339189+00:00",
+        "clean_name": "Final Spark",
+        "updated_on": "2026-07-10T22:44:43.291623+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false
@@ -1062,50 +1106,6 @@
       "metadata": {
         "clean_name": "Garen Commander",
         "updated_on": "2026-07-10T22:44:42.787799+00:00",
-        "alternate_art": false,
-        "overnumbered": false,
-        "signature": false
-      },
-      "new": false
-    },
-    {
-      "id": "69bc5bd9d308c64675ca8821",
-      "name": "Blast of Power",
-      "riftbound_id": "ogs-012-024",
-      "tcgplayer_id": "653147",
-      "collector_number": 12,
-      "attributes": {
-        "energy": 6,
-        "might": null,
-        "power": 1
-      },
-      "classification": {
-        "type": "Spell",
-        "supertype": null,
-        "rarity": "Common",
-        "domain": [
-          "Order"
-        ]
-      },
-      "text": {
-        "rich": "<p>[Action] (Play on your turn or in showdowns.)<br />Kill a unit at a battlefield.</p>",
-        "plain": "[Action] (Play on your turn or in showdowns.)Kill a unit at a battlefield.",
-        "flavour": "Illuminate the enemy!\" -Lux"
-      },
-      "set": {
-        "set_id": "OGS",
-        "label": "Proving Grounds"
-      },
-      "media": {
-        "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/026f851a703601fce4142c0791e913377c170b47-744x1039.png?accountingTag=RB",
-        "artist": "Kudos Productions",
-        "accessibility_text": "Riftbound Spell: Blast of Power. [Action] (Play on your turn or in showdowns.)\nKill a unit at a battlefield."
-      },
-      "tags": [],
-      "orientation": "portrait",
-      "metadata": {
-        "clean_name": "Blast of Power",
-        "updated_on": "2026-07-10T22:44:42.731109+00:00",
         "alternate_art": false,
         "overnumbered": false,
         "signature": false

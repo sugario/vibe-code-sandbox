@@ -26,3 +26,4 @@ Choose a project to explore:
 - [Nemesis Draft System 🔗](nemesis-draft/index.html)
 - [Blood Bowl 2025 - Team Management 🔗](bb-2025-team-management/index.html)
 - [Riftcodex Viewer 🔗](riftcodex-viewer/index.html)
+- [Rifthunt Viewer 🔗](rifthunt-viewer/index.html)

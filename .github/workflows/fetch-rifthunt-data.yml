@@ -1,0 +1,130 @@
+name: Fetch RiftHunt Card Data
+
+on:
+  workflow_dispatch: # Manual trigger only
+
+jobs:
+  fetch-cards:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Fetch card data from RiftHunt
+        run: |
+          python << 'EOF2'
+          import json
+          import os
+          import time
+          from datetime import datetime, timezone
+
+          import requests
+
+          BULK_URL = 'https://api.rifthunt.com/bulk/cards'
+          HEADERS = {'User-Agent': 'vibe-code-sandbox-rifthunt-viewer/1.0'}
+          MAX_RETRIES = 4
+          FALLBACK_WAIT_SECONDS = [15, 30, 45]
+
+          os.makedirs('rifthunt-viewer/data', exist_ok=True)
+
+          # One request returns the whole catalogue (RiftHunt asks for bulk data instead of per-card calls)
+          bulk = None
+          for attempt in range(MAX_RETRIES + 1):
+              print(f'Fetching {BULK_URL} (attempt {attempt + 1})...')
+              response = requests.get(BULK_URL, headers=HEADERS, timeout=60)
+
+              # A rate limit answer is plain text, so check the status before parsing JSON
+              if response.status_code == 429:
+                  if attempt == MAX_RETRIES:
+                      raise SystemExit('RiftHunt rate limit reached, giving up')
+                  retry_after = response.headers.get('Retry-After')
+                  wait = int(retry_after) + 1 if retry_after and retry_after.isdigit() else FALLBACK_WAIT_SECONDS[min(attempt, 2)]
+                  print(f'Rate limited, waiting {wait} seconds')
+                  time.sleep(wait)
+                  continue
+
+              response.raise_for_status()
+              bulk = response.json()
+              break
+
+          cards = bulk['cards']
+          sets = bulk['sets']
+          print(f'\n✓ Fetched {len(cards)} total cards')
+
+          # Group cards by set
+          sets_data = {}
+          for card in cards:
+              set_id = card.get('set')
+              if set_id:
+                  sets_data.setdefault(set_id, []).append(card)
+
+          # Save individual set files
+          all_sets_data = {}
+          successful_sets = []
+
+          for set_info in sets:
+              set_code = set_info['id']
+              if set_code in sets_data:
+                  set_data = {'items': sets_data[set_code]}
+
+                  with open(f'rifthunt-viewer/data/{set_code}.json', 'w') as f:
+                      json.dump(set_data, f, indent=2)
+
+                  all_sets_data[set_code] = set_data
+                  successful_sets.append(set_code)
+                  print(f'✓ Saved {len(sets_data[set_code])} cards for {set_code}')
+              else:
+                  print(f'⚠ No cards found for {set_code}')
+
+          failed_sets = [s['id'] for s in sets if s['id'] not in successful_sets]
+
+          # Save combined data
+          with open('rifthunt-viewer/data/all-sets.json', 'w') as f:
+              json.dump(all_sets_data, f, indent=2)
+
+          # Save metadata
+          metadata = {
+              'last_updated': datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z'),
+              'api_fetched': bulk.get('fetched'),
+              'successful_sets': successful_sets,
+              'failed_sets': failed_sets,
+              'total_sets': len(successful_sets),
+              'sets_available': successful_sets,
+              'set_names': {s['id']: s.get('name') for s in sets}
+          }
+
+          with open('rifthunt-viewer/data/metadata.json', 'w') as f:
+              json.dump(metadata, f, indent=2)
+
+          print(f'\n✓ Successfully fetched {len(successful_sets)} sets')
+          print(f'  Sets: {", ".join(successful_sets)}')
+          if failed_sets:
+              print(f'✗ Failed sets: {", ".join(failed_sets)}')
+
+          EOF2
+
+      - name: Commit and push if changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add rifthunt-viewer/data/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update RiftHunt card data - $(date -u +'%d-%m-%Y %H:%M UTC')"
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
+          fi

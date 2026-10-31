@@ -1,0 +1,45 @@
+{
+  "last_updated": "2026-10-31T09:38:48.005222Z",
+  "api_fetched": "2026-10-29T19:06:16.956Z",
+  "successful_sets": [
+    "UNL",
+    "VEN",
+    "OGN",
+    "SFD",
+    "RAD",
+    "OGS",
+    "PR",
+    "OPP",
+    "JDG",
+    "RWB",
+    "SGN"
+  ],
+  "failed_sets": [],
+  "total_sets": 11,
+  "sets_available": [
+    "UNL",
+    "VEN",
+    "OGN",
+    "SFD",
+    "RAD",
+    "OGS",
+    "PR",
+    "OPP",
+    "JDG",
+    "RWB",
+    "SGN"
+  ],
+  "set_names": {
+    "UNL": "Unleashed",
+    "VEN": "Vendetta",
+    "OGN": "Origins",
+    "SFD": "Spiritforged",
+    "RAD": "Radiance",
+    "OGS": "Proving Grounds",
+    "PR": "Riftbound Promotional Cards",
+    "OPP": "Riftbound Organized Play Promotional Cards",
+    "JDG": "Riftbound Judge Promotional Cards",
+    "RWB": "Riftbound Worlds Bundle 2025",
+    "SGN": "Secret Garden"
+  }
+}

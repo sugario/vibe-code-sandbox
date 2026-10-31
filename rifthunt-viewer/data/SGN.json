@@ -1,0 +1,106 @@
+{
+  "items": [
+    {
+      "id": "tcg:710873",
+      "riftboundId": "sgn-003-003",
+      "name": "Ultrasoft Poro",
+      "cleanName": "Ultrasoft Poro",
+      "num": 3,
+      "energy": 5,
+      "might": 5,
+      "power": null,
+      "type": "Unit",
+      "supertype": null,
+      "rarity": "Promo",
+      "domains": [
+        "Order"
+      ],
+      "text": ":rb_exhaust:: Play two 1 :rb_might: Bird unit tokens with [Deflect]. Use this ability only while I'm at a battlefield. (Opponents must pay :rb_rune_rainbow: to choose a [Deflect] unit with a spell or ability.)",
+      "rich": "<p>:rb_exhaust:: Play two 1 :rb_might: Bird unit tokens with [Deflect]. Use this ability only while I'm at a battlefield. (Opponents must pay :rb_rune_rainbow: to choose a [Deflect] unit with a spell or ability.)</p>",
+      "flavour": null,
+      "set": "SGN",
+      "setName": "Secret Garden",
+      "tags": [
+        "Poro",
+        "Freljord"
+      ],
+      "artist": "Fireball Studio",
+      "tcgId": "710873",
+      "imgUrl": "https://tcgplayer-cdn.tcgplayer.com/product/710873_in_1000x1000.jpg",
+      "img": null,
+      "orientation": "portrait",
+      "alt": false,
+      "sig": false,
+      "over": false,
+      "imgHash": "5b02b2519e3e"
+    },
+    {
+      "id": "tcg:710874",
+      "riftboundId": "sgn-001-003",
+      "name": "Lillia, Bashful Bloom",
+      "cleanName": "Lillia, Bashful Bloom",
+      "num": 1,
+      "energy": null,
+      "might": null,
+      "power": null,
+      "type": "Legend",
+      "supertype": null,
+      "rarity": "Promo",
+      "domains": [
+        "Calm",
+        "Mind"
+      ],
+      "text": ":rb_energy_4:, :rb_exhaust:: Play a ready 3 :rb_might: Sprite unit token with [Temporary]. This ability costs :rb_energy_1: less for each friendly unit with [Temporary].",
+      "rich": "<p>:rb_energy_4:, :rb_exhaust:: Play a ready 3 :rb_might: Sprite unit token with [Temporary]. This ability costs :rb_energy_1: less for each friendly unit with [Temporary].</p>",
+      "flavour": null,
+      "set": "SGN",
+      "setName": "Secret Garden",
+      "tags": [
+        "Lillia"
+      ],
+      "artist": "Fireball Studio",
+      "tcgId": "710874",
+      "imgUrl": "https://tcgplayer-cdn.tcgplayer.com/product/710874_in_1000x1000.jpg",
+      "img": null,
+      "orientation": "portrait",
+      "alt": false,
+      "sig": false,
+      "over": false,
+      "imgHash": "c1c4b522c93a"
+    },
+    {
+      "id": "tcg:710875",
+      "riftboundId": "sgn-002-003",
+      "name": "Ivern, Green Father",
+      "cleanName": "Ivern, Green Father",
+      "num": 2,
+      "energy": null,
+      "might": null,
+      "power": null,
+      "type": "Legend",
+      "supertype": null,
+      "rarity": "Promo",
+      "domains": [
+        "Calm",
+        "Order"
+      ],
+      "text": "When you conquer or hold, you may exhaust me to replace that battlefield with a Brush battlefield token. (Bird, Cat, Dog, Poro, and Ivern units have +1 :rb_might: in Brush. It can be swapped back when scored.)",
+      "rich": "<p>When you conquer or hold, you may exhaust me to replace that battlefield with a Brush battlefield token. (Bird, Cat, Dog, Poro, and Ivern units have +1 :rb_might: in Brush. It can be swapped back when scored.)</p>",
+      "flavour": null,
+      "set": "SGN",
+      "setName": "Secret Garden",
+      "tags": [
+        "Ivern"
+      ],
+      "artist": "Fireball Studio",
+      "tcgId": "710875",
+      "imgUrl": "https://tcgplayer-cdn.tcgplayer.com/product/710875_in_1000x1000.jpg",
+      "img": null,
+      "orientation": "portrait",
+      "alt": false,
+      "sig": false,
+      "over": false,
+      "imgHash": "3ea9d1b1b178"
+    }
+  ]
+}

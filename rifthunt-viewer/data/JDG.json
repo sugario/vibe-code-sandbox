@@ -1,0 +1,140 @@
+{
+  "items": [
+    {
+      "id": "tcg:668439",
+      "riftboundId": "jdg-111-298",
+      "name": "Heimerdinger, Inventor",
+      "cleanName": "Heimerdinger, Inventor",
+      "num": 111,
+      "energy": 3,
+      "might": 3,
+      "power": 1,
+      "type": "Unit",
+      "supertype": "Champion",
+      "rarity": "Promo",
+      "domains": [
+        "Mind"
+      ],
+      "text": "I have all :rb_exhaust: abilities of all friendly legends, units, and gear.",
+      "rich": "<p>I have all :rb_exhaust: abilities of all friendly legends, units, and gear.</p>",
+      "flavour": "\"I do love a good conundrum.\"",
+      "set": "JDG",
+      "setName": "Riftbound Judge Promotional Cards",
+      "tags": [
+        "Yordle",
+        "Heimerdinger",
+        "Piltover"
+      ],
+      "artist": "Six More Vodka",
+      "tcgId": "668439",
+      "imgUrl": "https://tcgplayer-cdn.tcgplayer.com/product/668439_in_1000x1000.jpg",
+      "img": null,
+      "orientation": "portrait",
+      "alt": false,
+      "sig": false,
+      "over": false,
+      "imgHash": "323647d7ce49"
+    },
+    {
+      "id": "tcg:692372",
+      "riftboundId": "jdg-059-221",
+      "name": "Svellsongur",
+      "cleanName": "Svellsongur",
+      "num": 59,
+      "energy": 3,
+      "might": null,
+      "power": 1,
+      "type": "Gear",
+      "supertype": null,
+      "rarity": "Promo",
+      "domains": [
+        "Calm"
+      ],
+      "text": "[Equip] :rb_energy_1::rb_rune_calm: (:rb_energy_1::rb_rune_calm:: Attach this to a unit you control.)\nAs this is attached to a unit, copy that unit's text to this Equipment's effect text for as long as this is attached to it.",
+      "rich": "<p>[Equip] :rb_energy_1::rb_rune_calm: (:rb_energy_1::rb_rune_calm:: Attach this to a unit you control.)<br />As this is attached to a unit, copy that unit's text to this Equipment's effect text for as long as this is attached to it.</p>",
+      "flavour": "\"Only the greatest Freljord heroes have weapons made of True Ice!\" \u2014 Nunu",
+      "set": "JDG",
+      "setName": "Riftbound Judge Promotional Cards",
+      "tags": [
+        "Equipment"
+      ],
+      "artist": "Envar Studio",
+      "tcgId": "692372",
+      "imgUrl": "https://tcgplayer-cdn.tcgplayer.com/product/692372_in_1000x1000.jpg",
+      "img": null,
+      "orientation": "portrait",
+      "alt": false,
+      "sig": false,
+      "over": false,
+      "imgHash": "305b018895e7"
+    },
+    {
+      "id": "tcg:702632",
+      "riftboundId": "jdg-087-219",
+      "name": "Blue Sentinel",
+      "cleanName": "Blue Sentinel",
+      "num": 87,
+      "energy": 4,
+      "might": 4,
+      "power": 1,
+      "type": "Unit",
+      "supertype": null,
+      "rarity": "Promo",
+      "domains": [
+        "Mind"
+      ],
+      "text": "[Shield 2] (+2 :rb_might: while I'm a defender.)\nYour hold effects for holding here trigger an additional time.\nWhen I hold, [Add] :rb_rune_rainbow: at the start of your next Main Phase. (Abilities that add resources can't be reacted to.)",
+      "rich": "<p>[Shield 2] (+2 :rb_might: while I'm a defender.)<br />Your hold effects for holding here trigger an additional time.<br />When I hold, [Add] :rb_rune_rainbow: at the start of your next Main Phase. (Abilities that add resources can't be reacted to.)</p>",
+      "flavour": null,
+      "set": "JDG",
+      "setName": "Riftbound Judge Promotional Cards",
+      "tags": [
+        "Mount Targon"
+      ],
+      "artist": "Grafit Studio",
+      "tcgId": "702632",
+      "imgUrl": "https://tcgplayer-cdn.tcgplayer.com/product/702632_in_1000x1000.jpg",
+      "img": null,
+      "orientation": "portrait",
+      "alt": false,
+      "sig": false,
+      "over": false,
+      "imgHash": "ddbf7ec2feb4"
+    },
+    {
+      "id": "tcg:721871",
+      "riftboundId": "jdg-086-166",
+      "name": "Gangplank, Naval",
+      "cleanName": "Gangplank, Naval",
+      "num": 86,
+      "energy": 6,
+      "might": 6,
+      "power": null,
+      "type": "Unit",
+      "supertype": "Champion",
+      "rarity": "Promo",
+      "domains": [
+        "Body"
+      ],
+      "text": "[Empower] :rb_rune_body::rb_rune_body: (:rb_rune_body::rb_rune_body:: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -:rb_might:, or return me to hand, give me +3 :rb_might: instead.",
+      "rich": "<p>[Empower] :rb_rune_body::rb_rune_body: (:rb_rune_body::rb_rune_body:: Empower me. Use only if not Empowered.)<br />[Empowered][&gt;] If a spell or ability that chooses me would stun me, give me -:rb_might:, or return me to hand, give me +3 :rb_might: instead.</p>",
+      "flavour": "\"Death spit me out.\"",
+      "set": "JDG",
+      "setName": "Riftbound Judge Promotional Cards",
+      "tags": [
+        "Bilgewater",
+        "Gangplank",
+        "Pirate"
+      ],
+      "artist": "Six More Vodka",
+      "tcgId": "721871",
+      "imgUrl": "https://tcgplayer-cdn.tcgplayer.com/product/721871_in_1000x1000.jpg",
+      "img": null,
+      "orientation": "portrait",
+      "alt": false,
+      "sig": false,
+      "over": false,
+      "imgHash": "cb74a9daa5f2"
+    }
+  ]
+}

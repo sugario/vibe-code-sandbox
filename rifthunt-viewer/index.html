@@ -346,19 +346,6 @@
             return `${pad(date.getDate())}-${pad(date.getMonth() + 1)}-${date.getFullYear()} ${pad(date.getHours())}:${pad(date.getMinutes())}`;
         }
 
-        // RiftHunt image address: set / collector string / slug of the full printed name, version = imgHash
-        function getImageUrl(card, size = 'normal') {
-            const parts = String(card.riftboundId || '').split('-');
-            const collector = parts.length >= 3 && parts[1]
-                ? parts[1].toLowerCase().replace('*', 's')
-                : String(card.num || 0).padStart(3, '0');
-            const slug = String(card.name || '').toLowerCase()
-                .replace(/['\u2019]/g, '')
-                .replace(/[^a-z0-9]+/g, '-')
-                .replace(/^-+|-+$/g, '');
-            return `https://images.rifthunt.com/cards/${size}/front/${String(card.set).toLowerCase()}/${collector}/${slug}.webp?v=${encodeURIComponent(card.imgHash || '')}`;
-        }
-
         function getVariant(card) {
             if (card.sig) return 'signature';
             if (card.over) return 'overnumbered';
@@ -599,13 +586,14 @@
                 const domains = card.domains || [];
                 const orientation = card.orientation === 'landscape' ? 'landscape' : 'portrait';
                 const variant = getVariant(card);
+                const imageUrl = escapeHtml(card.imgUrl || '');
 
                 return `
                     <div class="card ${orientation}">
                         <img
                             class="card-image"
                             loading="lazy"
-                            src="${escapeHtml(getImageUrl(card))}"
+                            src="${imageUrl}"
                             alt="${escapeHtml(card.name || 'Unknown Card')}"
                             onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,${PLACEHOLDER_SVG}'"
                         />
